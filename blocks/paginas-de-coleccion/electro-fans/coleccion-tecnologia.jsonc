@@ -1,0 +1,91 @@
+{
+  "store.custom#coleccion-electrofans-tecnologia": {
+    "blocks": [
+      "search-result-layout.customQuery#electrofans-tecnologia"
+    ]
+  },
+  "search-result-layout.customQuery#electrofans-tecnologia": {
+    "props": {
+      "blockClass": "coleccion",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "398",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#coleccion-electrofans-tecnologia",
+      "search-result-layout.mobile#coleccion-electrofans-tecnologia",
+      "search-not-found-layout"
+    ]
+  },
+  //DESKTOP
+  "search-result-layout.desktop#coleccion-electrofans-tecnologia": {
+    "children": [
+      "image#lp-liquid",
+      "image#lp-banner-tecnologia",
+      "flex-layout.row#searchbread",
+      "search-title.v2",
+      "flex-layout.row#result",
+      "flex-layout.row#spacer",
+      "rich-text#ef-dsc-tec"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "thresholdForFacetSearch": 10,
+      "showProductsCount": true,
+      "showFacetQuantity": true,
+      "HiddenFacets": {
+        "priceRange": true
+      },
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "blockClass": "black-friday-collection"
+    }
+  },
+  "image#lp-banner-tecnologia": {
+    "props": {
+      "blockClass": "search-banner",
+      "src": "assets/images/banner-tecnologia.jpg"
+    }
+  },
+  //MOBILE
+  "search-result-layout.mobile#coleccion-electrofans-tecnologia": {
+    "children": [
+      "image#lp-liquid-mob",
+      "image#collection-coleccion-electrofans-mobile-tecnologia",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#contentmobile",
+      "flex-layout.row#pagination",
+      "flex-layout.row#spacer",
+      "rich-text#ef-dsc-tec"
+    ],
+    "props": {
+      "blockClass": "black-friday-collection",
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  "image#collection-coleccion-electrofans-mobile-tecnologia": {
+    "props": {
+      "blockClass": "search-banner",
+      "src": "assets/images/banner-tecnologia-mob.jpg"
+    }
+  },
+  "rich-text#ef-dsc-tec": {
+    "title": "descriptions SEO",
+    "props": {
+      "blockClass": "electro-fans-descriptions",
+      "text": "## ¡Renovate con lo mejor en tecnología!\n\n¿Estás buscando lo último en [tecnología](https://www.coppel.com.ar/electro-fans/tecnologia)? En este [Electro Fans](/electro-fans) contamos con una amplia variedad de [computadoras híbridas](https://www.coppel.com.ar/electro-fans/tecnologia): [Notebooks](https://www.coppel.com.ar/electro-fans/tecnologia), [Laptops](https://www.coppel.com.ar/electro-fans/tecnologia), [MacBooks](https://www.coppel.com.ar/electro-fans/tecnologia). También con [computadoras de escritorio](https://www.coppel.com.ar/electro-fans/tecnologia) y [tablets](https://www.coppel.com.ar/electro-fans/tecnologia) de las mejores marcas [DELL](https://www.coppel.com.ar/electro-fans/tecnologia), [HP](https://www.coppel.com.ar/electro-fans/tecnologia), [Lenovo](https://www.coppel.com.ar/electro-fans/tecnologia), [Samsung](https://www.coppel.com.ar/electro-fans/tecnologia). Mejorá tus equipos con nuevos [accesorios de computadora](https://www.coppel.com.ar/electro-fans/tecnologia), [discos duros](https://www.coppel.com.ar/electro-fans/tecnologia), [tarjetas de memoria](https://www.coppel.com.ar/electro-fans/tecnologia), [impresoras](https://www.coppel.com.ar/electro-fans/tecnologia), entre otros [accesorios](https://www.coppel.com.ar/electro-fans/tecnologia). Aprovechá ahora las cuotas sin interés y renová y estrená tu espacio de trabajo, estudio o entretenimiento con [Coppel.com.ar](/).\nNada mejor para complementar tu celular nuevo como los accesorios esenciales para cualquier ocasión. Además de smartphones, en [Coppel.com.ar](/) o [App Coppel](https://play.google.com/store/apps/details?id=ar.com.coppel&pli=1) encontrarás [cargadores](https://www.coppel.com.ar/electro-fans/tecnologia) para que siempre estés conectado y [auriculares](https://www.coppel.com.ar/electro-fans/tecnologia) para llevar la música a todos lados o para tomar tus reuniones en línea en tu equipo celular.\n\nUtilizá tu crédito y estrená hoy mismo. Si todavía no tenés tu [Crédito Coppel](https://www2.coppel.com.ar/credito.php), solicitalo en línea; ¡es fácil, rápido y gratis!"
+    }
+  }
+}

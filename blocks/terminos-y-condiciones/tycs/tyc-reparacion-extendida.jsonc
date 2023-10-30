@@ -1,0 +1,139 @@
+// store/blocks/tyc-reparacion-extendida.jsonc
+{
+  "store.custom#tyc-reparacion-extendida": {
+    "blocks": [
+      "flex-layout.row#reparacion-tyc-row"
+    ],
+    "props":{
+      "blockClass":"template-quienes-somos"
+    }
+  },
+  "flex-layout.row#reparacion-tyc-row":{
+    "children":[
+      "rich-text#reparacion-tyc-title",
+      "rich-text#reparacion-tyc-subtitle",
+      "rich-text#reparacion-tyc-text-1",
+      "rich-text#reparacion-tyc-text-2",
+      "rich-text#reparacion-tyc-text-3",
+      "rich-text#reparacion-tyc-text-4",
+      "rich-text#reparacion-tyc-text-5",
+      "rich-text#reparacion-tyc-text-6",
+      "rich-text#reparacion-tyc-text-7",
+      "rich-text#reparacion-tyc-text-8",
+      "rich-text#reparacion-tyc-text-9",
+      "rich-text#reparacion-tyc-text-10",
+      "rich-text#reparacion-tyc-text-11",
+      "rich-text#reparacion-tyc-text-12",
+      "rich-text#reparacion-tyc-text-13",
+      "rich-text#reparacion-tyc-text-14",
+      "rich-text#reparacion-tyc-text-15"
+    ],
+    "props": {
+      "blockClass": "tyc-row"
+    }
+  },
+  "rich-text#reparacion-tyc-title":{
+    "props":{
+      "text": "## TYC - Reparación extendida",
+      "textPosition": "LEFT",
+      "blockClass": "tyc-title"
+    }
+  },
+  "rich-text#reparacion-tyc-subtitle":{
+    "props":{
+      "text": "**HASTA 3 AÑOS DE REPARACIÓN EXTENDIDA**",
+      "textPosition": "LEFT",
+      "blockClass": "tyc-title"
+    }
+  },
+  "rich-text#reparacion-tyc-text-1":{
+    "props":{
+      "text": "En el presente documento se establecen las bases y condiciones (en adelante, las “Bases y Condiciones”) respecto del contrato de prestación de servicios de reparación y servicio técnico celebrado entre COPPEL S.A., CUIT 30-71041150-2 , domiciliado en Viamonte 1145 Piso 8 Departamento “A”, de la Ciudad Autónoma de Buenos Aires (en adelante, el COPPEL) y usted (en adelante, el “Adquirente” y, en conjunto con COPPEL, las “Partes”) respecto del/delos producto/s comercializado/s por COPPEL y adquirido/s por el Adquirente, (en adelante, el “Producto”).",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#reparacion-tyc-text-2":{
+    "props":{
+      "text": "**1. OBJETO:**",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#reparacion-tyc-text-3":{
+    "props":{
+      "text": "1.1. COPPEL se compromete a prestar al Adquirente los servicios de reparación y servicio técnico por cualquier falla, defecto o desperfecto que se produzca respecto del Producto y que afecte el normal funcionamiento del mismo, salvo los supuestos de exclusión previstos en la Cláusula 5 de las presentes Bases y Condiciones (en adelante, los “Servicios”). 1.2. Los Servicios serán prestados de acuerdo a los términos y condiciones previstos en las presentes Bases y Condiciones.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#reparacion-tyc-text-4":{
+    "props":{
+      "text": "**2. ALCANCE DEL SERVICIO:**",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#reparacion-tyc-text-5":{
+    "props":{
+      "text": "2.1. Los Servicios serán prestados por COPPEL exclusivamente en relación al Producto, en la medida en que el Producto haya sido adquirido en las tiendas de COPPEL y/o en la Tienda virtual COPPEL, a saber: https://www.coppel.com.ar/ (en adelante, las “Tiendas”). 2.2. En todos los casos, y sin excepción alguna, a los fines de la prestación del Servicio, el Adquirente deberá presentarse en cualquier tienda de COPPEL para solicitar la prestación de los Servicios, debiendo exhibir y presentar, sin excepción alguna: (i) El ticket factura de venta del Producto en el que constará la contratación de los Servicios para dicho Producto y/o el número de orden de compra y/o el mail enviado por  COPPEL con la confirmación de la compra del Producto y contratación del Servicio (en caso de compras a través de la Tienda virtual de Coppel(ii) el Producto en cuestión. 2.3.  COPPEL recibirá el Producto a los fines de verificar el desperfecto alegado por el Adquirente, determinar el origen o las causas que lo produjeron y, en caso de corresponder, proceder a la reparación del mismo. En caso de que el Adquirente acepte  la prestación del Servicio en los términos que le informe  COPPEL a través del informe de diagnóstico que elabore el personal del Servicio, COPPEL emitirá una Orden de Servicio. 2.4. COPPEL podrá contratar o subcontratar la prestación de los Servicios con cualquier tercero que considere pertinente, sin perjuicio de su responsabilidad frente al Adquirente por la efectiva y correcta prestación de los Servicios. 2.5. COPPEL prestará los Servicios en el plazo indicado en cada Orden de Servicio expedida según la naturaleza de las reparaciones y servicio técnico que deba prestar en cada oportunidad.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#reparacion-tyc-text-6":{
+    "props":{
+      "text": "**3. VIGENCIA:**",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#reparacion-tyc-text-7":{
+    "props":{
+      "text": "3.1. Los Servicios serán prestados por  COPPEL al Adquirente una vez finalizado el período de garantía que otorga el fabricante del Producto y/o la Garantía Gratuita Coppel (en los casos que corresponda) por un plazo de hasta tres años. Para mayor información sobre la Garantía Gratuita Coppel, ver términos y condiciones acá.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#reparacion-tyc-text-8":{
+    "props":{
+      "text": "**4. EXCLUSIONES:**",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#reparacion-tyc-text-9":{
+    "props":{
+      "text": "Quedan excluidos del Servicio contratado los Productos que se encuentren en los supuestos que se detallan a continuación:\n\ni. Si el Producto ha sido objeto de manipulación, armado, desarmado, reparación o acciones similares por parte del Adquirente o terceros no autorizados y/o ajenos al servicio técnico de la garantía provista por el fabricante del Producto y/o al Servicio prestado por el Proveedor.\n\nii. Si se han introducido modificaciones, repuestos o accesorios no autorizados en el Producto.\n\niii.Si el Producto ha sido objeto de conexiones, operaciones, usos o mantenimientos distintos a los previstos en los Manuales de Uso del Producto o instrucciones provistos por el fabricante o por COPPEL o en el supuesto que no se hayan seguido tales instrucciones en forma correcta.\n\niv. Si el Producto ha sido objeto de usos distintos a los previstos en los Manuales de Uso del Producto o instrucciones provistos por el fabricante o por COPPEL o en el supuesto que el Adquirente no haya seguido las instrucciones de uso en forma correcta.\n\nv. En el supuesto de fallas, roturas, golpes, caídas o daños generados durante o causados por el traslado del Producto realizado por el Adquirente o por terceros ajenos a COPPEL y/o a los técnicos autorizados por el Proveedor.\n\nvi. Si se tratase de fallas derivadas de u originadas como consecuencia de hurtos, robos, incendios inundaciones, humedad, filtraciones, bajas o excesos de tensión u otras interrupciones e irregularidades del suministro eléctrico, deficiencias en la instalación eléctrica, líneas telefónicas, internet, o presión de gas domiciliarias, corrosión, desastres naturales, actos de gobierno y en general, cualquier tipo de caso fortuito o fuerza mayor.\n\nvii. Si se tratase de fallas de sonido, imagen, transmisión, o recepción de señales u ondas sonoras o visuales originadas en causas externas al Producto. vii. Si se tratase de deterioros o fallas ocasionadas por derrames o ingresos de líquidos o suciedad, humedad o arena en el interior del Producto o en caso de exposición a cualquier factor climático que pudiera afectar el normal funcionamiento del Producto o contrarios a los establecidos en los manuales o instrucciones de uso.\n\nviii. En caso de tareas de mantenimiento, limpieza, lubricación, alineamiento o ajuste del Producto.\n\nix. Por desgastes causados o propios del natural y normal uso y funcionamiento del Producto.\n\nx. Cuando se refiera a elementos externos o estéticos del Producto, incluyendo, sin que ello implique limitación alguna, accesorios, transformadores, controles remotos, pilas, baterías, cartuchos, artículos periféricos y/u otros artículos o dispositivos opcionales o accesorios al Producto.\n\nxi. Por inconvenientes, fallas de funcionamiento o desperfectos de software operativos o cualquier tipo de software.\n\nxii. En relación a costos vinculados al desarmado de instalaciones y la reinstalación de y en relación a productos en los cuales el número de serie y/u otros elementos de identificación asignados por el fabricante no coincidan con el que figura en el Manual de uso del Producto.\n\nxiii. Por daños, pérdida o recupero de cualquier cinta de grabación, programa, software, archivos, datos, o información almacenada en dispositivos tales como discos rígidos, CD Room, discos flexibles, cintas y/o cintas de back up y/o cualquier otro medio de almacenamiento, ya sea removible o no.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#reparacion-tyc-text-10":{
+    "props":{
+      "text": "**5. LIMITACION DE RESPONSABILIDAD:**",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#reparacion-tyc-text-11":{
+    "props":{
+      "text": "5.1. COPPEL no asume responsabilidad alguna por los daños o perjuicios personales o a la propiedad del Adquirente o a terceros que directa o indirectamente pudieran haberse ocasionado por el Producto o el uso del mismo, o que se originen en el funcionamiento, falla, vicio o defecto del Producto o que pudieran acontecer por o durante la reparación del mismo o por la demora en la prestación de los Servicios, salvo culpa o dolo del Proveedor. 5.2. COPPEL no será responsable por pérdida o deterioro alguno de información, archivos, fotografías y/o datos personales así como tampoco por el recupero de información o configuración que haya incorporado el Adquirente o terceros al Producto y/o a medios o dispositivos de almacenamiento, removibles o no, siendo exclusiva responsabilidad del adquirente del Producto su debido resguardo o recuperación. Asimismo, el Adquirente será el exclusivo responsable del contenido de los programas y/o aplicaciones instalados en el Producto así como también por la existencia y legalidad de las licencias de uso correspondientes a dichos programas o aplicaciones.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#reparacion-tyc-text-12":{
+    "props":{
+      "text": "**6. COMUNICACIONES:**",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#reparacion-tyc-text-13":{
+    "props":{
+      "text": "A los fines de cualquier aviso, comunicación o consulta relativa a la prestación de los Servicios, las Partes establecen los datos e información de contacto que se establecen a continuación: Si la comunicación es al Adquirente, las notificaciones deberán ser cursadas al domicilio y correo electrónico informados por el Adquirente al momento de la contratación de los Servicios. Si la comunicación es al Proveedor: Coppel S.A. Santiago del Estero 1571, Tigre (1648), Pcia. De Buenos Aires.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#reparacion-tyc-text-14":{
+    "props":{
+      "text": "**7. JURISDICCIÓN. LEY APLICABLE:**",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#reparacion-tyc-text-15":{
+    "props":{
+      "text": "7.1. Las Partes acuerdan que las presentes Bases y Condiciones se regirán, interpretarán y ejecutarán conforme a la legislación vigente en la República Argentina. 7.2. En caso de cualquier divergencia, controversia o disputa que se suscitare entre ellas con relación a los Servicios, las Partes se someterán a los Tribunales Nacionales Ordinarios correspondientes al domicilio del Adquirente.",
+      "blockClass": "tyc-text"
+    }
+  }
+}

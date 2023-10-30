@@ -1,0 +1,22 @@
+{
+  "store.custom#coleccion-modo-vacaciones": {
+    "blocks": ["search-result-layout.customQuery#modo-vacaciones"]
+  },
+  "search-result-layout.customQuery#modo-vacaciones": {
+    "props": {
+      "blockClass": "coleccion",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "242",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

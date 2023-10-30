@@ -1,0 +1,241 @@
+{
+  "flex-layout.row#top-bar": {
+    "children": [
+      "flex-layout.row#top-bar-payment-methods",
+      "flex-layout.row#top-bar-our-stores",
+      "modal-trigger#top-bar-shipping",
+      "flex-layout.row#top-bar-exchange-and-return",
+      "modal-trigger#top-bar-telephone"
+    ],
+    "props": {
+      "blockClass": "top-bar",
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#top-bar-payment-methods": {
+    "children": [
+      "image#top-bar-payment-methods",
+      "rich-text#top-bar-payment-methods"
+    ],
+    "props": {
+      "blockClass": "top-bar__item",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#top-bar-payment-methods": {
+    "props": {
+      "blockClass": "top-bar__item__image",
+      "src": "assets/icons/topbar-credit-card.svg",
+      "link": {
+        "url": "/medios-de-pago"
+      }
+    }
+  },
+  "rich-text#top-bar-payment-methods": {
+    "props": {
+      "blockClass": "top-bar__item__text",
+      "text": "[Medios de pago](/medios-de-pago)"
+    }
+  },
+
+  "flex-layout.row#top-bar-our-stores": {
+    "children": [
+      "image#top-bar-our-stores",
+      "rich-text#top-bar-our-stores"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "top-bar__item"
+    }
+  },
+  "image#top-bar-our-stores": {
+    "props": {
+      "src": "assets/icons/topbar-store.svg",
+      "blockClass": "top-bar__item__image",
+      "link": {
+        "url": "/nuestras-tiendas"
+      }
+    }
+  },
+  "rich-text#top-bar-our-stores": {
+    "props": {
+      "text": "[Nuestras Tiendas](/nuestras-tiendas)",
+      "blockClass": "top-bar__item__text"
+    }
+  },
+
+  "modal-trigger#top-bar-shipping": {
+    "children": [
+      "flex-layout.row#top-bar-shipping",
+      "modal-layout#top-bar-shipping"
+    ]
+  },
+  "flex-layout.row#top-bar-shipping": {
+    "children": [
+      "image#top-bar-shipping",
+      "rich-text#top-bar-shipping"
+    ],
+    "props": {
+      "blockClass": "top-bar__item",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#top-bar-shipping": {
+    "props": {
+      "src": "assets/icons/topbar-truck.svg",
+      "blockClass": "top-bar__item__image"
+    }
+  },
+  "rich-text#top-bar-shipping": {
+    "props": {
+      "text": "Envío Coppel Express",
+      "blockClass": "top-bar__item__text"
+    }
+  },
+  "modal-layout#top-bar-shipping": {
+    "children": [
+      "rich-text#top-bar__modal-layout__shipping",
+      "modal-actions.close"
+    ],
+    "props": {
+      "blockClass": [
+        "top-bar__modal-layout",
+        "top-bar__modal-layout--shipping"
+      ]
+    }
+  },
+  "rich-text#top-bar__modal-layout__shipping": {
+    "props": {
+      "blockClass": "top-bar__item__modal__text--shipping",
+      "text": "CABA y GBA **gratis** en 48 hs"
+    }
+  },
+  "modal-actions.close": {
+    "props": {
+      "blockClass": "top-bar__modal-layout__close"
+    }
+  },
+
+  "flex-layout.row#top-bar-exchange-and-return": {
+    "children": [
+      "image#top-bar-exchange-and-return",
+      "rich-text#top-bar-exchange-and-return"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "top-bar__item"
+    }
+  },
+  "image#top-bar-exchange-and-return": {
+    "props": {
+      "src": "assets/icons/topbar-arrow-sync.svg",
+      "blockClass": "top-bar__item__image",
+      "link": {
+        "url": "/politica-de-cambios-y-devoluciones"
+      }
+    }
+  },
+  "rich-text#top-bar-exchange-and-return": {
+    "props": {
+      "text": "[Cambios y Devoluciones](/politica-de-cambios-y-devoluciones)",
+      "blockClass": "top-bar__item__text"
+    }
+  },
+
+  "modal-trigger#top-bar-telephone": {
+    "children": [
+      "flex-layout.row#top-bar-telephone",
+      "modal-layout#top-bar-telephone"
+    ]
+  },
+
+  "flex-layout.row#top-bar-telephone": {
+    "children": [
+      "image#top-bar-telephone",
+      "rich-text#top-bar-telephone"
+    ],
+    "props": {
+      "blockClass": "top-bar__item",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#top-bar-telephone": {
+    "props": {
+      "src": "assets/icons/topbar-telephone.svg",
+      "blockClass": "top-bar__item__image"
+    }
+  },
+  "rich-text#top-bar-telephone": {
+    "props": {
+      "text": "Venta Telefónica",
+      "blockClass": "top-bar__item__text"
+    }
+  },
+  "modal-layout#top-bar-telephone": {
+    "children": [
+      "flex-layout.row#top-bar__modal-layout__telephone",
+      "modal-actions.close"
+    ],
+    "props": {
+      "blockClass": [
+        "top-bar__modal-layout",
+        "top-bar__modal-layout--telephone"
+      ]
+    }
+  },
+  "flex-layout.row#top-bar__modal-layout__telephone": {
+    "props": {
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#top-bar__modal-layout__telephone"
+    ]
+  },
+  "flex-layout.col#top-bar__modal-layout__telephone": {
+    "props": {
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#top-bar__modal-layout__telephone__title",
+      "rich-text#top-bar-telephone__number",
+      "rich-text#top-bar-telephone__shift"
+    ]
+  },
+  "flex-layout.row#top-bar__modal-layout__telephone__title": {
+    "props": {
+      "blockClass": "top-bar__modal-layout__telephone__title",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#top-bar-telephone__title",
+      "rich-text#top-bar-telephone__title"
+    ]
+  },
+  "image#top-bar-telephone__title": {
+    "props": {
+      "src": "assets/icons/topbar-telephone-title.svg",
+      "blockClass": "top-bar__item__modal__image--telephone"
+    }
+  },
+  "rich-text#top-bar-telephone__title": {
+    "props": {
+      "text": "Venta Telefónica",
+      "blockClass": "top-bar__item__modal__text--telephone"
+    }
+  },
+  "rich-text#top-bar-telephone__number": {
+    "props": {
+      "text": "0800-122-67735",
+      "blockClass": "top-bar__item__modal__number--telephone"
+    }
+  },
+  "rich-text#top-bar-telephone__shift": {
+    "props": {
+      "text": "Llamá de Lunes a Domingo de 9:00 a 18:00 hs",
+      "blockClass": "top-bar__item__modal__shift--telephone"
+    }
+  }
+}

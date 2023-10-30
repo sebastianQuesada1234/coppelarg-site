@@ -1,0 +1,22 @@
+{
+  "store.custom#coleccion-blue-days": {
+    "blocks": ["search-result-layout.customQuery#blue-days"]
+  },
+  "search-result-layout.customQuery#blue-days": {
+    "props": {
+      "blockClass": "coleccion",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "212",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+// store/blocks/servicios.jsonc
+{
+  "store.custom#servicios": {
+    "blocks": [
+      "flex-layout.row#prestamos-en-efectivo-titulo",
+      "flex-layout.row#prestamos-en-efectivo-img",
+      "flex-layout.row#prestamos-en-efectivo-info",
+      "flex-layout.row#reparacion-extendida-titulo",
+      "flex-layout.row#reparacion-extendida-img",
+      "flex-layout.row#reparacion-extendida-info",
+      "flex-layout.row#envios-gratis-titulo",
+      "flex-layout.row#envios-gratis-img",
+      "flex-layout.row#spacer"
+    ],
+    "props":{
+      "blockClass":"template-quienes-somos"
+    }
+  },
+  "flex-layout.row#prestamos-en-efectivo-titulo": {
+    "children":[
+      "rich-text#prestamos-en-efectivo-titulo"
+    ],
+    "props":{
+      "fullWidth": false,
+      "blockClass": "quienes-somos-titulo"
+    }
+  },
+  "rich-text#prestamos-en-efectivo-titulo":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "#### **Prestamos en efectivo**"
+    }
+  },
+  "flex-layout.row#prestamos-en-efectivo-img": {
+    "children":[
+      "image#prestamos-en-efectivo-img"
+    ],
+    "props":{
+      "fullWidth": false,
+      "blockClass": "megapuntos-coppel"
+    }
+  },
+  "image#prestamos-en-efectivo-img":{
+    "props": {
+      "src": "assets/servicios/servicios-01.png",
+      "blockClass":"banner-megapuntos"
+    }
+  },
+  "flex-layout.row#prestamos-en-efectivo-info":{
+    "children":[
+      "rich-text#prestamos-en-efectivo-info"
+    ]
+  },
+  "rich-text#prestamos-en-efectivo-info":{
+    "props":{
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Para acceder a mayor información ingresa a: https://www.coppel.com.ar/terminos-y-condiciones/credito-coppel-y-prestamos <br> Ubicación de tiendas y horarios: https://www.coppel.com.ar/nuestras-tiendas/"
+    }
+  },
+  "flex-layout.row#reparacion-extendida-titulo": {
+    "children":[
+      "rich-text#reparacion-extendida-titulo"
+    ],
+    "props":{
+      "fullWidth": false,
+      "blockClass": "quienes-somos-titulo"
+    }
+  },
+  "rich-text#reparacion-extendida-titulo":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "#### **Reparación extendida**"
+    }
+  },
+  "flex-layout.row#reparacion-extendida-img": {
+    "children":[
+      "image#reparacion-extendida-img"
+    ],
+    "props":{
+      "fullWidth": false,
+      "blockClass": "megapuntos-coppel"
+    }
+  },
+  "image#reparacion-extendida-img":{
+    "props": {
+      "src": "assets/servicios/servicios-02.png",
+      "blockClass":"banner-megapuntos"
+    }
+  },
+  "flex-layout.row#reparacion-extendida-info":{
+    "children":[
+      "rich-text#reparacion-extendida-info"
+    ]
+  },
+  "rich-text#reparacion-extendida-info":{
+    "props":{
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Para acceder a mayor información ingresa a: https://www.coppel.com.ar/tyc-reparacion-extendida/"
+    }
+  },
+  "flex-layout.row#envios-gratis-titulo": {
+    "children":[
+      "rich-text#envios-gratis-titulo"
+    ],
+    "props":{
+      "fullWidth": false,
+      "blockClass": "quienes-somos-titulo"
+    }
+  },
+  "rich-text#envios-gratis-titulo":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "#### **Envios gratis**"
+    }
+  },
+  "flex-layout.row#envios-gratis-img": {
+    "children":[
+      "image#envios-gratis-img"
+    ],
+    "props":{
+      "fullWidth": false,
+      "blockClass": "megapuntos-coppel"
+    }
+  },
+  "image#envios-gratis-img":{
+    "props": {
+      "src": "assets/servicios/servicios-03.png",
+      "blockClass":"banner-megapuntos"
+    }
+  }
+}

@@ -1,0 +1,158 @@
+// store/blocks/quienes-somos.jsonc
+{
+  "store.custom#beneficios-coppel": {
+    "blocks": ["flex-layout.row#beneficios-coppel"],
+    "props": {
+      "fullWidth": "false",
+      "preventHorizontalStretch": "true",
+      "preventVerticalStretch": "true"
+    }
+  },
+  "flex-layout.row#beneficios-coppel": {
+    "children": ["flex-layout.col#beneficios-coppel"],
+    "props": {
+      "blockClass": "beneficios-coppel",
+      "preventVerticalStretch": "true",
+      "horizontalAlign": "center",
+      "width": "70%"
+    }
+  },
+  "flex-layout.col#beneficios-coppel": {
+    "children": [
+      "flex-layout.row#beneficios-coppel-intro",
+      "flex-layout.row#beneficios-coppel-soytigre",
+      "flex-layout.row#beneficios-coppel-clarin365",
+      "flex-layout.row#beneficios-coppel-misanmartin"
+    ]
+  },
+  "flex-layout.row#beneficios-coppel-intro": {
+    "children": ["rich-text#beneficios-coppel-intro"],
+    "props": {
+      "blockClass": "quienes-somos-titulo"
+    }
+  },
+  "rich-text#beneficios-coppel-intro": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "#### **¡Disfrutá todos los beneficios que tenemos para vos y tu familia!**"
+    }
+  },
+  "flex-layout.row#beneficios-coppel-soytigre": {
+    "children": [
+      "flex-layout.col#img-soy-tigre",
+      "flex-layout.col#txt-soy-tigre"
+    ],
+    "props": {
+      "blockClass": "beneficios-row"
+    }
+  },
+  "flex-layout.col#img-soy-tigre": {
+    "children": ["image#soy-tigre"],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "image#soy-tigre": {
+    "props": {
+      "src": "assets/beneficios/soytigre.png",
+      "maxHeight": 192
+    }
+  },
+  "flex-layout.col#txt-soy-tigre": {
+    "children": ["rich-text#soy-tigre-title", "rich-text#soy-tigre-txt"],
+    "props": {
+      "blockClass": "col-beneficios"
+    }
+  },
+  "rich-text#soy-tigre-title": {
+    "props": {
+      "text": "Soy Tigre",
+      "blockClass": "title-beneficios"
+    }
+  },
+  "rich-text#soy-tigre-txt": {
+    "props": {
+      "text": "Promoción: 10% de descuento los días Martes, presentando tu tarjeta Soy tigre. No acumulable con otras promociones.<br/>Medios de pago: Efectivo, tarjeta de débito y/o crédito.<br/>Aplicación: Solo Locales Coppel Pacheco.<br/>Vigencia: Permenante",
+      "blockClass": "txt-beneficios"
+    }
+  },
+  "flex-layout.row#beneficios-coppel-clarin365": {
+    "children": [
+      "flex-layout.col#img-clarin365",
+      "flex-layout.col#txt-clarin365"
+    ],
+    "props": {
+      "blockClass": "beneficios-row"
+    }
+  },
+  "flex-layout.col#img-clarin365": {
+    "children": ["image#clarin365"],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "image#clarin365": {
+    "props": {
+      "src": "assets/beneficios/clarin365.png",
+      "maxHeight": 212
+    }
+  },
+  "flex-layout.col#txt-clarin365": {
+    "children": ["rich-text#clarin365-title", "rich-text#clarin365-txt"],
+    "props": {
+      "blockClass": "col-beneficios"
+    }
+  },
+  "rich-text#clarin365-title": {
+    "props": {
+      "text": "Clarín 365",
+      "blockClass": "title-beneficios"
+    }
+  },
+  "rich-text#clarin365-txt": {
+    "props": {
+      "text": "Promoción: 10% de descuento los días Jueves, presentando tu tarjeta 365.<br/>Medios de pago: Efectivo, tarjeta de débito y/o crédito. No aplica a celulares.<br/>Aplicación: Locales Coppel (no acumulable con otras promociones, no incluye la categoría celulares).<br/> Vigencia: Permenante",
+      "blockClass": "txt-beneficios"
+    }
+  },
+  "flex-layout.row#beneficios-coppel-misanmartin": {
+    "children": [
+      "flex-layout.col#img-misanmartin",
+      "flex-layout.col#txt-misanmartin"
+    ],
+    "props": {
+      "blockClass": "beneficios-row"
+    }
+  },
+  "flex-layout.col#img-misanmartin": {
+    "children": ["image#misanmartin"],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "image#misanmartin": {
+    "props": {
+      "src": "assets/beneficios/misanmartin.jpg",
+      "maxHeight": 124
+    }
+  },
+  "flex-layout.col#txt-misanmartin": {
+    "children": ["rich-text#misanmartin-title", "rich-text#misanmartin-txt"],
+    "props": {
+      "blockClass": "col-beneficios"
+    }
+  },
+  "rich-text#misanmartin-title": {
+    "props": {
+      "text": "Mi San martin",
+      "blockClass": "title-beneficios"
+    }
+  },
+  "rich-text#misanmartin-txt": {
+    "props": {
+      "text": "Promoción: 10% de descuento los días Martes, presentando tu tarjeta.<br/>Aplicación: Solo Locales Coppel San martin<br/> Vigencia: Permenante",
+      "blockClass": "txt-beneficios"
+    }
+  }
+}

@@ -1,0 +1,2307 @@
+{
+    "menu-item#menu-categorias": {
+        "props": {
+            "id": "menu-item-menu-categorias",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Categorías",
+                "text": "Categorías"
+            },
+            "blockClass":"menuCats"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#category-categorias"
+        ]
+    },
+    "vtex.menu@2.x:submenu#category-categorias": {
+        "props": {
+            "width": "auto",
+            "blockClass":"menuDropPNContainer"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#category-tecnologia"
+        ]
+    },
+    "vtex.menu@2.x:menu#category-tecnologia": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass":"menuDropPN"
+        },
+        "children": [
+            "menu-item#category-tv-video",
+            "menu-item#category-audio",
+            "menu-item#category-celulares-telefonos-y-accesorios",
+            "menu-item#category-notebooks-tecnologia",
+            "menu-item#category-mundo-gamer",
+            "menu-item#category-camaras-y-drones",
+            "menu-item#category-electrodomesticos",
+            "menu-item#category-termotanque-calefones",
+            "menu-item#category-salud-monitoreo",
+            "menu-item#category-hogar-muebles-limpieza",
+            "menu-item#category-equipaje-viaje",
+            "menu-item#category-jardin",
+            "menu-item#category-tiempo-libre",
+            "menu-item#category-rodados-neumaticos-accesorios",
+            "menu-item#category-fitness",
+            "menu-item#category-deportes",
+            "menu-item#category-hombre",
+            "menu-item#category-mujer",
+            "menu-item#category-infantil",
+            "menu-item#category-universo-bebe",
+            "menu-item#category-calzado",
+            "menu-item#category-jugueteria",
+            "menu-item#category-perfumeria"
+        ]
+    },
+    "menu-item#category-audio": {
+        "props": {
+            "id": "menu-item-category-audio",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/audio",
+                "noFollow": false,
+                "tagTitle": "Audio",
+                "text": "Audio"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#audio":{
+        "children": [
+            "vtex.menu@2.x:menu#submenu-audio"
+          ],
+          "props":{
+            "blockClass":"topSubmenuCont"
+          }
+    },
+    "vtex.menu@2.x:menu#submenu-audio":{
+        "props": {
+            "orientation": "vertical",
+            "blockClass":"submenuCont"
+          },
+        "children": [
+            "menu-item#auriculares",
+            "menu-item#barra-de-sonido",
+            "menu-item#car-audio",
+            "menu-item#equipos-de-musica-bafles-y-parlantes",
+            "menu-item#radios"
+          ]
+    },
+    "menu-item#auriculares": {
+        "props": {
+            "id": "menu-item-category-auriculares",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/audio/auriculares",
+                "noFollow": false,
+                "tagTitle": "Auriculares",
+                "text": "Auriculares"
+            },
+            "blockClass":"submenuCats"
+        }
+    },
+    "menu-item#barra-de-sonido": {
+        "props": {
+            "id": "menu-item-category-barra-de-sonido",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/audio/barra-de-sonido",
+                "noFollow": false,
+                "tagTitle": "Barra de Sonido",
+                "text": "Barra de Sonido"
+            }
+        }
+    },
+    "menu-item#car-audio": {
+        "props": {
+            "id": "menu-item-category-car-audio",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/audio/car-audio",
+                "noFollow": false,
+                "tagTitle": "Car Audio",
+                "text": "Car Audio"
+            }
+        }
+    },
+    "menu-item#equipos-de-musica-bafles-y-parlantes": {
+        "props": {
+            "id": "menu-item-category-equipos-de-musica-bafles-y-parlantes",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/audio/equipos-de-musica-bafles-y-parlantes",
+                "noFollow": false,
+                "tagTitle": "Equipos de Música, Bafles y Parlantes",
+                "text": "Equipos de Música, Bafles y Parlantes"
+            }
+        }
+    },
+    "menu-item#radios": {
+        "props": {
+            "id": "menu-item-category-radios",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/audio/radios",
+                "noFollow": false,
+                "tagTitle": "Radios",
+                "text": "Radios"
+            }
+        }
+    },
+    "menu-item#category-calzado": {
+        "props": {
+            "id": "menu-item-category-calzado",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado",
+                "noFollow": false,
+                "tagTitle": "Calzado",
+                "text": "Calzado"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#calzado":{
+        "children": [
+            "vtex.menu@2.x:menu#submenu-calzado"
+          ],
+          "props":{
+            "blockClass":"topSubmenuCont"
+          }
+    },
+    "vtex.menu@2.x:menu#submenu-calzado":{
+        "props": {
+            "orientation": "vertical"
+          },
+        "children": [
+            "menu-item#calzado-hombre",
+            "menu-item#calzado-infantil",
+            "menu-item#calzado-mujer"
+          ]
+    },
+    "menu-item#calzado-hombre": {
+        "props": {
+            "id": "menu-item-category-calzado-hombre",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado/hombre",
+                "noFollow": false,
+                "tagTitle": "Hombre",
+                "text": "Hombre"
+            },
+            "blockClass":"submenuCats"
+        }
+    },
+    "menu-item#calzado-infantil": {
+        "props": {
+            "id": "menu-item-category-calzado-infantil",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado/infantil",
+                "noFollow": false,
+                "tagTitle": "Infantil",
+                "text": "Infantil"
+            }
+        }
+    },
+    "menu-item#calzado-mujer": {
+        "props": {
+            "id": "menu-item-category-calzado-mujer",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calzado/mujer",
+                "noFollow": false,
+                "tagTitle": "Mujer",
+                "text": "Mujer"
+            }
+        }
+    },
+    "menu-item#category-camaras-y-drones": {
+        "props": {
+            "id": "menu-item-category-camaras-y-drones",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/camaras-y-drones",
+                "noFollow": false,
+                "tagTitle": "Cámaras y Drones",
+                "text": "Cámaras y Drones"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#camaras-y-drones":{
+        "children": [
+            "vtex.menu@2.x:menu#camaras-y-drones"
+          ],
+          "props":{
+            "blockClass":"topSubmenuCont"
+          }
+    },
+    "vtex.menu@2.x:menu#camaras-y-drones":{
+        "props": {
+            "orientation": "vertical"
+          },
+        "children": [
+            "menu-item#camaras-y-videocamaras",
+            "menu-item#drones"
+          ]
+    },
+    "menu-item#camaras-y-videocamaras": {
+        "props": {
+            "id": "menu-item-category-camaras-y-videocamaras",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/camaras-y-drones/camaras-y-videocamaras",
+                "noFollow": false,
+                "tagTitle": "Cámaras y Videocamaras",
+                "text": "Cámaras y Videocamaras"
+            },
+            "blockClass":"submenuCats"
+        }
+    },
+    "menu-item#drones": {
+        "props": {
+            "id": "menu-item-category-drones",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/camaras-y-drones/drones",
+                "noFollow": false,
+                "tagTitle": "Drones",
+                "text": "Drones"
+            }
+        }
+    },
+    "menu-item#category-celulares-telefonos-y-accesorios": {
+        "props": {
+            "id": "menu-item-category-celulares-telefonos-y-accesorios",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/celulares-telefonos-y-accesorios",
+                "noFollow": false,
+                "tagTitle": "Celulares, Teléfonos y Accesorios",
+                "text": "Celulares, Teléfonos y Accesorios"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#celulares-telefonos-y-accesorios":{
+        "children": [
+            "vtex.menu@2.x:menu#submenu-celulares-telefonos-y-accesorios"
+          ],
+          "props":{
+            "blockClass":"topSubmenuCont"
+          }
+    },
+    "vtex.menu@2.x:menu#submenu-celulares-telefonos-y-accesorios":{
+        "props": {
+            "orientation": "vertical"
+          },
+        "children": [
+            "menu-item#celulares",
+            "menu-item#fundas-y-accesorios",
+            "menu-item#smartwatch-y-fit-band",
+            "menu-item#telefonos-fijos"
+          ]
+    },
+    "menu-item#celulares": {
+        "props": {
+            "id": "menu-item-category-celulares",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/celulares-telefonos-y-accesorios/celulares",
+                "noFollow": false,
+                "tagTitle": "Celulares",
+                "text": "Celulares"
+            },
+            "blockClass":"submenuCats"
+        }
+    },
+    "menu-item#fundas-y-accesorios": {
+        "props": {
+            "id": "menu-item-category-fundas-y-accesorios",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/celulares-telefonos-y-accesorios/fundas-y-accesorios",
+                "noFollow": false,
+                "tagTitle": "Fundas y Accesorios",
+                "text": "Fundas y Accesorios"
+            }
+        }
+    },
+    "menu-item#smartwatch-y-fit-band": {
+        "props": {
+            "id": "menu-item-category-smartwatch-y-fit-band",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/celulares-telefonos-y-accesorios/smartwatch---fit-band",
+                "noFollow": false,
+                "tagTitle": "Smartwatch & Fit Band",
+                "text": "Smartwatch & Fit Band"
+            }
+        }
+    },
+    "menu-item#telefonos-fijos": {
+        "props": {
+            "id": "menu-item-category-telefonos-fijos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/celulares-telefonos-y-accesorios/telefonos-fijos",
+                "noFollow": false,
+                "tagTitle": "Teléfonos Fijos",
+                "text": "Teléfonos Fijos"
+            }
+        }
+    },
+    "menu-item#category-deportes": {
+        "props": {
+            "id": "menu-item-category-deportes",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/deportes",
+                "noFollow": false,
+                "tagTitle": "Deportes",
+                "text": "Deportes"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#deportes":{
+        "children": [
+            "vtex.menu@2.x:menu#submenu-deportes"
+          ],
+          "props":{
+            "blockClass":"topSubmenuCont"
+          }
+    },
+    "vtex.menu@2.x:menu#submenu-deportes":{
+        "props": {
+            "orientation": "vertical",
+            "blockClass":"submenuCont"
+          },
+        "children": [
+            "menu-item#deportes-accesorios",
+            "menu-item#deportes-actividad",
+            "menu-item#deportes-calzado",
+            "menu-item#deportes-hombre",
+            "menu-item#deportes-infantil",
+            "menu-item#deportes-mujer"
+          ]
+    },
+    "menu-item#deportes-accesorios": {
+        "props": {
+            "id": "menu-item-category-deportes-accesorios",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/deportes/accesorios",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            },
+            "blockClass":"submenuCats"
+        }
+    },
+    "menu-item#deportes-actividad": {
+        "props": {
+            "id": "menu-item-category-deportes-actividad",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/deportes/actividad",
+                "noFollow": false,
+                "tagTitle": "Actividad",
+                "text": "Actividad"
+            }
+        }
+    },
+    "menu-item#deportes-calzado": {
+        "props": {
+            "id": "menu-item-category-deportes-calzado",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/deportes/calzado",
+                "noFollow": false,
+                "tagTitle": "Calzado",
+                "text": "Calzado"
+            }
+        }
+    },
+    "menu-item#deportes-hombre": {
+        "props": {
+            "id": "menu-item-category-deportes-hombre",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/deportes/deportes-hombre",
+                "noFollow": false,
+                "tagTitle": "Deportes Hombre",
+                "text": "Deportes Hombre"
+            }
+        }
+    },
+    "menu-item#deportes-infantil": {
+        "props": {
+            "id": "menu-item-category-deportes-infantil",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/deportes/deportes-infantil",
+                "noFollow": false,
+                "tagTitle": "Deportes Infantil",
+                "text": "Deportes Infantil"
+            }
+        }
+    },
+    "menu-item#deportes-mujer": {
+        "props": {
+            "id": "menu-item-category-deportes-mujer",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/deportes/deportes-mujer",
+                "noFollow": false,
+                "tagTitle": "Deportes Mujer",
+                "text": "Deportes Mujer"
+            }
+        }
+    },
+    "menu-item#category-electrodomesticos": {
+        "props": {
+            "id": "menu-item-category-electrodomesticos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/electrodomesticos",
+                "noFollow": false,
+                "tagTitle": "Electrodomesticos",
+                "text": "Electrodomesticos"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#electrodomesticos":{
+        "children": [
+            "vtex.menu@2.x:menu#submenu-electrodomesticos"
+          ],
+          "props":{
+            "blockClass":"topSubmenuCont"
+          }
+    },
+    "vtex.menu@2.x:menu#submenu-electrodomesticos":{
+        "props": {
+            "orientation": "vertical",
+            "blockClass":"submenuCont"
+          },
+        "children": [
+            "menu-item#electro-climatizacion",
+            "menu-item#electro-cocina",
+            "menu-item#electro-belleza",
+            "menu-item#electro-lavado-y-secado",
+            "menu-item#electro-pequenos-cocina",
+            "menu-item#electro-pequenos-hogar",
+            "menu-item#electro-refrigeracion"
+          ]
+    },
+    "menu-item#electro-climatizacion": {
+        "props": {
+            "id": "menu-item-category-electro-climatizacion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/electrodomesticos/climatizacion",
+                "noFollow": false,
+                "tagTitle": "Climatizacion",
+                "text": "Climatizacion"
+            },
+            "blockClass":"submenuCats"
+        }
+    },
+    "menu-item#electro-cocina": {
+        "props": {
+            "id": "menu-item-category-electro-cocina",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/electrodomesticos/cocina",
+                "noFollow": false,
+                "tagTitle": "Cocina",
+                "text": "Cocina"
+            }
+        }
+    },
+    "menu-item#electro-belleza": {
+        "props": {
+            "id": "menu-item-category-electro-belleza",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/electrodomesticos/electro-belleza",
+                "noFollow": false,
+                "tagTitle": "Electro Belleza",
+                "text": "Electro Belleza"
+            }
+        }
+    },
+    "menu-item#electro-lavado-y-secado": {
+        "props": {
+            "id": "menu-item-category-electro-lavado-y-secado",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/electrodomesticos/lavado-y-secado",
+                "noFollow": false,
+                "tagTitle": "Lavado y Secado",
+                "text": "Lavado y Secado"
+            }
+        }
+    },
+    "menu-item#electro-pequenos-cocina": {
+        "props": {
+            "id": "menu-item-category-electro-pequenos-cocina",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/electrodomesticos/pequenos-cocina",
+                "noFollow": false,
+                "tagTitle": "Pequeños Cocina",
+                "text": "Pequeños Cocina"
+            }
+        }
+    },
+    "menu-item#electro-pequenos-hogar": {
+        "props": {
+            "id": "menu-item-category-electro-pequenos-hogar",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/electrodomesticos/pequenos-hogar",
+                "noFollow": false,
+                "tagTitle": "Pequeños Hogar",
+                "text": "Pequeños Hogar"
+            }
+        }
+    },
+    "menu-item#electro-refrigeracion": {
+        "props": {
+            "id": "menu-item-category-electro-refrigeracion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/electrodomesticos/refrigeracion",
+                "noFollow": false,
+                "tagTitle": "Refrigeración",
+                "text": "Refrigeración"
+            }
+        }
+    },
+    "menu-item#category-equipaje-viaje": {
+        "props": {
+            "id": "menu-item-category-equipaje-viaje",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/equipaje-y-accesorios-de-viaje",
+                "noFollow": false,
+                "tagTitle": "Equipaje y Accesorios de Viaje",
+                "text": "Equipaje y Accesorios de Viaje"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#equipaje-viaje":{
+        "children": [
+            "vtex.menu@2.x:menu#submenu-equipaje-viaje"
+          ],
+          "props":{
+            "blockClass":"topSubmenuCont"
+          }
+    },
+    "vtex.menu@2.x:menu#submenu-equipaje-viaje":{
+        "props": {
+            "orientation": "vertical"
+          },
+        "children": [
+            "menu-item#equipaje"
+          ]
+    },
+    "menu-item#equipaje": {
+        "props": {
+            "id": "menu-item-category-equipaje",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/equipaje-y-accesorios-de-viaje/equipaje",
+                "noFollow": false,
+                "tagTitle": "Equipaje",
+                "text": "Equipaje"
+            }
+        }
+    },
+    "menu-item#category-fitness": {
+        "props": {
+            "id": "menu-item-category-fitness",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/fitness-y-musculacion",
+                "noFollow": false,
+                "tagTitle": "Fitness y Musculación",
+                "text": "Fitness y Musculación"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#fitness":{
+        "children": [
+            "vtex.menu@2.x:menu#submenu-fitness"
+          ],
+          "props":{
+            "blockClass":"topSubmenuCont"
+          }
+    },
+    "vtex.menu@2.x:menu#submenu-fitness":{
+        "props": {
+            "orientation": "vertical"
+          },
+        "children": [
+            "menu-item#fitness-bicicletas-magneticas",
+            "menu-item#fitness-cintas",
+            "menu-item#fitness-discos-barras-mancuernas",
+            "menu-item#fitness-elipticos",
+            "menu-item#fitness-funcional",
+            "menu-item#fitness-multigimnasios"
+          ]
+    },
+    "menu-item#fitness-bicicletas-magneticas": {
+        "props": {
+            "id": "menu-item-category-fitness-bicicletas-magneticas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/fitness-y-musculacion/bicicletas-magneticas",
+                "noFollow": false,
+                "tagTitle": "Bicicletas Magnéticas",
+                "text": "Bicicletas Magnéticas"
+            }
+        }
+    },
+    "menu-item#fitness-cintas": {
+        "props": {
+            "id": "menu-item-category-fitness-cintas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/fitness-y-musculacion/cintas-motorizadas",
+                "noFollow": false,
+                "tagTitle": "Cintas Motorizadas",
+                "text": "Cintas Motorizadas"
+            }
+        }
+    },
+    "menu-item#fitness-discos-barras-mancuernas": {
+        "props": {
+            "id": "menu-item-category-fitness-discos-barras-mancuernas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/fitness-y-musculacion/discos-barras-y-mancuernas",
+                "noFollow": false,
+                "tagTitle": "Cintas Motorizadas",
+                "text": "Cintas Motorizadas"
+            }
+        }
+    },
+    "menu-item#fitness-elipticos": {
+        "props": {
+            "id": "menu-item-category-fitness-elipticos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/fitness-y-musculacion/elipticos",
+                "noFollow": false,
+                "tagTitle": "Elípticos",
+                "text": "Elípticos"
+            }
+        }
+    },
+    "menu-item#fitness-funcional": {
+        "props": {
+            "id": "menu-item-category-fitness-funcional",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/fitness-y-musculacion/entrenamiento-funcional",
+                "noFollow": false,
+                "tagTitle": "Entrenamiento Funcional",
+                "text": "Entrenamiento Funcional"
+            }
+        }
+    },
+    "menu-item#fitness-multigimnasios": {
+        "props": {
+            "id": "menu-item-category-fitness-multigimnasios",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/fitness-y-musculacion/multigimnasios",
+                "noFollow": false,
+                "tagTitle": "Multigimnasios",
+                "text": "Multigimnasios"
+            }
+        }
+    },
+    "menu-item#category-hogar-muebles-limpieza": {
+        "props": {
+            "id": "menu-item-category-hogar-muebles-limpieza",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hogar-muebles-y-limpieza",
+                "noFollow": false,
+                "tagTitle": "Hogar, Muebles y Limpieza",
+                "text": "Hogar, Muebles y Limpieza"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#hogar-muebles-limpieza":{
+        "children": [
+            "vtex.menu@2.x:menu#submenu-hogar-muebles-limpieza"
+          ],
+          "props":{
+            "blockClass":"topSubmenuCont"
+          }
+    },
+    "vtex.menu@2.x:menu#submenu-hogar-muebles-limpieza":{
+        "props": {
+            "orientation": "vertical"
+          },
+        "children": [
+            "menu-item#hogar-comedor",
+            "menu-item#hogar-dormitorio",
+            "menu-item#hogar-lavanderia",
+            "menu-item#hogar-limpieza",
+            "menu-item#hogar-living",
+            "menu-item#hogar-infantiles",
+            "menu-item#hogar-oficina"
+          ]
+    },
+    "menu-item#hogar-comedor": {
+        "props": {
+            "id": "menu-item-category-hogar-comedor",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hogar-muebles-y-limpieza/comedor",
+                "noFollow": false,
+                "tagTitle": "Comedor",
+                "text": "Comedor"
+            }
+        }
+    },
+    "menu-item#hogar-dormitorio": {
+        "props": {
+            "id": "menu-item-category-hogar-dormitorio",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hogar-muebles-y-limpieza/dormitorio",
+                "noFollow": false,
+                "tagTitle": "Dormitorio",
+                "text": "Dormitorio"
+            }
+        }
+    },
+    "menu-item#hogar-lavanderia": {
+        "props": {
+            "id": "menu-item-category-hogar-lavanderia",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hogar-muebles-y-limpieza/lavanderia-y-planchado",
+                "noFollow": false,
+                "tagTitle": "Lavandería y Planchado",
+                "text": "Lavandería y Planchado"
+            }
+        }
+    },
+    "menu-item#hogar-limpieza": {
+        "props": {
+            "id": "menu-item-category-hogar-limpieza",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "hogar-muebles-y-limpieza/limpieza",
+                "noFollow": false,
+                "tagTitle": "Limpieza",
+                "text": "Limpieza"
+            }
+        }
+    },
+    "menu-item#hogar-living": {
+        "props": {
+            "id": "menu-item-category-hogar-living",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "hogar-muebles-y-limpieza/living",
+                "noFollow": false,
+                "tagTitle": "Living",
+                "text": "Living"
+            }
+        }
+    },
+    "menu-item#hogar-infantiles": {
+        "props": {
+            "id": "menu-item-category-hogar-infantiles",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "hogar-muebles-y-limpieza/muebles-y-accesorios-infantiles",
+                "noFollow": false,
+                "tagTitle": "Muebles y Accesorios Infantiles",
+                "text": "Muebles y Accesorios Infantiles"
+            }
+        }
+    },
+    "menu-item#hogar-oficina": {
+        "props": {
+            "id": "menu-item-category-hogar-oficina",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "hogar-muebles-y-limpieza/oficina-y-estudio",
+                "noFollow": false,
+                "tagTitle": "Oficina y Estudio",
+                "text": "Oficina y Estudio"
+            }
+        }
+    },
+    "menu-item#category-hombre": {
+        "props": {
+            "id": "menu-item-category-hombre",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre",
+                "noFollow": false,
+                "tagTitle": "Hombre",
+                "text": "Hombre"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#hombre":{
+        "children": [
+            "vtex.menu@2.x:menu#submenu-hombre"
+          ],
+          "props":{
+            "blockClass":"topSubmenuCont"
+          }
+    },
+    "vtex.menu@2.x:menu#submenu-hombre":{
+        "props": {
+            "orientation": "vertical"
+          },
+        "children": [
+            "menu-item#hombre-accesorios",
+            "menu-item#hombre-indumentaria"
+          ]
+    },
+    "menu-item#hombre-accesorios": {
+        "props": {
+            "id": "menu-item-category-hombre-accesorios",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/accesorios",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            }
+        }
+    },
+    "menu-item#hombre-indumentaria": {
+        "props": {
+            "id": "menu-item-category-hombre-indumentaria",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/indumentaria",
+                "noFollow": false,
+                "tagTitle": "Indumentaria",
+                "text": "Indumentaria"
+            }
+        }
+    },
+    "menu-item#category-infantil": {
+        "props": {
+            "id": "menu-item-category-infantil",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/infantil",
+                "noFollow": false,
+                "tagTitle": "Infantil",
+                "text": "Infantil"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#infantil":{
+        "children": [
+            "vtex.menu@2.x:menu#submenu-infantil"
+          ],
+          "props":{
+            "blockClass":"topSubmenuCont"
+          }
+    },
+    "vtex.menu@2.x:menu#submenu-infantil":{
+        "props": {
+            "orientation": "vertical"
+          },
+        "children": [
+            "menu-item#infantil-accesorios",
+            "menu-item#infantil-indumentaria-nino",
+            "menu-item#infantil-indumentaria-nina"
+          ]
+    },
+    "menu-item#infantil-accesorios": {
+        "props": {
+            "id": "menu-item-category-infantil-accesorios",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/infantil/accesorios",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            }
+        }
+    },
+    "menu-item#infantil-indumentaria-nino": {
+        "props": {
+            "id": "menu-item-category-infantil-indumentaria-nino",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/infantil/indumentaria-ninos",
+                "noFollow": false,
+                "tagTitle": "Indumentaria Niños",
+                "text": "Indumentaria Niños"
+            }
+        }
+    },
+    "menu-item#infantil-indumentaria-nina": {
+        "props": {
+            "id": "menu-item-category-infantil-indumentaria-nina",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/infantil/indumentaria-ninas",
+                "noFollow": false,
+                "tagTitle": "Indumentaria Niñas",
+                "text": "Indumentaria Niñas"
+            }
+        }
+    },
+    "menu-item#category-jardin": {
+        "props": {
+            "id": "menu-item-category-jardin",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/jardin-y-herramientas",
+                "noFollow": false,
+                "tagTitle": "Jardín y Herramientas",
+                "text": "Jardín y Herramientas"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#jardin":{
+        "children": [
+            "vtex.menu@2.x:menu#submenu-jardin"
+          ],
+          "props":{
+            "blockClass":"topSubmenuCont"
+          }
+    },
+    "vtex.menu@2.x:menu#submenu-jardin":{
+        "props": {
+            "orientation": "vertical"
+          },
+        "children": [
+            "menu-item#jardin-herramientas",
+            "menu-item#jardin-hidrolavadoras",
+            "menu-item#jardin-muebles",
+            "menu-item#jardin-parrillas",
+            "menu-item#jardin-piletas"
+          ]
+    },
+    "menu-item#jardin-herramientas": {
+        "props": {
+            "id": "menu-item-category-jardin-herramientas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/jardin-y-herramientas/herramientas",
+                "noFollow": false,
+                "tagTitle": "Herramientas",
+                "text": "Herramientas"
+            }
+        }
+    },
+    "menu-item#jardin-hidrolavadoras": {
+        "props": {
+            "id": "menu-item-category-jardin-hidrolavadoras",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/jardin-y-herramientas/hidrolavadoras",
+                "noFollow": false,
+                "tagTitle": "Hidrolavadoras",
+                "text": "Hidrolavadoras"
+            }
+        }
+    },
+    "menu-item#jardin-muebles": {
+        "props": {
+            "id": "menu-item-category-jardin-muebles",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/jardin-y-herramientas/muebles-de-jardin",
+                "noFollow": false,
+                "tagTitle": "Muebles de Jardín",
+                "text": "Muebles de Jardín"
+            }
+        }
+    },
+    "menu-item#jardin-parrillas": {
+        "props": {
+            "id": "menu-item-category-jardin-parrillas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/jardin-y-herramientas/parrillas",
+                "noFollow": false,
+                "tagTitle": "Parrillas",
+                "text": "Parrillas"
+            }
+        }
+    },
+    "menu-item#jardin-piletas": {
+        "props": {
+            "id": "menu-item-category-jardin-piletas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/jardin-y-herramientas/piletas-e-inflables",
+                "noFollow": false,
+                "tagTitle": "Piletas e Inflables",
+                "text": "Piletas e Inflables"
+            }
+        }
+    },
+    "menu-item#category-jugueteria": {
+        "props": {
+            "id": "menu-item-category-jugueteria",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/jugueteria",
+                "noFollow": false,
+                "tagTitle": "Juguetería",
+                "text": "Juguetería"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#jugueteria":{
+        "children": [
+            "vtex.menu@2.x:menu#submenu-jugueteria"
+          ],
+          "props":{
+            "blockClass":"topSubmenuCont"
+          }
+    },
+    "vtex.menu@2.x:menu#submenu-jugueteria":{
+        "props": {
+            "orientation": "vertical"
+          },
+        "children": [
+            "menu-item#jugueteria-escolar",
+            "menu-item#jugueteria-juegos-de-mesa",
+            "menu-item#jugueteria-juguetes",
+            "menu-item#jugueteria-primera-infancia"
+          ]
+    },
+    "menu-item#jugueteria-escolar": {
+        "props": {
+            "id": "menu-item-category-jugueteria-escolar",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/jugueteria/escolar-libreria-y-regaleria",
+                "noFollow": false,
+                "tagTitle": "Escolar, Librería y Regalería",
+                "text": "Escolar, Librería y Regalería"
+            }
+        }
+    },
+    "menu-item#jugueteria-juegos-de-mesa": {
+        "props": {
+            "id": "menu-item-category-jugueteria-juegos-de-mesa",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/jugueteria/juegos-de-mesa",
+                "noFollow": false,
+                "tagTitle": "Juegos de Mesa",
+                "text": "Juegos de Mesa"
+            }
+        }
+    },
+    "menu-item#jugueteria-juguetes":{
+        "props": {
+            "id": "menu-item-category-jugueteria-juguetes",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/jugueteria/juguetes",
+                "noFollow": false,
+                "tagTitle": "Juguetes",
+                "text": "Juguetes"
+            }
+        }
+    },
+    "menu-item#jugueteria-primera-infancia":{
+        "props": {
+            "id": "menu-item-category-jugueteria-primera-infancia",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/jugueteria/primera-infancia",
+                "noFollow": false,
+                "tagTitle": "Primera Infancia",
+                "text": "Primera Infancia"
+            }
+        }
+    },
+    "menu-item#category-tiempo-libre": {
+        "props": {
+            "id": "menu-item-category-tiempo-libre",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/movilidad-y-tiempo-libre",
+                "noFollow": false,
+                "tagTitle": "Movilidad y Tiempo Libre",
+                "text": "Movilidad y Tiempo Libre"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#tiempo-libre":{
+        "children": [
+            "vtex.menu@2.x:menu#submenu-tiempo-libre"
+          ],
+          "props":{
+            "blockClass":"topSubmenuCont"
+          }
+    },
+    "vtex.menu@2.x:menu#submenu-tiempo-libre":{
+        "props": {
+            "orientation": "vertical"
+          },
+        "children": [
+            "menu-item#tiempo-libre-bicicletas",
+            "menu-item#tiempo-libre-camping",
+            "menu-item#tiempo-libre-monopatines",
+            "menu-item#tiempo-libre-movilidad",
+            "menu-item#tiempo-libre-scooter",
+            "menu-item#tiempo-libre-seguridad",
+            "menu-item#tiempo-libre-triciclos"
+          ]
+    },
+    "menu-item#tiempo-libre-bicicletas": {
+        "props": {
+            "id": "menu-item-category-tiempo-libre-bicicletas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "movilidad-y-tiempo-libre/bicicletas",
+                "noFollow": false,
+                "tagTitle": "Bicicletas",
+                "text": "Bicicletas"
+            }
+        }
+    },
+    "menu-item#tiempo-libre-camping": {
+        "props": {
+            "id": "menu-item-category-tiempo-libre-camping",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "movilidad-y-tiempo-libre/camping",
+                "noFollow": false,
+                "tagTitle": "Camping",
+                "text": "Camping"
+            }
+        }
+    },
+    "menu-item#tiempo-libre-monopatines": {
+        "props": {
+            "id": "menu-item-category-tiempo-libre-monopatines",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "movilidad-y-tiempo-libre/monopatines",
+                "noFollow": false,
+                "tagTitle": "Monopatines",
+                "text": "Monopatines"
+            }
+        }
+    },
+    "menu-item#tiempo-libre-movilidad": {
+        "props": {
+            "id": "menu-item-category-tiempo-libre-movilidad",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "movilidad-y-tiempo-libre/movilidad-electrica",
+                "noFollow": false,
+                "tagTitle": "Movilidad Eléctrica",
+                "text": "Movilidad Eléctrica"
+            }
+        }
+    },
+    "menu-item#tiempo-libre-scooter": {
+        "props": {
+            "id": "menu-item-category-tiempo-libre-scooter",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "movilidad-y-tiempo-libre/scooter-y-skate",
+                "noFollow": false,
+                "tagTitle": "Scooter y Skate",
+                "text": "Scooter y Skate"
+            }
+        }
+    },
+    "menu-item#tiempo-libre-seguridad": {
+        "props": {
+            "id": "menu-item-category-tiempo-libre-seguridad",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "movilidad-y-tiempo-libre/seguridad-y-accesorios",
+                "noFollow": false,
+                "tagTitle": "Seguridad y Accesorios",
+                "text": "Seguridad y Accesorios"
+            }
+        }
+    },
+    "menu-item#tiempo-libre-triciclos": {
+        "props": {
+            "id": "menu-item-category-tiempo-libre-triciclos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "movilidad-y-tiempo-libre/triciclos",
+                "noFollow": false,
+                "tagTitle": "Triciclos",
+                "text": "Triciclos"
+            }
+        }
+    },
+    "menu-item#category-mujer": {
+        "props": {
+            "id": "menu-item-category-mujer",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer",
+                "noFollow": false,
+                "tagTitle": "Mujer",
+                "text": "Mujer"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#mujer":{
+        "children": [
+            "vtex.menu@2.x:menu#submenu-mujer"
+          ],
+          "props":{
+            "blockClass":"topSubmenuCont"
+          }
+    },
+    "vtex.menu@2.x:menu#submenu-mujer":{
+        "props": {
+            "orientation": "vertical"
+          },
+        "children": [
+            "menu-item#mujer-accesorios",
+            "menu-item#mujer-indumentaria"
+          ]
+    },
+    "menu-item#mujer-accesorios": {
+        "props": {
+            "id": "menu-item-category-mujer-accesorios",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/accesorios",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            }
+        }
+    },
+    "menu-item#mujer-indumentaria": {
+        "props": {
+            "id": "menu-item-category-mujer-indumentaria",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer/indumentaria",
+                "noFollow": false,
+                "tagTitle": "Indumentaria",
+                "text": "Indumentaria"
+            }
+        }
+    },
+    "menu-item#category-mundo-gamer": {
+        "props": {
+            "id": "menu-item-category-mundo-gamer",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mundo-gamer",
+                "noFollow": false,
+                "tagTitle": "Mundo Gamer",
+                "text": "Mundo Gamer"
+            }
+        }
+    },
+
+    "vtex.menu@2.x:submenu#mundo-gamer":{
+        "children": [
+            "vtex.menu@2.x:menu#submenu-mundo-gamer"
+        ],
+        "props":{
+          "blockClass":"topSubmenuCont"
+        }
+    },
+    "vtex.menu@2.x:menu#submenu-mundo-gamer": {
+        "props": {
+            "blockClass":"submenu",
+            "orientation": "vertical"
+            },
+        "children": [
+            "menu-item#mundo-gamer-accesorios",
+            "menu-item#mundo-gamer-consolas",
+            "menu-item#mundo-gamer-juegos",
+            "menu-item#mundo-gamer-sillas"
+        ]
+    },
+    "menu-item#mundo-gamer-accesorios": {
+        "props": {
+            "id": "menu-item-category-mundo-gamer-accesorios",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mundo-gamer/accesorios",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            }
+        }
+    },
+    "menu-item#mundo-gamer-juegos": {
+        "props": {
+            "id": "menu-item-category-mundo-gamer-juegos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mundo-gamer/juegos",
+                "noFollow": false,
+                "tagTitle": "Juegos",
+                "text": "Juegos"
+            }
+        }
+    },
+    "menu-item#mundo-gamer-consolas": {
+        "props": {
+            "id": "menu-item-category-mundo-gamer-consolas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mundo-gamer/consolas",
+                "noFollow": false,
+                "tagTitle": "Consolas",
+                "text": "Consolas"
+            }
+        }
+    },
+    "menu-item#mundo-gamer-sillas": {
+        "props": {
+            "id": "menu-item-category-mundo-gamer-sillas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mundo-gamer/sillas",
+                "noFollow": false,
+                "tagTitle": "Sillas",
+                "text": "Sillas"
+            }
+        }
+    },
+    "menu-item#category-notebooks-tecnologia": {
+        "props": {
+            "id": "menu-item-category-notebooks-tecnologia",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/notebooks-y-tecnologia",
+                "noFollow": false,
+                "tagTitle": "Notebooks y Tecnología",
+                "text": "Notebooks y Tecnología"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#notebooks-tecnologia": {
+        "children": [
+            "vtex.menu@2.x:menu#submenu-notebooks-tecnologia"
+        ],
+        "props":{
+          "blockClass":"topSubmenuCont"
+        }
+    },
+    "vtex.menu@2.x:menu#submenu-notebooks-tecnologia": {
+        "props": {
+            "blockClass":"submenu",
+            "orientation": "vertical"
+            },
+        "children": [
+            "menu-item#notebooks-tecnologia-accesorios-computacion",
+            "menu-item#notebooks-tecnologia-impresoras",
+            "menu-item#notebooks-tecnologia-monitores",
+            "menu-item#notebooks-tecnologia-notebooks",
+            "menu-item#notebooks-tecnologia-pc-escritorio",
+            "menu-item#notebooks-tecnologia-tablets"
+        ]
+    },
+    "menu-item#notebooks-tecnologia-accesorios-computacion":{
+        "props": {
+            "id": "menu-item-category-notebooks-tecnologia-accesorios-computacion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/notebooks-y-tecnologia/accesorios-de-computacion",
+                "noFollow": false,
+                "tagTitle": "Accesorios de Computación",
+                "text": "Accesorios de Computación"
+            }
+        }
+    },
+    "menu-item#notebooks-tecnologia-impresoras":{
+        "props": {
+            "id": "menu-item-category-notebooks-tecnologia-impresoras",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/notebooks-y-tecnologia/impresoras",
+                "noFollow": false,
+                "tagTitle": "Impresoras",
+                "text": "Impresoras"
+            }
+        }
+    },
+    "menu-item#notebooks-tecnologia-monitores":{
+        "props": {
+            "id": "menu-item-category-notebooks-tecnologia-monitores",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/notebooks-y-tecnologia/monitores",
+                "noFollow": false,
+                "tagTitle": "Monitores",
+                "text": "Monitores"
+            }
+        }
+    },
+    "menu-item#notebooks-tecnologia-notebooks": {
+        "props": {
+            "id": "menu-item-category-notebooks-tecnologia-notebooks",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/notebooks-y-tecnologia/notebooks",
+                "noFollow": false,
+                "tagTitle": "Notebooks",
+                "text": "Notebooks"
+            }
+        }
+    },
+    "menu-item#notebooks-tecnologia-pc-escritorio": {
+        "props": {
+            "id": "menu-item-category-notebooks-tecnologia-pc-escritorio",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/notebooks-y-tecnologia/pc-de-escritorio",
+                "noFollow": false,
+                "tagTitle": "Pc de Escritorio",
+                "text": "Pc de Escritorio"
+            }
+        }
+    },
+    "menu-item#notebooks-tecnologia-tablets": {
+        "props": {
+            "id": "menu-item-category-notebooks-tecnologia-tablets",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/notebooks-y-tecnologia/tablets",
+                "noFollow": false,
+                "tagTitle": "Tablets",
+                "text": "Tablets"
+            }
+        }
+    },
+    "menu-item#category-perfumeria": {
+        "props": {
+            "id": "menu-item-category-perfumeria",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/perfumeria",
+                "noFollow": false,
+                "tagTitle": "Perfumería",
+                "text": "Perfumería"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#perfumeria": {
+        "children": [
+            "vtex.menu@2.x:menu#submenu-perfumeria"
+        ],
+        "props":{
+          "blockClass":"topSubmenuCont"
+        }
+    },
+    "vtex.menu@2.x:menu#submenu-perfumeria": {
+        "props": {
+            "blockClass":"submenu",
+            "orientation": "vertical"
+            },
+        "children": [
+            "menu-item#perfumeria-cuidados-piel",
+            "menu-item#perfumeria-cuidados-salud",
+            "menu-item#perfumeria-cuidados-cabello",
+            "menu-item#perfumeria-cuidado-personal",
+            "menu-item#perfumeria-perfumes"
+        ]
+    },
+    "menu-item#perfumeria-cuidados-piel": {
+        "props": {
+            "id": "menu-item-category-perfumeria-cuidados-piel",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/perfumeria/cuidado-de-la-piel",
+                "noFollow": false,
+                "tagTitle": "Cuidado de la Piel",
+                "text": "Cuidado de la Piel"
+            }
+        }
+    },
+    "menu-item#perfumeria-cuidados-salud": {
+        "props": {
+            "id": "menu-item-category-perfumeria-cuidados-salud",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/perfumeria/cuidado-de-salud",
+                "noFollow": false,
+                "tagTitle": "Cuidado de Salud",
+                "text": "Cuidado de Salud"
+            }
+        }
+    },
+    "menu-item#perfumeria-cuidados-cabello": {
+        "props": {
+            "id": "menu-item-category-perfumeria-cuidados-cabello",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/perfumeria/cuidado-del-cabello",
+                "noFollow": false,
+                "tagTitle": "Cuidado del Cabello",
+                "text": "Cuidado del Cabello"
+            }
+        }
+    },
+    "menu-item#perfumeria-cuidado-personal": {
+        "props": {
+            "id": "menu-item-category-perfumeria-cuidados-personal",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/perfumeria/cuidado-personal",
+                "noFollow": false,
+                "tagTitle": "Cuidado Personal",
+                "text": "Cuidado Personal"
+            }
+        }
+    },
+    "menu-item#perfumeria-perfumes": {
+        "props": {
+            "id": "menu-item-category-perfumeria-perfumes",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/perfumeria/perfumes",
+                "noFollow": false,
+                "tagTitle": "Perfumes",
+                "text": "Perfumes"
+            }
+        }
+    },
+    "menu-item#category-rodados-neumaticos-accesorios": {
+        "props": {
+            "id": "menu-item-category-rodados-neumaticos-accesorios",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/rodados-neumaticos-y-accesorios",
+                "noFollow": false,
+                "tagTitle": "Rodados, Neumáticos y Accesorios",
+                "text": "Rodados, Neumáticos y Accesorios"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#rodados-neumaticos-accesorios": {
+        "children": [
+            "vtex.menu@2.x:menu#rodados-neumaticos-accesorios"
+        ],
+        "props":{
+          "blockClass":"topSubmenuCont"
+        }
+    },
+    "vtex.menu@2.x:menu#rodados-neumaticos-accesorios": {
+        "props": {
+            "blockClass":"submenu",
+            "orientation": "vertical"
+            },
+        "children": [
+            "menu-item#rodados-neumaticos-accesorios-autos",
+            "menu-item#rodados-neumaticos-accesorios-acc-motos",
+            "menu-item#rodados-neumaticos-accesorios-baterias-autos",
+            "menu-item#rodados-neumaticos-accesorios-motos",
+            "menu-item#rodados-neumaticos-accesorios-neumaticos"
+        ]
+    },
+    "menu-item#rodados-neumaticos-accesorios-autos": {
+        "props": {
+            "id": "menu-item-category-rodados-neumaticos-accesorios-autos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/rodados-neumaticos-y-accesorios/accesorios-para-autos",
+                "noFollow": false,
+                "tagTitle": "Accesorios para Autos",
+                "text": "Accesorios para Autos"
+            }
+        }
+    },
+    "menu-item#rodados-neumaticos-accesorios-acc-motos": {
+        "props": {
+            "id": "menu-item-category-rodados-neumaticos-acc-motos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/rodados-neumaticos-y-accesorios/accesorios-para-motos",
+                "noFollow": false,
+                "tagTitle": "Accesorios para Motos",
+                "text": "Accesorios para Motos"
+            }
+        }
+    },
+    "menu-item#rodados-neumaticos-accesorios-baterias-autos": {
+        "props": {
+            "id": "menu-item-category-rodados-neumaticos-accesorios-baterias-autos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/rodados-neumaticos-y-accesorios/baterias-para-autos",
+                "noFollow": false,
+                "tagTitle": "Baterías para Autos",
+                "text": "Baterías para Autos"
+            }
+        }
+    },
+    "menu-item#rodados-neumaticos-accesorios-motos": {
+        "props": {
+            "id": "menu-item-category-rodados-neumaticos-motos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/rodados-neumaticos-y-accesorios/motos",
+                "noFollow": false,
+                "tagTitle": "Motos",
+                "text": "Motos"
+            }
+        }  
+    },
+    "menu-item#rodados-neumaticos-accesorios-neumaticos": {
+        "props": {
+            "id": "menu-item-category-rodados-neumaticos-accesorios-neumaticos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/rodados-neumaticos-y-accesorios/neumaticos",
+                "noFollow": false,
+                "tagTitle": "Neumático",
+                "text": "Neumático"
+            }
+        }
+    },
+    "menu-item#category-salud-monitoreo": {
+        "props": {
+            "id": "menu-item-category-salud-monitoreo",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/salud-y-monitoreo",
+                "noFollow": false,
+                "tagTitle": "Salud y Monitoreo",
+                "text": "Salud y Monitoreo"
+            }
+        }
+
+    },
+    "vtex.menu@2.x:submenu#salud-monitoreo":{
+        "children": [
+            "vtex.menu@2.x:menu#submenu-salud-monitoreo"
+        ],
+        "props":{
+          "blockClass":"topSubmenuCont"
+        }
+    },
+    "vtex.menu@2.x:menu#submenu-salud-monitoreo": {
+        "props": {
+            "blockClass":"submenu",
+            "orientation": "vertical"
+            },
+        "children": [
+            "menu-item#category-salud-monitoreo-balanzas",
+            "menu-item#category-salud-monitoreo-nebulizadores",
+            "menu-item#category-salud-monitoreo-tensiometros-termometros"
+        ]
+    },
+    "menu-item#category-salud-monitoreo-balanzas": {
+        "props": {
+            "id": "menu-item-category-salud-monitoreo-balanzas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/salud-y-monitoreo/balanzas",
+                "noFollow": false,
+                "tagTitle": "Balanzas",
+                "text": "Balanzas"
+            }
+        }
+    },
+    "menu-item#category-salud-monitoreo-nebulizadores": {
+        "props": {
+            "id": "menu-item-category-salud-monitoreo-nebulizadores",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/salud-y-monitoreo/nebulizadores",
+                "noFollow": false,
+                "tagTitle": "Nebulizadores",
+                "text": "Nebulizadores"
+            }
+        }
+    },
+    "menu-item#category-salud-monitoreo-tensiometros-termometros": {
+        "props": {
+            "id": "menu-item-category-salud-monitoreo-tensiometros-termometros",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/salud-y-monitoreo/tensiometros-y-termometros",
+                "noFollow": false,
+                "tagTitle": "Tensiómetros y Termómetros",
+                "text": "Tensiómetros y Termómetros"
+            }
+        } 
+    },
+    "menu-item#category-termotanque-calefones": {
+        "props": {
+            "id": "menu-item-category-termotanque-calefones",
+            "blockClass": "termotanque-calefones", 
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/termotanques-y-calefones",
+                "noFollow": false,
+                "tagTitle": "Termotanques y Calefones",
+                "text": "Termotanques y Calefones"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#termotanques-calefones":{
+        "children": [
+            "vtex.menu@2.x:menu#submenu-termotanques-calefones"
+        ],
+        "props":{
+          "blockClass":"topSubmenuCont"
+        }
+    },
+    "vtex.menu@2.x:menu#submenu-termotanques-calefones": {
+        "props": {
+            "blockClass":"submenu",
+            "orientation": "vertical"
+            },
+        "children": [
+            "menu-item#termotanques-calefones-calefones",
+            "menu-item#termotanques-calefones-termotanques"
+        ]
+    },
+    "menu-item#termotanques-calefones-calefones": {
+        "props": {
+            "id": "menu-item-category-termotanques-calefones-calefones",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/termotanques-y-calefones/calefones",
+                "noFollow": false,
+                "tagTitle": "Calefones",
+                "text": "Calefones"
+            }
+        }
+    },
+    "menu-item#termotanques-calefones-termotanques": {
+        "props": {
+            "id": "menu-item-category-termotanques-calefones-termotanques",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/termotanques-y-calefones/termotanques",
+                "noFollow": false,
+                "tagTitle": "Termotanques",
+                "text": "Termotanques"
+            }
+        }
+    },
+    "menu-item#category-tv-video": {
+        "props": {
+            "id": "menu-item-category-tv-video",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/tv-y-video",
+                "noFollow": false,
+                "tagTitle": "TV y Video",
+                "text": "TV y Video"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#tv-video":{
+        "children": [
+            "vtex.menu@2.x:menu#submenu-tv-video"
+        ],
+        "props":{
+          "blockClass":"topSubmenuCont"
+        }
+    },
+    "vtex.menu@2.x:menu#submenu-tv-video": {
+        "props": {
+            "blockClass":"submenu",
+            "orientation": "vertical"
+            },
+        "children": [
+            "menu-item#tv-video-accesorios",
+            "menu-item#tv-video-soportes",
+            "menu-item#tv-video-streaming-reproductores-multimedia",
+            "menu-item#tv-video-televisores"
+        ]
+    },
+    "menu-item#tv-video-accesorios": {
+        "props": {
+            "id": "menu-item-category-tv-video-accesorios",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/tv-y-video/accesorios",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            }
+        }
+    },
+    "menu-item#tv-video-soportes": {
+        "props": {
+            "id": "menu-item-category-tv-video-soportes",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/tv-y-video/soportes",
+                "noFollow": false,
+                "tagTitle": "Soportes",
+                "text": "Soportes"
+            }
+        }
+    },
+    "menu-item#tv-video-streaming-reproductores-multimedia": {
+        "props": {
+            "id": "menu-item-category-tv-video-streaming-reproductores-multimedia",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/tv-y-video/streaming-y-reproductores-multimedia",
+                "noFollow": false,
+                "tagTitle": "Streaming y Reproductores Multimedia",
+                "text": "Streaming y Reproductores Multimedia"
+            }
+        }
+    },
+    "menu-item#tv-video-televisores": {
+        "props": {
+            "id": "menu-item-tv-video-televisores",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/tv-y-video/televisores",
+                "noFollow": false,
+                "tagTitle": "Televisores",
+                "text": "Televisores"
+            }
+        }
+    },
+    "menu-item#category-universo-bebe": {
+        "props": {
+            "id": "menu-item-category-universo-bebe",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/universo-bebe",
+                "noFollow": false,
+                "tagTitle": "Universo Bebé",
+                "text": "Universo Bebé"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#universo-bebe":{
+        "children": [
+            "vtex.menu@2.x:menu#submenu-universo-bebe"
+        ],
+        "props":{
+          "blockClass":"topSubmenuCont"
+        }
+    },
+    "vtex.menu@2.x:menu#submenu-universo-bebe": {
+        "props": {
+            "blockClass":"submenu",
+            "orientation": "vertical"
+            },
+        "children": [
+            "menu-item#universo-bebe-cuidados-bebe",
+            "menu-item#universo-bebe-indumentaria",
+            "menu-item#universo-bebe-muebles-accesorios-infantiles"
+        ]
+    },
+    "menu-item#universo-bebe-cuidados-bebe": {
+        "props": {
+            "id": "menu-item-category-universo-bebe-cuidados-bebe",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/universo-bebe/cuidados-del-bebe",
+                "noFollow": false,
+                "tagTitle": "Cuidados del Bebé",
+                "text": "Cuidados del Bebé"
+            }
+        }
+    },
+    "menu-item#universo-bebe-indumentaria": {
+        "props": {
+            "id": "menu-item-category-universo-bebe-indumentaria",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/universo-bebe/indumentaria",
+                "noFollow": false,
+                "tagTitle": "Indumentaria",
+                "text": "Indumentaria"
+            }
+        }
+    },
+    "menu-item#universo-bebe-muebles-accesorios-infantiles": {
+        "props": {
+            "id": "menu-item-muebles-accesorios-infantiles",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/universo-bebe/muebles-y-accesorios-infantiles",
+                "noFollow": false,
+                "tagTitle": "Muebles y Accesorios Infantiles",
+                "text": "Muebles y Accesorios Infantiles"
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+// store/blocks/quienes-somos.jsonc
+{
+  "store.custom#agrupada-juguetes-y-juegos": {
+    "blocks": [
+      "search-result-layout.customQuery#ag-juguetes-y-juegos"
+    ],
+    "children": ["flex-layout.row#text-seo"]
+  },
+  "search-result-layout.customQuery#ag-juguetes-y-juegos": {
+    "props": {
+      "blockClass": "agrupadas",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "326",
+        "mapField": "productClusterIds"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#agrupadas",
+      "search-result-layout.mobile#agrupadas",
+      "search-not-found-layout"
+    ]
+  }
+}

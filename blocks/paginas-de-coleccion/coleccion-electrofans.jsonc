@@ -1,0 +1,81 @@
+{
+  "store.custom#coleccion-electrofans": {
+    "blocks": [
+      "search-result-layout.customQuery#electrofans"
+    ]
+  },
+  "search-result-layout.customQuery#electrofans": {
+    "props": {
+      "blockClass": "coleccion",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "264",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#coleccion-electrofans",
+      "search-result-layout.mobile#coleccion-electrofans",
+      "search-not-found-layout"
+    ]
+  },
+  //DESKTOP
+  "search-result-layout.desktop#coleccion-electrofans": {
+    "children": [
+      "image#lp-banner",
+      "flex-layout.row#searchbread",
+      "search-title.v2",
+      "flex-layout.row#result",
+      "flex-layout.row#spacer"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "thresholdForFacetSearch": 10,
+      "showProductsCount": true,
+      "showFacetQuantity": true,
+      "HiddenFacets": {
+        "priceRange": true
+      },
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "blockClass": "black-friday-collection"
+    }
+  },
+  "image#lp-banner": {
+    "props": {
+      "blockClass": "search-banner",
+      "src": "assets/images/BANNER_ElectroFans.png"
+    }
+  },
+  //MOBILE
+  "search-result-layout.mobile#coleccion-electrofans": {
+    "children": [
+      "image#lp-liquid-mob",
+      "image#collection-coleccion-electrofans-mobile",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#contentmobile",
+      "flex-layout.row#pagination",
+      "flex-layout.row#spacer"
+    ],
+    "props": {
+      "blockClass": "black-friday-collection",
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  "image#collection-coleccion-electrofans-mobile": {
+    "props": {
+      "blockClass": "search-banner",
+      "src": "assets/images/BANNER_ElectroFans_mobile.png"
+    }
+  }
+}

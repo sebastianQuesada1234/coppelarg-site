@@ -1,0 +1,77 @@
+{
+  "store.custom#coleccion-hotsale-uala": {
+    "blocks": [
+      "search-result-layout.customQuery#coleccion-hotsale-uala"
+    ]
+  },
+  "search-result-layout.customQuery#coleccion-hotsale-uala": {
+    "props": {
+      "blockClass": "coleccion",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "280",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#coleccion-hotsale-uala-desktop",
+      "search-result-layout.mobile#coleccion-hotsale-uala-mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  //DESKTOP
+  "search-result-layout.desktop#coleccion-hotsale-uala-desktop": {
+    "children": [
+      "image#coleccion-hotsale-uala-desktop",
+      //"flex-layout.row#searchbread",
+      "search-title.v2",
+      "flex-layout.row#result",
+      "flex-layout.row#spacer"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "thresholdForFacetSearch": 10,
+      "showProductsCount": true,
+      "showFacetQuantity": true,
+      "HiddenFacets": {
+        "priceRange": true
+      },
+      "blockClass": "black-friday-collection"
+    }
+  },
+  "image#coleccion-hotsale-uala-desktop": {
+    "props": {
+      "src": "assets/images/BannerHotSaleUALA_desktop.png",
+      "blockClass": "hotsale-banner"
+    }
+  },
+
+  //MOBILE
+  "search-result-layout.mobile#coleccion-hotsale-uala-mobile": {
+    "children": [
+      "image#collection-coleccion-hotsale-uala-mobile",
+      //"flex-layout.row#searchtitle",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#contentmobile",
+      "flex-layout.row#pagination",
+      "flex-layout.row#spacer"
+    ],
+    "props": {
+      "blockClass": "black-friday-collection",
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  "image#collection-coleccion-hotsale-uala-mobile": {
+    "props": {
+      "src": "assets/images/BannerHotSaleUALA_mobile.png",
+      "blockClass": "black-friday-banner"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "store.custom#coleccion-expertos-en-lavado": {
+    "blocks": ["search-result-layout.customQuery#expertos-en-lavado"]
+  },
+  "search-result-layout.customQuery#expertos-en-lavado": {
+    "props": {
+      "blockClass": "coleccion",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "279",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

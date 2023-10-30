@@ -1,0 +1,43 @@
+{
+  "flex-layout.row#product-deals": {
+    "props": {
+      "blockClass": "product-deals"
+    },
+    "children": [
+      "flex-layout.col#product-deals-1",
+      "flex-layout.col#product-deals-2",
+      "header-spacer",
+      "header-spacer",
+      "flex-layout.col#product-deals-3",
+      "flex-layout.col#product-deals-4"
+    ]
+  },
+  "flex-layout.col#product-deals-1": {
+    "children": [
+      "image#costo-envio-icon",
+      "rich-text#costo-envio-label",
+      "modal-trigger#costo-envio"
+    ]
+  },
+  "flex-layout.col#product-deals-2": {
+    "children": [
+      "image#sucursales-icon",
+      "rich-text#sucursales-label",
+      "modal-trigger#sucursales"
+    ]
+  },
+  "flex-layout.col#product-deals-3": {
+    "children": [
+      "image#cuotas-icon",
+      "rich-text#cuotas-label",
+      "modal-trigger#cuotas"
+    ]
+  },
+  "flex-layout.col#product-deals-4": {
+    "children": [
+      "image#cambios-icon",
+      "rich-text#cambios-label",
+      "link#cambios"
+    ]
+  }
+}

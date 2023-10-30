@@ -1,0 +1,94 @@
+// store/blocks/contacto.jsonc
+{
+  "store.custom#contacto": {
+    "blocks": [
+      "flex-layout.row#contacto-header",
+      "flex-layout.row#form-contacto"
+    ],
+    "props":{
+      "blockClass":"template-quienes-somos"
+    }
+  },
+  "flex-layout.row#contacto-header": {
+    "children": [
+      "rich-text#contacto-title"
+    ],
+    "props":{
+      "blockClass":"quienes-somos-titulo"
+    }
+  },
+  "rich-text#contacto-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "#### **Contacto**",
+      "blockClass": "contacto-title"
+    }
+  },
+  "flex-layout.row#form-contacto":{
+    "children":[
+      "form#form-contacto"
+    ],
+    "props": {
+      "blockClass": "form-contacto"
+    }
+  },
+  "form#form-contacto": {
+    "props": {
+      "entity": "Contacto",
+      "schema": "form_contacto2"
+    },
+    "children": [
+      "form-input.dropdown#reason",
+      "form-input.text#name",
+      "form-input.text#email",
+      "form-input.text#phone",
+      "form-input.textarea#message",
+      "form-submit#entregar"
+    ],
+    "blocks": ["form-success"]
+  },
+  "form-success": {
+    "children": [
+      "rich-text#successSubmit"
+    ]
+  },
+  "rich-text#successSubmit": {
+    "props": {
+      "text": "Enviamos tu solicitud correctamente. Nos pondremos en contacto a la brevedad.\n¡Muchas gracias!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "form-input.dropdown#reason": {
+    "props": {
+      "pointer": "#/properties/reason"
+    }
+  },
+  "form-input.text#name": {
+    "props": {
+      "pointer": "#/properties/name"
+    }
+  },
+  "form-input.text#email": {
+    "props": {
+      "pointer": "#/properties/email"
+    }
+  },
+  "form-input.text#phone": {
+    "props": {
+      "pointer": "#/properties/phone"
+    }
+  },
+  "form-input.textarea#message": {
+    "props": {
+      "pointer": "#/properties/message"
+    }
+  },
+  "form-submit#entregar": {
+    "props": {
+      "label": "Enviar"
+    }
+  }
+}

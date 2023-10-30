@@ -1,0 +1,114 @@
+{
+    "menu-item#menu-credito": {
+        "props": {
+            "id": "menu-item-menu-credito",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/credito-coppel",
+                "noFollow": false,
+                "tagTitle": "Crédito Coppel",
+                "text": "Crédito Coppel"
+            },
+            "blockClass": "menuCreditoCoppel"
+        }
+    },
+    "vtex.menu@2.x:submenu#credito":{
+        "children": [
+            "vtex.menu@2.x:menu#submenu-credito"
+          ],
+          "props":{
+            "blockClass":"menuRightContainerBlock"
+          }
+    },
+    "vtex.menu@2.x:menu#submenu-credito":{
+        "props": {
+            "orientation": "vertical",
+            "blockClass":"menuRightContainer"
+          },
+        "children": [
+            "menu-item#credito-informacion",
+            "menu-item#credito-solicitar",
+            "menu-item#credito-estado",
+            "menu-item#credito-medios-pago",
+            "menu-item#credito-pago-facil"
+          ]
+    },
+    "menu-item#credito-informacion":{
+        "props": {
+            "id": "menu-item-menu-credito-informacion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/credito-coppel",
+                "noFollow": false,
+                "tagTitle": "Información",
+                "text": "Información"
+            } 
+        }
+    },
+    "menu-item#credito-solicitar":{
+        "props": {
+            "id": "menu-item-menu-credito-solicitar",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "https://www2.coppel.com.ar/credito.php",
+                "noFollow": false,
+                "tagTitle": "Solicitar Crédito",
+                "text": "Solicitar Crédito"
+            } 
+        }
+    },
+    "menu-item#credito-estado":{
+        "props": {
+            "id": "menu-item-menu-credito-solicitar",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "http://coppelweb.ibrlatam.com/registro/",
+                "noFollow": false,
+                "tagTitle": "Estado de Cuenta",
+                "text": "Estado de Cuenta"
+            } 
+        }
+    },
+    "menu-item#credito-medios-pago":{
+        "props": {
+            "id": "menu-item-menu-credito-solicitar",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/medios-de-pago-credito-coppel",
+                "noFollow": false,
+                "tagTitle": "Medios de Pago",
+                "text": "Medios de Pago"
+            } 
+        }    
+    },
+    "menu-item#credito-pago-facil":{
+        "props": {
+            "id": "menu-item-menu-credito-solicitar",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "external",
+                "href": "https://pagosenlinea.pagofacil.com.ar/",
+                "noFollow": false,
+                "tagTitle": "Pago Fácil Online",
+                "text": "Pago Fácil Online"
+            } 
+        }
+    }
+}

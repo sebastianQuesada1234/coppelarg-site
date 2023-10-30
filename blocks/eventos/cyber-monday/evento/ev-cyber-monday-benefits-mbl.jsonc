@@ -1,0 +1,30 @@
+{
+  "flex-layout.row#ev-cm-benefits-mbl": {
+    "title": "Benefits Mobile",
+    "children": [
+      "slider-layout#ev-cm-benefits-mbl",
+      "flex-layout.col#ev-cm-benefit-plus"
+    ],
+    "props": {
+      "blockClass": "ev-cm-benefits-mbl",
+      "verticalAlign": "middle",
+      "horizontalAlign": "CENTER"
+    }
+  },
+  "slider-layout#ev-cm-benefits-mbl": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "blockClass": "ev-cm-benefits-mbl"
+    },
+    "children": [
+      "flex-layout.col#ev-cm-benefit-01"
+    ]
+  }
+}

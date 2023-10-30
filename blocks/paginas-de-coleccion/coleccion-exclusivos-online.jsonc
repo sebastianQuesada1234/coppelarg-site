@@ -1,0 +1,22 @@
+{
+  "store.custom#coleccion-exclusivos-online": {
+    "blocks": ["search-result-layout.customQuery#exclusivos-online"]
+  },
+  "search-result-layout.customQuery#exclusivos-online": {
+    "props": {
+      "blockClass": "coleccion",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "138",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

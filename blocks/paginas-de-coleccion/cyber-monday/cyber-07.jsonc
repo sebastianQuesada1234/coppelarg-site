@@ -1,0 +1,27 @@
+{
+    "store.custom#ev-cm-07": {
+      "blocks": [
+        "search-result-layout.customQuery#ev-cm-06"
+      ],
+      "children": ["flex-layout.row#text-seo"]
+    },
+    
+    "search-result-layout.customQuery#ev-cm-06": {
+      "props": {
+        "blockClass": "ev-cm",
+        "querySchema": {
+          "maxItemsPerPage": 20,
+          "queryField": "420",
+          "mapField": "productClusterIds",
+          "skusFilter": "ALL_AVAILABLE",
+          "simulationBehavior": "default"
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#ev-cm",
+        "search-result-layout.mobile#ev-cm",
+        "search-not-found-layout"
+      ]
+    }
+  }
+  

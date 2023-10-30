@@ -1,0 +1,22 @@
+{
+  "store.custom#coleccion-aniversario": {
+    "blocks": ["search-result-layout.customQuery#aniversario"]
+  },
+  "search-result-layout.customQuery#aniversario": {
+    "props": {
+      "blockClass": "aniversario",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "278",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#aniversario",
+      "search-result-layout.mobile#aniversario",
+      "search-not-found-layout"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "store.custom#coleccion-nada-frene": {
+    "blocks": ["search-result-layout.customQuery#nada-frene"]
+  },
+  "search-result-layout.customQuery#nada-frene": {
+    "props": {
+      "blockClass": "coleccion",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "195",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

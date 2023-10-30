@@ -1,0 +1,22 @@
+{
+  "store.custom#coleccion-descuentos-inspiran": {
+    "blocks": ["search-result-layout.customQuery#descuentos-inspiran"]
+  },
+  "search-result-layout.customQuery#descuentos-inspiran": {
+    "props": {
+      "blockClass": "coleccion",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "255",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

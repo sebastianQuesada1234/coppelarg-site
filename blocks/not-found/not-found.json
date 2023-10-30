@@ -1,0 +1,5 @@
+{
+    "store.not-found": {
+        "blocks": ["m3-error-page"]
+    }
+}

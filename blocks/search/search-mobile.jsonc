@@ -1,0 +1,192 @@
+{
+  "search-result-layout.mobile": {
+    "children": [
+      "image#search-banner-mbl",
+      "__fold__",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#contentmobile",
+      "flex-layout.row#pagination",
+      "flex-layout.row#spacer"
+    ],
+    "props": {
+      "blockClass": "search-result-layout-mobile",
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  //AGRUPADAS
+  "search-result-layout.mobile#agrupadas": {
+    "children": [
+      "image#agrupadas-banner-mbl",
+      "__fold__",
+      "flex-layout.row#category-shelf",
+      "rich-text#agrupadas-title",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#contentmobile",
+      "flex-layout.row#pagination",
+      "flex-layout.row#spacer"
+    ],
+    "props": {
+      "blockClass": "search-result-layout-mobile",
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  "search-result-layout.mobile#department-and-category": {
+    "children": [
+      "image#search-banner-mbl",
+      "__fold__",
+      "flex-layout.row#category-shelf",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#contentmobile",
+      "flex-layout.row#pagination",
+      "flex-layout.row#spacer"
+    ],
+    "props": {
+      "blockClass": "search-result-layout-mobile",
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  //ANIVERSARIO COPPEL
+  "search-result-layout.mobile#aniversario": {
+    "children": [
+      "top-landing-page#mobile3",
+      "__fold__",
+      //"flex-layout.row#searchtitle",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#contentmobile",
+      "flex-layout.row#pagination",
+      "flex-layout.row#spacer"
+    ],
+    "props": {
+      "blockClass": "search-result-layout-mobile",
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  //DIA DEL NIÑO
+  "search-result-layout.mobile#dia-del-nino": {
+    "children": [
+      "top-landing-page#mobile-nino",
+      "__fold__",
+      //"flex-layout.row#searchtitle",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#contentmobile",
+      "flex-layout.row#pagination",
+      "flex-layout.row#spacer"
+    ],
+    "props": {
+      "blockClass": "search-result-layout-mobile",
+      "pagination": "infinity",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  // DIA DEL PADRE COPPEL
+  "search-result-layout.mobile#dia-del-padre": {
+    "children": [
+      "top-landing-page#mobile4",
+      "__fold__",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#contentmobile",
+      "flex-layout.row#pagination",
+      "flex-layout.row#spacer"
+    ],
+    "props": {
+      "blockClass": "search-result-layout-mobile",
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  //PARA ABRIGARTE
+  "search-result-layout.mobile#para-abrigarte": {
+    "children": [
+      "image#banner-mbl",
+      "__fold__",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#contentmobile",
+      "flex-layout.row#pagination",
+      "flex-layout.row#spacer"
+    ],
+    "props": {
+      "blockClass": "search-result-layout-mobile",
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  //ELECTRO-FANS
+  "search-result-layout.mobile#liquidacion-electrofans": {
+    "children": [
+      "top-landing-page#mobile-electrofans",
+      "__fold__",
+      //"flex-layout.row#searchtitle",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#contentmobile",
+      "flex-layout.row#pagination",
+      "flex-layout.row#spacer"
+    ],
+    "props": {
+      "blockClass": "search-result-layout-mobile",
+      "pagination": "infinity",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  // CYBER MONDAY 2022
+  "search-result-layout.mobile#ev-cm": {
+    "children": [
+      "responsive-layout.desktop#ev-cm-top",
+      "__fold__",
+      "responsive-layout.mobile#ev-cm-top",
+      "responsive-layout.desktop#cm-benefits",
+      "responsive-layout.tablet#cm-benefits",
+      "responsive-layout.phone#cm-benefits",
+      "rich-text#ev-cm-search-title",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#contentmobile",
+      "flex-layout.row#pagination",
+      "flex-layout.row#spacer"
+    ],
+    "props": {
+      "blockClass": "search-result-layout-mobile",
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  }
+}

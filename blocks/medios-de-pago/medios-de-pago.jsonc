@@ -1,0 +1,201 @@
+// store/blocks/medios-de-pago.jsonc
+{
+  "store.custom#medios-de-pago": {
+    "blocks": [
+      "flex-layout.row#medios-de-pago"
+    ],
+    "props":{
+      "blockClass":"template-quienes-somos"
+    }
+  },
+
+  "flex-layout.row#medios-de-pago": {
+    "props": {
+      "blockClass": "medios-de-pago",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#MP-title",
+      "rich-text#MP-subtitle",
+      "flex-layout.col#medios-de-pago"
+    ]
+  },
+  "rich-text#MP-title": {
+    "props": {
+      "blockClass": "pf-title-page",
+      "text": "Medios de pago habilitados"
+    }
+  },
+  "rich-text#MP-subtitle": {
+    "props": {
+      "blockClass": "pf-subtitle-page",
+      "text": "Todos nuestros medios de pago te ofrecen transacciones seguras y garantizan la privacidad y protección de tu información."
+    }
+  },
+
+
+  "flex-layout.col#medios-de-pago": {
+    "props": {
+      "blockClass": "medios-de-pago",
+      "fullWidth": true
+    },
+    "children": [
+      "disclosure-layout#MP_TC",
+      "disclosure-layout#MP_TD",
+      "disclosure-layout#MP_CC",
+      "disclosure-layout#MP_MP",
+      "disclosure-layout#MP_GC"
+    ]
+  },
+
+  "disclosure-layout#MP_TC": {
+    "children": ["disclosure-trigger#MP_TC", "disclosure-content#MP_TC"]
+  },
+  "disclosure-trigger#MP_TC": {
+    "children": ["image#MP_TC", "rich-text#MP_TC-title"]
+  },
+  "disclosure-content#MP_TC": {
+    "children": ["flex-layout.col#MP_TC-conteudo"]
+  },
+  "image#MP_TC": {
+    "props": {
+      "src": "assets/icons/icon-tarjeta.svg",
+      "maxWidth": 26
+    }
+  },
+  "rich-text#MP_TC-title": {
+    "props": {
+      "blockClass": "disclosure",
+      "text": "Tarjetas de crédito"
+    }
+  },
+  "flex-layout.col#MP_TC-conteudo": {
+    "props": {
+      "blockClass": "pf-content"
+    },
+    "children": [
+      "rich-text#MP_TC-01",
+      "flex-layout.row#MP_TC-flags"
+    ]
+  },
+
+  "disclosure-layout#MP_TD": {
+    "children": ["disclosure-trigger#MP_TD", "disclosure-content#MP_TD"]
+  },
+  "disclosure-trigger#MP_TD": {
+    "children": ["image#MP_TD", "rich-text#MP_TD-title"]
+  },
+  "disclosure-content#MP_TD": {
+    "children": ["flex-layout.col#MP_TD-conteudo"]
+  },
+  "image#MP_TD": {
+    "props": {
+      "src": "assets/icons/icon-tarjeta.svg",
+      "maxWidth": 26
+    }
+  },
+  "rich-text#MP_TD-title": {
+    "props": {
+      "blockClass": "disclosure",
+      "text": "Tarjetas de débito"
+    }
+  },
+  "flex-layout.col#MP_TD-conteudo": {
+    "props": {
+      "blockClass": "pf-content"
+    },
+    "children": [
+      "flex-layout.row#MP_TD-flags"
+    ]
+  },
+
+  "disclosure-layout#MP_CC": {
+    "children": ["disclosure-trigger#MP_CC", "disclosure-content#MP_CC"]
+  },
+  "disclosure-trigger#MP_CC": {
+    "children": ["image#MP_CC", "rich-text#MP_CC-title"]
+  },
+  "disclosure-content#MP_CC": {
+    "children": ["flex-layout.col#MP_CC-conteudo"]
+  },
+  "image#MP_CC": {
+    "props": {
+      "src": "assets/icons/icon-tarjeta.svg",
+      "maxWidth": 26
+    }
+  },
+  "rich-text#MP_CC-title": {
+    "props": {
+      "blockClass": "disclosure",
+      "text": "Crédito Coppel"
+    }
+  },
+  "flex-layout.col#MP_CC-conteudo": {
+    "props": {
+      "blockClass": "pf-content"
+    },
+    "children": [
+      "rich-text#MP_CC-01"
+    ]
+  },
+
+  "disclosure-layout#MP_MP": {
+    "children": ["disclosure-trigger#MP_MP", "disclosure-content#MP_MP"]
+  },
+  "disclosure-trigger#MP_MP": {
+    "children": ["image#MP_MP", "rich-text#MP_MP-title"]
+  },
+  "disclosure-content#MP_MP": {
+    "children": ["flex-layout.col#MP_MP-conteudo"]
+  },
+  "image#MP_MP": {
+    "props": {
+      "src": "https://coppelar.vteximg.com.br/arquivos/mercado-pago-icon.png?v=9",
+      "maxWidth": 26
+    }
+  },
+  "rich-text#MP_MP-title": {
+    "props": {
+      "blockClass": "disclosure",
+      "text": "Mercado Pago (Efectivo)"
+    }
+  },
+  "flex-layout.col#MP_MP-conteudo": {
+    "props": {
+      "blockClass": "pf-content"
+    },
+    "children": [
+      "image#MP_MP-01"
+    ]
+  },
+
+  "disclosure-layout#MP_GC": {
+    "children": ["disclosure-trigger#MP_GC", "disclosure-content#MP_GC"]
+  },
+  "disclosure-trigger#MP_GC": {
+    "children": ["image#MP_GC", "rich-text#MP_GC-title"]
+  },
+  "disclosure-content#MP_GC": {
+    "children": ["flex-layout.col#MP_GC-conteudo"]
+  },
+  "image#MP_GC": {
+    "props": {
+      "src": "https://coppelar.vteximg.com.br/arquivos/gift-icon.png?v=999999",
+      "maxWidth": 26
+    }
+  },
+  "rich-text#MP_GC-title": {
+    "props": {
+      "blockClass": "disclosure",
+      "text": "Gift Card Coppel"
+    }
+  },
+  "flex-layout.col#MP_GC-conteudo": {
+    "props": {
+      "blockClass": "pf-content"
+    },
+    "children": [
+      "rich-text#MP_GC-01"
+    ]
+  }
+}

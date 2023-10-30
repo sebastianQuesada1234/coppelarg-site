@@ -1,0 +1,481 @@
+{
+  "store.product": {
+    "props": {
+      "blockClass": "productDetail"
+    },
+    "children": [
+      "responsive-layout.desktop#product-breadcrumb",
+      "responsive-layout.mobile#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "pdp_min-items-wrapper#view-and-bought",
+      "flex-layout.row#desc-spec-paymentInfo",
+      "verify-flixmedia",
+      "flex-layout.row#flixmedia-wrapper",
+      "pdp_min-items-wrapper#view",
+      "m3-conditional-render#pdp-banner"
+    ]
+  },
+  "shelf.relatedProducts#product": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "recommendation": "buy",
+      "hideOutOfStockItems": true,
+      "productList": {
+        "titleText": "Quienes vieron este producto también compraron",
+        "itemsPerPage": 6,
+        "maxItems": 15,
+        "arrows": true,
+        "minItemsPerPage": 2,
+        "gap": "ph5"
+      }
+    }
+  },
+
+  "responsive-layout.desktop#product-breadcrumb": {
+    "children": ["flex-layout.row#product-breadcrumb"]
+  },
+  "responsive-layout.mobile#product-breadcrumb": {
+    "children": ["flex-layout.row#product-breadcrumb-custom"]
+  },
+
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 4,
+      "blockClass": "breadcrumb"
+    },
+    "children": ["breadcrumb#bread"]
+  },
+  "flex-layout.row#product-breadcrumb-custom": {
+    "props": {
+      "marginTop": 4,
+      "blockClass": "breadcrumb"
+    },
+    "children": ["pdp_breadcrumb"]
+  },
+  "flex-layout.row#product-links": {
+    "props": {
+      "marginTop": 5,
+      "blockClass": "product-links"
+    },
+    "children": ["scroll-to-specification"]
+  },
+  "flex-layout.row#product-main": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7,
+      "blockClass": "product"
+    },
+    "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
+  },
+  "flex-layout.col#stack": {
+    "children": ["stack-layout"],
+    "props": {
+      "blockClass": "product-stack-flag",
+      "width": "58%",
+      "rowGap": 0
+    }
+  },
+  "stack-layout": {
+    "props": {
+      "blockClass": "product"
+    },
+    "children": ["flex-layout.row#product-image"]
+  },
+  "flex-layout.row#product-image": {
+    "children": [
+      "product-images",
+      "custom-share#product",
+      "add-to-list-btn#wishlist"
+    ],
+    "props": {
+      "colGap": 0,
+      "blockClass": "product-images"
+    }
+  },
+  "product-images": {
+    "props": {
+      "displayThumbnailsArrows": true,
+      "showNavigationArrows": false,
+      "showPaginationDots": false,
+      "thumbnailVisibility": "visible",
+      "thumbnailsOrientation": "horizontal"
+    }
+  },
+
+  "flex-layout.col#right-col": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "width": "42%",
+      "blockClass": "product-right-col"
+    },
+    "children": [
+      "pdp_layout",
+      "flex-layout.col#right-col-section-1",
+      "flex-layout.col#right-col-section-2",
+      "flex-layout.col#right-col-section-3",
+      "flex-layout.col#right-col-section-4",
+      "condition-layout.product#cantidad-pdp-moto",
+      // "flex-layout.col#right-col-section-5",
+      "flex-layout.col#right-col-section-6"
+    ]
+  },
+  "flex-layout.col#right-col-section-1": {
+    "props": {
+      "blockClass": "right-col-1"
+    },
+    "children": [
+      "vtex.store-components:product-name",
+      "flex-layout.row#product-brand",
+      "pdp_prices"
+    ]
+  },
+  "vtex.store-components:product-name": {
+    "props": {
+      "showSku": true
+    }
+  },
+  "flex-layout.col#right-col-section-2": {
+    "props": {
+      "blockClass": "right-col-2"
+    },
+    "children": ["pdp_payment-methods", "modal-trigger#cuotas"]
+  },
+  "pdp_payment-methods": {
+    "props": {
+      "CreditCoppel": true,
+      "PlanAhora": true,
+      "Cuotas": true,
+      "CardFlag": true
+    }
+  },
+
+  "flex-layout.col#right-col-section-3": {
+    "props": {
+      "blockClass": "right-col-3",
+      "colGap": 3
+    },
+    "children": ["modal-trigger#sucursales", "m3-shipping-simulator#product"]
+  },
+
+  "flex-layout.col#right-col-section-4": {
+    "props": {
+      "blockClass": "right-col-4"
+    },
+    "children": ["flex-layout.row#sku-selector"]
+  },
+  // "flex-layout.col#right-col-section-5": {
+  //   "props": {
+  //     "blockClass": "right-col-5"
+  //   },
+  //   "children": ["pdp_button-by-category#hidden-quantity-selector"]
+  // },
+  "flex-layout.col#right-col-section-6": {
+    "props": {
+      "blockClass": "right-col-6"
+    },
+    "children": ["pdp_button-by-category#btn-motos"]
+  },
+
+  "flex-layout.row#product-brand": {
+    "children": ["vtex.store-components:product-brand"]
+  },
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": true
+      }
+    }
+  },
+
+  "flex-layout.row#selling-price": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "blockClass": "selling-price"
+    },
+    "children": ["product-selling-price"]
+  },
+  "flex-layout.row#installments": {
+    "props": {
+      "marginBottom": 2
+    },
+    "children": ["custom-installments#product"]
+  },
+  "custom-installments#product": {
+    "props": {
+      "shelf": false
+    }
+  },
+  "flex-layout.row#list-price-savings": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 2,
+      "marginTop": 3,
+      "blockClass": "price-savings"
+    },
+    "children": [
+      "product-list-price",
+      "product-price-savings#flag-discount",
+      "m3-valueSaved-flag#product"
+    ]
+  },
+  "product-price-savings#flag-discount": {
+    "props": {
+      "blockClass": "flag-discount",
+      "message": "{savingsPercentage}"
+    }
+  },
+  "m3-valueSaved-flag#product": {
+    "props": {
+      "productPage": true
+    }
+  },
+  "flex-layout.row#sku-selector": {
+    "children": ["sku-selector"]
+  },
+  "sku-selector": {
+    "props": {
+      "variationsSpacing": 3,
+      "maxItems": 30,
+      "showValueNameForImageVariation": true,
+      "imageWidth": 90,
+      "imageHeight": 70,
+      "visibleVariations": ["Talle", "Color", "Almacenamiento", "Memoria RAM"]
+    }
+  },
+
+  "product-description#product": {
+    "props": {
+      "collapseContent": true
+    }
+  },
+
+  "flex-layout.row#desc-spec-paymentInfo": {
+    "title": "Bloques - Descripción y Medios de pago",
+
+    "props": {
+      "blockClass": ["desc-spec-paymentInfo"]
+    },
+    "children": [
+      "flex-layout.col#desc-spec-block",
+      "flex-layout.col#paymentInfo-block"
+    ]
+  },
+  "flex-layout.col#desc-spec-block": {
+    "title": "Descripción y Especificaciones",
+    "props": {
+      "blockClass": ["desc-spec-block", "desc-spec-paymentInfo-block"],
+      "width": "68%"
+    },
+    "children": ["tab-layout#desc-spec-block"]
+  },
+
+  "conditional-children": {
+    "children": ["modal-trigger#tabla-talles"]
+  },
+
+  "flex-layout.row#btns-pdp": {
+    "children": [
+      "add-to-cart-button#one-click-buy",
+      "m3-conditional-render#add",
+      "rich-text#pdp-benefits"
+    ],
+    "props": {
+      "blockClass": "btns-pdp",
+      "horizontalAlign": "LEFT"
+    }
+  },
+  "flex-layout.row#availabilty-pdp": {
+    "children": ["custom-availability-notify", "rich-text#pdp-benefits"],
+    "props": {
+      "blockClass": "availabilty-pdp"
+    }
+  },
+  "rich-text#pdp-benefits": {
+    "props": {
+      "text": "![](assets/icons/icon-candado-gray.svg)*Tu compra está protegida*\n![](assets/icons/icon-reload-gray.svg)*Devolución gratis dentro de los primeros 10 días*",
+      "blockClass": "pdp-benefits"
+    }
+  },
+
+  // "pdp_button-by-category#hidden-quantity-selector": {
+  //   "props": {
+  //     "hidden": true,
+  //     "categoryId": "134414"
+  //   },
+  //   "children": ["condition-layout.product#cantidad-pdp"]
+  // },
+  "condition-layout.product#cantidad-pdp-moto": {
+    "props": {
+      "blockClass": "cantidad-pdp",
+      "conditions": [
+        {
+          "subject": "categoryId",
+          "arguments": {
+            "id": "134414"
+          }
+        }
+      ],
+      "Else": "condition-layout.product#cantidad-pdp"
+    }
+  },
+  "condition-layout.product#cantidad-pdp": {
+    "props": {
+      "blockClass": "cantidad-pdp",
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "flex-layout.col#cantidad-section-5",
+      "Else": "rich-text#sin-stock-label"
+    }
+  },
+  "rich-text#sin-stock-label": {
+    "props": {
+      "text": "Cantidad\n**Sin stock**",
+      "blockClass": "availabilty-label"
+    }
+  },
+  "flex-layout.col#cantidad-section-5": {
+    "props": {
+      "blockClass": "cantidad-section-5"
+    },
+    "children": ["product-quantity", "pdp_aviso-cantidad"]
+  },
+
+  "pdp_button-by-category#btn-motos": {
+    "props": {
+      "hidden": false,
+      "categoryId": "134414"
+    },
+    "children": ["condition-layout.product#btns-pdp"]
+  },
+  "condition-layout.product#btns-pdp": {
+    "props": {
+      "blockClass": "btns-pdp",
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "flex-layout.row#btns-pdp",
+      "Else": "flex-layout.row#condition-availabilty-pdp"
+    }
+  },
+  "flex-layout.row#condition-availabilty-pdp": {
+    "children": ["flex-layout.col#condition-availabilty-pdp"],
+    "props": {
+      "blockClass": "availabilty-wrapper"
+    }
+  },
+  "flex-layout.col#condition-availabilty-pdp": {
+    "children": ["custom-availability-notify", "rich-text#pdp-benefits"],
+    "props": {
+      "blockClass": "availabilty-pdp"
+    }
+  },
+
+  "m3-conditional-render#add": {
+    "title": "V/I - Add to Cart Button",
+    "props": {
+      "condition": false
+    },
+    "children": ["add-to-cart-button#add"]
+  },
+  "add-to-cart-button#add": {
+    "props": {
+      "isOneClickBuy": false,
+      "unavailableText": "No disponible",
+      "blockClass": "add-btn",
+      "text": "Agregar al Carrito"
+    }
+  },
+  "add-to-cart-button#one-click-buy": {
+    "props": {
+      "isOneClickBuy": true,
+      "unavailableText": "Comprar",
+      "blockClass": "one-click-buy",
+      "text": "Comprar"
+    }
+  },
+
+  "custom-share#product": {
+    "props": {
+      "blockClass": "product",
+      "social": {
+        "WhatsApp": true,
+        "Gmail": false,
+        "E-mail": false,
+        "Pinterest": false,
+        "Facebook": true,
+        "Twitter": true,
+        "Link": true
+      }
+    }
+  },
+
+  "banner-pdp-custom": {
+    "props": {
+      "defaultImageDesktop": "assets/images/banner-pdp-desk.png",
+      "defaultImageMobile": "assets/images/banner-pdp-mobile.png",
+      "link": "/teste",
+      "items": [
+        {
+          "__editorItemTitle": "134979",
+          "link": "/",
+          "imageDestop": "assets/images/banner-pdp-desk.png",
+          "imageMobile": "assets/images/banner-pdp-mobile.png"
+        }
+      ]
+    }
+  },
+
+  "m3-conditional-render#pdp-banner": {
+    "title": "V/I - Banner",
+    "props": {
+      "condition": true
+    },
+    "children": ["flex-layout.row#pdp-banner"]
+  },
+  "flex-layout.row#pdp-banner": {
+    "children": [
+      "responsive-layout.desktop#pdp-banner",
+      "responsive-layout.mobile#pdp-banner"
+    ],
+    "props": {
+      "blockClass": "pdp-banner"
+    }
+  },
+  "responsive-layout.desktop#pdp-banner": {
+    "title": "Banner Desktop",
+    "children": ["image#pdp-banner-dsk"]
+  },
+  "responsive-layout.mobile#pdp-banner": {
+    "title": "Banner Mobile",
+    "children": ["image#pdp-banner-mbl"]
+  },
+  "image#pdp-banner-dsk": {
+    "props": {
+      "blockClass": "pdp-banner",
+      "src": "assets/images/banner-pdp-desk.png"
+    }
+  },
+  "image#pdp-banner-mbl": {
+    "props": {
+      "blockClass": "pdp-banner",
+      "src": "assets/images/banner-pdp-mobile.png"
+    }
+  }
+}

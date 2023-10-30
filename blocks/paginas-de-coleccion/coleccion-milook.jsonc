@@ -1,0 +1,22 @@
+{
+  "store.custom#coleccion-milook": {
+    "blocks": ["search-result-layout.customQuery#milook"]
+  },
+  "search-result-layout.customQuery#milook": {
+    "props": {
+      "blockClass": "coleccion",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "270",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

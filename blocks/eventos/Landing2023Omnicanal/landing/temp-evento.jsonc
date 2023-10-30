@@ -1,0 +1,304 @@
+{
+  "store.custom#temp-evento": {
+    "blocks": ["flex-layout.row#temp-evento"]
+  },
+  "flex-layout.row#temp-evento": {
+    "children": ["flex-layout.col#temp-evento"],
+    "props": {
+      "blockClass": "temp-evento",
+      "horizontalAlign": "CENTER",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#temp-evento": {
+    "children": [
+      "list-context.image-list#temp-evento",
+
+      "responsive-layout.desktop#temp-evento-infos",
+      "responsive-layout.mobile#temp-evento-infos",
+
+      "m3-conditional-render#temp-evento-banners",
+
+      "flex-layout.row#temp-evento-categorias",
+
+      "m3-conditional-render#temp-evento-beneficios",
+
+      "flex-layout.row#temp-evento-estanteria-01",
+      "flex-layout.row#temp-evento-estanteria-02",
+      "m3-conditional-render#temp-evento-oferta",
+      "flex-layout.row#temp-evento-estanteria-03",
+      "flex-layout.row#temp-evento-estanteria-04",
+
+      "flex-layout.row#spacer"
+    ],
+    "props": {
+      "blockClass": "temp-evento",
+      "verticalAlign": "middle",
+      "horizontalAlign": "CENTER"
+    }
+  },
+
+  //Banner Principal
+  "list-context.image-list#temp-evento": {
+    "title": "Banner Principal",
+    "children": ["slider-layout#temp-evento-images"],
+    "props": {
+      "height": 1000,
+      "fullWidth": true,
+      "images": [
+        {
+          "image": "assets/images/lp-home-desk.jpg",
+          "mobileImage": "assets/images/lp-home-mob.jpg"
+        }
+      ],
+      "blockClass": "temp-evento-images"
+    }
+  },
+  "slider-layout#temp-evento-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": false,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": "temp-evento-images",
+      "autoplay":{
+        "timeout": 3500,
+        "stopOnHover": false
+      }
+    }
+  },
+
+  //Banner Infos
+  "responsive-layout.desktop#temp-evento-infos": {
+    "title": "Banner Infos Desktop",
+    "children": ["image#temp-evento-infos-dsk"]
+  },
+  "responsive-layout.mobile#temp-evento-infos": {
+    "title": "Banner Infos Mobile",
+    "children": ["image#temp-evento-infos-mbl"]
+  },
+  "image#temp-evento-infos-dsk": {
+    "props": {
+      "blockClass": "temp-evento-infos",
+      "src": "assets/images/lp-sub-banner-desk.jpg"
+    }
+  },
+  "image#temp-evento-infos-mbl": {
+    "props": {
+      "blockClass": "temp-evento-infos",
+      "src": "assets/images/lp-sub-banner-mob.jpg"
+    }
+  },
+
+  //Banners
+  "m3-conditional-render#temp-evento-banners": {
+    "title": "V/I - Banners",
+    "props": {
+      "condition": true
+    },
+    "children": ["flex-layout.row#temp-evento-banners"]
+  },
+  "flex-layout.row#temp-evento-banners": {
+    "title": "Banners",
+    "children": [
+      "flex-layout.col#temp-evento-banners-titles",
+      "flex-layout.col#temp-evento-banners-content"
+    ],
+    "props": {
+      "blockClass": "temp-evento-banners",
+      "horizontalAlign": "CENTER",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#temp-evento-banners-titles": {
+    "children": [
+      "rich-text#temp-evento-banners"
+    ],
+    "props": {
+      "blockClass": "temp-evento-banners",
+      "width": "100%"
+    }
+  },
+  "rich-text#temp-evento-banners": {
+    "title": "Titulo y Subtitulo",
+    "props": {
+      "text": "# Papá se merece todo\n ### Encuentra los mejores regalos para el viejo en su día",
+      "blockClass": "temp-evento-banners"
+    }
+  },
+  "flex-layout.col#temp-evento-banners-content": {
+    "children": ["evento-banners#temp-evento"],
+    "props": {
+      "blockClass": "temp-evento-banners",
+      "width": "100%"
+    }
+  },
+  "evento-banners#temp-evento": {
+    "props": {
+      "items": [
+        {"banner": "https://coppelar.vteximg.com.br/arquivos/cc_01.png", "title": "adsadsad", "description": "jkdfjkdf", "link": ""},
+        {"banner": "https://coppelar.vteximg.com.br/arquivos/cc_02.png", "title": "adsadsad", "description": "jkdfjkdf", "link": ""},
+        {"banner": "https://coppelar.vteximg.com.br/arquivos/cc_03.png", "title": "adsadsad", "description": "jkdfjkdf", "link": ""},
+        {"banner": "https://coppelar.vteximg.com.br/arquivos/cc_04.png", "title": "adsadsad", "description": "jkdfjkdf", "link": ""}
+      ]
+    }
+  },
+
+  //Categorias
+  "flex-layout.row#temp-evento-categorias": {
+    "title": "Categorias",
+    "children": ["rich-text#temp-evento-categorias", "evento-category-slider#temp-evento-categorias"],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "temp-evento-categorias"
+    }
+  },
+  "rich-text#temp-evento-categorias": {
+    "title": "Titulo",
+    "props": {
+      "text": "Papá se merece todo",
+      "blockClass": "temp-evento-estanteria-header"
+    }
+  },
+  "evento-category-slider#temp-evento-categorias": {
+    "props": {
+      "categories": [
+        {"title": "Televisores y Audio", "icon": "assets/images/top-lp/i01.png", "link": "/televisores-y-audio"},
+        {"title": "Celulares", "icon": "assets/images/top-lp/i02.png", "link": "/celulares"},
+        {"title": "Lavarropas", "icon": "assets/images/top-lp/i03.png", "link": "/lavarropas"},
+        {"title": "Motos", "icon": "assets/images/top-lp/i04.png", "link": "/motos"},
+        {"title": "Climatización", "icon": "assets/images/top-lp/i05.png", "link": "/climatizacion"},
+        {"title": "Zapatillas", "icon": "assets/images/top-lp/i06.png", "link": "/zapatillas"},
+        {"title": "Notebooks y Tablets", "icon": "assets/images/top-lp/i07.png", "link": "/notebooks-y-tablets"},
+        {"title": "Heladeras", "icon": "assets/images/top-lp/i08.png", "link": "/heladeras"}
+      ],
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      }
+    }
+  },
+
+  //Beneficios
+  "m3-conditional-render#temp-evento-beneficios": {
+    "title": "V/I - Beneficios",
+    "props": {
+      "condition": true
+    },
+    "children": [
+      "flex-layout.row#temp-evento-beneficios"
+    ]
+  },
+  "flex-layout.row#temp-evento-beneficios": {
+    "title": "Beneficios",
+    "children": [
+      "rich-text#temp-evento-beneficio-01",
+      "rich-text#temp-evento-beneficio-02",
+      "rich-text#temp-evento-beneficio-03",
+      "rich-text#temp-evento-beneficio-04"
+    ],
+    "props": {
+      "blockClass": "temp-evento-beneficios",
+      "colSizing": "auto"
+    }
+  },
+  "rich-text#temp-evento-beneficio-01": {
+    "title": "Beneficio 1",
+    "props": {
+      "text": "![](https://coppelar.vteximg.com.br/arquivos/evento-i-b-4.png)\n#### Paga a crédito\n[Conocé más ›](/credito-coppel)",
+      "blockClass": "temp-evento-beneficio"
+    }
+  },
+  "rich-text#temp-evento-beneficio-02": {
+    "title": "Beneficio 2",
+    "props": {
+      "text": "![](https://coppelar.vteximg.com.br/arquivos/evento-i-b-3.png)\n#### Entrega en tienda\n[Conocé más ›](/nuestras-tiendas)",
+      "blockClass": "temp-evento-beneficio"
+    }
+  },
+  "rich-text#temp-evento-beneficio-03": {
+    "title": "Beneficio 3",
+    "props": {
+      "text": "![](https://coppelar.vteximg.com.br/arquivos/evento-i-b-2.png)\n#### Crédito Coppel\n[Solicitalo ahora ›](https://www2.coppel.com.ar/credito.php)",
+      "blockClass": "temp-evento-beneficio"
+    }
+  },
+  "rich-text#temp-evento-beneficio-04": {
+    "title": "Beneficio 4",
+    "props": {
+      "text": "![](https://coppelar.vteximg.com.br/arquivos/evento-i-b-1.png)\n#### Cambios y devoluciones\n[Clic aquí ›](/politica-de-cambios-y-devoluciones)",
+      "blockClass": "temp-evento-beneficio"
+    }
+  },
+
+  //Métodos de Pago - Mobile
+  "flex-layout.row#temp-evento-mt-pg-mbl": {
+    "title": "Beneficios",
+    "children": [
+      "rich-text#temp-evento-mt-pg-mbl",
+      "rich-text#temp-evento-mt-pg-mbl-icon"
+    ],
+    "props": {
+      "blockClass": "temp-evento-mt-pg-mbl",
+      "colSizing": "auto"
+    }
+  },
+  "rich-text#temp-evento-mt-pg-mbl": {
+    "title": "Beneficio",
+    "props": {
+      "text": "![](https://coppelar.vteximg.com.br/arquivos/evento-i-b-4.png)\n#### Métodos de pago\n[Conocé más ›](/medios-de-pago)",
+      "blockClass": "temp-evento-mt-pg-mbl"
+    }
+  },
+  "rich-text#temp-evento-mt-pg-mbl-icon": {
+    "title": "Icon",
+    "props": {
+      "text": "[![](assets/icons/icon-plus-blue.png)](/medios-de-pago)",
+      "blockClass": "temp-evento-mt-pg-mbl-icon"
+    }
+  },
+  
+  "m3-conditional-render#temp-evento-oferta": {
+    "title": "V/I - Oferta",
+    "props": {
+      "condition": true
+    },
+    "children": [
+      "responsive-layout.desktop#temp-evento-oferta",
+      "responsive-layout.mobile#temp-evento-oferta"
+    ]
+  },
+  "responsive-layout.desktop#temp-evento-oferta": {
+    "title": "Banner Oferta Desktop",
+    "children": ["image#temp-evento-oferta-dsk"]
+  },
+  "responsive-layout.mobile#temp-evento-oferta": {
+    "title": "Banner Oferta Mobile",
+    "children": ["image#temp-evento-oferta-mbl"]
+  },
+  "image#temp-evento-oferta-dsk": {
+    "props": {
+      "blockClass": "temp-evento-oferta",
+      "src": "https://coppelar.vteximg.com.br/arquivos/cc_05.png",
+      "link": {
+        "url": "/",
+        "newTab": false
+      }
+    }
+  },
+  "image#temp-evento-oferta-mbl": {
+    "props": {
+      "blockClass": "temp-evento-oferta",
+      "src": "https://coppelar.vteximg.com.br/arquivos/cc_05.png",
+      "link": {
+        "url": "/",
+        "newTab": false
+      }
+    }
+  }
+}

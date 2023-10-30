@@ -1,0 +1,337 @@
+{
+  //DC 00
+  "disclosure-layout#CC_00_dc": {
+    "children": ["disclosure-trigger#CC_00_dc", "disclosure-content#CC_00_dc"]
+  },
+  "disclosure-trigger#CC_00_dc": {
+    "children": ["rich-text#CC_00_dc-title"]
+  },
+  "disclosure-content#CC_00_dc": {
+    "children": ["flex-layout.col#CC_00_dc-conteudo"]
+  },
+  "rich-text#CC_00_dc-title": {
+    "props": {
+      "blockClass": "pf-topic",
+      "text": "¿Qué es el Crédito Coppel y cómo funciona? "
+    }
+  },
+  "flex-layout.col#CC_00_dc-conteudo": {
+    "children": [
+      "rich-text#CC_00_dc_01"
+    ]
+  },
+  "rich-text#CC_00_dc_01": {
+    "props": {
+      "blockClass": "pf-text",
+      "text": "El crédito Coppel es un préstamo de dinero para poder comprar cualquiera de nuestros productos y servicios en tu tienda Coppel más cercana o a través de la web. Además, tanto los requisitos como el trámite de solicitud son rápidos y sencillos: podés acercarte a tu Tienda Coppel, solicitarlo a través del formulario en nuestro sitio web, por teléfono llamando al 0810-122-67735 de 09:00 a 22:00 hs  o bien, contactándonos mediante nuestro WhatsApp.\n\nAl adquirir un producto deberás abonar un pago inicial que va desde el 10 al 90% del mismo. Abonar pago inicial o no depende de varios factores: antecedentes de pago, límite disponible, entre otros. Tu compra podrá ser financiada en 8 o12 cuotas mensuales dependiendo el tipo de producto."
+    }
+  },
+
+  //DC 01
+  "disclosure-layout#CC_01_dc": {
+    "children": ["disclosure-trigger#CC_01_dc", "disclosure-content#CC_01_dc"]
+  },
+  "disclosure-trigger#CC_01_dc": {
+    "children": ["rich-text#CC_01_dc-title"]
+  },
+  "disclosure-content#CC_01_dc": {
+    "children": ["flex-layout.col#CC_01_dc-conteudo"]
+  },
+  "rich-text#CC_01_dc-title": {
+    "props": {
+      "blockClass": "pf-topic",
+      "text": "¿Qué puedo comprar con mi Crédito Coppel?"
+    }
+  },
+  "flex-layout.col#CC_01_dc-conteudo": {
+    "children": [
+      "rich-text#CC_01_dc_01"
+    ]
+  },
+  "rich-text#CC_01_dc_01": {
+    "props": {
+      "blockClass": "pf-text",
+      "text": "Podrás comprar ropa, calzado, deportes, perfumería y blanquería hasta en 8 cuotas mensuales. Y electrónica, línea blanca, celulares, muebles y más hasta en 12 cuotas mensuales."
+    }
+  },
+
+  //DC 02
+  "disclosure-layout#CC_02_dc": {
+    "children": ["disclosure-trigger#CC_02_dc", "disclosure-content#CC_02_dc"]
+  },
+  "disclosure-trigger#CC_02_dc": {
+    "children": ["rich-text#CC_02_dc-title"]
+  },
+  "disclosure-content#CC_02_dc": {
+    "children": ["flex-layout.col#CC_02_dc-conteudo"]
+  },
+  "rich-text#CC_02_dc-title": {
+    "props": {
+      "blockClass": "pf-topic",
+      "text": "¿Cómo comprar con el Crédito Coppel?"
+    }
+  },
+  "flex-layout.col#CC_02_dc-conteudo": {
+    "children": [
+      "rich-text#CC_02_dc_01"
+    ]
+  },
+  "rich-text#CC_02_dc_01": {
+    "props": {
+      "blockClass": "pf-text",
+      "text": "Podés comprar con Crédito Coppel en tu Tienda más cercana, por WhatsApp o comunicándote al 0800-122-67735 o al (011) 5296-3400 de Lunes a Domingo de 09:00 a 18:00 hs."
+    }
+  },
+
+  //DC 03
+  "disclosure-layout#CC_03_dc": {
+    "children": ["disclosure-trigger#CC_03_dc", "disclosure-content#CC_03_dc"]
+  },
+  "disclosure-trigger#CC_03_dc": {
+    "children": ["rich-text#CC_03_dc-title"]
+  },
+  "disclosure-content#CC_03_dc": {
+    "children": ["flex-layout.col#CC_03_dc-conteudo"]
+  },
+  "rich-text#CC_03_dc-title": {
+    "props": {
+      "blockClass": "pf-topic",
+      "text": "¿Cómo consulto el estado de cuenta?"
+    }
+  },
+  "flex-layout.col#CC_03_dc-conteudo": {
+    "children": [
+      "rich-text#CC_03_dc_01"
+    ]
+  },
+  "rich-text#CC_03_dc_01": {
+    "props": {
+      "blockClass": "pf-text",
+      "text": "Para conocer tu estado de cuenta podés ingresar al siguiente link: [coppelweb.ibrlatam.com/registro](http://coppelweb.ibrlatam.com/registro/). Al ingresar te solicitará tus datos personales y podrás  visualizar tu estado de cuenta en línea. Luego de haber ingresado, te llegará un link por sms y a tu mail, para que con él puedas revisar tu estado de cuenta cuando gustes. Recordá que si realizaste algún pago posterior al día 20, se verá reflejado recién a partir del próximo mes."
+    }
+  },
+
+  //DC 04
+  "disclosure-layout#CC_04_dc": {
+    "children": ["disclosure-trigger#CC_04_dc", "disclosure-content#CC_04_dc"]
+  },
+  "disclosure-trigger#CC_04_dc": {
+    "children": ["rich-text#CC_04_dc-title"]
+  },
+  "disclosure-content#CC_04_dc": {
+    "children": ["flex-layout.col#CC_04_dc-conteudo"]
+  },
+  "rich-text#CC_04_dc-title": {
+    "props": {
+      "blockClass": "pf-topic",
+      "text": "¿Cuál es el límite de Crédito en mi tarjeta Coppel?"
+    }
+  },
+  "flex-layout.col#CC_04_dc-conteudo": {
+    "children": [
+      "rich-text#CC_04_dc_01"
+    ]
+  },
+  "rich-text#CC_04_dc_01": {
+    "props": {
+      "blockClass": "pf-text",
+      "text": "El límite de Crédito varía de un cliente a otro. En base a eso también se estipula el pago inicial.  Comprar productos regularmente y ser puntual al pagar te ayudarán a aumentar el monto de tu línea de crédito. Podés consultarlo cuando retires tu tarjeta de Crédito Coppel en Tienda."
+    }
+  },
+
+  //DC 05
+  "disclosure-layout#CC_05_dc": {
+    "children": ["disclosure-trigger#CC_05_dc", "disclosure-content#CC_05_dc"]
+  },
+  "disclosure-trigger#CC_05_dc": {
+    "children": ["rich-text#CC_05_dc-title"]
+  },
+  "disclosure-content#CC_05_dc": {
+    "children": ["flex-layout.col#CC_05_dc-conteudo"]
+  },
+  "rich-text#CC_05_dc-title": {
+    "props": {
+      "blockClass": "pf-topic",
+      "text": "¿Qué es el pago inicial?"
+    }
+  },
+  "flex-layout.col#CC_05_dc-conteudo": {
+    "children": [
+      "rich-text#CC_05_dc_01"
+    ]
+  },
+  "rich-text#CC_05_dc_01": {
+    "props": {
+      "blockClass": "pf-text",
+      "text": "El pago inicial, es una porción del valor del producto, va desde el 10 al 90%. Si cancelás antes de los 30 días de la compra, mantenés el precio contado. Abonar pago inicial o no depende de varios factores entre ellos: antecedentes de pago, límite disponible, entre otros."
+    }
+  },
+
+  //DC 06
+  "disclosure-layout#CC_06_dc": {
+    "children": ["disclosure-trigger#CC_06_dc", "disclosure-content#CC_06_dc"]
+  },
+  "disclosure-trigger#CC_06_dc": {
+    "children": ["rich-text#CC_06_dc-title"]
+  },
+  "disclosure-content#CC_06_dc": {
+    "children": ["flex-layout.col#CC_06_dc-conteudo"]
+  },
+  "rich-text#CC_06_dc-title": {
+    "props": {
+      "blockClass": "pf-topic",
+      "text": "¿Qué plazos tengo al pagar con mi Crédito Coppel?"
+    }
+  },
+  "flex-layout.col#CC_06_dc-conteudo": {
+    "children": [
+      "rich-text#CC_06_dc_01"
+    ]
+  },
+  "rich-text#CC_06_dc_01": {
+    "props": {
+      "blockClass": "pf-text",
+      "text": "Dependiendo de los productos que hayas comprado: para muebles, tecnología y electro los plazos de pago son hasta 12 cuotas donde los vencimientos van de acuerdo a la fecha en que se realizó la compra, es decir a 30 días.  En relación a ropa, calzado, juguetería y perfumería tiene vencimiento el día 17 de cada mes."
+    }
+  },
+
+  //DC 07
+  "disclosure-layout#CC_07_dc": {
+    "children": ["disclosure-trigger#CC_07_dc", "disclosure-content#CC_07_dc"]
+  },
+  "disclosure-trigger#CC_07_dc": {
+    "children": ["rich-text#CC_07_dc-title"]
+  },
+  "disclosure-content#CC_07_dc": {
+    "children": ["flex-layout.col#CC_07_dc-conteudo"]
+  },
+  "rich-text#CC_07_dc-title": {
+    "props": {
+      "blockClass": "pf-topic",
+      "text": "¿Qué pasa si me atraso en los pagos?"
+    }
+  },
+  "flex-layout.col#CC_07_dc-conteudo": {
+    "children": [
+      "rich-text#CC_07_dc_01"
+    ]
+  },
+  "rich-text#CC_07_dc_01": {
+    "props": {
+      "blockClass": "pf-text",
+      "text": "Sí pagas después de la fecha de vencimiento comienzan a generarse intereses."
+    }
+  },
+
+  //DC 08
+  "disclosure-layout#CC_08_dc": {
+    "children": ["disclosure-trigger#CC_08_dc", "disclosure-content#CC_08_dc"]
+  },
+  "disclosure-trigger#CC_08_dc": {
+    "children": ["rich-text#CC_08_dc-title"]
+  },
+  "disclosure-content#CC_08_dc": {
+    "children": ["flex-layout.col#CC_08_dc-conteudo"]
+  },
+  "rich-text#CC_08_dc-title": {
+    "props": {
+      "blockClass": "pf-topic",
+      "text": "¿Cuáles son los medios de pago para mi Crédito Coppel?"
+    }
+  },
+  "flex-layout.col#CC_08_dc-conteudo": {
+    "children": [
+      "rich-text#CC_08_dc_01"
+    ]
+  },
+  "rich-text#CC_08_dc_01": {
+    "props": {
+      "blockClass": "pf-text",
+      "text": "**Tiendas Coppel**\nTodas nuestras Tiendas están habilitadas para realizar tu pago. Consultá tu Tienda mas cercana ingresando al siguiente link:\n[www.coppel.com.ar/nuestras-tiendas](https://www.coppel.com.ar/nuestras-tiendas)\n\n**Pago Fácil**\nSe puede pagar indicando DNI de Cliente, sin necesidad de presentar Estado de Cuenta.\nSucursales abiertas de Pago Fácil [www.localespagofacil.com](http://www.localespagofacil.com/)\nPara abonar de manera online puedes hacerlo de la siguiente manera:\n\n**Pagos en línea, Pago Fácil (tarjeta de débito)**\nIngresa en [pagosenlinea.pagofacil.com.ar](https://pagosenlinea.pagofacil.com.ar)\nSelecciona la forma de pago “SIN FACTURA”\nIngresa “Coppel” en el buscador de empresas, debes seleccionar “Coppel S.A.”\nIngresá el DNI del Cliente Coppel\nSelecciona el monto que querés pagar, podés ayudarte con tu Estado de Cuenta. La última línea corresponde al Pase a Pagar. Confirmá el monto a pagar\nSelecciona “Pagar con Débito”\nCompleta los campos con los datos de tu tarjeta de débito e ingresa tu correo electrónico correctamente, a esa casilla te enviarán el comprobante de pago.\n\n**Pago Fácil, a través de la billetera digital Ualá.**\nSeleccionar la opción PAGOS en el menú principal que se encuentra al pie de la aplicación.\nSeleccionar la pestaña PAGOS y Ver Todos.\nIngresar al rubro “Varios”.\nBuscar en el listado “Coppel S.A.”\nIngresar el DNI del cliente.\nSeleccionar a qué cuenta se desea abonar.\nEnviar pago.\n\n**Pago Fácil, a través de coppel.com.ar**\nSeleccionar la opción Credito Coppel del menú principal de la página Opción → Pago Online ( Pago Facil ).\nSeleccionar → Pagar sin factura y buscar en el listado “Coppel S.A.”\nIngresa el DNI del Cliente\nSeleccionar a qué cuenta se desea Abonar\nEnviar Pago\nAdemás, no te olvides que abonando en **Pago Fácil Online**, no es necesario informar tu pago y se aplicará a las 24hs en tu cuenta. Y podés realizarlo con tu tarjeta de débito y sin moverte de tu casa.\nDato a tener en cuenta: Solo se puede abonar en Pago Fácil el Abono del mes. O un pago parcial de este monto.\nSi necesitas cancelar, y bonificar intereses debes dirigirte a tu Tienda Coppel más cercana."
+    }
+  },
+
+  //DC 09
+  "disclosure-layout#CC_09_dc": {
+    "children": ["disclosure-trigger#CC_09_dc", "disclosure-content#CC_09_dc"]
+  },
+  "disclosure-trigger#CC_09_dc": {
+    "children": ["rich-text#CC_09_dc-title"]
+  },
+  "disclosure-content#CC_09_dc": {
+    "children": ["flex-layout.col#CC_09_dc-conteudo"]
+  },
+  "rich-text#CC_09_dc-title": {
+    "props": {
+      "blockClass": "pf-topic",
+      "text": "¿Cómo envío el comprobante de pago del crédito?"
+    }
+  },
+  "flex-layout.col#CC_09_dc-conteudo": {
+    "children": [
+      "rich-text#CC_09_dc_01"
+    ]
+  },
+  "rich-text#CC_09_dc_01": {
+    "props": {
+      "blockClass": "pf-text",
+      "text": "Podes hacerlo ingresando en el siguiente link:\n[https://docs.google.com/forms/d/e/1FAIpQLSdbKwFQ9BIiA1tuTlZpYhNF40wm2DBZquamq2CKlBcANHZWKg/viewform](https://docs.google.com/forms/d/e/1FAIpQLSdbKwFQ9BIiA1tuTlZpYhNF40wm2DBZquamq2CKlBcANHZWKg/viewform) o también podes enviar un mail a pagos@coppel.com.ar e indicar los datos de quién realizó el pago, la cuenta desde donde se realizó el envío de dinero y los datos del cliente titular del Crédito Coppel."
+    }
+  },
+
+  //DC 10
+  "disclosure-layout#CC_10_dc": {
+    "children": ["disclosure-trigger#CC_10_dc", "disclosure-content#CC_10_dc"]
+  },
+  "disclosure-trigger#CC_10_dc": {
+    "children": ["rich-text#CC_10_dc-title"]
+  },
+  "disclosure-content#CC_10_dc": {
+    "children": ["flex-layout.col#CC_10_dc-conteudo"]
+  },
+  "rich-text#CC_10_dc-title": {
+    "props": {
+      "blockClass": "pf-topic",
+      "text": "¿Qué son los Mega Puntos Coppel? ¿Cómo puedo sumar Mega puntos?"
+    }
+  },
+  "flex-layout.col#CC_10_dc-conteudo": {
+    "children": [
+      "rich-text#CC_10_dc_01"
+    ]
+  },
+  "rich-text#CC_10_dc_01": {
+    "props": {
+      "blockClass": "pf-text",
+      "text": "¡Sumás Mega Puntos Coppel pagando tu Crédito Coppel puntualmente antes del vencimiento! Son puntos acumulables para utilizar como descuento en tu próxima compra.\n1 Mega Punto Coppel = 1 Peso.\n\n**Requisitos**\nTener tu Crédito Coppel activo durante al menos 6 meses, y pagar todas tus cuotas a tiempo antes del vencimiento.\n\n**Mecanismo**\nAl pagar tu Crédito Coppel puntualmente antes del vencimiento ganas el 10% de tu abono en Mega Puntos Coppel que luego podrás utilizar como descuento en tus próximas compras.\nConocé más ingresando al siguiente link: [www.coppel.com.ar/mega-puntos-coppel/](https://www.coppel.com.ar/mega-puntos-coppel/)\n\n**Términos y condiciones:**\n[www.coppel.com.ar/tyc-mega-puntos-coppel/](https://www.coppel.com.ar/tyc-mega-puntos-coppel/)\n\nPara otras consultas ponemos a disposición el Centro de Atención al Cliente 0800-122-67735 de Lunes a Domingo de 09:00 a 22:00 hs."
+    }
+  },
+
+  //DC 11
+  "disclosure-layout#CC_11_dc": {
+    "children": ["disclosure-trigger#CC_11_dc", "disclosure-content#CC_11_dc"]
+  },
+  "disclosure-trigger#CC_11_dc": {
+    "children": ["rich-text#CC_11_dc-title"]
+  },
+  "disclosure-content#CC_11_dc": {
+    "children": ["flex-layout.col#CC_11_dc-conteudo"]
+  },
+  "rich-text#CC_11_dc-title": {
+    "props": {
+      "blockClass": "pf-topic",
+      "text": "¿Cómo acceder a los términos y condiciones del Crédito Coppel?"
+    }
+  },
+  "flex-layout.col#CC_11_dc-conteudo": {
+    "children": [
+      "rich-text#CC_11_dc_01"
+    ]
+  },
+  "rich-text#CC_11_dc_01": {
+    "props": {
+      "blockClass": "pf-text",
+      "text": "Podés visualizar los términos y condiciones Ingresando al siguiente link:\n[www.coppel.com.ar/tyc-credito-coppel-y-prestamos](https://www.coppel.com.ar/tyc-credito-coppel-y-prestamos/)"
+    }
+  }
+}

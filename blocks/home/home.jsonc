@@ -1,0 +1,732 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#banners-home",
+      "flex-layout.row#brand-slider",
+      "flex-layout.row#slide-categories",
+      "__fold__",
+      "flex-layout.row#shelf-home-banner-30off",
+      "rich-text#tecnologia",
+      "flex-layout.row#shelf-home-tecnologia",
+      "rich-text#ofertas",
+      "flex-layout.row#shelf-home-ofertas",
+      "flex-layout.row#banner-destacados",
+      "m3-grid-home#destacados",
+      "flex-layout.row#shelf-home-banner-invierno",
+      "rich-text#destacados-mes",
+      "flex-layout.row#shelf-home-destacados-mes"
+    ],
+    "props": {
+      "blockClass": "teste-ww"
+    }
+  },
+
+  "list-context.product-list#list-product-home": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-home-tecnologia"],
+    "props": {
+      "hideUnavailableItems": true,
+      "collection": "146", //Especial Tecnología
+      "orderBy": "OrderByTopSaleDESC",
+      "maxItems": 15
+    }
+  },
+
+  "list-context.image-list#banners-home": {
+    "children": ["slider-layout#banners-home-images"],
+    "props": {
+      "height": 1000,
+      "fullWidth": true,
+      "images": [
+        {
+          "image": "assets/home/banners/Argentina_1920x570.jpg",
+          "mobileImage": "assets/home/banners/Argentina_1080x1080.jpg",
+          "link": {
+            "url": "/184?map=productClusterIds",
+            "title": "Ver más"
+          }
+        },
+        {
+          "image": "assets/home/banners/Invierno_1920x570.jpg",
+          "mobileImage": "assets/home/banners/Invierno_1080x1080.jpg",
+          "link": {
+            "url": "/invierno-en-coppel",
+            "title": "Ver más"
+          }
+        },
+        {
+          "image": "assets/home/banners/Televisores_1920x570.jpg",
+          "mobileImage": "assets/home/banners/Televisores_1080x1080.jpg",
+          "link": {
+            "url": "/tv-y-video/televisores/",
+            "title": "Ver más"
+          }
+        },
+        {
+          "image": "assets/home/banners/Zapatillas_1920x570.jpg",
+          "mobileImage": "assets/home/banners/Zapatillas_1080x1080.jpg",
+          "link": {
+            "url": "/calzado/",
+            "title": "Ver más"
+          }
+        },
+        {
+          "image": "assets/home/banners/Celulares_1920x570.jpg",
+          "mobileImage": "assets/home/banners/Celulares_1080x1080.jpg",
+          "link": {
+            "url": "/celulares-telefonos-y-accesorios/",
+            "title": "Ver más"
+          }
+        }
+      ],
+      "blockClass": "sliderHome"
+    }
+  },
+  "slider-layout#banners-home-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": "carousel",
+      "autoplay":{
+        "timeout": 5000,
+        "stopOnHover": false
+      }
+    }
+  },
+
+  "flex-layout.row#slide-categories": {
+    "children": ["list-context.image-list#list-categories-2"],
+    "props": {
+      "blockClass": "categoriesSlideContainer"
+    }
+  },
+  "list-context.image-list#list-categories-2": {
+    "children": ["slider-layout#categories-images"],
+    "props": {
+      "images": [
+        {
+          "image": "assets/home/categorias/category-01.png",
+          "description": "Tv y Video",
+          "link": {
+            "url": "/tv-y-video/",
+            "title": "Ver más"
+          }
+        },
+        {
+          "image": "assets/home/categorias/category-02.png",
+          "description": "Celulares",
+          "link": {
+            "url": "/celulares-telefonos-y-accesorios/",
+            "title": "Ver más"
+          }
+        },
+        {
+          "image": "assets/home/categorias/category-03.png",
+          "description": "Tecnología",
+          "link": {
+            "url": "/notebooks-y-tecnologia/",
+            "title": "Ver más"
+          }
+        },
+        {
+          "image": "assets/home/categorias/category-05.png",
+          "description": "Electrodomésticos",
+          "link": {
+            "url": "/electrodomesticos/",
+            "title": "Ver más"
+          }
+        },
+        {
+          "image": "assets/home/categorias/category-04.png",
+          "description": "Climatización",
+          "link": {
+            "url": "/electrodomesticos/climatizacion/",
+            "title": "Ver más"
+          }
+        },
+        {
+          "image": "assets/home/categorias/category-06.png",
+          "description": "Hogar",
+          "link": {
+            "url": "/electrodomesticos/pequenos-hogar/",
+            "title": "Ver más"
+          }
+        },
+        {
+          "image": "assets/home/categorias/category-07.png",
+          "description": "Rodados",
+          "link": {
+            "url": "/rodados-neumaticos-y-accesorios/",
+            "title": "Ver más"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#categories-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "blockClass": "categoriesSlider",
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "usePagination": true
+    }
+  },
+
+  "rich-text#mejores-precios": {
+    "props": {
+      "text": "**LOS MEJORES PRECIOS PARA VOS!**",
+      "textAlignment": "LEFT",
+      "textPosition": "left",
+      "blockClass": "mejores-precios"
+    }
+  },
+
+  //SHELF TECNOLOGIA
+
+  "rich-text#tecnologia": {
+    "props": {
+      "text": "Especial Tecnología ¡Hasta 18 cuotas sin interés!",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "blockClass": "shelf-title"
+    }
+  },
+  "flex-layout.row#shelf-home-tecnologia": {
+    "children": ["list-context.product-list#shelf-home-tecnologia"],
+    "props": {
+      "colGap": 3,
+      "blockClass": "shelf-home",
+      "fullWidth": false
+    }
+  },
+  "list-context.product-list#shelf-home-tecnologia": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-home-tecnologia"],
+    "props": {
+      "hideUnavailableItems": true,
+      "collection": "146", //Especial Tecnología
+      "orderBy": "OrderByTopSaleDESC",
+      "maxItems": 15
+    }
+  },
+  "slider-layout#shelf-home-tecnologia": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf-home",
+      "showPaginationDots": "mobileOnly",
+      "showNavigationArrows": "always"
+    }
+  },
+
+  //SHELF OFERTAS
+
+  "rich-text#ofertas": {
+    "props": {
+      "text": "¡Aprovechá las ofertas destacadas!",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "blockClass": "shelf-title"
+    }
+  },
+  "flex-layout.row#shelf-home-ofertas": {
+    "children": ["list-context.product-list#shelf-home-ofertas"],
+    "props": {
+      "colGap": 3,
+      "blockClass": "shelf-home",
+      "fullWidth": false
+    }
+  },
+  "list-context.product-list#shelf-home-ofertas": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-home-ofertas"],
+    "props": {
+      "hideUnavailableItems": true,
+      "collection": "180", //Electrodomésticos
+      "orderBy": "OrderByTopSaleDESC",
+      "maxItems": 15
+    }
+  },
+  "slider-layout#shelf-home-ofertas": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf-home",
+      "showPaginationDots": "mobileOnly",
+      "showNavigationArrows": "always"
+    }
+  },
+
+  //SHELF DESTACADOS DEL MES
+  
+  "rich-text#destacados-mes": {
+    "props": {
+      "text": "¡Destacados del Mes!",
+      "textAlignment":"CENTER",
+      "textPosition": "LEFT",
+      "blockClass": "shelf-title"
+    }
+  },
+  "flex-layout.row#shelf-home-destacados-mes": {
+    "children": ["list-context.product-list#shelf-home-destacados-mes"],
+    "props": {
+      "colGap": 3,
+      "blockClass": "shelf-home",
+      "fullWidth": false
+    }
+  },
+  "list-context.product-list#shelf-home-destacados-mes": {
+  "blocks": ["product-summary.shelf"],
+  "children": ["slider-layout#shelf-home-destacados-mes"],
+    "props": {
+      "hideUnavailableItems": true,
+      "collection":"433",
+      "orderBy": "OrderByTopSaleDESC",
+      "maxItems": 15
+    }
+  },
+  "slider-layout#shelf-home-destacados-mes": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf-home",
+      "showPaginationDots": "mobileOnly",
+      "showNavigationArrows":"always"
+    }
+  },
+
+  //SHELF CON BANNER 30off
+
+  "flex-layout.row#shelf-home-banner-30off": {
+    "children": [
+      "flex-layout.col#shelf-home-banner-30off-img1",
+      "flex-layout.col#shelf-home-banner-30off-prods1"
+    ],
+    "props": {
+      "blockClass": "shelf-home-banner",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#shelf-home-banner-30off-img1": {
+    "children": ["image#banner-promote-1b", "image#banner-promote-1-mbl"],
+    "props": {
+      "blockClass": "shelf-banner",
+      "width": "auto"
+    }
+  },
+  "flex-layout.col#shelf-home-banner-30off-prods1": {
+    "children": ["list-context.product-list#30off-home-banner"],
+    "props": {
+      "width": "auto"
+    }
+  },
+  "list-context.product-list#30off-home-banner": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#30off-home-banner"],
+    "props": {
+      "hideUnavailableItems": true,
+      "collection": "168", //Rebajas
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#30off-home-banner": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf-home",
+      "showPaginationDots": "mobileOnly",
+      "showNavigationArrows": "always"
+    }
+  },
+  "image#banner-promote-1b": {
+    "props": {
+      "src": "assets/home/banner-shelf-1.jpg",
+      "link": {
+        "url": "/electrodomesticos/climatizacion/aires-acondicionados?order=OrderByBestDiscountDESC",
+        "title": "Ver más"
+      },
+      "blockClass": "home-descuentos-imperdibles"
+    }
+  },
+  "image#banner-promote-1-mbl": {
+    "props": {
+      "src": "assets/home/b1.jpg",
+      "link": {
+        "url": "/electrodomesticos/climatizacion/aires-acondicionados?order=OrderByBestDiscountDESC",
+        "title": "Ver más"
+      },
+      "blockClass": "home-descuentos-mbl"
+    }
+  },
+
+  //SHELF CON BANNER INVIERNO
+
+  "flex-layout.row#shelf-home-banner-invierno": {
+    "children": [
+      "flex-layout.col#shelf-home-banner-invierno-img1",
+      "flex-layout.col#shelf-home-banner-invierno-prods1"
+    ],
+    "props": {
+      "blockClass": "shelf-home-banner",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#shelf-home-banner-invierno-img1": {
+    "children": ["image#banner-promote-2b", "image#banner-promote-2-mbl"],
+    "props": {
+      "blockClass": "shelf-banner",
+      "width": "auto"
+    }
+  },
+  "flex-layout.col#shelf-home-banner-invierno-prods1": {
+    "children": ["list-context.product-list#invierno-home-banner"],
+    "props": {
+      "width": "auto"
+    }
+  },
+  "list-context.product-list#invierno-home-banner": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#invierno-home-banner"],
+    "props": {
+      "hideUnavailableItems": true,
+      "collection": "139", //Rebajas 175
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#invierno-home-banner": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf-home",
+      "showPaginationDots": "mobileOnly",
+      "showNavigationArrows": "always"
+    }
+  },
+  "image#banner-promote-2b": {
+    "props": {
+      "src": "assets/home/banner-shelf-2.jpg",
+      "link": {
+        "url": "/mujer?order=OrderByBestDiscountDESC",
+        "title": "Ver más"
+      },
+      "blockClass": ["home-descuentos-imperdibles", "large-banner"]
+    }
+  },
+  "image#banner-promote-2-mbl": {
+    "props": {
+      "src": "assets/home/b2.jpg",
+      "link": {
+        "url": "/mujer?order=OrderByBestDiscountDESC",
+        "title": "Ver más"
+      },
+      "blockClass": "home-descuentos-mbl"
+    }
+  },
+
+  // SLIDER DE MARCAS
+
+  "rich-text#marca": {
+    "props": {
+      "text": "¡Búscalo por marca!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "shelf-title"
+    }
+  },
+  "list-context.image-list#marcas": {
+    "children": ["slider-layout#marcas"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "image": "assets/marcas/adidas.png",
+          "mobileImage": "assets/marcas/adidas.png",
+          "link": "/",
+          "description": "Adidas"
+        },
+        {
+          "image": "assets/marcas/nike.png",
+          "mobileImage": "assets/marcas/nike.png",
+          "link": "/",
+          "description": "Nike"
+        },
+        {
+          "image": "assets/marcas/fac.png",
+          "mobileImage": "assets/marcas/fac.png",
+          "link": "/",
+          "description": "FAC"
+        },
+        {
+          "image": "assets/marcas/kevin.png",
+          "mobileImage": "assets/marcas/kevin.png",
+          "link": "/",
+          "description": "Kevin"
+        },
+        {
+          "image": "assets/marcas/fila.png",
+          "mobileImage": "assets/marcas/fila.png",
+          "link": "/",
+          "description": "Fila"
+        },
+        {
+          "image": "assets/marcas/gama.png",
+          "mobileImage": "assets/marcas/gama.png",
+          "link": "/",
+          "description": "Gama"
+        },
+        {
+          "image": "assets/marcas/rca.png",
+          "mobileImage": "assets/marcas/rca.png",
+          "link": "/",
+          "description": "RCA"
+        },
+        {
+          "image": "assets/marcas/thinner.png",
+          "mobileImage": "assets/marcas/thinner.png",
+          "link": "/",
+          "description": "Thinner"
+        },
+        {
+          "image": "assets/marcas/topper.png",
+          "mobileImage": "assets/marcas/topper.png",
+          "link": "/",
+          "description": "Topper"
+        }
+      ]
+    }
+  },
+  "slider-layout#marcas": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 8,
+        "tablet": 3,
+        "phone": 1
+      },
+      "showPaginationDots": "mobileOnly",
+      "showNavigationArrows": "always",
+      "infinite": true,
+      "blockClass": "marcas"
+    }
+  },
+
+  "search-result-layout.customQuery#home": {
+    "blocks": ["search-result-layout.desktop#home"],
+    "props": {
+      "querySchema": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default",
+        "maxItemsPerPage": 5
+      },
+      "itemsPerRow": 5,
+      "blockClass": "destacadosHome"
+    }
+  },
+  "search-result-layout.desktop#home": {
+    "children": ["flex-layout.row#content"],
+    "props": {
+      "preventRouteChange": false,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  "flex-layout.row#content": {
+    "children": ["flex-layout.row#products-home"],
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true,
+      "blockClass": "content"
+    }
+  },
+  "flex-layout.row#products-home": {
+    "children": ["search-content#products-home"],
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true,
+      "blockClass": "products-home"
+    }
+  },
+  "search-content#products-home": {
+    "blocks": ["gallery#custom-home", "not-found"]
+  },
+  "gallery#custom-home": {
+    "blocks": ["product-summary.shelf#home"],
+    "props": {
+      "maxItemsPerRow": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      }
+    }
+  },
+
+  "m3-grid-home#destacados":{
+    "props": {
+      "blockClass": "destacados",
+      "visible": false,
+      "mainImage": "assets/home/grid-home/main-home.jpg",
+      "mainImageMobile": "assets/home/grid-home/main-home-mobile.jpg",
+      "mainLink": "/navidad",
+      "mainColor": "#00664F",
+      "items": [
+        {
+          "title": "Juguetes",
+          "colorTop": "#00664F",
+          "image": "assets/home/grid-home/juguetes-home.jpg",
+          "imageMobile": "assets/home/grid-home/juguetes-home-mobile.jpg",
+          "colorContent": "#00664F",
+          "itemLink": "/jugueteria"
+        },
+        {
+          "title": "Zapatillas",
+          "colorTop": "#00664F",
+          "image": "assets/home/grid-home/zapatillas-home.jpg",
+          "imageMobile": "assets/home/grid-home/zapatillas-home-mobile.jpg",
+          "colorContent": "#00664F",
+          "itemLink": "/deportes/calzado"
+        },
+        {
+          "title": "Notebooks",
+          "colorTop": "#00664F",
+          "image": "assets/home/grid-home/notebooks-home.jpg",
+          "imageMobile": "assets/home/grid-home/notebooks-home-mobile.jpg",
+          "colorContent": "#00664F",
+          "itemLink": "/notebooks-y-tecnologia"
+        },
+        {
+          "title": "Celulares",
+          "colorTop": "#00664F",
+          "image": "assets/home/grid-home/celulares-home.jpg",
+          "imageMobile": "assets/home/grid-home/celulares-home-mobile.jpg",
+          "colorContent": "#00664F",
+          "itemLink": "/celulares-telefonos-y-accesorios"
+        },
+        {
+          "title": "Ropa y Acesorios",
+          "colorTop": "#00664F",
+          "image": "assets/home/grid-home/ropa-y-acesorios-home.jpg",
+          "imageMobile": "assets/home/grid-home/ropa-y-acesorios-home-mobile.jpg",
+          "colorContent": "#00664F",
+          "itemLink": "/mujer"
+        },
+        {
+          "title": "Herramientas",
+          "colorTop": "#00664F",
+          "image": "assets/home/grid-home/herramientas-home.jpg",
+          "imageMobile": "assets/home/grid-home/herramientas-home-mobile.jpg",
+          "colorContent": "#00664F",
+          "itemLink": "/jardin-y-herramientas/herramientas"
+        },
+        {
+          "title": "Perfumes",
+          "colorTop": "#00664F",
+          "image": "assets/home/grid-home/perfumes-home.jpg",
+          "imageMobile": "assets/home/grid-home/perfumes-home-mobile.jpg",
+          "colorContent": "#00664F",
+          "itemLink": "/perfumeria"
+        },
+        {
+          "title": "Electrodomésticos",
+          "colorTop": "#00664F",
+          "image": "assets/home/grid-home/electrodomesticos-home.jpg",
+          "imageMobile": "assets/home/grid-home/electrodomesticos-home-mobile.jpg",
+          "colorContent": "#00664F",
+          "itemLink": "/electrodomesticos"
+        }
+      ]
+    }
+  },
+  
+  "flex-layout.row#banner-destacados": {
+    "title": "Banner Destacado",
+    "children": ["m3-conditional-render#banner-destacados"],
+    "props": {
+      "blockClass": "home-banner"
+    }
+  },
+  "m3-conditional-render#banner-destacados": {
+    "title": "V/I - Banner Destacado",
+    "props": {
+      "condition": true
+    },
+    "children": [
+      "responsive-layout.desktop#banner-credito",
+      "responsive-layout.mobile#banner-credito"
+    ]
+  },
+  "responsive-layout.desktop#banner-credito": {
+    "children": ["image#banner-invierno"]
+  },
+  "responsive-layout.mobile#banner-credito": {
+    "children": ["image#banner-invierno-mbl"]
+  },
+  "image#banner-invierno": {
+    "title": "Banner Desktop",
+    "props": {
+      "src": "assets/home/Invierno_zocalo.jpg",
+      "blockClass": "banner-invierno",
+      "link": {
+        "url": "/invierno-en-coppel",
+        "title": "Ver más"
+      }
+    }
+  },
+  "image#banner-invierno-mbl": {
+    "title": "Banner Mobile",
+    "props": {
+      "src": "assets/home/Invierno_zocalo.jpg",
+      "blockClass": "banner-invierno",
+      "link": {
+        "url": "/invierno-en-coppel",
+        "title": "Ver más"
+      }
+    }
+  },
+
+  "flex-layout.row#shelf-ofertas-bomba": {
+    "children": ["countdown-children"],
+    "props": {
+      "colGap": 3,
+      "blockClass": "shelf-home",
+      "fullWidth": false
+    }
+  }
+}

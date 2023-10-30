@@ -1,0 +1,39 @@
+// store/blocks/marcas-coppel.jsonc
+{
+  "store.custom#marcas-coppel": {
+    "blocks": [
+      "image#marcas",
+      "rich-text#marcas-title",
+      "rich-text#marcas-text",
+      "search-brands#marcas"
+    ],
+    "props": {
+      "blockClass": "template-quienes-somos"
+    }
+  },
+  "image#marcas": {
+    "props": {
+      "src":"assets/marcas/variedad-marcas-top.png",
+      "blockClass": "marcas-top-header"
+    }
+  },
+  "rich-text#marcas-title": {
+    "props": {
+      "text": "Todas nuestras marcas",
+      "blockClass": "marcas-title"
+    }
+  },
+  "rich-text#marcas-text": {
+    "props": {
+      "text": "Descubrí más de 20 mil productos que Coppel tiene para vos y tu familia.\nEstrená un celular, renová tu hogar o elegí tus zapatillas preferidas.",
+      "blockClass": "marcas-text"
+    }
+  },
+
+  "search-brands#marcas": {
+    "props": {
+      "categories": "",
+      "brands": []
+    }
+  }
+}

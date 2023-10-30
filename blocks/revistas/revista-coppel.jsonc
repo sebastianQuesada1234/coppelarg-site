@@ -1,0 +1,51 @@
+{
+    "store.custom#revista-coppel": {
+        "blocks": [
+            "flex-layout.row#revista-coppel-title",
+            "flex-layout.row#revista-coppel-content"
+        ],
+        "props": {
+            "blockClass":"revista-coppel"
+        }
+    },
+
+    /*
+    *   Title
+    */
+    "flex-layout.row#revista-coppel-title": {
+        "children": [
+            "rich-text#revista-coppel-title"
+        ],
+        "props":{
+            "blockClass":"revista-coppel-title"
+        }
+    },
+    "rich-text#revista-coppel-title": {
+        "props": {
+            "blockClass":"revista-coppel-title",
+
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "#### **Las mejores ofertas de Coppel**"
+        }
+    },
+
+    /*
+    *   Content
+    */
+    "flex-layout.row#revista-coppel-content": {
+        "children": [
+            "custom-script#revista-coppel"
+        ],
+        "props":{
+            "blockClass":"revista-coppel-content"
+        }
+    },
+    "custom-script#revista-coppel": {
+        "props": {
+            "type": "include",
+            "div": "<div id='tiendeo_container' style='width: 100%'></div>",
+            "script": "https://www.tiendeo.com.ar/_integrations/slider.js?integration=coppel"
+        }
+    }
+}

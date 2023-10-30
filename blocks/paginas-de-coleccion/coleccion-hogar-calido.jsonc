@@ -1,0 +1,22 @@
+{
+  "store.custom#coleccion-hogar-calido": {
+    "blocks": ["search-result-layout.customQuery#hogar-calido"]
+  },
+  "search-result-layout.customQuery#hogar-calido": {
+    "props": {
+      "blockClass": "coleccion",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "277",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

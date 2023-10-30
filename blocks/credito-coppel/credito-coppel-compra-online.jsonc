@@ -1,0 +1,90 @@
+// store/blocks/credito-coppel.jsonc
+{
+  "store.custom#credito-coppel-compra-online": {
+    "blocks": [
+      "flex-layout.row#credito-co-quadro"
+    ]
+  },
+  "flex-layout.row#credito-co-quadro": {
+    "children": ["flex-layout.col#credito-co-quadro"]
+  },
+  "flex-layout.col#credito-co-quadro": {
+    "children": [
+      "rich-text#co-quadro-title",
+      "flex-layout.col#credito-co-subquadro"
+    ],
+    "props":{
+      "blockClass": "credito-quadro" 
+    }
+  },
+  "rich-text#co-quadro-title": {
+    "props":{
+      "text": "¿Cómo comprar con tu Crédito Coppel en la web?",
+      "blockClass": "credito-title"
+    }
+  },
+  "flex-layout.col#credito-co-subquadro": {
+    "children": [
+      "rich-text#credito-info-1",
+      "rich-text#credito-info-2",
+      "rich-text#credito-info-3",
+      "rich-text#credito-info-4",
+      "rich-text#credito-info-5",
+      "rich-text#credito-info-6",
+      "rich-text#credito-info-7",
+      "rich-text#credito-info-8"
+    ],
+    "props":{
+      "blockClass": "credito-subquadro"
+    }
+  },
+
+  "rich-text#credito-info-1": {
+    "props":{
+      "text": "![](https://coppelar.vteximg.com.br/arquivos/credito-icon-search.png)**Buscá**\n\nNavegá por el sitio y buscá los productos que deseas comprar. Elegí cualquiera de las categorías que están en la parte superior de la página o utilizá el buscador para encontrarlo.",
+      "blockClass": "credito-info"
+    }
+  },
+  "rich-text#credito-info-2": {
+    "props":{
+      "text": "![](https://coppelar.vteximg.com.br/arquivos/credito-icon-cartdown.png)**Agregá**\n\nUna vez que hayas encontrado los productos que buscabas, hacé click en el botón “Agregar al carrito”. Presionando el ícono del carrito podés consultar los productos seleccionados, cambiar las cantidades o eliminar lo que no desees. Cuando hayas finalizado, presioná “Iniciar Compra” para avanzar.",
+      "blockClass": "credito-info"
+    }
+  },
+  "rich-text#credito-info-3": {
+    "props":{
+      "text": "![](https://coppelar.vteximg.com.br/arquivos/credito-icon-cart.png)**Revisá tu carrito**\n\nAsegurate que los productos que están dentro de tu carrito sean los que elegiste. Luego, hacé click en el botón “Realizar compra” para continuar.",
+      "blockClass": "credito-info"
+    }
+  },
+  "rich-text#credito-info-4": {
+    "props":{
+      "text": "![](https://coppelar.vteximg.com.br/arquivos/credito-icon-user.png)**Iniciá sesión en tu cuenta o comprá sin registrarte**\n\nIngresá con tu correo electrónico y contraseña. Si aún no tenés una cuenta, crea una haciendo click acá. También podés comprar sin registrarte: al elegir esta opción, debes proporcionar algunos datos como: correo electrónico, nombre, teléfono y domicilio de entrega y/o facturación. Tené en cuenta que el teléfono debe ser el mismo que esté registrado en la base de datos de la tienda donde activaste tu Crédito Coppel.",
+      "blockClass": "credito-info"
+    }
+  },
+  "rich-text#credito-info-5": {
+    "props":{
+      "text": "![](https://coppelar.vteximg.com.br/arquivos/credito-icon-box.png)**Elegí cómo querés recibir o retirar tus productos**\n\nPodrás elegir envío a domicilio o retiro en tu Tienda Coppel más cercana.",
+      "blockClass": "credito-info"
+    }
+  },
+  "rich-text#credito-info-6": {
+    "props":{
+      "text": "![](https://coppelar.vteximg.com.br/arquivos/credito-icon-pay.png)**Seleccioná tu forma de pago**\n\nAsegurate que tu pedido sea correcto: productos, tu información personal y los datos de entrega, luego dentro de las opciones de pago seleccioná “Crédito Coppel”.",
+      "blockClass": "credito-info"
+    }
+  },
+  "rich-text#credito-info-7": {
+    "props":{
+      "text": "![](https://coppelar.vteximg.com.br/arquivos/credito-icon-phone.png)**Verificá tus abonos y validá tu identidad**\n\nVerificá los montos y plazos a abonar, validá tu identidad a través de un código de seguridad que te llegará a tu celular por Whatsapp y completá el módulo de pago abonando el pago inicial si corresponde, luego hacé click en el botón “Finalizar compra”.",
+      "blockClass": "credito-info"
+    }
+  },
+  "rich-text#credito-info-8": {
+    "props":{
+      "text": "![](https://coppelar.vteximg.com.br/arquivos/credito-icon-email.png)**¡Listo!**\n\nGracias por elegir Coppel.com.ar. Recibirás un correo electrónico con la información de tu compra.",
+      "blockClass": "credito-info"
+    }
+  }
+}

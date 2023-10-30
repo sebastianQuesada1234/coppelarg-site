@@ -1,0 +1,91 @@
+{
+  "store.custom#coleccion-electrofans-herramientas": {
+    "blocks": [
+      "search-result-layout.customQuery#electrofans-herramientas"
+    ]
+  },
+  "search-result-layout.customQuery#electrofans-herramientas": {
+    "props": {
+      "blockClass": "coleccion",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "408",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#coleccion-electrofans-herramientas",
+      "search-result-layout.mobile#coleccion-electrofans-herramientas",
+      "search-not-found-layout"
+    ]
+  },
+  //DESKTOP
+  "search-result-layout.desktop#coleccion-electrofans-herramientas": {
+    "children": [
+      "image#lp-liquid",
+      "image#lp-banner-herramientas",
+      "flex-layout.row#searchbread",
+      "search-title.v2",
+      "flex-layout.row#result",
+      "flex-layout.row#spacer",
+      "rich-text#ef-dsc-her"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "thresholdForFacetSearch": 10,
+      "showProductsCount": true,
+      "showFacetQuantity": true,
+      "HiddenFacets": {
+        "priceRange": true
+      },
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "blockClass": "black-friday-collection"
+    }
+  },
+  "image#lp-banner-herramientas": {
+    "props": {
+      "blockClass": "search-banner",
+      "src": "assets/images/banner-herramientas.jpg"
+    }
+  },
+  //MOBILE
+  "search-result-layout.mobile#coleccion-electrofans-herramientas": {
+    "children": [
+      "image#lp-liquid-mob",
+      "image#collection-coleccion-electrofans-mobile-herramientas",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#contentmobile",
+      "flex-layout.row#pagination",
+      "flex-layout.row#spacer",
+      "rich-text#ef-dsc-her"
+    ],
+    "props": {
+      "blockClass": "black-friday-collection",
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  "image#collection-coleccion-electrofans-mobile-herramientas": {
+    "props": {
+      "blockClass": "search-banner",
+      "src": "assets/images/banner-herramientas-mob.jpg"
+    }
+  },
+  "rich-text#ef-dsc-her": {
+    "title": "descriptions SEO",
+    "props": {
+      "blockClass": "electro-fans-descriptions",
+      "text": "## Transformá tu hogar con nuestras herramientas\n\nEn este [Electro Fans](/electro-fans) equipate en [Coppel.com.ar](/) o en la [App Coppel](https://play.google.com/store/apps/details?id=ar.com.coppel&pli=1) con lo mejor en ferretería. Disponer de una caja de [herramientas](https://www.coppel.com.ar/electro-fans/herramientas) es fundamental, tanto para realizar pequeñas reparaciones en el hogar o para uso profesional, para ello te ofrecemos [herramientas pesadas](https://www.coppel.com.ar/electro-fans/herramientas), [Herramientas Eléctricas](https://www.coppel.com.ar/electro-fans/herramientas), [Herramientas Manuales](https://www.coppel.com.ar/electro-fans/herramientas) y [Herramientas para Jardín](https://www.coppel.com.ar/electro-fans/herramientas) como [bordeadoras](https://www.coppel.com.ar/electro-fans/herramientas), [soldadoras](https://www.coppel.com.ar/electro-fans/herramientas), [amoladoras](https://www.coppel.com.ar/electro-fans/herramientas), [taladros desmalezadoras](https://www.coppel.com.ar/electro-fans/herramientas), [hidrolavadoras](https://www.coppel.com.ar/electro-fans/herramientas), entre otros, desarrolladas para traer toda la facilidad y practicidad que necesitás en tu día a día, nuestros artículos de ferretería te permitirán hacer un trabajo más ágil.\nEncontrá la mejor tecnología y disfrutá al máximo de todos tus trabajos y arreglos con los [equipos Daewoo](https://www.coppel.com.ar/electro-fans/herramientas), [Dogo](https://www.coppel.com.ar/electro-fans/herramientas), [GAMMA](https://www.coppel.com.ar/electro-fans/herramientas), [Labor](https://www.coppel.com.ar/electro-fans/herramientas), [Philco](https://www.coppel.com.ar/electro-fans/herramientas), entre otras que encontrarás en [Coppel.com.ar](/)\n\nUtilizá tu crédito y estrená hoy mismo. Si todavía no tenés tu [Crédito Coppel](https://www2.coppel.com.ar/credito.php), solicitalo en línea; ¡es fácil, rápido y gratis!"
+    }
+  }
+}

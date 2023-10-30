@@ -1,0 +1,482 @@
+{ 
+  //01
+  "flex-layout.col#electro-fans-shelf-01": {
+    "title": "Shelf",
+    "children": [
+      "responsive-layout.desktop#electro-fans-shelf-01",
+      "responsive-layout.tablet#electro-fans-shelf-01",
+      "responsive-layout.phone#electro-fans-shelf-01",
+      "flex-layout.row#electro-fans-shelf-01"
+    ],
+    "props": {"blockClass": "electro-fans-shelf"}
+  },
+  "responsive-layout.desktop#electro-fans-shelf-01": {
+    "children": ["flex-layout.row#electro-fans-title-shelf-01-dsk"]
+  },
+  "responsive-layout.tablet#electro-fans-shelf-01": {
+    "children": ["flex-layout.row#electro-fans-title-shelf-01-mbl"]
+  },
+  "responsive-layout.phone#electro-fans-shelf-01": {
+    "children": ["flex-layout.row#electro-fans-title-shelf-01-mbl"]
+  },
+
+  "flex-layout.row#electro-fans-title-shelf-01-dsk": {
+    "children": ["rich-text#electro-fans-title-shelf-01"],
+    "props": {"blockClass": "electro-fans-title-shelf"}
+  },
+  "flex-layout.row#electro-fans-title-shelf-01-mbl": {
+    "children": ["rich-text#electro-fans-title-shelf-01"],
+    "props": {"blockClass": "electro-fans-title-shelf"}
+  },
+  "rich-text#electro-fans-title-shelf-01": {
+    "props": {
+      "text": "### Celulares y accessorios\n[Ver Más](/electro-fans/celulares-y-accessorios)",
+      "blockClass": "electro-fans-title-shelf"
+    }
+  },
+  "flex-layout.row#electro-fans-shelf-01": {
+    "children": ["list-context.product-list#electro-fans-shelf-01"],
+    "props": {
+      "colGap": 3,
+      "blockClass": "shelf-home",
+      "fullWidth": false
+    }
+  },
+  "list-context.product-list#electro-fans-shelf-01": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#electro-fans-shelf-01"],
+    "props": {
+      "collection": "395",
+      "orderBy": "OrderByTopSaleDESC",
+      "maxItems": 15
+    }
+  },
+  "slider-layout#electro-fans-shelf-01": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf-home",
+      "showPaginationDots": "always",
+      "showNavigationArrows": "always"
+    }
+  },
+
+  //02
+  "flex-layout.col#electro-fans-shelf-02": {
+    "title": "Shelf",
+    "children": [
+      "responsive-layout.desktop#electro-fans-shelf-02",
+      "responsive-layout.tablet#electro-fans-shelf-02",
+      "responsive-layout.phone#electro-fans-shelf-02",
+      "flex-layout.row#electro-fans-shelf-02"
+    ],
+    "props": {"blockClass": "electro-fans-shelf"}
+  },
+  "responsive-layout.desktop#electro-fans-shelf-02": {
+    "children": ["flex-layout.row#electro-fans-title-shelf-02-dsk"]
+  },
+  "responsive-layout.tablet#electro-fans-shelf-02": {
+    "children": ["flex-layout.row#electro-fans-title-shelf-02-mbl"]
+  },
+  "responsive-layout.phone#electro-fans-shelf-02": {
+    "children": ["flex-layout.row#electro-fans-title-shelf-02-mbl"]
+  },
+
+  "flex-layout.row#electro-fans-title-shelf-02-dsk": {
+    "children": ["rich-text#electro-fans-title-shelf-02"],
+    "props": {"blockClass": "electro-fans-title-shelf"}
+  },
+  "flex-layout.row#electro-fans-title-shelf-02-mbl": {
+    "children": ["rich-text#electro-fans-title-shelf-02"],
+    "props": {"blockClass": "electro-fans-title-shelf"}
+  },
+  "rich-text#electro-fans-title-shelf-02": {
+    "props": {
+      "text": "### Lavado y Secado\n[Ver Más](/electro-fans/lavado-y-secado)",
+      "blockClass": "electro-fans-title-shelf"
+    }
+  },
+  "flex-layout.row#electro-fans-shelf-02": {
+    "children": ["list-context.product-list#electro-fans-shelf-02"],
+    "props": {
+      "colGap": 3,
+      "blockClass": "shelf-home",
+      "fullWidth": false
+    }
+  },
+  "list-context.product-list#electro-fans-shelf-02": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#electro-fans-shelf-02"],
+    "props": {
+      "collection": "396",
+      "orderBy": "OrderByTopSaleDESC",
+      "maxItems": 15
+    }
+  },
+  "slider-layout#electro-fans-shelf-02": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf-home",
+      "showPaginationDots": "always",
+      "showNavigationArrows": "always"
+    }
+  },
+
+  //03
+  "flex-layout.col#electro-fans-shelf-03": {
+    "title": "Shelf",
+    "children": [
+      "responsive-layout.desktop#electro-fans-shelf-03",
+      "responsive-layout.tablet#electro-fans-shelf-03",
+      "responsive-layout.phone#electro-fans-shelf-03",
+      "flex-layout.row#electro-fans-shelf-03"
+    ],
+    "props": {"blockClass": "electro-fans-shelf"}
+  },
+  "responsive-layout.desktop#electro-fans-shelf-03": {
+    "children": ["flex-layout.row#electro-fans-title-shelf-03-dsk"]
+  },
+  "responsive-layout.tablet#electro-fans-shelf-03": {
+    "children": ["flex-layout.row#electro-fans-title-shelf-03-mbl"]
+  },
+  "responsive-layout.phone#electro-fans-shelf-03": {
+    "children": ["flex-layout.row#electro-fans-title-shelf-03-mbl"]
+  },
+
+  "flex-layout.row#electro-fans-title-shelf-03-dsk": {
+    "children": ["rich-text#electro-fans-title-shelf-03"],
+    "props": {"blockClass": "electro-fans-title-shelf"}
+  },
+  "flex-layout.row#electro-fans-title-shelf-03-mbl": {
+    "children": ["rich-text#electro-fans-title-shelf-03"],
+    "props": {"blockClass": "electro-fans-title-shelf"}
+  },
+  "rich-text#electro-fans-title-shelf-03": {
+    "props": {
+      "text": "### Heladeras y Freezers\n[Ver Más](/electro-fans/heladeras-y-freezers)",
+      "blockClass": "electro-fans-title-shelf"
+    }
+  },
+  "flex-layout.row#electro-fans-shelf-03": {
+    "children": ["list-context.product-list#electro-fans-shelf-03"],
+    "props": {
+      "colGap": 3,
+      "blockClass": "shelf-home",
+      "fullWidth": false
+    }
+  },
+  "list-context.product-list#electro-fans-shelf-03": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#electro-fans-shelf-03"],
+    "props": {
+      "collection": "397",
+      "orderBy": "OrderByTopSaleDESC",
+      "maxItems": 15
+    }
+  },
+  "slider-layout#electro-fans-shelf-03": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf-home",
+      "showPaginationDots": "always",
+      "showNavigationArrows": "always"
+    }
+  },
+
+
+  //04
+  "flex-layout.col#electro-fans-shelf-04": {
+    "title": "Shelf",
+    "children": [
+      "responsive-layout.desktop#electro-fans-shelf-04",
+      "responsive-layout.tablet#electro-fans-shelf-04",
+      "responsive-layout.phone#electro-fans-shelf-04",
+      "flex-layout.row#electro-fans-shelf-04"
+    ],
+    "props": {"blockClass": "electro-fans-shelf"}
+  },
+  "responsive-layout.desktop#electro-fans-shelf-04": {
+    "children": ["flex-layout.row#electro-fans-title-shelf-04-dsk"]
+  },
+  "responsive-layout.tablet#electro-fans-shelf-04": {
+    "children": ["flex-layout.row#electro-fans-title-shelf-04-mbl"]
+  },
+  "responsive-layout.phone#electro-fans-shelf-04": {
+    "children": ["flex-layout.row#electro-fans-title-shelf-04-mbl"]
+  },
+
+  "flex-layout.row#electro-fans-title-shelf-04-dsk": {
+    "children": ["rich-text#electro-fans-title-shelf-04"],
+    "props": {"blockClass": "electro-fans-title-shelf"}
+  },
+  "flex-layout.row#electro-fans-title-shelf-04-mbl": {
+    "children": ["rich-text#electro-fans-title-shelf-04"],
+    "props": {"blockClass": "electro-fans-title-shelf"}
+  },
+  "rich-text#electro-fans-title-shelf-04": {
+    "props": {
+      "text": "### Pequeños electrodomésticos\n[Ver Más](/electro-fans/pequenos-electrodomesticos)",
+      "blockClass": "electro-fans-title-shelf"
+    }
+  },
+  "flex-layout.row#electro-fans-shelf-04": {
+    "children": ["list-context.product-list#electro-fans-shelf-04"],
+    "props": {
+      "colGap": 3,
+      "blockClass": "shelf-home",
+      "fullWidth": false
+    }
+  },
+  "list-context.product-list#electro-fans-shelf-04": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#electro-fans-shelf-04"],
+    "props": {
+      "collection": "401",
+      "orderBy": "OrderByTopSaleDESC",
+      "maxItems": 15
+    }
+  },
+  "slider-layout#electro-fans-shelf-04": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf-home",
+      "showPaginationDots": "always",
+      "showNavigationArrows": "always"
+    }
+  },
+
+  //05
+  "flex-layout.col#electro-fans-shelf-05": {
+    "title": "Shelf",
+    "children": [
+      "responsive-layout.desktop#electro-fans-shelf-05",
+      "responsive-layout.tablet#electro-fans-shelf-05",
+      "responsive-layout.phone#electro-fans-shelf-05",
+      "flex-layout.row#electro-fans-shelf-05"
+    ],
+    "props": {"blockClass": "electro-fans-shelf"}
+  },
+  "responsive-layout.desktop#electro-fans-shelf-05": {
+    "children": ["flex-layout.row#electro-fans-title-shelf-05-dsk"]
+  },
+  "responsive-layout.tablet#electro-fans-shelf-05": {
+    "children": ["flex-layout.row#electro-fans-title-shelf-05-mbl"]
+  },
+  "responsive-layout.phone#electro-fans-shelf-05": {
+    "children": ["flex-layout.row#electro-fans-title-shelf-05-mbl"]
+  },
+
+  "flex-layout.row#electro-fans-title-shelf-05-dsk": {
+    "children": ["rich-text#electro-fans-title-shelf-05"],
+    "props": {"blockClass": "electro-fans-title-shelf"}
+  },
+  "flex-layout.row#electro-fans-title-shelf-05-mbl": {
+    "children": ["rich-text#electro-fans-title-shelf-05"],
+    "props": {"blockClass": "electro-fans-title-shelf"}
+  },
+  "rich-text#electro-fans-title-shelf-05": {
+    "props": {
+      "text": "### Tecnologías\n[Ver Más](/electro-fans/tecnologia)",
+      "blockClass": "electro-fans-title-shelf"
+    }
+  },
+  "flex-layout.row#electro-fans-shelf-05": {
+    "children": ["list-context.product-list#electro-fans-shelf-05"],
+    "props": {
+      "colGap": 3,
+      "blockClass": "shelf-home",
+      "fullWidth": false
+    }
+  },
+  "list-context.product-list#electro-fans-shelf-05": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#electro-fans-shelf-05"],
+    "props": {
+      "collection": "398",
+      "orderBy": "OrderByTopSaleDESC",
+      "maxItems": 15
+    }
+  },
+  "slider-layout#electro-fans-shelf-05": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf-home",
+      "showPaginationDots": "always",
+      "showNavigationArrows": "always"
+    }
+  },
+
+  //06
+  "flex-layout.col#electro-fans-shelf-06": {
+    "title": "Shelf",
+    "children": [
+      "responsive-layout.desktop#electro-fans-shelf-06",
+      "responsive-layout.tablet#electro-fans-shelf-06",
+      "responsive-layout.phone#electro-fans-shelf-06",
+      "flex-layout.row#electro-fans-shelf-06"
+    ],
+    "props": {"blockClass": "electro-fans-shelf"}
+  },
+  "responsive-layout.desktop#electro-fans-shelf-06": {
+    "children": ["flex-layout.row#electro-fans-title-shelf-06-dsk"]
+  },
+  "responsive-layout.tablet#electro-fans-shelf-06": {
+    "children": ["flex-layout.row#electro-fans-title-shelf-06-mbl"]
+  },
+  "responsive-layout.phone#electro-fans-shelf-06": {
+    "children": ["flex-layout.row#electro-fans-title-shelf-06-mbl"]
+  },
+
+  "flex-layout.row#electro-fans-title-shelf-06-dsk": {
+    "children": ["rich-text#electro-fans-title-shelf-06"],
+    "props": {"blockClass": "electro-fans-title-shelf"}
+  },
+  "flex-layout.row#electro-fans-title-shelf-06-mbl": {
+    "children": ["rich-text#electro-fans-title-shelf-06"],
+    "props": {"blockClass": "electro-fans-title-shelf"}
+  },
+  "rich-text#electro-fans-title-shelf-06": {
+    "props": {
+      "text": "### Televisores\n[Ver Más](/electro-fans/televisores)",
+      "blockClass": "electro-fans-title-shelf"
+    }
+  },
+  "flex-layout.row#electro-fans-shelf-06": {
+    "children": ["list-context.product-list#electro-fans-shelf-06"],
+    "props": {
+      "colGap": 3,
+      "blockClass": "shelf-home",
+      "fullWidth": false
+    }
+  },
+  "list-context.product-list#electro-fans-shelf-06": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#electro-fans-shelf-06"],
+    "props": {
+      "collection": "399",
+      "orderBy": "OrderByTopSaleDESC",
+      "maxItems": 15
+    }
+  },
+  "slider-layout#electro-fans-shelf-06": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf-home",
+      "showPaginationDots": "always",
+      "showNavigationArrows": "always"
+    }
+  },
+
+  //07
+  "flex-layout.col#electro-fans-shelf-07": {
+    "title": "Shelf",
+    "children": [
+      "responsive-layout.desktop#electro-fans-shelf-07",
+      "responsive-layout.tablet#electro-fans-shelf-07",
+      "responsive-layout.phone#electro-fans-shelf-07",
+      "flex-layout.row#electro-fans-shelf-07"
+    ],
+    "props": {"blockClass": "electro-fans-shelf"}
+  },
+  "responsive-layout.desktop#electro-fans-shelf-07": {
+    "children": ["flex-layout.row#electro-fans-title-shelf-07-dsk"]
+  },
+  "responsive-layout.tablet#electro-fans-shelf-07": {
+    "children": ["flex-layout.row#electro-fans-title-shelf-07-mbl"]
+  },
+  "responsive-layout.phone#electro-fans-shelf-07": {
+    "children": ["flex-layout.row#electro-fans-title-shelf-07-mbl"]
+  },
+
+  "flex-layout.row#electro-fans-title-shelf-07-dsk": {
+    "children": ["rich-text#electro-fans-title-shelf-07"],
+    "props": {"blockClass": "electro-fans-title-shelf"}
+  },
+  "flex-layout.row#electro-fans-title-shelf-07-mbl": {
+    "children": ["rich-text#electro-fans-title-shelf-07"],
+    "props": {"blockClass": "electro-fans-title-shelf"}
+  },
+  "rich-text#electro-fans-title-shelf-07": {
+    "props": {
+      "text": "### Gamer\n[Ver Más](/electro-fans/gamer)",
+      "blockClass": "electro-fans-title-shelf"//sdfdasfdsfdsfd
+    }
+  },
+  "flex-layout.row#electro-fans-shelf-07": {
+    "children": ["list-context.product-list#electro-fans-shelf-07"],
+    "props": {
+      "colGap": 3,
+      "blockClass": "shelf-home",
+      "fullWidth": false
+    }
+  },
+  "list-context.product-list#electro-fans-shelf-07": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#electro-fans-shelf-07"],
+    "props": {
+      "collection": "400",
+      "orderBy": "OrderByTopSaleDESC",
+      "maxItems": 15
+    }
+  },
+  "slider-layout#electro-fans-shelf-07": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf-home",
+      "showPaginationDots": "always",
+      "showNavigationArrows": "always"
+    }
+  },
+
+
+  "list-context.product-list#ofertas-bomba-hs": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#electro-fans-shelf-01"],
+    "props": {
+      "collection": "424",
+      "orderBy": "OrderByTopSaleDESC",
+      "maxItems": 15
+    }
+  }
+}

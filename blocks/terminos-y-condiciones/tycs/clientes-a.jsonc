@@ -1,0 +1,76 @@
+// store/blocks/clientes-a.jsonc
+{
+  "store.custom#clientes-a": {
+    "blocks": [
+      "flex-layout.row#clientes-tyc-row"
+    ],
+    "props":{
+      "blockClass":"template-quienes-somos"
+    }
+  },
+  "flex-layout.row#clientes-tyc-row":{
+    "children":[
+      "rich-text#clientes-tyc-title",
+      "rich-text#clientes-tyc-subtitle",
+      "rich-text#clientes-tyc-text-1",
+      "rich-text#clientes-tyc-text-2",
+      "rich-text#clientes-tyc-text-3",
+      "rich-text#clientes-tyc-text-4",
+      "rich-text#clientes-tyc-text-5",
+      "rich-text#clientes-tyc-text-6"
+    ],
+    "props": {
+      "blockClass": "tyc-row"
+    }
+  },
+  "rich-text#clientes-tyc-title":{
+    "props":{
+      "text": "**BENEFICIOS EXCLUSIVOS PARA CLIENTES PUNTUALES**",
+      "textPosition": "LEFT",
+      "blockClass": "tyc-title"
+    }
+  },
+  "rich-text#clientes-tyc-subtitle":{
+    "props":{
+      "text": "**Términos y Condiciones**",
+      "textPosition": "LEFT",
+      "blockClass": "tyc-subtitle"
+    }
+  },
+  "rich-text#clientes-tyc-text-1":{
+    "props":{
+      "text": "1) Del Prestador. COPPEL S.A., CUIT: 30-71041150-2, con domicilio legal en Viamonte nro. 1145, Piso 8, oficina A, de la Ciudad Autónoma de Buenos Aires (en adelante, “Coppel”) ofrece beneficios exclusivos para aquellos clientes que se encuentren dentro de la categoría de clientes puntuales conforme se detallará en los presentes términos y condiciones (en adelante, los “Términos”).",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#clientes-tyc-text-2":{
+    "props":{
+      "text": "2) Clientes Puntuales. Son clientes puntuales los clientes de Coppel que tengan su Crédito Coppel activo y que además abonen el cien por ciento de sus cuotas pendientes de pago en tiempo y forma (sin siquiera un día/ peso de atraso) por el término de seis meses consecutivos como (en adelante “Cliente/s Puntual/es” y/o “Clientes A”, indistintamente). Para mayor información sobre los Créditos Coppel,ingregá a: https://www.coppel.com.ar/tyc-credito-coppel-y-prestamos/",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#clientes-tyc-text-3":{
+    "props":{
+      "text": "3) De los Beneficios. Los Clientes A cuentan con los siguientes beneficios: (i) acceder al Crédito Coppel sin pago inicial /anticipo (es decir, podrán realizar compras financiadas de bienes y servicios y/u obtener préstamos de dinero en efectivo sin abonar anticipo), siempre y cuando la compra a efectuar no supere su línea de crédito disponible, la cual será informada al Cliente A al momento de efectuar su compra. (ii) disponibilidad de préstamos de dinero en efectivo, sujeto a las condiciones del préstamo que se solicite. (iii) acceso a descuentos mediante la obtención de puntos dentro del programa Mega Puntos Coppel. Para mayor información sobre el programa, ingresar a  https://www.coppel.com.ar/tyc-mega-puntos-coppel/ (iv) acceso a la bonificación de intereses correspondientes a las tasas de interés efectivas anuales (TEA), informadas al momento del acceso al Crédito Coppel, siempre que el Cliente Puntual solicite la cancelación anticipada de cuotas, ya sea totales o parciales. (v) aplicación del precio de contado cancelando la totalidad del Crédito Coppel dentro de los 30 días corridos de adquiridos.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#clientes-tyc-text-4":{
+    "props":{
+      "text": "4) Vigencia. Los beneficios a los que podrán acceder los Clientes A tendrán plena vigencia y se extenderá hasta tanto Coppel informe con antelación suficiente que se dan de baja, circunstancia que será informada debidamente a través de los mismos medios por los que se dio a conocer estos beneficios.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#clientes-tyc-text-5":{
+    "props":{
+      "text": "5) Jurisdicción. Para cualquier cuestión judicial y/o extrajudicial que pudiera derivarse de estos Términos, Coppel y el Cliente Puntual se someterán a la jurisdicción de los tribunales ordinarios del domicilio del Cliente Puntual.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#clientes-tyc-text-6":{
+    "props":{
+      "text": "6) Atención al público. Por consultas o dudas sobre las cláusulas incluidas en los Términos, llamar gratuitamente al 0800-122-67735.",
+      "blockClass": "tyc-text"
+    }
+  }
+}

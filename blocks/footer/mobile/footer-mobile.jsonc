@@ -1,0 +1,206 @@
+{
+    "footer-layout.mobile": {
+        "children": [
+          "flex-layout.row#newsletter-mobile",
+          "flex-layout.row#menu-mobile",
+          "flex-layout.row#footer"
+        ]
+      },
+      "flex-layout.row#newsletter-mobile": {
+        "props": {
+            "width": 100,
+            "blockClass": "newsletter-row-mobile"
+        },
+        "children": [
+            "rich-text#newsletter-mobile",
+            "newsletter-form#mobile"
+        ]
+    },
+    "rich-text#newsletter-mobile": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Recibe nuestras ofertas y novedades en tu email",
+            "blockClass": "newsletter-text"
+        }
+    },
+    "newsletter-form#mobile": {
+        "children": [
+            "newsletter-input-email#mobile",
+            "newsletter-submit#mobile"
+        ]
+    },
+    "newsletter-input-email#mobile": {
+        "props": {
+            "placeholderText": "Tu mail",
+            "blockClass": "newsletterInputMobile"
+        }
+    },
+    "newsletter-submit#mobile": {
+        "props": {
+            "submitButtonLabel": "Suscribirse",
+            "blockClass": "newsletterBtnMobile"
+        }
+    },
+    "flex-layout.row#menu-mobile": {
+      "children": [
+        "logo#footer-mobile",
+        "flex-layout.row#coppel-categorias",
+        "flex-layout.row#ayuda-categorias",
+        "flex-layout.row#informacion-categorias",
+        "flex-layout.row#contacto-mobile",
+        "flex-layout.row#social-networks"
+      ],
+      "props": {
+        "blockClass": "footer-mobile"
+      }
+    },
+    "logo#footer-mobile": {
+        "props": {
+            "title": "Logo",
+            "href": "/",
+            "url":  "assets/logo/logo-coppel.png",
+            "width": "180",
+            "blockClass":"logo-mobile"
+        }
+    },
+    "flex-layout.row#coppel-categorias":{
+        "children":[
+            "rich-text#footer-coppel-titulo-mobile",
+            "vtex.menu@2.x:menu#footer-coppel-menu-mobile"
+        ]
+    },
+    "flex-layout.row#ayuda-categorias":{
+        "children":[
+            "rich-text#footer-ayuda-titulo-mobile",
+            "vtex.menu@2.x:menu#footer-ayuda-menu-mobile"
+        ]
+    },
+    "flex-layout.row#informacion-categorias":{
+        "children":[
+            "rich-text#footer-informacion-titulo-mobile",
+            "vtex.menu@2.x:menu#footer-informacion-menu-mobile"
+        ]
+    },
+    "rich-text#footer-coppel-titulo-mobile":{
+        "props": {
+            "text": "Coppel",
+            "blockClass":"footer-menu-title"
+        }
+    },
+    "rich-text#footer-ayuda-titulo-mobile":{
+        "props": {
+            "text": "Centro de Ayuda",
+            "blockClass":"footer-menu-title"
+        }
+    },
+    "rich-text#footer-informacion-titulo-mobile":{
+        "props": {
+            "text": "Más Información",
+            "blockClass":"footer-menu-title"
+        }
+    },
+    "vtex.menu@2.x:menu#footer-coppel-menu-mobile": {
+        "props": {
+            "experimentalOptimizeRendering": true,
+            "orientation": "vertical",
+            "blockClass":"menuFooterLinks"
+        },
+        "children": [
+            "menu-item#acerca-de-nosotros",
+            "menu-item#responsabilidad-social",
+            "menu-item#trabaja-con-nosotros",
+            "menu-item#beneficios-coppel",
+            "menu-item#mega-puntos-coppel",
+            "menu-item#revistas",
+            "menu-item#servicios",
+            "menu-item#proveedores",
+            "menu-item#marcas"
+        ]
+    },
+    "vtex.menu@2.x:menu#footer-ayuda-menu-mobile": {
+        "props": {
+            "experimentalOptimizeRendering": true,
+            "orientation": "vertical",
+            "blockClass":"menuFooterLinks"
+        },
+        "children": [
+            "menu-item#como-comprar",
+            "menu-item#guia-de-talles",
+            "menu-item#preguntas-frecuentes",
+            "menu-item#nuestras-tiendas",
+            "menu-item#cambios-y-devoluciones",
+            "menu-item#medios-de-pago",
+            "menu-item#turnos-online"
+        ]
+    },
+    "vtex.menu@2.x:menu#footer-informacion-menu-mobile": {
+        "props": {
+            "experimentalOptimizeRendering": true,
+            "orientation": "vertical",
+            "blockClass":"menuFooterLinks"
+        },
+        "children": [
+            "menu-item#terminos-y-condiciones",
+            "rich-text#ley-consumidor",
+            "menu-item#info-financiera",
+            "flex-layout.row#baja-credito",
+            "flex-layout.row#boton-arrepentimiento",
+            "image#usuarios-financieros"
+        ]
+    },
+    "flex-layout.row#contacto-mobile":{
+        "children": [
+            "rich-text#footer-contacto-titulo",
+            "flex-layout.row#contacto-wapp",
+            "flex-layout.row#contacto-tel",
+            "flex-layout.row#contacto-email",
+            "flex-layout.row#contacto-form",
+            "image#df-logo"
+        ],
+        "props":{
+            "horizontalAlign":"left"
+        }
+    },
+    "flex-layout.row#social-networks":{
+        "children":[
+            "image#facebook-footer",
+            "image#instagram-footer",
+            "image#youtube-footer",
+            "image#linkedin-footer",
+            "image#tiktok-footer"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass":"social-networks",
+            "horizontalAlign":"left"
+        }
+    },
+    "social-networks#mobile": {
+        "props": {
+            "socialNetworks": [
+                {
+                    "url": "https://facebook.com/foo",
+                    "name": "Facebook"
+                },
+                {
+                    "url": "https://instagram.com/foo",
+                    "name": "Instagram"
+                }
+            ]
+        }
+    },
+
+    "flex-layout.row#qr-code":{
+        "children":[
+            "image#dflogo"
+        ]
+    },
+    "image#dflogo": {
+        "props": {
+          "maxWidth":60,
+          "src": "assets/logo/data-fiscal-coppel.jpeg"
+        }
+    }
+    
+}

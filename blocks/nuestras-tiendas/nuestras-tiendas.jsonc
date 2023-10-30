@@ -1,0 +1,364 @@
+// store/blocks/nuestras-tiendas.jsonc
+{
+  "store.custom#nuestras-tiendas": {
+    "blocks": [
+      "nuestras-tiendas#a",
+      "flex-layout.row#nuestros-servicios"
+    ],
+    "props":{
+      "blockClass":"template-quienes-somos"
+    }
+  },
+
+  "nuestras-tiendas#a": {
+    "props": {
+      "tiendas": [
+        {
+          "nombre": "01 Tienda Coppel Quilmes",
+          "direccion": "Rivadavia 91 Esq. San Matín Buenos Aires, Gran Buenos Aires. CP: 1878",
+          "horario": "Lunes a Sábado de 09:00 a 20:00 hs, Domingo de 10:00 a 17:00 hs y Feriados de 10:00 a 18:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+Quilmes/@-34.7234105,-58.2613536,17z/data=!3m1!4b1!4m5!3m4!1s0x95a32e6aeda16c6f:0x5aac7a390421f885!8m2!3d-34.7234149!4d-58.2591649",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.2770441237194!2d-58.261353585190925!3d-34.72341047134717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e6aeda16c6f%3A0x5aac7a390421f885!2sCoppel%20Quilmes!5e0!3m2!1spt-BR!2sbr!4v1651589166209!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": true,
+          "enCapitalFederal": false
+        },
+        {
+          "nombre": "02 Tienda Coppel Morón",
+          "direccion": "Rivadavia 1832 Esq. Belgrano Buenos Aires, Gran Buenos Aires. CP: 1708",
+          "horario": "Lunes a Sábado de 09:00 a 20:00 hs, Domingo de 10:00 a 18:00 hs y Feriados de 10:00 a 18:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+Mor%C3%B3n/@-34.6493778,-58.6235754,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcc760f1e329c5:0x675d9d634d927710!8m2!3d-34.6493778!4d-58.6213867",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.2108446224597!2d-58.62357538500451!3d-34.64937778044776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc760f1e329c5%3A0x675d9d634d927710!2sCoppel%20Mor%C3%B3n!5e0!3m2!1spt-BR!2sbr!4v1651524275191!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": true,
+          "enCapitalFederal": false
+        },
+        {
+          "nombre": "03 Tienda Coppel San Justo",
+          "direccion": "Juan Manuel de Rosas 3990, (Shopping San Justo), Gran Buenos Aires. CP: 1754",
+          "horario": "Domingo a Jueves de 09:00 a 21:30 hs, Viernes y Sábado de 09:00 a 21:30 hs y Feriados de 09:00 a 21:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+San+Justo/@-34.6853433,-58.5582719,15z/data=!4m5!3m4!1s0x0:0x6d65871b085ea2d0!8m2!3d-34.6855566!4d-58.5584204",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13123.097261858335!2d-58.558304!3d-34.685645!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6d65871b085ea2d0!2sCoppel%20San%20Justo!5e0!3m2!1spt-BR!2sbr!4v1651522827328!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": true,
+          "enCapitalFederal": false
+        },
+        {
+          "nombre": "04 Tienda Coppel San Martín",
+          "direccion": "Peatonal Belgrano 3231 Buenos Aires, Gran Buenos Aires. CP: 1650",
+          "horario": "Lunes a Sábado de 09:00 a 20:00 hs, Domingo de 10:00 a 17:00 hs y Feriados de 10:00 a 18:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+San+Mart%C3%ADn/@-34.5739091,-58.5355004,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcb7731939e6c5:0xcf281d60766777a1!8m2!3d-34.5739133!4d-58.5332147",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.1959122567373!2d-58.53550038519628!3d-34.573909063427585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7731939e6c5%3A0xcf281d60766777a1!2sCoppel%20San%20Mart%C3%ADn!5e0!3m2!1spt-BR!2sbr!4v1651588744094!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": true,
+          "enCapitalFederal": false
+        },
+        {
+          "nombre": "05 Tienda Coppel Pacheco",
+          "direccion": "Hipólito Yrigoyen 740 (Ex Ruta 197) Buenos Aires, Gran Buenos Aires. CP: 1617",
+          "horario": "Lunes a Sábado de 09:00 a 20:00 hs, Domingo de 10:00 a 17:00 hs y Feriados de 10:00 a 18:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+Pacheco/@-34.459392,-58.6339903,17z/data=!3m1!4b1!4m5!3m4!1s0x95bca491d3c9bef1:0x91bd6a761be9d76d!8m2!3d-34.4591994!4d-58.631936",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.714600554865!2d-58.63399028520037!3d-34.459391957381996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca491d3c9bef1%3A0x91bd6a761be9d76d!2sCoppel%20Pacheco!5e0!3m2!1spt-BR!2sbr!4v1651588570610!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": true,
+          "enCapitalFederal": false
+        },
+        {
+          "nombre": "08 Tienda Coppel Pompeya",
+          "direccion": "Intendente Francisco Rabanal 1321 Buenos Aires, Gran Buenos Aires. CP: 1437",
+          "horario": "Lunes a Sábado de 09:00 a 20:00 hs, Domingo de 10:00 a 17:00 hs y Feriados de 10:00 a 18:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+Pompeya/@-34.6545836,-58.4196717,17z/data=!3m1!4b1!4m5!3m4!1s0x95bccb762a29dce7:0xdb65d4641fcee562!8m2!3d-34.6547552!4d-58.4172293",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.004725917888!2d-58.419671685004346!3d-34.65458358044629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb762a29dce7%3A0xdb65d4641fcee562!2sCoppel%20Pompeya!5e0!3m2!1spt-BR!2sbr!4v1651523528464!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": false,
+          "enCapitalFederal": true
+        },
+        {
+          "nombre": "10 Tienda Coppel Liniers",
+          "direccion": "Av. Rivadavia 11526, (Shopping Liniers) Buenos Aires, Gran Buenos Aires. CP: 1408",
+          "horario": "Lunes a Sábados de 09:00 a 21:00 hs, Viernes y Sábado de 10:00 a 21:00 hs y Feriados de 10:00 a 20:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+Liniers/@-34.6395021,-58.5268734,15z/data=!4m5!3m4!1s0x0:0x50171c8c95be59dd!8m2!3d-34.6393186!4d-58.5269036",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.6019638175567!2d-58.529062085193985!3d-34.639497666898386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc840a0c487b3%3A0x50171c8c95be59dd!2sCoppel%20Liniers!5e0!3m2!1spt-BR!2sbr!4v1651588334534!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": false,
+          "enCapitalFederal": true
+        },
+        {
+          "nombre": "11 Tienda Coppel Avellaneda",
+          "direccion": "Av. General Güemes 897 (Shopping Alto Avellaneda), Gran Buenos Aires. CP:1873",
+          "horario": "Lunes a Sábado de 09:00 a 22:00 hs, Domingo de 10:00 a 22:00 hs y Feriados de 10:00 a 22:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+Avellaneda/@-34.6744341,-58.3682471,17z/data=!3m1!4b1!4m5!3m4!1s0x95a33334248ec25d:0xc2eddaf5bd0a94f9!8m2!3d-34.6745174!4d-58.3661586",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.218515617176!2d-58.36824708500383!3d-34.67443408044117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a33334248ec25d%3A0xc2eddaf5bd0a94f9!2sCoppel%20Avellaneda!5e0!3m2!1spt-BR!2sbr!4v1651523296921!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": true,
+          "enCapitalFederal": false
+        },
+        {
+          "nombre": "12 Tienda Coppel González Catán",
+          "direccion": "José María Moreno 555 Buenos Aires, Gran Buenos Aires. CP: 1759",
+          "horario": "Lunes a Sábado de 09:00 a 20:00 hs, Domingo de 09:00 a 15:00 hs y Feriados de 10:00 a 18:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+Gonz%C3%A1lez+Cat%C3%A1n/@-34.7702256,-58.6489017,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcc3808f219837:0x57a61f10fe2cbdad!8m2!3d-34.77023!4d-58.646713",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.4190083400217!2d-58.648901685189166!3d-34.77022557383342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc3808f219837%3A0x57a61f10fe2cbdad!2sCoppel%20Gonz%C3%A1lez%20Cat%C3%A1n!5e0!3m2!1spt-BR!2sbr!4v1651603808717!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": true,
+          "enCapitalFederal": false
+        },
+        {
+          "nombre": "13 Tienda Coppel José C. Paz",
+          "direccion": "Juan Pablo II 5121 (Ex Melvin Jones) Buenos Aires, Gran Buenos Aires.CP: 1666",
+          "horario": "Lunes a Sábado de 09:00 a 20:00 hs, Domingo de 10:00 a 17:00 hs y Feriados de 10:00 a 18:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+Jos%C3%A9+C+Paz/@-34.5210523,-58.7529552,17z/data=!3m1!4b1!4m5!3m4!1s0x95bc981d1b9b3125:0xa45b31859fcd09ac!8m2!3d-34.5210567!4d-58.7507665",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.2832012280187!2d-58.75295518519814!3d-34.52105226063497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc981d1b9b3125%3A0xa45b31859fcd09ac!2sCoppel%20Jos%C3%A9%20C%20Paz!5e0!3m2!1spt-BR!2sbr!4v1651604115194!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": true,
+          "enCapitalFederal": false
+        },
+        {
+          "nombre": "14 Tienda Coppel San Miguel",
+          "direccion": "Pte. Juan D. Peron 1361 E/ Carlone e Italia Buenos Aires, Gran Buenos Aires. CP: 1663",
+          "horario": "Lunes a Sábado de 09:00 a 20:00 hs, Domingo de 11:00 a 19:00 hs y Feriados de 10:00 a 18:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+San+Miguel/@-34.544334,-58.7117421,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcbd0c32164557:0x5d027a1bb7608740!8m2!3d-34.5443416!4d-58.7095567",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.364163017698!2d-58.71174208519732!3d-34.544333961864645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd0c32164557%3A0x5d027a1bb7608740!2sCoppel%20San%20Miguel!5e0!3m2!1spt-BR!2sbr!4v1651589011994!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": true,
+          "enCapitalFederal": false
+        },
+        {
+          "nombre": "15 Tienda Coppel La Plata",
+          "direccion": "Calle 47 Nro. 427 y Diagonal 80 Buenos Aires, Gran Buenos Aires. CP: 1900",
+          "horario": "Lunes a Sábado de 09:00 a 20:00 hs, Domingo de 10:00 a 17:00 y Feriados de 10:00 a 18:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+La+Plata/@-34.909648,-57.950733,17z/data=!3m1!4b1!4m5!3m4!1s0x95a2e6386c6246bd:0xe4e85cacd11585ac!8m2!3d-34.9096613!4d-57.9485339",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.8725419937355!2d-57.9507329851841!3d-34.909647981255446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e6386c6246bd%3A0xe4e85cacd11585ac!2sCoppel%20La%20Plata!5e0!3m2!1spt-BR!2sbr!4v1651605038673!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": true,
+          "enCapitalFederal": false
+        },
+        {
+          "nombre": "16 Tienda Coppel Merlo",
+          "direccion": "Pte. Juan D. Peron 25670 Buenos Aires, Gran Buenos Aires. CP: 1722",
+          "horario": "Lunes a Sábado de 09:00 a 20:00 hs, Domingo de 10:00 a 17:00 hs y Feriados de 10:00 a 18:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+Merlo/@-34.6653256,-58.7304572,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcbf0a2ad76a17:0x219425a7ceefbd5a!8m2!3d-34.6653724!4d-58.7282779",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.579321484155!2d-58.730457185192975!3d-34.66532556826666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbf0a2ad76a17%3A0x219425a7ceefbd5a!2sCoppel%20Merlo!5e0!3m2!1spt-BR!2sbr!4v1651589380251!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": true,
+          "enCapitalFederal": false
+        },
+        {
+          "nombre": "17 Tienda Coppel Munro",
+          "direccion": "Av. Vélez Sarfield 4564/70 E/ Armenia y Gral. Belgrano Buenos Aires, Gran Buenos Aires. CP: 1605",
+          "horario": "Lunes a Sábado de 09:00 a 20:00 hs, Domingo de 10:00 a 17:00 hs y Feriados de 10:00 a 18:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+Munro/@-34.5299196,-58.5250377,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcb0cfa0a11425:0xbddb8d3624d88d5d!8m2!3d-34.529884!4d-58.5228777",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.9332311747817!2d-58.525037685197915!3d-34.52991956110321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb0cfa0a11425%3A0xbddb8d3624d88d5d!2sCoppel%20Munro!5e0!3m2!1spt-BR!2sbr!4v1651603543078!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": true,
+          "enCapitalFederal": false
+        },
+        {
+          "nombre": "18 Tienda Coppel San José (Temperley)",
+          "direccion": "Av. Eva Peron 2992, (Entre Jujuy y Salta) Buenos Aires, Gran Buenos Aires. CP: 1834",
+          "horario": "Lunes a Sábado de 09:00 a 20:00 hs, Domingo de 10:00 a 17:00 hs y Feriados de 10:00 a 18:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+San+Jos%C3%A9+(Temperley)/@-34.7608701,-58.3656134,16z/data=!4m9!1m2!2m1!1sCoppel+San+Jos%C3%A9!3m5!1s0x95a32d2ffd473a2b:0xcd10abc75361aa04!8m2!3d-34.7608671!4d-58.3612381!15sChBDb3BwZWwgU2FuIEpvc8OpWhIiEGNvcHBlbCBzYW4gam9zw6mSARBkZXBhcnRtZW50X3N0b3Jl",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6555.580981914094!2d-58.3656133651123!3d-34.7608701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32d2ffd473a2b%3A0xcd10abc75361aa04!2sCoppel%20San%20Jos%C3%A9%20(Temperley)!5e0!3m2!1spt-BR!2sbr!4v1651588272078!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": true,
+          "enCapitalFederal": false
+        },
+        {
+          "nombre": "20 Tienda Coppel Zárate",
+          "direccion": "Justa Lima de Atucha 887 Buenos Aires, Gran Buenos Aires. CP: 2800",
+          "horario": "Lunes a Sábado de 09:00 a 20:00 hs, Domingo de 10:00 a 17:00 hs y Feriados de 09:00 a 18:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+Zarate/@-34.1024024,-59.0221538,17z/data=!3m1!4b1!4m5!3m4!1s0x95bb0b5bf489a199:0x8a5afb9b7917e107!8m2!3d-34.1023958!4d-59.0199437",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3303.7164984575184!2d-59.022153785213234!3d-34.102402438651275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb0b5bf489a199%3A0x8a5afb9b7917e107!2sCoppel%20Zarate!5e0!3m2!1spt-BR!2sbr!4v1651603053020!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": true,
+          "enCapitalFederal": false
+        },
+        {
+          "nombre": "22 Tienda Coppel Solano",
+          "direccion": "Calle 845 2698, San Francisco Solano, Gran Buenos Aires. CP: 1843",
+          "horario": "Lunes a Sábado de 09:00 a 20:00 hs, Domingo de 10:00 a 17:00 hs y Feriados de 10:00 a 18:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+Solano/@-34.7826888,-58.3164603,17z/data=!3m1!4b1!4m5!3m4!1s0x95a32c65c7a62329:0x679948b8af3e138a!8m2!3d-34.7826932!4d-58.3142716",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.923989873082!2d-58.31646028518883!3d-34.782688774495675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32c65c7a62329%3A0x679948b8af3e138a!2sCoppel%20Solano!5e0!3m2!1spt-BR!2sbr!4v1651595138738!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": true,
+          "enCapitalFederal": false
+        },
+        {
+          "nombre": "23 Tienda Coppel Laferrere",
+          "direccion": "Comodoro Py 3102 ESQ. A. CAMPICHUELO Buenos Aires, Gran Buenos Aires. CP: 1757",
+          "horario": "Lunes a Sábado de 09:00 a 20:00 hs, Domingo de 09:00 a 16:00 hs y Feriados de 10:00 a 18:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+Laferrere/@-34.7511384,-58.5855605,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcc5a6b82e6233:0xa15e035aabf32805!8m2!3d-34.7511253!4d-58.5833843",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.1768209255247!2d-58.58556048518989!3d-34.75113837281943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc5a6b82e6233%3A0xa15e035aabf32805!2sCoppel%20Laferrere!5e0!3m2!1spt-BR!2sbr!4v1651603964520!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": true,
+          "enCapitalFederal": false
+        },
+        {
+          "nombre": "24 Tienda Coppel Escobar",
+          "direccion": "Eugenia Tapia de Cruz 939 Buenos Aires, Gran Buenos Aires. CP: 1625",
+          "horario": "Lunes a Sábado de 09:00 a 20:00 hs, Domingo de 10:00 a 17:00 hs y Feriados de 10:00 a 18:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+Escobar/@-34.3492869,-58.7994252,17z/data=!3m1!4b1!4m5!3m4!1s0x95bb61ba4e81f515:0x4b6b33c70a7e3da6!8m2!3d-34.3494064!4d-58.7970699",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3294.0468055338724!2d-58.799425185204385!3d-34.349286851586314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb61ba4e81f515%3A0x4b6b33c70a7e3da6!2sCoppel%20Escobar!5e0!3m2!1spt-BR!2sbr!4v1651604341377!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": true,
+          "enCapitalFederal": false
+        },
+        {
+          "nombre": "25 Tienda Coppel Junín",
+          "direccion": "Av. Arias N°1 Buenos Aires, Gran Buenos Aires. CP: 6000",
+          "horario": "Lunes a Sábado de 09:00 a 20:00 hs, Domingo de 09:00 a 13:00 hs y de 16:00 a 20:00 hs. Feriados de 10:00 a 19:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+Junin/@-34.5933457,-60.948095,17z/data=!3m1!4b1!4m5!3m4!1s0x95b8eb19252bf3c1:0xe3fba82ffc5274fa!8m2!3d-34.5933728!4d-60.9459614",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.427667331195!2d-60.94809498519566!3d-34.5933456644555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b8eb19252bf3c1%3A0xe3fba82ffc5274fa!2sCoppel%20Junin!5e0!3m2!1spt-BR!2sbr!4v1651589737801!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": true,
+          "enCapitalFederal": false
+        },
+        {
+          "nombre": "26 Tienda Coppel Pilar",
+          "direccion": "San Martín 599 Buenos Aires, Gran Buenos Aires. CP: 1629",
+          "horario": "Lunes a Sábado de 09:00 a 20:00 hs, Domingo de 10:00 a 17:00 hs y Feriados de 10:00 a 18:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+Pilar/@-34.4578623,-58.9170179,17z/data=!3m1!4b1!4m5!3m4!1s0x95bc9cd18ae456a7:0x6e306b9c30d3d931!8m2!3d-34.457867!4d-58.9147923",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.7748715217535!2d-58.917017885200515!3d-34.4578622573014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9cd18ae456a7%3A0x6e306b9c30d3d931!2sCoppel%20Pilar!5e0!3m2!1spt-BR!2sbr!4v1651603399473!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": true,
+          "enCapitalFederal": false
+        },
+        {
+          "nombre": "27 Tienda Coppel Lomas de Zamora",
+          "direccion": "Laprida 382, Buenos Aires, Gran Buenos Aires. CP: 1832",
+          "horario": "Lunes a Sábado de 09:00 a 20:00 hs, Domingo de 10:00 a 17:00 hs y Feriados de 10:00 a 18:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+Lomas+De+Zamora/@-34.7606272,-58.4043299,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcd29308f284a1:0xb349df78a7e29a91!8m2!3d-34.7606316!4d-58.4021412",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.800135807657!2d-58.40432988518961!3d-34.760627173323414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd29308f284a1%3A0xb349df78a7e29a91!2sCoppel%20Lomas%20De%20Zamora!5e0!3m2!1spt-BR!2sbr!4v1651604491192!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": true,
+          "enCapitalFederal": false
+        },
+        {
+          "nombre": "28 Tienda Coppel Trujui (Moreno)",
+          "direccion": "Av. Libertador 7137 Buenos Aires, Gran Buenos Aires. CP: 1736",
+          "horario": "Lunes a Sábado de 09:00 a 20:00 hs, Domingo de 09:00 a 16:00 hs y Feriados de 10:00 a 18:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+Trujui+(Moreno)/@-34.5891885,-58.7539323,17z/data=!3m1!4b1!4m5!3m4!1s0x95bc96112110e78b:0x7a0507e8b59ae3b!8m2!3d-34.5891929!4d-58.7517436",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5920152865815!2d-58.75393228519564!3d-34.589188464235605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc96112110e78b%3A0x7a0507e8b59ae3b!2sCoppel%20Trujui%20(Moreno)!5e0!3m2!1spt-BR!2sbr!4v1651590328525!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": true,
+          "enCapitalFederal": false
+        },
+        {
+          "nombre": "30 Tienda Coppel Loma Hermosa",
+          "direccion": "1 de Mayo 1149 Buenos Aires, Gran Buenos Aires. CP: 1692",
+          "horario": "Lunes a Sábado de 09:00 a 20:00 hs, Domingo de 09:00 a 16:00 hs y Feriados de 09 a 17:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+Loma+Hermosa/@-34.5623629,-58.612299,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcbbd4c603c033:0xbdd091d31f3a638a!8m2!3d-34.562367!4d-58.6101274",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.652104727423!2d-58.612298985196695!3d-34.56236286281722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbbd4c603c033%3A0xbdd091d31f3a638a!2sCoppel%20Loma%20Hermosa!5e0!3m2!1spt-BR!2sbr!4v1651590191335!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": true,
+          "enCapitalFederal": false
+        },
+        {
+          "nombre": "31 Tienda Coppel Once",
+          "direccion": "Avenida Pueyrredón 190, Ciudad Autónoma de Buenos Aires. CP: 1032.",
+          "horario": "Lunes a Sábado de 08:30 a 20:00 hs, Domingo y feriados de 10:00 a 18:00 hs.",
+          "linkMaps": "https://www.google.com/maps/place/Coppel+Once/@-34.6077275,-58.406422,15.26z/data=!4m5!3m4!1s0x0:0x95f1108874b3b6e!8m2!3d-34.6080272!4d-58.4063254",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10966.076320294693!2d-58.40642198308484!3d-34.60772748341674!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x95f1108874b3b6e!2sCoppel%20Once!5e0!3m2!1spt-BR!2sbr!4v1652099909724!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": false,
+          "enCapitalFederal": true
+        },
+        {
+          "nombre": "32 Tienda Coppel Flores",
+          "direccion": "Domicilio: Av Rivadavia 6546, Flores. Ciudad Autónoma de Buenos Aires. CP: 1406.",
+          "horario": "Horario: Lunes a Sábado de 09:00 a 19:00 hs y Feriados de 09:00 a 18:00 hs.",
+          "linkMaps": "https://goo.gl/maps/KHb3NJ8pdDub69Hh9",
+          "htmlMaps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.1034424001386!2d-58.457502896820074!3d-34.62682614113991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca266403a0bf%3A0xa25ffe82ad08adf9!2sRivadavia%206546%2C%20C1406GLV%20CABA%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1663966435198!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+          "enBuenosAires": false,
+          "enCapitalFederal": true
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#nuestros-servicios": {
+    "props": {
+      "blockClass": "nuestros-servicios"
+    },
+    "children": ["rich-text#servicios-title", "flex-layout.col#nuestros-servicios"]
+  },
+  "rich-text#servicios-title": {
+    "props":{
+      "text":"¿Qué servicios podés encontrar en nuestras Tiendas?",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass":"nuestros-servicios"
+    }
+  },
+  "flex-layout.col#nuestros-servicios": {
+    "props": {
+      "blockClass": "nuestros-servicios"
+    },
+    "children": [
+      "flex-layout.col#servicios01",
+      "flex-layout.col#servicios02",
+      "flex-layout.col#servicios03",
+      "flex-layout.col#servicios04"
+    ]
+  },
+
+  "flex-layout.col#servicios01": {
+    "props": {
+      "blockClass": "servicio"
+    },
+    "children": ["image#servicio01", "rich-text#servicio01"]
+  },
+  "flex-layout.col#servicios02": {
+    "props": {
+      "blockClass": "servicio"
+    },
+    "children": ["image#servicio02", "rich-text#servicio02"]
+  },
+  "flex-layout.col#servicios03": {
+    "props": {
+      "blockClass": "servicio"
+    },
+    "children": ["image#servicio03", "rich-text#servicio03"]
+  },
+  "flex-layout.col#servicios04": {
+    "props": {
+      "blockClass": "servicio"
+    },
+    "children": ["image#servicio04", "rich-text#servicio04"]
+  },
+
+  "image#servicio01": {
+    "props": {
+      "src": "assets/icons/servicios-01.svg",
+      "maxHeight": 80
+    }
+  },
+  "rich-text#servicio01": {
+    "props":{
+      "text":"Abonos Crédito Coppel y Préstamos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass":"nuestro-servicio"
+    }
+  },
+
+  "image#servicio02": {
+    "props": {
+      "src": "assets/icons/servicios-02.svg",
+      "maxHeight": 80
+    }
+  },
+  "rich-text#servicio02": {
+    "props":{
+      "text":"Compra de\nProductos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass":"nuestro-servicio"
+    }
+  },
+
+  "image#servicio03": {
+    "props": {
+      "src": "assets/icons/servicios-03.svg",
+      "maxHeight": 80
+    }
+  },
+  "rich-text#servicio03": {
+    "props":{
+      "text":"Activación y Retiro Tarjeta Coppel",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass":"nuestro-servicio"
+    }
+  },
+
+  "image#servicio04": {
+    "props": {
+      "src": "assets/icons/servicios-04.svg",
+      "maxHeight": 80
+    }
+  },
+  "rich-text#servicio04": {
+    "props":{
+      "text":"Pick Up Store coppel.com.ar",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass":"nuestro-servicio"
+    }
+  }
+}

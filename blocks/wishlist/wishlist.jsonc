@@ -1,0 +1,90 @@
+{
+  /*"my-account-link.wishlist-link": {
+    "props": {
+      "label": "Favoritos"
+    }
+  },*/
+  /*"my-account-page.wishlist-page": {
+    "children": ["flex-layout.row#top", "list-context.wishlist"]
+  },*/
+  "store.wishlist#wishlist": {
+    "blocks": ["flex-layout.row#wishlist-page"]
+  },
+  "flex-layout.row#wishlist-page": {
+    "children": ["flex-layout.row#top", "list-context.wishlist"],
+    "props": {
+        "blockClass":"favoritos"
+    }
+  },
+
+  "flex-layout.row#top": {
+    "children": ["flex-layout.col#title"]
+  },
+  "flex-layout.col#title": {
+    "children": ["rich-text#title", "rich-text#columns"],
+    "props": {
+      "blockClass": "titleWishlist",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title": {
+    "props": {
+      "blockClass": "wishlist-title",
+      "text": "### Favoritos"
+    }
+  },
+  "rich-text#columns": {
+    "props": {
+      "blockClass": "wishlist-columns",
+      "text": "**PRODUCTO** space **PRECIO** space"
+    }
+  },
+  "list-context.wishlist": {
+    "blocks": ["wishlist-empty-list", "product-summary.shelf#wishlist"],
+    "children": ["list-context-renderer#wrapped"],
+    "props": {
+        "listElement": "ul",
+        "itemElement": "li",
+        "blockClass": "wishlist-list",
+        "showViewEmptyList": true
+    }
+  },
+  "product-summary.shelf#wishlist": {
+    "children": [
+      "product-summary-image",
+      "coppelar.m3-custom:product-name#shelf",
+      "product-selling-price#wishlist",
+      "product-installments",
+      "add-to-cart-button",
+      "add-to-list-btn#wishlist"
+    ],
+    "props": {
+      "priceBehavior": "async"
+    }
+  },
+
+  "product-selling-price#wishlist": {
+    "props": {
+      "blockClass": "wishlist"
+    }
+  },
+  "list-context-renderer#wrapped": {
+    "props": {
+      "blockClass": "wishlist-list",
+      "listElement": "ul",
+      "itemElement": "li"
+    }
+  },
+  "wishlist-empty-list": {
+    "children": [
+      "rich-text#description"
+    ]
+  },
+  "rich-text#description": {
+    "props": {
+      "text": "No hay productos en su lista",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

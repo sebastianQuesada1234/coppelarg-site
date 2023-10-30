@@ -1,0 +1,93 @@
+{
+  "tab-layout#desc-spec-block": {
+    "children": [
+      "tab-list#desc-spec",
+      "tab-content#desc-spec"
+    ],
+    "props": {
+      "blockClass": "desc-spec-block",
+      "defaultActiveTabId": "description"
+    }
+  },
+
+  "tab-list#desc-spec": {
+    "children": [
+      "tab-list.item#description",
+      "product-spec-wrapper"
+    ]
+  },
+  "tab-list.item#description": {
+    "title": "Tab Descripción ",
+    "props": {
+      "blockClass": ["tab-desc-spec"],
+      "tabId": "description",
+      "label": "Descripción",
+      "defaultActiveTab": true
+    }
+  },
+  "product-spec-wrapper": {
+    "children": ["tab-list.item#specification"]
+  },
+  "flex-layout.row#tag-test": {
+    "props": {
+      "marginTop": 4,
+      "blockClass": "TEST"
+    },
+    "children": ["tab-list.item#specification"]
+  },
+  "tab-list.item#specification": {
+    "title": "Tab Especificaciones",
+
+    "props": {
+      "blockClass": ["tab-desc-spec"],
+      "tabId": "specification",
+      "label": "Especificaciones"
+    }
+  },
+  "tab-content#desc-spec": {
+    "children": [
+      "tab-content.item#description",
+      "tab-content.item#specification"
+    ]
+  },
+  "tab-content.item#description": {
+    "children": [
+      "product-description#pdp-description",
+      "link#terminos-y-condiciones"
+    ],
+    "props": {
+      "tabId": "description"
+    }
+  },
+  "tab-content.item#specification": {
+    "children": ["product-specifications"],
+    "props": {
+      "tabId": "specification"
+    }
+  },
+  "product-description#pdp-description": {
+    "props": {
+      "title": "Descripción",
+      "blockClass": ["description-product"],
+      "showTitle": false,
+      "collapseContent": false
+    }
+  },
+  "product-specifications": {
+    "props": {
+      "showSpecificationsTab": false,
+      "blockClass": "specifications-product",
+      "collapseHeight": 200,
+      "collapseContent": true,
+      "collapsible": "never"
+    }
+  },
+  "link#terminos-y-condiciones": {
+    "props": {
+      "blockClass": "desc-spec-terminos-condiciones",
+      "href": "/terminos-y-condiciones",
+      "label": "Consulta términos y condiciones solo dando clic aquí",
+      "target": "_blank"
+    }
+  }
+}

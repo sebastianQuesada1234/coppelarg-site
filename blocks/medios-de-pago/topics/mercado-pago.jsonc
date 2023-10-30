@@ -1,0 +1,9 @@
+{
+  "image#MP_MP-01": {
+    "props": {
+      "blockClass": "mercado-pago",
+      "src": "assets/images/mercado-pago-img.png",
+      "height": 174
+    }
+  }
+}

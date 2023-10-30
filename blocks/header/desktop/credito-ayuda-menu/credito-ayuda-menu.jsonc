@@ -1,0 +1,8 @@
+{
+  "vtex.menu@2.x:menu#credito-ayuda-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": ["menu-item#menu-credito", "menu-item#menu-ayuda"]
+  }
+}

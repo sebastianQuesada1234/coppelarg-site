@@ -1,0 +1,113 @@
+{
+  //cm 01
+  "disclosure-layout#cm-disclosure-1": {
+    "children": ["disclosure-trigger#cm-disclosure-1", "disclosure-content#cm-disclosure-1"]
+  },
+  "disclosure-trigger#cm-disclosure-1": {
+    "children": ["rich-text#cm-disclosure-1-title"]
+  },
+  "disclosure-content#cm-disclosure-1": {
+    "children": ["flex-layout.col#cm-disclosure-1-conteudo"]
+  },
+  "rich-text#cm-disclosure-1-title": {
+    "props": {
+      "blockClass": "cm-dsc-topic",
+      "text": "### ¿Qué es el Black Friday?"
+    }
+  },
+  "flex-layout.col#cm-disclosure-1-conteudo": {
+    "children": [
+      "rich-text#cm-disclosure-1"
+    ]
+  },
+  "rich-text#cm-disclosure-1": { 
+    "props": {
+      "blockClass": "cm-dsc-text",
+      "text": "El Black Friday, significa en su traducción viernes negro, es un evento anual donde se ofrecen gran variedad de productos con ofertas y descuentos durante días limitados, normalmente a partir del último viernes de noviembre."
+    }
+  },
+
+  //cm 02
+  "disclosure-layout#cm-disclosure-2": {
+    "children": ["disclosure-trigger#cm-disclosure-2", "disclosure-content#cm-disclosure-2"]
+  },
+  "disclosure-trigger#cm-disclosure-2": {
+    "children": ["rich-text#cm-disclosure-2-title"]
+  },
+  "disclosure-content#cm-disclosure-2": {
+    "children": ["flex-layout.col#cm-disclosure-2-conteudo"]
+  },
+  "rich-text#cm-disclosure-2-title": {
+    "props": {
+      "blockClass": "cm-dsc-topic",
+      "text": "### ¿Cuándo es el Black Friday 2022 Argentina?"
+    }
+  },
+  "flex-layout.col#cm-disclosure-2-conteudo": {
+    "children": [
+      "rich-text#cm-disclosure-2"
+    ]
+  },
+  "rich-text#cm-disclosure-2": { 
+    "props": {
+      "blockClass": "cm-dsc-text",
+      "text": "El evento comienza el viernes 25 de noviembre a las 00:00 Hs y finaliza el viernes 02 de diciembre a las 23:59 Hs."
+    }
+  },
+
+  //cm 03
+  "disclosure-layout#cm-disclosure-3": {
+    "children": ["disclosure-trigger#cm-disclosure-3", "disclosure-content#cm-disclosure-3"]
+  },
+  "disclosure-trigger#cm-disclosure-3": {
+    "children": ["rich-text#cm-disclosure-3-title"]
+  },
+  "disclosure-content#cm-disclosure-3": {
+    "children": ["flex-layout.col#cm-disclosure-3-conteudo"]
+  },
+  "rich-text#cm-disclosure-3-title": {
+    "props": {
+      "blockClass": "cm-dsc-topic",
+      "text": "### Descubrí nuestros descuentos exclusivos del Black Friday"
+    }
+  },
+  "flex-layout.col#cm-disclosure-3-conteudo": {
+    "children": [
+      "rich-text#cm-disclosure-3"
+    ]
+  },
+  "rich-text#cm-disclosure-3": { 
+    "props": {
+      "blockClass": "cm-dsc-text",
+      "text": "En Coppel vas a poder disfrutar de hasta 35% de descuento y hasta 12 cuotas sin interés en productos seleccionados."
+    }
+  },
+
+  //cm 04
+  "disclosure-layout#cm-disclosure-4": {
+    "children": ["disclosure-trigger#cm-disclosure-4", "disclosure-content#cm-disclosure-4"]
+  },
+  "disclosure-trigger#cm-disclosure-4": {
+    "children": ["rich-text#cm-disclosure-4-title"]
+  },
+  "disclosure-content#cm-disclosure-4": {
+    "children": ["flex-layout.col#cm-disclosure-4-conteudo"]
+  },
+  "rich-text#cm-disclosure-4-title": {
+    "props": {
+      "blockClass": "cm-dsc-topic",
+      "text": "### ¿Cuáles son las ofertas del Black Friday 2022?"
+    }
+  },
+  "flex-layout.col#cm-disclosure-4-conteudo": {
+    "children": [
+      "rich-text#cm-disclosure-4"
+    ]
+  },
+  "rich-text#cm-disclosure-4": { 
+    "props": {
+      "blockClass": "cm-dsc-text",
+      "text": "Vas a poder acceder a una gran variedad de productos con promociones y descuentos imperdibles, en nuestra web, tiendas físicas, venta telefónica 0800-122-67735 y WhatsApp [5491120401248](https://wa.me/5491120401248)."
+    }
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "store.orderplaced": {
+    "blocks": [
+      "order-placed"
+    ],
+    "title": "Orden finalizada"
+  },
+  "store.account": {
+    "blocks": ["my-account"],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
+  },
+
+  // =========================== LOGIN ===========================
+
+  "store.login": {
+    "blocks": [
+      "flex-layout.row#custom-login"
+    ]
+  },
+  "flex-layout.row#custom-login": {
+    "children": ["flex-layout.col#custom-login"],
+    "props": {
+      "blockClass": "custom-login"
+    }
+  },
+  "flex-layout.col#custom-login": {
+    "children": ["login-content#default", "custom-login#default"]
+  },
+  "custom-login#default": {
+    "props": {
+      "loginFacebook": false,
+      "loginGoogle": false
+    }
+  },
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+
+  "add-to-list-btn#wishlist": {
+    "props": {
+      "toastURL": "/wishlist"
+    }
+  },
+  "breadcrumb#bread": {
+    "props": {
+      "showOnMobile": false,
+      "blockClass": "bread"
+    }
+  },
+  "product-summary.shelf": {
+    "children": [      
+      "flex-layout.col#summary-section-1",
+      "flex-layout.col#summary-section-2"
+    ],
+    "props": {
+      "priceBehavior": "async",
+      "showListPrice": true
+    }
+  },
+  "flex-layout.col#summary-section-1": {
+    "props": {
+      "blockClass": "summary-section-card"
+    },
+    "children": [
+      "add-to-list-btn#wishlist",
+      "flex-layout.row#image-container"
+    ]
+  },
+  "flex-layout.col#summary-section-2": {
+    "props": {
+      "blockClass": "summary-section-card"
+    },
+    "children": [
+      "coppelar.m3-custom:product-name#shelf",
+      "flex-layout.row#product-prices",
+      "custom-installments#shelf",
+      "flex-layout.row#section-2-flags"
+      //"flags-provider"
+    ]
+  },
+  "flex-layout.row#section-2-flags": {
+    "children": [
+      "top-seller-flag",
+      "vtex.product-highlights@2.x:product-highlights#exclusivos"
+    ],
+    "props": {
+      "blockClass": "section-2-flags",
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto"
+    }
+  },
+
+  "flags-provider": {
+    "props": {
+      "active": true
+    },
+    "children": [
+      "last-unit",
+      "limited-offer-time"
+    ]
+  },
+  "flex-layout.row#product-prices": {
+    "children": [
+      "flex-layout.col#selling-price",
+      "flex-layout.col#list-price"
+    ],
+    "props": {
+      "blockClass": "product-prices",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#list-price": {
+    "children": [
+      "product-list-price"
+    ]
+  },
+  "flex-layout.col#selling-price": {
+    "children": [
+      "product-selling-price"
+    ]
+  },
+  "custom-product-summary-sku-selector#m3": {
+    "props": {
+      "visibility": "always",
+      "visibleVariations": [
+        "Talle"
+      ]
+    }
+  },
+  "product-price-savings#badge": {
+    "props": {
+      "blockClass": "badge",
+      "message": "{savingsPercentage}"
+    }
+  },
+  "custom-installments#shelf": {
+    "props": {
+      "shelf": true
+    }
+  },
+  "flex-layout.row#image-container": {
+    "children": [
+      "flex-layout.col#image-container-1",
+      "flex-layout.col#image-container-2"
+    ],
+    "props": {
+      "blockClass": "image-container",
+      "colGap": 0
+    }
+  },
+  "flex-layout.col#image-container-1": {
+    "children": [
+      "vtex.product-highlights@2.x:product-highlights#ahora-3-6",
+      "vtex.product-highlights@2.x:product-highlights#ahora-12",
+      "vtex.product-highlights@2.x:product-highlights#ahora-18",
+      "vtex.product-highlights@2.x:product-highlights#ahora-24",
+      "vtex.product-highlights@2.x:product-highlights#ahora-30",
+      "vtex.product-highlights@2.x:product-highlights#cm-flag-22",
+      "vtex.product-highlights@2.x:product-highlights#flag-motos",
+      "vtex.product-highlights@2.x:product-highlights#flag-justos",
+      "vtex.product-highlights@2.x:product-highlights#hs-flag-23",
+      "m3-empleados-wrapper#highligh-colecion"
+    ],
+    "props": {
+      "width": "0%",
+      "blockClass": "flags-summary"
+    }
+  },
+  "m3-empleados-wrapper#highligh-colecion": {
+    "children": [
+      "vtex.product-highlights@2.x:product-highlights#empleados-coppel"
+    ],
+    "props": {
+      "isVisible": true
+    }
+  },
+  
+  "flex-layout.col#image-container-2": {
+    "children": [
+      "product-summary-image#image"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "product-summary-image#image": {
+    "props": {
+      "showBadge": true,
+      "aspectRatio": {
+        "desktop": "1:1",
+        "mobile": "1:1"
+      },
+      "height": 228,
+      "width:": 228
+    }
+  },
+  "add-to-cart-button": {
+    "props": {
+      "onClickBehavior": "go-to-cart",
+      "text": "Comprar",
+      "unavailableText": "Sin Stock"
+    }
+  },
+  
+  "product-summary.shelf#home": {
+    "children": [
+      "flex-layout.row#image-container",
+      "product-summary-add-to-list-button",
+      "coppelar.m3-custom:product-name#shelf",
+      "product-summary-price",
+      "product-installments",
+      "product-summary-space",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "priceBehavior": "async",
+      "showListPrice": true
+    }
+  },
+  "list-context.product-list#home": {
+    "blocks": [
+      "product-summary.shelf#home"
+    ],
+    "props": {
+      "collection": "137"
+    }
+  },
+  "coppelar.m3-custom:product-name#shelf": {
+    "props": {
+      "blockClass": "shelf-title",
+      "tag": "h3"
+    }
+  },
+  "product-summary.shelf#product": {
+    "children": [
+      "add-to-list-btn#wishlist",
+      "flex-layout.row#image-container",
+      "product-summary-add-to-list-button",
+      "coppelar.m3-custom:product-name#shelf",
+      "product-list-price",
+      "product-selling-price",
+      "product-installments",
+      "product-summary-space",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "priceBehavior": "async",
+      "showListPrice": true,
+      "blockClass": "summary-product"
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "flex-layout.row#brand-slider": {
+    "props": {
+      "blockClass": "brand-slider",
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#brand-slider"]
+  },
+
+  "flex-layout.col#brand-slider": {
+    "props": {
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "rich-text#brand-slider__title",
+      "m3-brand-slider#home-top"
+    ]
+  },
+
+  "rich-text#brand-slider__title": {
+    "props": {
+      "blockClass": "brand-slider__title",
+      "text": "Buscalo por Marca"
+    }
+  },
+  "m3-brand-slider#home-top": {
+    "props": {
+      "blockClass": "brand-slider",
+      "sliderOptions": {
+        "itemsPerPage": {
+          "desktop": 7,
+          "tablet": 5,
+          "phone": 3
+        },
+        "infinite": true,
+        "showNavigationArrows": "always",
+        "showPaginationDots": "never"
+      },
+      "items": [
+        {
+          "title": "Fila",
+          "image": "assets/brand-slider/fila.jpg",
+          "link": "/fila"
+        },
+        {
+          "title": "Noblex",
+          "image": "assets/brand-slider/noblex.jpg",
+          "link": "/noblex"
+        },
+        {
+          "title": "Philco",
+          "image": "assets/brand-slider/philco.jpg",
+          "link": "/philco"
+        },
+        {
+          "title": "Liliana",
+          "image": "assets/brand-slider/liliana.jpg",
+          "link": "/liliana"
+        },
+        {
+          "title": "Hp",
+          "image": "assets/brand-slider/hp.jpg",
+          "link": "/hp"
+        },
+        {
+          "title": "Drean",
+          "image": "assets/brand-slider/drean.jpg",
+          "link": "/drean"
+        },
+        {
+          "title": "Winco",
+          "image": "assets/brand-slider/winco.jpg",
+          "link": "/winco"
+        },
+        {
+          "title": "Philips",
+          "image": "assets/brand-slider/philips.jpg",
+          "link": "/philips"
+        },
+        {
+          "title": "LG",
+          "image": "assets/brand-slider/lg.jpg",
+          "link": "/lg"
+        },
+        {
+          "title": "Sony",
+          "image": "assets/brand-slider/sony.jpg",
+          "link": "/sony"
+        },
+        {
+          "title": "Samsung",
+          "image": "assets/brand-slider/samsung.jpg",
+          "link": "/samsung"
+        },
+        {
+          "title": "Nike",
+          "image": "assets/brand-slider/nike.jpg",
+          "link": "/nike"
+        },
+        {
+          "title": "Electrolux",
+          "image": "assets/brand-slider/electrolux.jpg",
+          "link": "/electrolux"
+        },
+        {
+          "title": "PS5",
+          "image": "assets/brand-slider/ps5.jpg",
+          "link": "/playstation"
+        },
+        {
+          "title": "Topper",
+          "image": "assets/brand-slider/topper.jpg",
+          "link": "/topper"
+        },
+        {
+          "title": "Puma",
+          "image": "assets/brand-slider/puma.jpg",
+          "link": "/puma"
+        },
+        {
+          "title": "Adidas",
+          "image": "assets/brand-slider/adidas.jpg",
+          "link": "/adidas"
+        },
+        {
+          "title": "Motorola",
+          "image": "assets/brand-slider/motorola.jpg",
+          "link": "/motorola"
+        }
+      ]
+    }
+  }
+}

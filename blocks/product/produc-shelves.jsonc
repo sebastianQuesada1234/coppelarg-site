@@ -1,0 +1,55 @@
+{
+  "pdp_min-items-wrapper#view-and-bought": {
+    "title": "Vitrina - Mínimo de productos",
+    "props": {
+      "blockId": "MinItemsWrapper_1",
+      "minItems": 1
+    },
+    "children": ["shelf.relatedProducts#view-and-bought"]
+  },
+  "shelf.relatedProducts#view-and-bought": {
+    "blocks": ["product-summary.shelf"],
+    "title": "Vitrina - Quienes vieron compraron",
+    "props": {
+      "recommendation": "buy",
+      "paginationDotsVisibility": "hidden",
+      "hideOutOfStockItems": true,
+      "productList": {
+        "itemsPerPage": 5,
+        "arrows": true,
+        "titleText": "Quienes vieron este producto también compraron",
+        "hideOutOfStockItems": true,
+        "maxItems": 15,
+        "minItemsPerPage": 2
+      },
+      "blockClass": "shelf-pdp-v2"
+    }
+  },
+
+  "pdp_min-items-wrapper#view": {
+    "title": "Vitrina - Mínimo de productos",
+    "props": {
+      "blockId": "MinItemsWrapper_2",
+      "minItems": 1
+    },
+    "children": ["shelf.relatedProducts#view"]
+  },
+  "shelf.relatedProducts#view": {
+    "blocks": ["product-summary.shelf"],
+    "title": "Vitrina - Quienes vieron también vieron",
+    "props": {
+      "recommendation": "view",
+      "paginationDotsVisibility": "hidden",
+      "hideOutOfStockItems": true,
+      "productList": {
+        "itemsPerPage": 5,
+        "arrows": true,
+        "titleText": "Quienes vieron este producto también vieron",
+        "hideOutOfStockItems": true,
+        "maxItems": 15,
+        "minItemsPerPage": 2
+      },
+      "blockClass": "shelf-pdp-v2"
+    }
+  }
+}

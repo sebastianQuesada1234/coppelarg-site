@@ -1,0 +1,98 @@
+{
+    "search-result-layout.desktop#temp-evento-category": {
+        "children": [
+            "responsive-layout.desktop#ev-cm-top",
+            "responsive-layout.mobile#ev-cm-top",
+            "m3-conditional-render#slider-links",
+            "m3-conditional-render#temp-evento-beneficios-search",
+            "rich-text#ev-cm-search-title",
+            "__fold__",
+            "flex-layout.row#result",
+            "flex-layout.row#spacer"
+        ],
+        "props": {
+            "preventRouteChange": true,
+            "thresholdForFacetSearch": 20,
+            "showProductsCount": true,
+            "showFacetQuantity": true,
+            "HiddenFacets": {
+                "priceRange": true
+            },
+            "pagination": "show-more",
+            "mobileLayout": {
+                "mode1": "small",
+                "mode2": "normal"
+            }
+        }
+    },
+    "search-result-layout.mobile#temp-evento-category": {
+        "children": [
+          "responsive-layout.desktop#ev-cm-top",
+          "responsive-layout.mobile#ev-cm-top",
+          "m3-conditional-render#slider-links",
+          "flex-layout.row#temp-evento-mt-pg-mbl",
+          "rich-text#ev-cm-search-title",
+          "__fold__",
+          "flex-layout.row#searchinfomobile",
+          "flex-layout.row#contentmobile",
+          "flex-layout.row#pagination",
+          "flex-layout.row#spacer"
+        ],
+        "props": {
+            "pagination": "show-more",
+            "mobileLayout": {
+                "mode1": "small",
+                "mode2": "normal"
+            }
+        }
+    },
+
+    //Beneficios
+    "m3-conditional-render#temp-evento-beneficios-search": {
+        "title": "V/I - Beneficios",
+        "props": {
+            "condition": true
+        },
+        "children": [
+            "flex-layout.row#temp-evento-beneficios-search"
+        ]
+    },
+    "flex-layout.row#temp-evento-beneficios-search": {
+        "title": "Beneficios",
+        "children": [
+            "rich-text#temp-evento-beneficio-01",
+            "rich-text#temp-evento-beneficio-02",
+            "rich-text#temp-evento-beneficio-03",
+            "rich-text#temp-evento-beneficio-04"
+        ],
+        "props": {
+            "blockClass": ["temp-evento-beneficios", "search-result"],
+            "colSizing": "auto"
+        }
+    },
+
+    //Slider Links
+    "m3-conditional-render#slider-links": {
+        "title": "V/I - Slider Links",
+        "props": {
+            "condition": false
+        },
+        "children": ["slider-links"]
+    },
+    "slider-links": {
+        "props": {
+            "items": [],
+            "sliderOptions": {
+                "itemsPerPage": {
+                    "desktop": 6,
+                    "tablet": 3,
+                    "phone": 2
+                },
+                "infinite": true,
+                "fullWidth": true,
+                "showPaginationDots": "never",
+                "showNavigationArrows": "always"
+            }
+        }
+    }
+}

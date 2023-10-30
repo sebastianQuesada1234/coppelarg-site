@@ -1,0 +1,132 @@
+// store/blocks/quienes-somos.jsonc
+{
+  "store.custom#quienes-somos": {
+    "blocks": [
+      "flex-layout.row#quienes-somos-titulo",
+      "flex-layout.row#vision-titulo",
+      "flex-layout.row#vision",
+      "flex-layout.row#proposito-titulo",
+      "flex-layout.row#proposito",
+      "flex-layout.row#valores-titulo",
+      "flex-layout.row#valores"
+    ],
+    "props":{
+      "blockClass":"template-quienes-somos"
+    }
+  },
+  "flex-layout.row#quienes-somos-titulo": {
+    "children": [
+      "rich-text#quienes-somos-titulo"
+    ],
+    "props":{
+      "blockClass":"quienes-somos-titulo"
+    }
+  },
+  "rich-text#quienes-somos-titulo": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "#### **Quiénes Somos**"
+    }
+  },
+  "flex-layout.row#vision-titulo": {
+    "children":[
+      "rich-text#vision-titulo"
+    ],
+    "props":{
+      "fullWidth": false,
+      "blockClass": "vision-titulo"
+    }
+  },
+  "rich-text#vision-titulo": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Visión",
+      "blockClass": "vision-titulo-rt"
+    }
+  },
+  "flex-layout.row#vision": {
+    "children":[
+      "rich-text#vision"
+    ],
+    "props":{
+      "fullWidth": false,
+      "blockClass": "vision"
+    }
+  },
+  "rich-text#vision":{
+    "props":{
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Ser la tienda omnicanal y de servicios financieros personales y digitales, favorita del mercado masivo, que ofrece una gran variedad de categorías de productos y servicios útiles, atractivos y accesibles, de marcas líderes, que atienden las necesidades, así como los deseos de sus clientes."
+    }
+  },
+  "flex-layout.row#proposito-titulo": {
+    "children":[
+      "rich-text#proposito-titulo"
+    ],
+    "props":{
+      "fullWidth": false,
+      "blockClass": "vision-titulo"
+    }
+  },
+  "rich-text#proposito-titulo": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Propósito",
+      "blockClass": "vision-titulo-rt"
+    }
+  },
+  "flex-layout.row#proposito": {
+    "children":[
+      "rich-text#proposito"
+    ],
+    "props":{
+      "fullWidth": false,
+      "blockClass": "vision"
+    }
+  },
+  "rich-text#proposito":{
+    "props":{
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Acompañarte en tus necesidades y deseos, acercándote un mundo de posibilidades para que mejores tu vida."
+    }
+  },
+  "flex-layout.row#valores-titulo": {
+    "children":[
+      "rich-text#valores-titulo"
+    ],
+    "props":{
+      "fullWidth": false,
+      "blockClass": "vision-titulo"
+    }
+  },
+  "rich-text#valores-titulo": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Valores",
+      "blockClass": "vision-titulo-rt"
+    }
+  },
+  "flex-layout.row#valores": {
+    "children":[
+      "rich-text#valores"
+    ],
+    "props":{
+      "fullWidth": false,
+      "blockClass": "valores"
+    }
+  },
+  "rich-text#valores":{
+    "props":{
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Confianza.<br/> Responsabilidad.<br/> Atención y servicio.<br/> Eficiencia y sencillez.<br/> Innovación."
+    }
+  }
+
+}

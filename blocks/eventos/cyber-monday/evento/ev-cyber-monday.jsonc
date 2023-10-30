@@ -1,0 +1,208 @@
+{
+  "store.custom#evento-cyber-monday": {
+    "blocks": ["flex-layout.row#ev-cm"]
+  },
+  "flex-layout.row#ev-cm": {
+    "children": ["flex-layout.col#ev-cm"],
+    "props": {
+      "blockClass": "lp-cm-22",
+      "horizontalAlign": "CENTER",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#ev-cm": {
+    "children": [
+      "list-context.image-list#cm-slider",
+      "responsive-layout.desktop#cm-banners",
+      "responsive-layout.tablet#cm-banners",
+      "responsive-layout.phone#cm-banners",
+      "responsive-layout.desktop#cm-benefits",
+      "responsive-layout.tablet#cm-benefits",
+      "responsive-layout.phone#cm-benefits",
+      "flex-layout.col#ev-cm-categories",
+      "flex-layout.col#ev-cm-shelfs",
+      "flex-layout.row#ev-cm-text-seo",
+      "flex-layout.row#spacer"
+    ],
+    "props": {
+      "blockClass": "ev-cm-22",
+      "verticalAlign": "middle",
+      "horizontalAlign": "CENTER"
+    }
+  },
+  //banners
+  "responsive-layout.desktop#cm-banners": {
+    "children": ["image#cm-banner-bottom-dsk"]
+  },
+  "responsive-layout.tablet#cm-banners": {
+    "children": ["image#cm-banner-bottom-mbl"]
+  },
+  "responsive-layout.phone#cm-banners": {
+    "children": ["image#cm-banner-bottom-mbl"]
+  },
+  //benefits
+  "responsive-layout.desktop#cm-benefits": {
+    "children": ["flex-layout.row#ev-cm-benefits"]
+  },
+  "responsive-layout.tablet#cm-benefits": {
+    "children": ["flex-layout.row#ev-cm-benefits-mbl"]
+  },
+  "responsive-layout.phone#cm-benefits": {
+    "children": ["flex-layout.row#ev-cm-benefits-mbl"]
+  },
+
+  "image#cm-banner-bottom-dsk": {
+    "props": {
+      "blockClass": "cm-banner-bottom",
+      "src": "https://coppelar.vteximg.com.br/arquivos/banner-cyber-22-benefits-dsk.png?v=1"
+    }
+  },
+  "image#cm-banner-bottom-mbl": {
+    "props": {
+      "blockClass": "cm-banner-bottom",
+      "src": "https://coppelar.vteximg.com.br/arquivos/banner-cyber-22-benefits-mbl.png?v=1"
+    }
+  },
+
+  "flex-layout.row#ev-cm-benefits": {
+    "title": "Benefits",
+    "children": [
+      "flex-layout.col#ev-cm-benefit-01",
+      "flex-layout.col#ev-cm-benefit-02",
+      "flex-layout.col#ev-cm-benefit-03",
+      "flex-layout.col#ev-cm-benefit-04"
+    ],
+    "props": {
+      "blockClass": "ev-cm-22",
+      "horizontalAlign": "CENTER",
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.col#ev-cm-benefit-01": {
+    "children": ["image#ev-cm-benefit-01", "rich-text#ev-cm-benefit-01"],
+    "props": {"blockClass": "ev-cm-benefit"}
+  },
+  "image#ev-cm-benefit-01": {
+    "props": {
+      "blockClass": "ev-cm-benefit",
+      "src": "https://coppelar.vteximg.com.br/arquivos/cm-b-card.svg"
+    }
+  },
+  "rich-text#ev-cm-benefit-01": {
+    "props": {
+      "text": "Tarjetas de Crédito\n[Ver Más](/medios-de-pago)",
+      "blockClass": "ev-cm-benefit"
+    }
+  },
+
+  "flex-layout.col#ev-cm-benefit-02": {
+    "children": ["image#ev-cm-benefit-02", "rich-text#ev-cm-benefit-02"],
+    "props": {"blockClass": "ev-cm-benefit"}
+  },
+  "image#ev-cm-benefit-02": {
+    "props": {
+      "blockClass": "ev-cm-benefit",
+      "src": "https://coppelar.vteximg.com.br/arquivos/cm-b-credit.svg"
+    }
+  },
+  "rich-text#ev-cm-benefit-02": {
+    "props": {
+      "text": "Tarjetas de Débito\n[Ver Más](/medios-de-pago)",
+      "blockClass": "ev-cm-benefit"
+    }
+  },
+
+  "flex-layout.col#ev-cm-benefit-03": {
+    "children": ["image#ev-cm-benefit-03", "rich-text#ev-cm-benefit-03"],
+    "props": {"blockClass": "ev-cm-benefit"}
+  },
+  "image#ev-cm-benefit-03": {
+    "props": {
+      "blockClass": "ev-cm-benefit",
+      "src": "https://coppelar.vteximg.com.br/arquivos/cm-b-key.svg"
+    }
+  },
+  "rich-text#ev-cm-benefit-03": {
+    "props": {
+      "text": "Crédito Coppel\n[Ver Más](/medios-de-pago)",
+      "blockClass": "ev-cm-benefit"
+    }
+  },
+
+  "flex-layout.col#ev-cm-benefit-04": {
+    "children": ["image#ev-cm-benefit-04", "rich-text#ev-cm-benefit-04"],
+    "props": {"blockClass": "ev-cm-benefit"}
+  },
+  "image#ev-cm-benefit-04": {
+    "props": {
+      "blockClass": "ev-cm-benefit",
+      "src": "https://coppelar.vteximg.com.br/arquivos/cm-b-person.svg"
+    }
+  },
+  "rich-text#ev-cm-benefit-04": {
+    "props": {
+      "text": "Mercado Pago\n[Ver Más](/medios-de-pago)",
+      "blockClass": "ev-cm-benefit"
+    }
+  },
+
+  "flex-layout.col#ev-cm-benefit-plus": {
+    "children": ["image#ev-cm-benefit-plus"],
+    "props": {"blockClass": ["ev-cm-benefit", "ev-cm-plus"]}
+  },
+  "image#ev-cm-benefit-plus": {
+    "props": {
+      "blockClass": "ev-cm-plus",
+      "src": "https://coppelar.vteximg.com.br/arquivos/cm-b-plus.png",
+      "link": {
+        "url": "/medios-de-pago",
+        "newTab": false
+      }
+    }
+  },
+
+  "flex-layout.col#ev-cm-categories": {
+    "title": "Categories",
+    "children": ["top-landing-page#ev-cm"],
+    "props": {"blockClass": "ev-cm-categories"}
+  },
+  "top-landing-page#ev-cm": {
+    "props": {
+      "banner": "",
+      "showLabel": false,
+      "categories": [
+        {"title": "Televisores y Audio", "icon": "assets/images/top-lp/i01.png", "link": "/televisores-y-audio"},
+        {"title": "Celulares", "icon": "assets/images/top-lp/i02.png", "link": "/celulares"},
+        {"title": "Lavarropas", "icon": "assets/images/top-lp/i03.png", "link": "/lavarropas"},
+        {"title": "Motos", "icon": "assets/images/top-lp/i04.png", "link": "/motos"},
+        {"title": "Climatización", "icon": "assets/images/top-lp/i05.png", "link": "/climatizacion"},
+        {"title": "Zapatillas", "icon": "assets/images/top-lp/i06.png", "link": "/zapatillas"},
+        {"title": "Notebooks y Tablets", "icon": "assets/images/top-lp/i07.png", "link": "/notebooks-y-tablets"},
+        {"title": "Heladeras", "icon": "assets/images/top-lp/i08.png", "link": "/heladeras"}
+        /*
+        {"title": "Calzado", "icon": "assets/images/top-lp/i08.png", "link": "/aniversario?map=category-2,productClusterIds&query=/calzado/278&searchState"},
+        {"title": "Calzado", "icon": "assets/images/top-lp/i08.png", "link": "/aniversario?map=category-2,productClusterIds&query=/calzado/278&searchState"},
+        {"title": "Calzado", "icon": "assets/images/top-lp/i08.png", "link": "/aniversario?map=category-2,productClusterIds&query=/calzado/278&searchState"}
+        */
+      ],
+      "itemsPerPage": {
+        "desktop": 8,
+        "tablet": 4,
+        "phone": 4
+      }
+    }
+  },
+
+  "flex-layout.col#ev-cm-shelfs": {
+    "title": "Shelfs",
+    "children": [
+      "flex-layout.col#ev-cm-shelf-01",
+      "flex-layout.col#ev-cm-shelf-02",
+      "flex-layout.col#ev-cm-shelf-03"
+    ],
+    "props": {
+      "blockClass": "ev-cm-shelfs"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "store.custom#coleccion-celulares-todos": {
+    "blocks": [
+      "search-result-layout.customQuery#celulares-todos"
+    ]
+  },
+  "search-result-layout.customQuery#celulares-todos": {
+    "props": {
+      "blockClass": "coleccion",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "208",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

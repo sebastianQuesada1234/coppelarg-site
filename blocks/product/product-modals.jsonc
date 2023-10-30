@@ -1,0 +1,338 @@
+{
+  "modal-header#modal-header": {
+    "props": {
+      "showCloseButton": true,
+      "blockClass": "modal-header"
+    }
+  },
+
+  //TABLA-TALLES
+
+  "modal-trigger#tabla-talles": {
+    "children": ["rich-text#tabla-talles", "modal-layout#tabla-talles"],
+    "props": {
+      "blockClass": "tabla-talles"
+    }
+  },
+  "rich-text#tabla-talles": {
+    "props": {
+      "text": "ver tabla de talles",
+      "blockClass": "tabla-talles"
+    }
+  },
+  "modal-layout#tabla-talles": {
+    "children": ["modal-header#modal-header", "modal-content#tabla-talles"],
+    "props": {
+      "blockClass": "modal-talles"
+    }
+  },
+
+  "modal-content#tabla-talles": {
+    "children": []
+  },
+  "image#tabla-talles-image": {
+    "props": {
+      "src": "assets/images/tabla-talles.png",
+      "blockClass": "tabla-talles"
+    }
+  },
+  "size-chart#talles": {
+    "props": {
+      "groupName": "Detalles",
+      "fieldName": "tabla de talles"
+    }
+  },
+
+  //COSTO-ENVIO
+
+  "modal-trigger#costo-envio": {
+    "children": ["rich-text#costo-envio", "modal-layout#costo-envio"],
+    "props": {
+      "blockClass": "costo-envio"
+    }
+  },
+  "image#costo-envio-icon": {
+    "props": {
+      "src": "assets/icons/costo-envio-icon.svg",
+      "blockClass": "costo-envio-icon"
+    }
+  },
+  "rich-text#costo-envio-label": {
+    "props": {
+      "text": "Envíos a todo el país *",
+      "blockClass": "costo-envio-label"
+    }
+  },
+  "rich-text#costo-envio": {
+    "props": {
+      "text": "Calcular costo de envío",
+      "blockClass": "costo-envio"
+    }
+  },
+  "rich-text#envios-caba-gba": {
+    "props": {
+      "text": "Envíos en 48hs Caba y GBA",
+      "blockClass": "envios-caba-gba"
+    }
+  },
+  "modal-layout#costo-envio": {
+    "children": ["modal-header#modal-header", "modal-content#costo-envio"],
+    "props": {
+      "blockClass": "modal-container"
+    }
+  },
+  "modal-content#costo-envio": {
+    "children": [
+      "rich-text#costo-envio-modal-title",
+      "rich-text#costo-envio-modal-subtext"
+    ]
+  },
+  "rich-text#costo-envio-modal-title": {
+    "props": {
+      "text": "![](assets/icons/costo-envio-icon.svg) Calcular costo de envío",
+      "blockClass": "modal-title"
+    }
+  },
+  "m3-shipping-simulator#product": {
+    "props": {
+      "filter": "soloEntrega"
+    }
+  },
+  "rich-text#costo-envio-modal-subtext": {
+    "props": {
+      "text": "*Envíos a todo el país exceptuando las provincias de Tucumán y Misiones",
+      "blockClass": ["modal-subtext", "small"]
+    }
+  },
+
+  //SUCURSALES
+
+  "modal-trigger#sucursales": {
+    "children": ["rich-text#sucursales", "modal-layout#sucursales"],
+    "props": {
+      "blockClass": "sucursales"
+    }
+  },
+  "image#sucursales-icon": {
+    "props": {
+      "src": "assets/icons/sucursales-icon.svg",
+      "blockClass": "sucursales-icon"
+    }
+  },
+  "rich-text#sucursales-label": {
+    "props": {
+      "text": "Retiro *gratis* en tienda",
+      "blockClass": "sucursales-label"
+    }
+  },
+  "rich-text#sucursales": {
+    "props": {
+      "text": "![](assets/icons/icon-store-blue.svg) Retiro gratis en tienda",
+      "blockClass": "sucursales"
+    }
+  },
+  "modal-layout#sucursales": {
+    "children": ["modal-header#modal-header", "modal-content#sucursales"],
+    "props": {
+      "blockClass": ["modal-container", "large"]
+    }
+  },
+  "modal-content#sucursales": {
+    "children": ["rich-text#sucursales-modal-title", "m3-puntos-de-recogida"]
+  },
+  "rich-text#sucursales-modal-title": {
+    "props": {
+      "text": "Tiendas disponibles\n*Encuentra tu tienda más cercana*",
+      "blockClass": ["modal-title", "header-title", "no-margin"]
+    }
+  },
+
+  //CUOTAS
+
+  "modal-trigger#cuotas": {
+    "children": ["rich-text#cuotas", "modal-layout#cuotas"],
+    "props": {
+      "blockClass": "cuotas"
+    }
+  },
+  "image#cuotas-icon": {
+    "props": {
+      "src": "assets/icons/cuotas-icon.svg",
+      "blockClass": "cuotas-icon"
+    }
+  },
+  "rich-text#cuotas-label": {
+    "props": {
+      "text": "Conocé las cuotas con tu tarjeta *",
+      "blockClass": "cuotas-label"
+    }
+  },
+  "rich-text#cuotas": {
+    "props": {
+      "text": "Ver métodos de pago",
+      "blockClass": "cuotas"
+    }
+  },
+  "modal-layout#cuotas": {
+    "children": ["modal-header#modal-header", "modal-content#cuotas"],
+    "props": {
+      "blockClass": ["modal-container", "installments"]
+    }
+  },
+  "modal-content#cuotas": {
+    "children": [
+      "rich-text#cuotas-modal-title",
+      "rich-text#cuotas-modal-subtitle",
+      "installments-list#p2"
+    ]
+  },
+  "rich-text#cuotas-modal-title": {
+    "props": {
+      "text": "Selecciona tu método de pago",
+      "blockClass": ["modal-title", "modal-cuotas"]
+    }
+  },
+  "rich-text#cuotas-modal-subtitle": {
+    "props": {
+      "text": "*Descubre a cuantas cuotas puedes pagar tu artículo*",
+      "blockClass": ["modal-title", "modal-cuotas"]
+    }
+  },
+  "installments-list#p2": {
+    "props": {
+      "interestFree": false,
+      "tarifasTarjeta": [
+        {
+          "nombre": "Visa",
+          "icone": "https://coppelar.vteximg.com.br/arquivos/card__Visa.png",
+          "tarifas": [
+            {"cuotas": 3, "interes": 1.32, "cft": 37.47, "tea": 29.90},
+            {"cuotas": 3, "interes": 3.66, "cft": 143.27, "tea": 106.17},
+            {"cuotas": 6, "interes": 1.32, "cft": 43.42, "tea": 34.26},
+            {"cuotas": 6, "interes": 3.33, "cft": 171.92, "tea": 122.52},
+            {"cuotas": 9, "interes": 2.77, "cft": 151.38, "tea": 107.10},
+            {"cuotas": 12, "interes": 1.16, "cft": 42.86, "tea": 33.42},
+            {"cuotas": 12, "interes": 2.91, "cft": 207.54, "tea": 136.44},
+            {"cuotas": 12, "interes": 1.44, "cft": 41.05, "tea": 36.01},
+            {"cuotas": 18, "interes": 1.38, "cft": 62.67, "tea": 46.78},
+            {"cuotas": 18, "interes": 2.50, "cft": 219.43, "tea": 133.75},
+            {"cuotas": 24, "interes": 1.25, "cft": 60.82, "tea": 44.65}
+          ]
+        },
+        {
+          "nombre": "Mastercard",
+          "icone": "https://coppelar.vteximg.com.br/arquivos/card__Mastercard.png",
+          "tarifas": [
+            {"cuotas": 3, "interes": 1.32, "cft": 37.47, "tea": 29.90},
+            {"cuotas": 3, "interes": 3.66, "cft": 143.27, "tea": 106.17},
+            {"cuotas": 6, "interes": 1.32, "cft": 43.42, "tea": 34.26},
+            {"cuotas": 6, "interes": 3.33, "cft": 171.92, "tea": 122.52},
+            {"cuotas": 9, "interes": 2.77, "cft": 151.38, "tea": 107.10},
+            {"cuotas": 12, "interes": 1.16, "cft": 42.86, "tea": 33.42},
+            {"cuotas": 12, "interes": 2.91, "cft": 207.54, "tea": 136.44},
+            {"cuotas": 12, "interes": 1.44, "cft": 41.05, "tea": 36.01},
+            {"cuotas": 18, "interes": 1.38, "cft": 62.67, "tea": 46.78},
+            {"cuotas": 18, "interes": 2.50, "cft": 219.43, "tea": 133.75},
+            {"cuotas": 24, "interes": 1.25, "cft": 60.82, "tea": 44.65}
+          ]
+        },
+        {
+          "nombre": "American Express",
+          "icone": "https://coppelar.vteximg.com.br/arquivos/card__American Express.png",
+          "tarifas": [
+            {"cuotas": 3, "interes": 1.32, "cft": 37.47, "tea": 29.90},
+            {"cuotas": 3, "interes": 3.66, "cft": 143.27, "tea": 106.17},
+            {"cuotas": 6, "interes": 1.32, "cft": 43.42, "tea": 34.26},
+            {"cuotas": 6, "interes": 3.33, "cft": 171.92, "tea": 122.52},
+            {"cuotas": 9, "interes": 2.77, "cft": 151.38, "tea": 107.10},
+            {"cuotas": 12, "interes": 1.16, "cft": 42.86, "tea": 33.42},
+            {"cuotas": 12, "interes": 2.91, "cft": 207.54, "tea": 136.44},
+            {"cuotas": 12, "interes": 1.44, "cft": 41.05, "tea": 36.01},
+            {"cuotas": 18, "interes": 1.38, "cft": 62.67, "tea": 46.78},
+            {"cuotas": 18, "interes": 2.50, "cft": 219.43, "tea": 133.75},
+            {"cuotas": 24, "interes": 1.25, "cft": 60.82, "tea": 44.65}
+          ]
+        },
+        {
+          "nombre": "Cabal",
+          "icone": "https://coppelar.vteximg.com.br/arquivos/card__Cabal.png",
+          "tarifas": [
+            {"cuotas": 3, "interes": 1.32, "cft": 37.47, "tea": 29.90},
+            {"cuotas": 3, "interes": 3.66, "cft": 143.27, "tea": 106.17},
+            {"cuotas": 6, "interes": 1.32, "cft": 43.42, "tea": 34.26},
+            {"cuotas": 6, "interes": 3.33, "cft": 171.92, "tea": 122.52},
+            {"cuotas": 9, "interes": 2.77, "cft": 151.38, "tea": 107.10},
+            {"cuotas": 12, "interes": 1.16, "cft": 42.86, "tea": 33.42},
+            {"cuotas": 12, "interes": 2.91, "cft": 207.54, "tea": 136.44},
+            {"cuotas": 12, "interes": 1.44, "cft": 41.05, "tea": 36.01},
+            {"cuotas": 18, "interes": 1.38, "cft": 62.67, "tea": 46.78},
+            {"cuotas": 18, "interes": 2.50, "cft": 219.43, "tea": 133.75},
+            {"cuotas": 24, "interes": 1.25, "cft": 60.82, "tea": 44.65}
+          ]
+        },
+        {
+          "nombre": "American Express - No bancaria",
+          "icone": "https://coppelar.vteximg.com.br/arquivos/card__American Express - No bancaria.png",
+          "tarifas": [
+            {"cuotas": 3, "interes": 1.32, "cft": 37.47, "tea": 29.90},
+            {"cuotas": 3, "interes": 3.66, "cft": 143.27, "tea": 106.17},
+            {"cuotas": 6, "interes": 1.32, "cft": 43.42, "tea": 34.26},
+            {"cuotas": 6, "interes": 3.33, "cft": 171.92, "tea": 122.52},
+            {"cuotas": 9, "interes": 2.77, "cft": 151.38, "tea": 107.10},
+            {"cuotas": 12, "interes": 1.16, "cft": 42.86, "tea": 33.42},
+            {"cuotas": 12, "interes": 2.91, "cft": 207.54, "tea": 136.44},
+            {"cuotas": 12, "interes": 1.44, "cft": 41.05, "tea": 36.01},
+            {"cuotas": 18, "interes": 1.38, "cft": 62.67, "tea": 46.78},
+            {"cuotas": 18, "interes": 2.50, "cft": 219.43, "tea": 133.75},
+            {"cuotas": 24, "interes": 1.25, "cft": 60.82, "tea": 44.65}
+          ]
+        },
+        {
+          "nombre": "Visa - No Bancaria",
+          "icone": "https://coppelar.vteximg.com.br/arquivos/card__Visa.png",
+          "tarifas": [
+            {"cuotas": 3, "interes": 1.32, "cft": 37.47, "tea": 29.90},
+            {"cuotas": 3, "interes": 3.66, "cft": 143.27, "tea": 106.17},
+            {"cuotas": 6, "interes": 1.32, "cft": 43.42, "tea": 34.26},
+            {"cuotas": 6, "interes": 3.33, "cft": 171.92, "tea": 122.52},
+            {"cuotas": 9, "interes": 2.77, "cft": 151.38, "tea": 107.10},
+            {"cuotas": 12, "interes": 1.16, "cft": 42.86, "tea": 33.42},
+            {"cuotas": 12, "interes": 2.91, "cft": 207.54, "tea": 136.44},
+            {"cuotas": 12, "interes": 1.44, "cft": 41.05, "tea": 36.01},
+            {"cuotas": 18, "interes": 1.38, "cft": 62.67, "tea": 46.78},
+            {"cuotas": 18, "interes": 2.50, "cft": 219.43, "tea": 133.75},
+            {"cuotas": 24, "interes": 1.25, "cft": 60.82, "tea": 44.65}
+          ]
+        }
+      ]
+    }
+  },
+  "rich-text#cuotas-modal-subtext": {
+    "props": {
+      "text": "CFT 0% - TEA 0%\n*Promoción válida únicamente con tarjetas bancarias",
+      "blockClass": "modal-subtext"
+    }
+  },
+
+  //CAMBIOS
+
+  "image#cambios-icon": {
+    "props": {
+      "src": "assets/icons/cambios-icon.svg",
+      "blockClass": "cambios-icon"
+    }
+  },
+  "rich-text#cambios-label": {
+    "props": {
+      "text": "Cambíos y devoluciones",
+      "blockClass": "cambios-label"
+    }
+  },
+  "link#cambios": {
+    "props": {
+      "blockClass": "deal-link",
+      "label": "Ver más",
+      "href": "/politica-de-cambios-y-devoluciones"
+    }
+  }
+}

@@ -1,0 +1,344 @@
+// store/blocks/preguntas-frecuentes.jsonc
+{
+  "store.custom#preguntas-frecuentes": {
+    "blocks": [
+      "flex-layout.row#preguntas-frecuentes",
+      "flex-layout.row#nuestros-canales"
+    ],
+    "props":{
+      "blockClass": "template-quienes-somos"
+    }
+  },
+  "rich-text#PF-title": {
+    "props": {
+      "blockClass": "pf-title-page",
+      "text": "Preguntas Frecuentes"
+    }
+  },
+
+  "flex-layout.row#preguntas-frecuentes": {
+    "props": {
+      "blockClass": "preguntas-frecuentes",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#PF-title",
+      "flex-layout.col#preguntas-frecuentes"
+    ]
+  },
+
+  "flex-layout.col#preguntas-frecuentes": {
+    "props": {
+      "blockClass": "preguntas-frecuentes",
+      "fullWidth": true
+    },
+    "children": [
+      "disclosure-layout#CO",
+      "disclosure-layout#NT",
+      "disclosure-layout#CC",
+      "disclosure-layout#PE"
+    ]
+  },
+
+  "disclosure-layout#CO": {
+    "children": ["disclosure-trigger#CO", "disclosure-content#CO"]
+  },
+  "disclosure-trigger#CO": {
+    "children": ["image#CO", "rich-text#CO-title"]
+  },
+  "disclosure-content#CO": {
+    "children": ["flex-layout.col#CO-conteudo-1"]
+  },
+  "image#CO": {
+    "props": {
+      "src": "assets/icons/pf_co_icon.svg",
+      "maxWidth": 32
+    }
+  },
+  "rich-text#CO-title": {
+    "props": {
+      "blockClass": "disclosure",
+      "text": "Compra Online"
+    }
+  },
+  "flex-layout.col#CO-conteudo-1": {
+    "props": {
+      "blockClass": "pf-content"
+    },
+    "children": [
+      "disclosure-layout#CO_01_dc",
+      "disclosure-layout#CO_02_dc",
+      "disclosure-layout#CO_03_dc",
+      "disclosure-layout#CO_04_dc",
+      "disclosure-layout#CO_05_dc",
+      "disclosure-layout#CO_06_dc",
+      "disclosure-layout#CO_07_dc",
+      "disclosure-layout#CO_08_dc",
+      "disclosure-layout#CO_09_dc",
+      "disclosure-layout#CO_10_dc",
+      "disclosure-layout#CO_11_dc"      
+    ]
+  },
+
+
+  "disclosure-layout#NT": {
+    "children": ["disclosure-trigger#NT", "disclosure-content#NT"]
+  },
+  "disclosure-trigger#NT": {
+    "children": ["image#NT", "rich-text#NT-title"]
+  },
+  "disclosure-content#NT": {
+    "children": ["flex-layout.col#NT-conteudo"]
+  },
+  "image#NT": {
+    "props": {
+      "src": "assets/icons/pf_nt_icon.svg",
+      "maxWidth": 32
+    }
+  },
+  "rich-text#NT-title": {
+    "props": {
+      "blockClass": "disclosure",
+      "text": "Nuestras Tiendas"
+    }
+  },
+  "flex-layout.col#NT-conteudo": {
+    "props": {
+      "blockClass": "pf-content"
+    },
+    "children": [
+      "disclosure-layout#NT_01_dc",
+      "disclosure-layout#NT_02_dc"
+    ]
+  },
+
+  "disclosure-layout#CC": {
+    "children": ["disclosure-trigger#CC", "disclosure-content#CC"]
+  },
+  "disclosure-trigger#CC": {
+    "children": ["image#CC", "rich-text#CC-title"]
+  },
+  "disclosure-content#CC": {
+    "children": ["flex-layout.col#CC-conteudo"]
+  },
+  "image#CC": {
+    "props": {
+      "src": "assets/icons/pf_cc_icon.svg",
+      "maxWidth": 32
+    }
+  },
+  "rich-text#CC-title": {
+    "props": {
+      "blockClass": "disclosure",
+      "text": "Crédito Coppel"
+    }
+  },
+  "flex-layout.col#CC-conteudo": {
+    "props": {
+      "blockClass": "pf-content"
+    },
+    "children": [
+      "disclosure-layout#CC_00_dc",
+      "disclosure-layout#CC_01_dc",
+      "disclosure-layout#CC_02_dc",
+      "disclosure-layout#CC_03_dc",
+      "disclosure-layout#CC_04_dc",
+      "disclosure-layout#CC_05_dc",
+      "disclosure-layout#CC_06_dc",
+      "disclosure-layout#CC_07_dc",
+      "disclosure-layout#CC_08_dc",
+      "disclosure-layout#CC_09_dc",
+      "disclosure-layout#CC_10_dc",
+      "disclosure-layout#CC_11_dc"
+    ]
+  },
+
+  "disclosure-layout#PE": {
+    "children": ["disclosure-trigger#PE", "disclosure-content#PE"]
+  },
+  "disclosure-trigger#PE": {
+    "children": ["image#PE", "rich-text#PE-title"]
+  },
+  "disclosure-content#PE": {
+    "children": ["flex-layout.col#PE-conteudo"]
+  },
+  "image#PE": {
+    "props": {
+      "src": "assets/icons/pf_pe_icon.svg",
+      "maxWidth": 32
+    }
+  },
+  "rich-text#PE-title": {
+    "props": {
+      "blockClass": "disclosure",
+      "text": "Préstamos en Efectivo"
+    }
+  },
+  "flex-layout.col#PE-conteudo": {
+    "props": {
+      "blockClass": "pf-content"
+    },
+    "children": [
+      "disclosure-layout#PE_01_dc",
+      "disclosure-layout#PE_02_dc",
+      "disclosure-layout#PE_03_dc",
+      "disclosure-layout#PE_04_dc",
+      "disclosure-layout#PE_05_dc",
+      "disclosure-layout#PE_06_dc"
+    ]
+  },
+
+  "rich-text#canales-title": {
+    "props": {
+      "blockClass": "canales-title",
+      "text": "Nuestros canales de venta son:"
+    }
+  },
+  "rich-text#canales-aviso": {
+    "props": {
+      "blockClass": "canales-sub-title",
+      "text": "No comercializamos nuestros productos mediante ningún otro canal."
+    }
+  },
+
+  "flex-layout.row#nuestros-canales": {
+    "props": {
+      "blockClass": "nuestros-canales",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#canales-title",
+      "flex-layout.col#nuestros-canales",
+      "rich-text#canales-aviso"
+    ]
+  },
+
+  "flex-layout.col#nuestros-canales": {
+    "props": {
+      "blockClass": "nuestros-canales"
+    },
+    "children": [
+      "flex-layout.col#canales01",
+      "flex-layout.col#canales02",
+      "flex-layout.col#canales03",
+      "flex-layout.col#canales04"
+    ]
+  },
+
+  "flex-layout.col#canales01": {
+    "props": {
+      "blockClass": "canale"
+    },
+    "children": ["image#canale01", "rich-text#canale01", "link#canale01"]
+  },
+  "flex-layout.col#canales02": {
+    "props": {
+      "blockClass": "canale"
+    },
+    "children": ["image#canale02", "rich-text#canale02", "rich-text#link02"]
+  },
+  "flex-layout.col#canales03": {
+    "props": {
+      "blockClass": "canale"
+    },
+    "children": ["image#canale03", "rich-text#canale03", "link#canale03"]
+  },
+  "flex-layout.col#canales04": {
+    "props": {
+      "blockClass": "canale"
+    },
+    "children": ["image#canale04", "rich-text#canale04", "link#canale04"]
+  },
+
+  "image#canale01": {
+    "props": {
+      "src": "assets/icons/canales-01.svg",
+      "maxHeight": 80
+    }
+  },
+  "rich-text#canale01": {
+    "props":{
+      "text":"Página Web",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass":"nuestro-canale"
+    }
+  },
+  "link#canale01": {
+    "props": {
+      "blockClass": "canale-link",
+      "href": "https://www.coppel.com.ar/",
+      "label": "www.coppel.com.ar",
+      "target": "_blank"
+    }
+  },
+
+  "image#canale02": {
+    "props": {
+      "src": "assets/icons/canales-02.svg",
+      "maxHeight": 80
+    }
+  },
+  "rich-text#canale02": {
+    "props":{
+      "text":"Venta Telefónica",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass":"nuestro-canale"
+    }
+  },
+  "rich-text#link02": {
+    "props":{
+      "text":"09:00 a 18:00",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass":"nuestro-canale_link"
+    }
+  },
+
+  "image#canale03": {
+    "props": {
+      "src": "assets/icons/canales-03.svg",
+      "maxHeight": 80
+    }
+  },
+  "rich-text#canale03": {
+    "props":{
+      "text":"Nuestras Tiendas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass":"nuestro-canale"
+    }
+  },
+  "link#canale03": {
+    "props": {
+      "blockClass": "canale-link",
+      "href": "https://www.coppel.com.ar/nuestras-tiendas",
+      "label": "ver más",
+      "target": "_blank"
+    }
+  },
+
+  "image#canale04": {
+    "props": {
+      "src": "assets/icons/canales-04.svg",
+      "maxHeight": 80
+    }
+  },
+  "rich-text#canale04": {
+    "props":{
+      "text":"WhatsApp",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass":"nuestro-canale"
+    }
+  },
+  "link#canale04": {
+    "props": {
+      "blockClass": "canale-link",
+      "href": "https://wa.me/5491120401248",
+      "label": "5491120401248",
+      "target": "_blank"
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+    "slider-layout#temp-evento-estanteria": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 2
+            },
+            "infinite": true,
+            "fullWidth": false,
+            "blockClass": ["shelf-home", "temp-evento-estanteria"],
+            "showPaginationDots": "never",
+            "showNavigationArrows": "always"
+        }
+    },
+
+    //Estantería 1
+    "flex-layout.row#temp-evento-estanteria-01": {
+        "title": "Estantería 1",
+        "children": ["flex-layout.col#temp-evento-estanteria-01"],
+        "props": {
+            "blockClass": "temp-evento-shelf",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#temp-evento-estanteria-01": {
+        "children": ["rich-text#temp-evento-estanteria-01", "list-context.product-list#temp-evento-estanteria-01"],
+        "props": {
+            "width": "100%"
+        }
+    },
+    "rich-text#temp-evento-estanteria-01": {
+        "title": "Titulo",
+        "props": {
+            "text": "Especial Tecnología ¡Hasta 18 cuotas sin interés! [Ver más](/)",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "blockClass": "temp-evento-estanteria-header"
+        }
+    },
+    "list-context.product-list#temp-evento-estanteria-01": {
+        "blocks": ["product-summary.shelf"],
+        "children": ["slider-layout#temp-evento-estanteria"],
+        "props": {
+            "collection": "146",
+            "hideUnavailableItems": true,
+            "orderBy": "OrderByTopSaleDESC",
+            "maxItems": 15
+        }
+    },
+    
+    //Estantería 2
+    "flex-layout.row#temp-evento-estanteria-02": {
+        "title": "Estantería 2",
+        "children": ["flex-layout.col#temp-evento-estanteria-02"],
+        "props": {
+            "blockClass": "temp-evento-shelf",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#temp-evento-estanteria-02": {
+        "children": ["rich-text#temp-evento-estanteria-02", "list-context.product-list#temp-evento-estanteria-02"],
+        "props": {
+            "width": "100%"
+        }
+    },
+    "rich-text#temp-evento-estanteria-02": {
+        "title": "Titulo",
+        "props": {
+            "text": "Especial Tecnología ¡Hasta 18 cuotas sin interés!",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "blockClass": "temp-evento-estanteria-header"
+        }
+    },
+    "list-context.product-list#temp-evento-estanteria-02": {
+        "blocks": ["product-summary.shelf"],
+        "children": ["slider-layout#temp-evento-estanteria"],
+        "props": {
+            "collection": "146",
+            "hideUnavailableItems": true,
+            "orderBy": "OrderByTopSaleDESC",
+            "maxItems": 15
+        }
+    },
+
+    //Estantería 3
+    "flex-layout.row#temp-evento-estanteria-03": {
+        "title": "Estantería 3",
+        "children": ["flex-layout.col#temp-evento-estanteria-03"],
+        "props": {
+            "blockClass": "temp-evento-shelf",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#temp-evento-estanteria-03": {
+        "children": ["rich-text#temp-evento-estanteria-03", "list-context.product-list#temp-evento-estanteria-03"],
+        "props": {
+            "width": "100%"
+        }
+    },
+    "rich-text#temp-evento-estanteria-03": {
+        "title": "Titulo",
+        "props": {
+            "text": "Especial Tecnología ¡Hasta 18 cuotas sin interés!",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "blockClass": "temp-evento-estanteria-header"
+        }
+    },
+    "list-context.product-list#temp-evento-estanteria-03": {
+        "blocks": ["product-summary.shelf"],
+        "children": ["slider-layout#temp-evento-estanteria"],
+        "props": {
+            "collection": "146",
+            "hideUnavailableItems": true,
+            "orderBy": "OrderByTopSaleDESC",
+            "maxItems": 15
+        }
+    },
+
+    //Estantería 4
+    "flex-layout.row#temp-evento-estanteria-04": {
+        "title": "Estantería 4",
+        "children": ["flex-layout.col#temp-evento-estanteria-04"],
+        "props": {
+            "blockClass": "temp-evento-shelf",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#temp-evento-estanteria-04": {
+        "children": ["rich-text#temp-evento-estanteria-04", "list-context.product-list#temp-evento-estanteria-04"],
+        "props": {
+            "width": "100%"
+        }
+    },
+    "rich-text#temp-evento-estanteria-04": {
+        "title": "Titulo",
+        "props": {
+            "text": "Especial Tecnología ¡Hasta 18 cuotas sin interés!",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "blockClass": "temp-evento-estanteria-header"
+        }
+    },
+    "list-context.product-list#temp-evento-estanteria-04": {
+        "blocks": ["product-summary.shelf"],
+        "children": ["slider-layout#temp-evento-estanteria"],
+        "props": {
+            "collection": "146",
+            "hideUnavailableItems": true,
+            "orderBy": "OrderByTopSaleDESC",
+            "maxItems": 15
+        }
+    }
+}

@@ -1,0 +1,188 @@
+{
+  "flex-layout.col#paymentInfo-block": {
+    "title": "Medios de Pago",
+    "props": {
+      "blockClass": ["paymentInfo-block", "desc-spec-paymentInfo-block"],
+      "width": "32%",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#title-payment-block",
+      "flex-layout.col#cred-cop-payment-block",
+      "flex-layout.col#tarjetas-payment-block",
+      "flex-layout.col#efectivo-payment-block"
+    ]
+  },
+  "rich-text#title-payment-block": {
+    "title": "Titulo",
+    "props": {
+      "text": "### Medios de pago",
+      "blockClass": "title-payment-block"
+    }
+  },
+
+  "flex-layout.col#cred-cop-payment-block": {
+    "title": "Bloque - Crédito Coppel",
+
+    "props": {
+      "blockClass": ["cred-cop-payment-block", "row-payment-block"]
+    },
+    "children": [
+      "rich-text#cred-cop-sub-title-payment-block",
+      "flex-layout.row#cred-cop-img-text-block",
+      "link#solicita-cred-cop"
+    ]
+  },
+  "rich-text#cred-cop-sub-title-payment-block": {
+    "props": {
+      "text": "#### Crédito Coppel",
+      "blockClass": "sub-title-payment-block"
+    }
+  },
+  "flex-layout.row#cred-cop-img-text-block": {
+    "props": {
+      "blockClass": ["cred-cop-img-text-block"],
+      "preventHorizontalStretch": "true"
+    },
+    "children": [
+      "image#cred-cop-icon",
+      "pdp_payment-description-text#cred-cop-text"
+    ]
+  },
+  "image#cred-cop-icon": {
+    "props": {
+      "src": "assets/pdp-payment-icons/credcop-pdp.png",
+      "blockClass": "cred-cop-icon",
+      "maxWidth": "30px"
+    }
+  },
+  "pdp_payment-description-text#cred-cop-text": {
+    "props": {
+      "title": "Texto - Descripción de Pago",
+      "text": "Hasta en {cuotasCredito} cuotas mensuales"
+    }
+  },
+  "link#solicita-cred-cop": {
+    "props": {
+      "blockClass": ["desc-spec-terminos-condiciones", "solicita-cred-cop"],
+      "href": "/",
+      "label": "Solicita tu crédito aquí",
+      "target": "_blank"
+    }
+  },
+
+  "flex-layout.col#tarjetas-payment-block": {
+    "title": "Bloque - Tarjetas",
+
+    "props": {
+      "blockClass": ["tarjetas-payment-block", "row-payment-block"]
+    },
+    "children": [
+      "rich-text#tarjetas-sub-title-payment-block",
+      "pdp_payment-description-text#tarjetas-text-payment-block",
+      "flex-layout.row#tarjetas-icons-payment-block"
+    ]
+  },
+  "rich-text#tarjetas-sub-title-payment-block": {
+    "props": {
+      "text": "#### Tarjetas de crédito",
+      "blockClass": "sub-title-payment-block"
+    }
+  },
+  "pdp_payment-description-text#tarjetas-text-payment-block": {
+    "props": {
+      "title": "Texto - Descripción de Pago",
+      "text": "Paga con 2 tarjetas y hasta en {cuotasTarjeta} {termTarjeta} sin interés"
+    }
+  },
+  "flex-layout.row#tarjetas-icons-payment-block": {
+    "props": {
+      "blockClass": ["icons-payment-block"],
+      "preventHorizontalStretch": "true"
+    },
+    "children": [
+      "image#visa-icon-payment-block",
+      "image#amex-icon-payment-block",
+      "image#cabal-icon-payment-block",
+      "image#mastercard-icon-payment-block"
+    ]
+  },
+  "image#visa-icon-payment-block": {
+    "props": {
+      "src": "assets/pdp-payment-icons/visa-pdp.png",
+      "blockClass": "tarjeta-icon"
+    }
+  },
+  "image#amex-icon-payment-block": {
+    "props": {
+      "src": "assets/pdp-payment-icons/amex-pdp.png",
+      "blockClass": "tarjeta-icon"
+    }
+  },
+  "image#cabal-icon-payment-block": {
+    "props": {
+      "src": "assets/pdp-payment-icons/cabal-pdp.png",
+      "blockClass": "tarjeta-icon"
+    }
+  },
+  "image#mastercard-icon-payment-block": {
+    "props": {
+      "src": "assets/pdp-payment-icons/mastercard-pdp.png",
+      "blockClass": "tarjeta-icon"
+    }
+  },
+
+  "flex-layout.col#efectivo-payment-block": {
+    "title": "Bloque - Efectivo",
+
+    "props": {
+      "blockClass": ["efectivo-payment-block", "row-payment-block"]
+    },
+    "children": [
+      "rich-text#efectivo-sub-title-payment-block",
+      "rich-text#efectivo-text-payment-block",
+      "flex-layout.row#efectivo-icons-payment-block"
+    ]
+  },
+  "rich-text#efectivo-sub-title-payment-block": {
+    "props": {
+      "text": "#### Efectivo",
+      "blockClass": "sub-title-payment-block"
+    }
+  },
+  "rich-text#efectivo-text-payment-block": {
+    "props": {
+      "text": "Pagá con dinero en cuenta de Mercado Pago o con efectivo a través de Rapipago o Pagofácil ",
+      "blockClass": "text-payment-block"
+    }
+  },
+  "flex-layout.row#efectivo-icons-payment-block": {
+    "props": {
+      "blockClass": ["icons-payment-block"],
+      "preventHorizontalStretch": "true"
+    },
+    "children": [
+      "image#mercado-pago-icon-payment-block",
+      "image#rapipago-icon-payment-block",
+      "image#pago-facil-icon-payment-block"
+    ]
+  },
+  "image#mercado-pago-icon-payment-block": {
+    "props": {
+      "src": "assets/pdp-payment-icons/mercadopago-pdp.png",
+      "blockClass": "tarjeta-icon"
+    }
+  },
+  "image#rapipago-icon-payment-block": {
+    "props": {
+      "src": "assets/pdp-payment-icons/rapipago-pdp.png",
+      "blockClass": "tarjeta-icon"
+    }
+  },
+  "image#pago-facil-icon-payment-block": {
+    "props": {
+      "src": "assets/pdp-payment-icons/pagofacil-pdp.png",
+      "blockClass": "tarjeta-icon"
+    }
+  }
+}

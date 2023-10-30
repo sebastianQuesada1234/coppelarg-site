@@ -1,0 +1,66 @@
+{
+  //DC 01
+  "disclosure-layout#NT_01_dc": {
+    "children": ["disclosure-trigger#NT_01_dc", "disclosure-content#NT_01_dc"]
+  },
+  "disclosure-trigger#NT_01_dc": {
+    "children": ["rich-text#NT_01_dc-title"]
+  },
+  "disclosure-content#NT_01_dc": {
+    "children": ["flex-layout.col#NT_01_dc-conteudo"]
+  },
+  "rich-text#NT_01_dc-title": {
+    "props": {
+      "blockClass": "pf-topic",
+      "text": "¿Dónde se encuentran ubicadas las Tiendas Coppel?"
+    }
+  },
+  "flex-layout.col#NT_01_dc-conteudo": {
+    "children": [
+      "rich-text#NT_01_dc_01",
+      "link#NT_btn"
+    ]
+  },
+  "rich-text#NT_01_dc_01": {
+    "props": {
+      "blockClass": "pf-text",
+      "text": "Podrás buscar la dirección y horario de tu Tienda más cercana en el siguiente Link:"
+    }
+  },
+  "link#NT_btn": {
+    "props": {
+      "blockClass": "NT_btn",
+      "href": "https://www.coppel.com.ar/nuestras-tiendas",
+      "label": "Nuestras Tiendas",
+      "target": "_blank"
+    }
+  },
+
+  //DC 02
+  "disclosure-layout#NT_02_dc": {
+    "children": ["disclosure-trigger#NT_02_dc", "disclosure-content#NT_02_dc"]
+  },
+  "disclosure-trigger#NT_02_dc": {
+    "children": ["rich-text#NT_02_dc-title"]
+  },
+  "disclosure-content#NT_02_dc": {
+    "children": ["flex-layout.col#NT_02_dc-conteudo"]
+  },
+  "rich-text#NT_02_dc-title": {
+    "props": {
+      "blockClass": "pf-topic",
+      "text": "¿Qué servicios voy a encontrar disponible?"
+    }
+  },
+  "flex-layout.col#NT_02_dc-conteudo": {
+    "children": [
+      "flex-layout.col#nuestros-servicios"
+    ]
+  },
+  "rich-text#NT_02_dc_01": {
+    "props": {
+      "blockClass": "pf-text",
+      "text": "servicios nuestras-tiendas"
+    }
+  }
+}

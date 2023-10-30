@@ -1,0 +1,24 @@
+{
+  "store.custom#coleccion-ofertas": {
+    "blocks": [
+      "search-result-layout.customQuery#ofertas"
+    ]
+  },
+  "search-result-layout.customQuery#ofertas": {
+    "props": {
+      "blockClass": "coleccion",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "202",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

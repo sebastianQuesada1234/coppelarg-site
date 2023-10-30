@@ -1,0 +1,91 @@
+{
+  "store.custom#coleccion-electrofans-gamer": {
+    "blocks": [
+      "search-result-layout.customQuery#electrofans-gamer"
+    ]
+  },
+  "search-result-layout.customQuery#electrofans-gamer": {
+    "props": {
+      "blockClass": "coleccion",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "400",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#coleccion-electrofans-gamer",
+      "search-result-layout.mobile#coleccion-electrofans-gamer",
+      "search-not-found-layout"
+    ]
+  },
+  //DESKTOP
+  "search-result-layout.desktop#coleccion-electrofans-gamer": {
+    "children": [
+      "image#lp-liquid",
+      "image#lp-banner-gamer",
+      "flex-layout.row#searchbread",
+      "search-title.v2",
+      "flex-layout.row#result",
+      "flex-layout.row#spacer",
+      "rich-text#ef-dsc-gam"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "thresholdForFacetSearch": 10,
+      "showProductsCount": true,
+      "showFacetQuantity": true,
+      "HiddenFacets": {
+        "priceRange": true
+      },
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "blockClass": "black-friday-collection"
+    }
+  },
+  "image#lp-banner-gamer": {
+    "props": {
+      "blockClass": "search-banner",
+      "src": "assets/images/banner-gamer.jpg"
+    }
+  },
+  //MOBILE
+  "search-result-layout.mobile#coleccion-electrofans-gamer": {
+    "children": [
+      "image#lp-liquid-mob",
+      "image#collection-coleccion-electrofans-mobile-gamer",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#contentmobile",
+      "flex-layout.row#pagination",
+      "flex-layout.row#spacer",
+      "rich-text#ef-dsc-gam"
+    ],
+    "props": {
+      "blockClass": "black-friday-collection",
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  "image#collection-coleccion-electrofans-mobile-gamer": {
+    "props": {
+      "blockClass": "search-banner",
+      "src": "assets/images/banner-gamer-mob.jpg"
+    }
+  },
+  "rich-text#ef-dsc-gam": {
+    "title": "descriptions SEO",
+    "props": {
+      "blockClass": "electro-fans-descriptions",
+      "text": "## Activá el modo gamer con Coppel\n\nConvertite en un profesional del [gaming](https://www.coppel.com.ar/electro-fans/gamer) y hacé que tu espacio favorito luzca increíble en este [Electro Fans](). Equipalo con las mejores [barras de sonido Hisense](https://www.coppel.com.ar/electro-fans/gamer), [LG](https://www.coppel.com.ar/electro-fans/gamer), [Noblex](https://www.coppel.com.ar/electro-fans/gamer) y [Samsung](https://www.coppel.com.ar/electro-fans/gamer) con subwoofer y [parlantes con bluetooth](https://www.coppel.com.ar/electro-fans/gamer), para que disfrutes de tus partidas con sonidos realistas de alta calidad. Si preferís jugar de manera más discreta, un mini parlante, unos [auriculares gamer inalámbricos o alámbricos](https://www.coppel.com.ar/electro-fans/gamer), son perfectos para vos.\nTambién contamos con una amplia gama de [consolas y videojuegos](https://www.coppel.com.ar/electro-fans/gamer): [Xbox](https://www.coppel.com.ar/electro-fans/gamer), [PlayStation](https://www.coppel.com.ar/electro-fans/gamer) para tiempos de carga más rápidos y una mayor resolución, y los [videojuegos](https://www.coppel.com.ar/electro-fans/gamer) como [FIFA 23](https://www.coppel.com.ar/electro-fans/gamer), [Call Of Duty](https://www.coppel.com.ar/electro-fans/gamer) y más para entretenerte desde casa y pasar un rato agradable. Compartí experiencias con todos tus amigos, disfrutá de los mejores [juegos para PC](https://www.coppel.com.ar/electro-fans/gamer) con los [monitores gaming](https://www.coppel.com.ar/electro-fans/gamer) de las marcas [Noblex](https://www.coppel.com.ar/electro-fans/gamer) y [Samsung](https://www.coppel.com.ar/electro-fans/gamer), seguro hay más de uno que te va a sorprender, y jugá cómodamente con el confort que te dará una [silla gamer](https://www.coppel.com.ar/electro-fans/gamer), tenemos la ideal para vos. En [Coppel.com.ar](/) y [App Coppel](https://play.google.com/store/apps/details?id=ar.com.coppel&pli=1) podés elegir entre una gran variedad de [parlantes bluetooth y portátiles](https://www.coppel.com.ar/electro-fans/gamer), [consolas](https://www.coppel.com.ar/electro-fans/gamer) y muchos artículos más.\n\nUtilizá tu crédito y estrená hoy mismo. Si todavía no tenés tu [Crédito Coppel](https://www2.coppel.com.ar/credito.php), solicitalo en línea; ¡es fácil, rápido y gratis!"
+    }
+  }
+}

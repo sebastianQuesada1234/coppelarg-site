@@ -1,0 +1,25 @@
+// store/blocks/quienes-somos.jsonc
+{
+  "store.custom#coleccion-electrofest": {
+    "blocks": [
+      "search-result-layout.customQuery#electrofest"
+    ]
+  },
+  "search-result-layout.customQuery#electrofest": {
+    "props": {
+      "blockClass": "coleccion",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "193",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

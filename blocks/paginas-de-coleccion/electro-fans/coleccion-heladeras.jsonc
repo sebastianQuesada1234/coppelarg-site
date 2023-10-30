@@ -1,0 +1,91 @@
+{
+  "store.custom#coleccion-electrofans-heladeras": {
+    "blocks": [
+      "search-result-layout.customQuery#electrofans-heladeras"
+    ]
+  },
+  "search-result-layout.customQuery#electrofans-heladeras": {
+    "props": {
+      "blockClass": "coleccion",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "397",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#coleccion-electrofans-heladeras",
+      "search-result-layout.mobile#coleccion-electrofans-heladeras",
+      "search-not-found-layout"
+    ]
+  },
+  //DESKTOP
+  "search-result-layout.desktop#coleccion-electrofans-heladeras": {
+    "children": [
+      "image#lp-liquid",
+      "image#lp-banner-hela",
+      "flex-layout.row#searchbread",
+      "search-title.v2",
+      "flex-layout.row#result",
+      "flex-layout.row#spacer",
+      "rich-text#ef-dsc-hel"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "thresholdForFacetSearch": 10,
+      "showProductsCount": true,
+      "showFacetQuantity": true,
+      "HiddenFacets": {
+        "priceRange": true
+      },
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "blockClass": "black-friday-collection"
+    }
+  },
+  "image#lp-banner-hela": {
+    "props": {
+      "blockClass": "search-banner",
+      "src": "assets/images/banner-helader.jpg"
+    }
+  },
+  //MOBILE
+  "search-result-layout.mobile#coleccion-electrofans-heladeras": {
+    "children": [
+      "image#lp-liquid-mob",
+      "image#collection-coleccion-electrofans-mobile-hela",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#contentmobile",
+      "flex-layout.row#pagination",
+      "flex-layout.row#spacer",
+      "rich-text#ef-dsc-hel"
+    ],
+    "props": {
+      "blockClass": "black-friday-collection",
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  "image#collection-coleccion-electrofans-mobile-hela": {
+    "props": {
+      "blockClass": "search-banner",
+      "src": "assets/images/banner-helader-mob.jpg"
+    }
+  },
+  "rich-text#ef-dsc-hel": {
+    "title": "descriptions SEO",
+    "props": {
+      "blockClass": "electro-fans-descriptions",
+      "text": "## Mantené frescas tus comidas con los electrodomésticos imperdibles\n\n¡Hacé de tu casa un lugar para soñar! Elegí tus productos favoritos entre el extenso catálogo en artículos de [muebles para cocina](https://www.coppel.com.ar/electro-fans/heladeras-y-freezers), [electrodomésticos](https://www.coppel.com.ar/electro-fans/heladeras-y-freezers), [freezers](https://www.coppel.com.ar/electro-fans/heladeras-y-freezers), [heladeras](https://www.coppel.com.ar/electro-fans/heladeras-y-freezers), [cocinas](https://www.coppel.com.ar/electro-fans/heladeras-y-freezers), [hornos eléctricos](https://www.coppel.com.ar/electro-fans/heladeras-y-freezers), y muchos más. Disfrutá de las mejores marcas del mercado como [LG](https://www.coppel.com.ar/electro-fans/heladeras-y-freezers), [Electrolux](https://www.coppel.com.ar/electro-fans/heladeras-y-freezers), [ATMA](https://www.coppel.com.ar/electro-fans/heladeras-y-freezers), [Gafa](https://www.coppel.com.ar/electro-fans/heladeras-y-freezers), [Liliana](https://www.coppel.com.ar/electro-fans/heladeras-y-freezers), [Philco](https://www.coppel.com.ar/electro-fans/heladeras-y-freezers), entre otras y no te quedes afuera de estos súper descuentos y ofertas para darle a tus comidas lo mejor en tecnología y no perder la cadena de frío. Comprá ahora en [Coppel.com.ar](/) o en la [App Coppel](https://play.google.com/store/apps/details?id=ar.com.coppel&pli=1) y disfrutá de todos los imperdibles descuentos.\n\nUtilizá tu crédito y estrená hoy mismo. Si todavía no tenés tu [Crédito Coppel](https://www2.coppel.com.ar/credito.php), solicitalo en línea; ¡es fácil, rápido y gratis!"
+    }
+  }
+}

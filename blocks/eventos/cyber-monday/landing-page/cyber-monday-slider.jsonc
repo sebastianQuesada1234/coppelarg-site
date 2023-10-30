@@ -1,0 +1,37 @@
+{
+  "list-context.image-list#cm-slider": {
+    "children": ["slider-layout#cm-slider-images"],
+    "props": {
+      "height": 1000,
+      "fullWidth": true,
+      "images": [
+        {
+          "image": "https://coppelar.vteximg.com.br/arquivos/banner-cyber-22-phone-dsk.png?v=2",
+          "mobileImage": "https://coppelar.vteximg.com.br/arquivos/banner-cyber-22-phone-mbl.png?v=2"
+        },
+        {
+          "image": "https://coppelar.vteximg.com.br/arquivos/banner-cyber-22-shoes-dsk.png?v=2",
+          "mobileImage": "https://coppelar.vteximg.com.br/arquivos/banner-cyber-22-shoes-mbl.png?v=2"
+        }
+      ],
+      "blockClass": "sliderHome"
+    }
+  },
+  "slider-layout#cm-slider-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": "carousel",
+      "autoplay":{
+        "timeout": 3500,
+        "stopOnHover": false
+      }
+    }
+  }
+}

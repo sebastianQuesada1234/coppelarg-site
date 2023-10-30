@@ -1,0 +1,140 @@
+// store/blocks/responsabilidad-social.jsonc
+{
+  "store.custom#responsabilidad-social": {
+    "blocks": [
+      "flex-layout.row#responsabilidad-social",
+      "flex-layout.row#campanas-en-curso-titulo",
+      "flex-layout.row#campanas-en-curso-img",
+      "flex-layout.row#campanas-pasadas-titulo",
+      "flex-layout.row#campanas-pasadas-img",
+      "flex-layout.row#campanas-comunidad-titulo",
+      "flex-layout.row#campanas-comunidad-img",
+      "flex-layout.row#capanas-bottom-line"
+    ],
+    "props":{
+      "blockClass":"template-quienes-somos"
+    }
+  },
+  "flex-layout.row#responsabilidad-social": {
+    "children":[
+      "image#responsabilidad-social"
+    ],
+    "props":{
+      "fullWidth": false,
+      "blockClass": "megapuntos-coppel"
+    }
+  },
+  "image#responsabilidad-social":{
+      "props": {
+        "src": "assets/responsabilidad-social/responsabilidad-social-01.jpeg",
+        "blockClass":"banner-megapuntos"
+      }
+  },
+  "flex-layout.row#campanas-en-curso-titulo": {
+    "children":[
+      "rich-text#campanas-en-curso-titulo"
+    ],
+    "props":{
+      "fullWidth": false,
+      "blockClass": "quienes-somos-titulo"
+    }
+  },
+  "rich-text#campanas-en-curso-titulo":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "#### **Campañas en curso**"
+    }
+  },
+  "flex-layout.row#campanas-en-curso-img": {
+    "children":[
+      "image#campanas-en-curso-img"
+    ],
+    "props":{
+      "fullWidth": false,
+      "blockClass": "megapuntos-coppel"
+    }
+  },
+  "image#campanas-en-curso-img":{
+    "props": {
+      "src": "assets/responsabilidad-social/responsabilidad-social-02.jpeg",
+      "blockClass":"banner-megapuntos"
+    }
+  },
+  "flex-layout.row#campanas-pasadas-titulo": {
+    "children":[
+      "rich-text#campanas-pasadas-titulo"
+    ],
+    "props":{
+      "fullWidth": false,
+      "blockClass": "quienes-somos-titulo"
+    }
+  },
+  "rich-text#campanas-pasadas-titulo":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "#### **Campañas finalizadas**"
+    }
+  },
+  "flex-layout.row#campanas-pasadas-img": {
+    "children":[
+      "image#campanas-pasadas-img"
+    ],
+    "props":{
+      "fullWidth": false,
+      "blockClass": "megapuntos-coppel"
+    }
+  },
+  "image#campanas-pasadas-img":{
+    "props": {
+      "src": "assets/responsabilidad-social/responsabilidad-social-03.png",
+      "blockClass":"banner-megapuntos"
+    }
+  },
+  "flex-layout.row#campanas-comunidad-titulo": {
+    "children":[
+      "rich-text#campanas-comunidad-titulo"
+    ],
+    "props":{
+      "fullWidth": false,
+      "blockClass": "quienes-somos-titulo"
+    }
+  },
+  "rich-text#campanas-comunidad-titulo":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "#### **En Comunidad Coppel nos acompañan**"
+    }
+  },
+  "flex-layout.row#campanas-comunidad-img": {
+    "children":[
+      "image#campanas-comunidad-img1",
+      "image#campanas-comunidad-img2"
+    ],
+    "props":{
+      "fullWidth": false,
+      "blockClass": "megapuntos-coppel"
+    }
+  },
+  "image#campanas-comunidad-img1":{
+    "props": {
+      "src": "assets/responsabilidad-social/responsabilidad-social-04.jpeg",
+      "blockClass":"banner-megapuntos",
+      "maxWidth":"400px"
+    }
+  },
+  "image#campanas-comunidad-img2":{
+    "props": {
+      "src": "assets/responsabilidad-social/responsabilidad-social-05.jpeg",
+      "blockClass":"banner-megapuntos",
+      "maxWidth":"400px"
+    }
+  },
+  "flex-layout.row#capanas-bottom-line":{
+    "props":{
+      "blockClass":"botom-line-row"
+    }
+  }
+}

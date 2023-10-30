@@ -1,0 +1,96 @@
+// store/blocks/tyc-tienda-online-motos.jsonc
+{
+  "store.custom#tyc-tienda-online-motos": {
+    "blocks": [
+      "flex-layout.row#tienda-tyc-row"
+    ],
+    "props":{
+      "blockClass":"template-quienes-somos"
+    }
+  },
+  "flex-layout.row#tienda-tyc-row":{
+    "children":[
+      "rich-text#tienda-tyc-title",
+      "rich-text#tienda-tyc-text-1",
+      "rich-text#tienda-tyc-text-2",
+      "rich-text#tienda-tyc-text-3",
+      "rich-text#tienda-tyc-text-4",
+      "rich-text#tienda-tyc-text-5",
+      "rich-text#tienda-tyc-text-6",
+      "rich-text#tienda-tyc-text-7",
+      "rich-text#tienda-tyc-text-8",
+      "rich-text#tienda-tyc-text-9",
+      "rich-text#tienda-tyc-text-10"
+    ],
+    "props": {
+      "blockClass": "tyc-row"
+    }
+  },
+  "rich-text#tienda-tyc-title":{
+    "props":{
+      "text": "**TIENDA ONLINE COPPEL - MOTOS**",
+      "textPosition": "LEFT",
+      "blockClass": "tyc-title"
+    }
+  },
+  "rich-text#tienda-tyc-text-1":{
+    "props":{
+      "text": "1) Los presentes términos y condiciones (en adelante, los “Términos”) establecen los requisitos y mecanismos para la adquisición de motos (en adelante, las “Motos”), que ofrece COPPEL S.A., CUIT: 30-71041150-2, con domicilio legal en Viamonte 1145, Piso 8, Oficina A, de la Ciudad Autónoma de Buenos Aires (en adelante, “Coppel”) a través de su Tienda Online Coppel https://www.coppel.com.ar/muebles/motos/ (en adelante, el “Sitio”) y telefónicamente al número 0800-122-67735 o 011-5296-3400 (en adelante, “Telefónica”).",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#tienda-tyc-text-2":{
+    "props":{
+      "text": "2) Clientes. Los usuarios que se encuentren registrados en el Sitio (en adelante, los “Clientes”) sólo podrán adquirir Motos en la medida en que sean personas humanas, no tengan impedimento alguno para contratar, sean mayores de 18 años y tengan domicilio en la Ciudad de Buenos Aires y/o Gran Buenos Aires.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#tienda-tyc-text-3":{
+    "props":{
+      "text": "3) Precio. El precio de las Motos publicado en el Sitio (en adelante, el “Precio”) estará informado en pesos, moneda de curso legal y forzoso en la República Argentina. El Precio incluye el Impuesto al Valor Agregado (“IVA”) y los gastos de flete, inscripción, patentamiento, transferencia, pero no incluye gastos de seguro ni la incidencia de los impuestos sobre tales conceptos. Tampoco incluye el costo de ningún accesorio ni la mano de obra para la instalación de accesorios.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#tienda-tyc-text-4":{
+    "props":{
+      "text": "4) Mecanismos de Selección. El Cliente podrá seleccionar la Moto publicada a través del Sitio y, una vez elegida, acceder a la opción “comprar” o “iniciar compra” de la misma. Luego, se procederá a reservar la Moto de que se trate mediante el pago del monto predeterminado exhibido en cada publicación. Si el Cliente se decide por la opción Telefónica, deberá comunicarse de lunes a viernes de 9 a 18 hs al número informado en el punto 1 e indicar al representante de atención al cliente el número de SKU de la Moto elegida.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#tienda-tyc-text-5":{
+    "props":{
+      "text": "5) Inicio del trámite de patentamiento. En un plazo de 48 de efectuada la compra on line, un representante de Coppel se comunicará con el Cliente para y coordinar el día y horario con el Cliente a los fines de completar y firmar los formularios y documentación necesarios para iniciar el trámite de patentamiento (en adelante, el “Patentamiento”).  ",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#tienda-tyc-text-6":{
+    "props":{
+      "text": "6) Perfeccionamiento del Contrato. La compraventa de la Moto no se considerará perfeccionada hasta que se haya realizado el Patentamiento de la Moto y entrega de la misma al Cliente por parte de Coppel. En ese sentido, se deja constancia que, sin perjuicio de que el pago de la Moto se pueda realizar por medios electrónicos y/o a distancia, la compraventa de la Moto se hará exclusivamente de forma presencial en las Tiendas Coppel (esto es, una vez finalizado el trámite de Patentamiento y posterior entrega de la Moto). Por lo explicado, la compraventa se entenderá perfeccionada en el establecimiento de Coppel y nunca fuera del establecimiento ni a distancia en los términos de los arts. 32 y 33 de la Ley 24.240 y del art. 1105 del Código Civil y Comercial de la República Argentina.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#tienda-tyc-text-7":{
+    "props":{
+      "text": "7) Derecho de revocación. El Cliente podrá revocar su aceptación respecto del pago de la Moto hasta: (a) 10 (diez) días corridos de haber efectuado el pago en los términos del punto 4 o (b) la fecha en la que el cliente completa y firma los formularios y trámite de patentamiento que se describen en la cláusula 5; lo que ocurra primero. Para ejercer el derecho de retracto descripto, dentro del plazo mencionado el Cliente deberá seguir el procedimiento descripto en la cláusula 8 siguiente. ",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#tienda-tyc-text-8":{
+    "props":{
+      "text": "8) El Cliente podrá cancelar el pago realizado en los términos del punto 4 y ejercer su derecho de retracto, hasta 10 (diez) días corridos de haberlo efectuado, mediante el siguiente mecanismo: comunicándose al 0800-122-67735. El reintegro de lo abonado se hará mediante la acreditación de los fondos del pago en la Cuenta Mercado Pago del Cliente, o mediante la cancelación del pago efectuado a través de una tarjeta de crédito, según cuál haya sido el medio de pago empleado para abonar la Moto. El único efecto de la cancelación del pago, será su devolución al Cliente que la realizó.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#tienda-tyc-text-9":{
+    "props":{
+      "text": "9) Entrega de la Moto. Una vez finalizado el trámite de Patentamiento, Coppel se comunicará con el Cliente y acordará la fecha de entrega de la Moto. La misma se hará en la Tienda Coppel. Se deja constancia que Coppel no será responsable por ningún retraso o demora en la entrega de las Motos, cuando éstos se deriven de situaciones de caso fortuito o de fuerza mayor y cualquier otra causa o situación no imputable a Coppel. Sin perjuicio de ello, en caso de existir tal demora, Coppel informará tal circunstancia de modo fehaciente al Cliente.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#tienda-tyc-text-10":{
+    "props":{
+      "text": "10) Jurisdicción y Derecho aplicable. En caso de conflicto serán de aplicación las leyes de la República Argentina y se acuerda el sometimiento a la jurisdicción y competencia de los tribunales ordinarios con asiento en el domicilio del Cliente.",
+      "blockClass": "tyc-text"
+    }
+  }
+}

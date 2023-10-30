@@ -1,0 +1,22 @@
+{
+  "store.custom#coleccion-enamorados": {
+    "blocks": ["search-result-layout.customQuery#enamorados"]
+  },
+  "search-result-layout.customQuery#enamorados": {
+    "props": {
+      "blockClass": "coleccion",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "256",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

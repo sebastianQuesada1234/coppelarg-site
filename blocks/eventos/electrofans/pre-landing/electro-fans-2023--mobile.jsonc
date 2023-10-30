@@ -1,0 +1,27 @@
+{
+    "responsive-layout.mobile#ef2023-banners": {
+        "children": ["flex-layout.col#ef2023-banners--mobile"]
+      },
+      "flex-layout.col#ef2023-banners--mobile": {
+        "title": "Banners",
+        "children": [
+          "image#pos-ef2023-main-banner-mobile"
+          //"image#pos-ef2023-descuento-banner-mobile"
+        ],
+        "props": {
+          "blockClass": "ef2023-banners"
+        }
+      },
+      "image#pos-ef2023-main-banner-mobile": {
+        "props": {
+          "blockClass": "ef2023-banner",
+          "src": "https://coppelar.vteximg.com.br/arquivos/pos-hs2023-main-banner--mobile.jpg"
+        }
+      },
+      "image#pos-ef2023-descuento-banner-mobile": {
+        "props": {
+          "blockClass": "ef2023-banner",
+          "src": "https://coppelar.vteximg.com.br/arquivos/pos-hs2023-descuento-banner--mobile.jpg"
+        }
+      }
+}

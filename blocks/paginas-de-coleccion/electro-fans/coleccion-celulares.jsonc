@@ -1,0 +1,111 @@
+{
+  "store.custom#coleccion-electrofans-celulares": {
+    "blocks": [
+      "search-result-layout.customQuery#electrofans-cel"
+    ]
+  },
+  "search-result-layout.customQuery#electrofans-cel": {
+    "props": {
+      "blockClass": "coleccion",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "395",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#coleccion-electrofans-celulares",
+      "search-result-layout.mobile#coleccion-electrofans-celulares",
+      "search-not-found-layout"
+    ]
+  },
+  //DESKTOP
+  "search-result-layout.desktop#coleccion-electrofans-celulares": {
+    "children": [
+      "image#lp-liquid",
+      "image#lp-banner-cel",
+      "flex-layout.row#searchbread",
+      "search-title.v2",
+      "flex-layout.row#result",
+      "flex-layout.row#spacer",
+      "rich-text#ef-dsc-cel"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "thresholdForFacetSearch": 10,
+      "showProductsCount": true,
+      "showFacetQuantity": true,
+      "HiddenFacets": {
+        "priceRange": true
+      },
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "blockClass": "black-friday-collection"
+    }
+  },
+  "image#lp-banner-cel": {
+    "props": {
+      "blockClass": "search-banner",
+      "src": "assets/images/banner-celulares.jpg"
+    }
+  },
+  "image#lp-liquid": {
+    "props": {
+      "blockClass": "lp-liquid",
+      "src": "assets/images/banner-liquidacion.jpg",
+      "link": {
+        "url": "/electro-fans",
+        "newTab": false
+      }
+    }
+  },
+  "image#lp-liquid-mob": {
+    "props": {
+      "blockClass": "lp-liquid",
+      "src": "assets/images/banner-liquidacion-mob.jpg",
+      "link": {
+        "url": "/electro-fans",
+        "newTab": false
+      }
+    }
+  },
+  //MOBILE
+  "search-result-layout.mobile#coleccion-electrofans-celulares": {
+    "children": [
+      "image#lp-liquid-mob",
+      "image#collection-coleccion-electrofans-mobile-cel",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#contentmobile",
+      "flex-layout.row#pagination",
+      "flex-layout.row#spacer",
+      "rich-text#ef-dsc-cel"
+    ],
+    "props": {
+      "blockClass": "black-friday-collection",
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  "image#collection-coleccion-electrofans-mobile-cel": {
+    "props": {
+      "blockClass": "search-banner",
+      "src": "assets/images/banner-celulares-mob.jpg"
+    }
+  },
+  "rich-text#ef-dsc-cel": {
+    "title": "descriptions SEO",
+    "props": {
+      "blockClass": "electro-fans-descriptions",
+      "text": "## Viví conectado con lo último en celulares\n\nEncontrá la mejor variedad de [celulares](https://www.coppel.com.ar/electro-fans/celulares-y-accesorios) con novedosos diseños y una gran cantidad de funciones y aplicaciones que mejor se adapten a vos con los descuentos imperdibles que ofrecemos. En [Coppel.com.ar](/) o en la [App Coppel](https://play.google.com/store/apps/details?id=ar.com.coppel&pli=1) tenemos celulares para todos los gustos y bolsillos, podés encontrar alta gama en [celulares Samsung](https://www.coppel.com.ar/electro-fans/celulares-y-accesorios) a precios increíbles o si preferís alta gama tecnológica a menor precio debés conocer los [celulares Motorola](https://www.coppel.com.ar/electro-fans/celulares-y-accesorios). También celulares de gama media como: [Xiaomi Redmi Note](https://www.coppel.com.ar/electro-fans/celulares-y-accesorios),[ Samsung Galaxy s22](https://www.coppel.com.ar/electro-fans/celulares-y-accesorios), [Samsung s20FE](https://www.coppel.com.ar/electro-fans/celulares-y-accesorios), [Motorola Moto G52](https://www.coppel.com.ar/electro-fans/celulares-y-accesorios), entre muchos más. Y de gama económica de las marcas: [ALCATEL](https://www.coppel.com.ar/electro-fans/celulares-y-accesorios), [Mio Nanotech](https://www.coppel.com.ar/electro-fans/celulares-y-accesorios), [QUANTUM](https://www.coppel.com.ar/electro-fans/celulares-y-accesorios), [ZTE](https://www.coppel.com.ar/electro-fans/celulares-y-accesorios) y [Zuum](https://www.coppel.com.ar/electro-fans/celulares-y-accesorios).\nPara llevar una medición más precisa de tus avances, apoyate del uso de un [Smartwatch](https://www.coppel.com.ar/electro-fans/celulares-y-accesorios) o un [Fitband](https://www.coppel.com.ar/electro-fans/celulares-y-accesorios), encontrá [Kieslect](https://www.coppel.com.ar/electro-fans/celulares-y-accesorios), [Noga](https://www.coppel.com.ar/electro-fans/celulares-y-accesorios), [Huawei](https://www.coppel.com.ar/electro-fans/celulares-y-accesorios), [Samsung](https://www.coppel.com.ar/electro-fans/celulares-y-accesorios) y [Xiaomi](https://www.coppel.com.ar/electro-fans/celulares-y-accesorios).\n[Coppel.com.ar](/) es tu mejor tienda de [celulares](https://www.coppel.com.ar/electro-fans/celulares-y-accesorios) y [smartwatches](https://www.coppel.com.ar/electro-fans/celulares-y-accesorios) y el [reloj Samsung Galaxy Fit 2](https://www.coppel.com.ar/electro-fans/celulares-y-accesorios), para que recibas tus notificaciones al instante y goces de la más alta comodidad en tu mano.\n\nUtilizá tu crédito y estrená hoy mismo. Si todavía no tenés tu [Crédito Coppel](https://www2.coppel.com.ar/credito.php), solicitalo en línea; ¡es fácil, rápido y gratis!"
+    }
+  }
+}

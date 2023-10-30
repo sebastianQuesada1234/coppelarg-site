@@ -1,0 +1,89 @@
+// store/blocks/tyc-entregas-a-domicilios.jsonc
+{
+  "store.custom#tyc-entregas-a-domicilio": {
+    "blocks": [
+      "flex-layout.row#entregas-tyc-row"
+    ],
+    "props":{
+      "blockClass":"template-quienes-somos"
+    }
+  },
+  "flex-layout.row#entregas-tyc-row": {
+    "children":[
+      "rich-text#entregas-tyc-title",
+      "rich-text#entregas-tyc-text-1",
+      "rich-text#entregas-tyc-text-2",
+      "rich-text#entregas-tyc-text-3",
+      "rich-text#entregas-tyc-text-4",
+      "rich-text#entregas-tyc-text-5",
+      "rich-text#entregas-tyc-text-6",
+      "rich-text#entregas-tyc-text-7",
+      "rich-text#entregas-tyc-text-8",
+      "rich-text#entregas-tyc-text-9"
+    ],
+    "props": {
+      "blockClass": "tyc-row"
+    }
+  },
+  "rich-text#entregas-tyc-title":{
+    "props":{
+      "text": "**1.ENTREGA A DOMICILIO**",
+      "textPosition": "LEFT",
+      "blockClass": "tyc-title"
+    }
+  },
+  "rich-text#entregas-tyc-text-1":{
+    "props":{
+      "text": "Del Prestador. Los presentes términos y condiciones (en adelante, los “Términos”) establecen los requisitos y las condiciones del servicio de entrega a domicilio gratuito que ofrece COPPEL S.A., CUIT: 30-71041150-2, con domicilio legal en Viamonte nro. 1145, Piso 8, de la Ciudad Autónoma de Buenos Aires (en adelante, “Coppel”) sobre productos seleccionados que se comercializan en las tiendas Coppel.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#entregas-tyc-text-2":{
+    "props":{
+      "text": "**2. Del Producto Seleccionado.**",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#entregas-tyc-text-3":{
+    "props":{
+      "text": "El beneficio del servicio de entrega a domicilio gratuito (en adelante, el “Servicio”) aplica a cualquier mueble y/o aparato y/o equipo mecánico, eléctrico y/o electrónico de fabricante nacional o importado disponible en las tiendas Coppel que haya sido seleccionado por Coppel (en adelante, el “Producto Seleccionado”), conforme al listado de productos que se encuentra a su disposición en las tiendas Coppel. Todo aquel producto que no esté expresamente incluido en ese listado no tendrá el beneficio de la entrega a domicilio gratuita, debiendo abonar el cliente el costo del envío en caso de querer contratarlo con Coppel.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#entregas-tyc-text-4":{
+    "props":{
+      "text": "**3. Del Servicio.**",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#entregas-tyc-text-5":{
+    "props":{
+      "text": "A continuación se detallan las condiciones y limitaciones del Servicio: (i) El transporte del Producto Seleccionado al domicilio del cliente se realizará conforme los datos aportados al momento de adquisición del Producto. En tal sentido, el cliente deberá arribe al domicilio del cliente pero ni él o ningún familiar se encuentren en el domicilio para recibir el Producto Seleccionado, se procederá a hacer la entrega en el domicilio del vecino autorizado. En tal caso, se dejará una notificación en papel en el domicilio del cliente donde se le informará que el Producto Seleccionado fue entregado en el domicilio del vecino autorizado. (vi) En el caso de que el transportista no pueda comunicarse con el cliente telefónicamente, se dejará constancia de tal circunstancia. El cliente deberá comunicarse con el centro de atención al cliente 0800-122-67735 para que Coppel le indique para cuando se pospuso el Servicio y corregir la información de contacto brindada. (vii) El Servicio no se prestará en caso de que la zona en la que resida el cliente sea de difícil acceso, sin embargo, el Servicio se podrá prestar en otro domicilio que informe el cliente o directamente deberá retirar el Producto Seleccionado en alguna de las tiendas de Coppel.\n\nEn tal sentido, no se prestará el Servicio en domicilios que no cumplan con las condiciones físicas apropiadas para la entrega como: - Calles muy accidentadas que puedan dañar la unidad u ocasionar un accidente: subidas o bajadas muy pronunciadas, calles con barro o con charcos profundos que impidan el paso de la unidad o que dificulten el cruce. - Conjuntos habitacionales donde el artículo resulte casi imposible de subir por las escaleras. - Casas o departamentos que por la dimensión de las aberturas resulte imposible ingresar y dejar el artículo dentro del domicilio. - Zonas peligrosas. (viii) En caso de que el cliente no informe previamente que el domicilio en que debe practicarse el Servicio es de difícil acceso, conforme lo descripto en el punto anterior, Coppel no prestará el Servicio. En tal sentido, Coppel se comunicará con el cliente para informar esta circunstancia y coordinar el envío del Producto Seleccionado a otra dirección o informar al cliente que el Producto se encuentra a disposición para ser retirado por la tienda Coppel que corresponda. (ix) En caso de que no pudiera ubicarse el domicilio del cliente o que ni el cliente o algún familiar respondan a los llamados del transportista y/o el vecino autorizado (si existiere) tampoco responda a tales llamados, se procederá a dejar una nota en el domicilio del cliente donde se le indicará que el Transportista realizará una nueva visita a fin de prestar el Servicio.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#entregas-tyc-text-6":{
+    "props":{
+      "text": "**4. Modo de entrega.**",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#entregas-tyc-text-7":{
+    "props":{
+      "text": "El transportista (y su ayudante) descargarán el Producto Seleccionado y lo colocarán al ingreso de la vivienda (siempre y cuando esto no represente un riesgo para ellos o para el Producto Seleccionado), quedando a total criterio del transportista. Luego procederán a quitar el embalaje en presencia del cliente para verificar que el Producto Seleccionado no presenta ningún daño. El cliente deberá revisar el Producto Seleccionado y constatar que no existen daños y/o faltante de accesorios. El cliente deberá firmar un remito con el Producto Seleccionado recibido en el cual se dejará constancia de que el Producto se recibió en perfectas condiciones y con todos los accesorios correspondientes, por lo cual, Coppel no recibirá quejas o reclamos posteriores por presuntos daños ocasionados por el Servicio o faltante de accesorios. No se prestará el Servicio en caso de que el cliente no firme el remito. Se aclara que en caso de que el cliente se rehúse a quitar el embalaje a su Producto, éste se hará responsable por daños que no hayan sido verificados al momento de la entrega y/o falta de accesorios. El cliente deberá firmar el remito correspondiente y se dejará constancia de que el Producto no fue revisado por no quitarse el embalaje por voluntad del cliente. En tal sentido, el cliente eximirá de responsabilidad a Coppel, quien no será responsable por daños en el Producto Seleccionado o faltante de accesorios. En caso de que al momento de desembalar el Producto el cliente identifique algún daño o falta de accesorios, deberá manifestarlo al transportista quien dejará constancia de tal circunstancia y coordinará una nueva prestación del Servicio.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#entregas-tyc-text-8":{
+    "props":{
+      "text": "**5. Derecho aplicable y jurisdicción.**",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#entregas-tyc-text-9":{
+    "props":{
+      "text": "En caso de conflicto serán de aplicación las leyes de la República Argentina y se acuerda el sometimiento a la jurisdicción y competencia de los tribunales ordinarios con asiento en el domicilio del consumidor. COPPEL S.A., CUIT: 30-71041150-2, Viamonte 1145, Piso 8, de la Ciudad Autónoma de Buenos Aires.",
+      "blockClass": "tyc-text"
+    }
+  }
+}

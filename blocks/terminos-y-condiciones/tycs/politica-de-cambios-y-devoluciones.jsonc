@@ -1,0 +1,256 @@
+// store/blocks/politica-de-cambios-y-devoluciones.jsonc
+{
+  "store.custom#politica-de-cambios-y-devoluciones": {
+    "blocks": [
+      "flex-layout.row#politica-tyc-row"
+    ],
+    "props":{
+      "blockClass":"template-quienes-somos"
+    }
+  },
+  "flex-layout.row#politica-tyc-row":{
+    "children":[
+      "rich-text#politica-tyc-text-1",
+      "rich-text#politica-tyc-text-2",
+      "rich-text#politica-tyc-text-3",
+      "rich-text#politica-tyc-text-4",
+      "rich-text#politica-tyc-text-5",
+      "rich-text#politica-tyc-text-6",
+      "rich-text#politica-tyc-text-7",
+      "rich-text#politica-tyc-text-8",
+      "rich-text#politica-tyc-text-9",
+      "rich-text#politica-tyc-text-10",
+      "rich-text#politica-tyc-text-11",
+      "rich-text#politica-tyc-text-12",
+      "rich-text#politica-tyc-text-13",
+      "rich-text#politica-tyc-text-14",
+      "rich-text#politica-tyc-text-15",
+      "rich-text#politica-tyc-text-16",
+      "rich-text#politica-tyc-text-17",
+      "rich-text#politica-tyc-text-18",
+      "rich-text#politica-tyc-text-19",
+      "rich-text#politica-tyc-text-20",
+      "rich-text#politica-tyc-text-21",
+      "rich-text#politica-tyc-text-22",
+      "rich-text#politica-tyc-text-23",
+      "rich-text#politica-tyc-text-24",
+      "rich-text#politica-tyc-text-25",
+      "rich-text#politica-tyc-text-26",
+      "rich-text#politica-tyc-text-27",
+      "rich-text#politica-tyc-text-28",
+      "rich-text#politica-tyc-text-29",
+      "rich-text#politica-tyc-text-30",
+      "rich-text#politica-tyc-text-31",
+      "rich-text#politica-tyc-text-32",
+      "rich-text#politica-tyc-text-33",
+      "rich-text#politica-tyc-text-34"
+    ],
+    "props": {
+      "blockClass": "tyc-row"
+    }
+  },
+  "rich-text#politica-tyc-text-1":{
+    "props":{
+      "text": "Estos Términos y Condiciones regirán para todos los cambios y devoluciones de productos adquiridos en alguna de las tiendas de Coppel S.A. (en adelante “Tiendas Coppel”), por venta telefónica o por la página web www.coppel.com.ar.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-2":{
+    "props":{
+      "text": "El plazo para realizar cambios de mercadería comienza a correr a partir del día de la compra y en el caso de envío a domicilio a partir de la fecha de entrega del producto. Los cambios o las devoluciones previstas para los productos adquiridos en Tiendas Coppel deberán realizarse en cualquier Tienda Coppel dentro de la República argentina, en los días y horarios que las mismas tengan atención al público.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-3":{
+    "props":{
+      "text": "Únicamente para las compras telefónicas o por la página web, los cambios o las devoluciones podrán realizarse contactándose al Centro de Atención Telefónica al 0810- 122-67735 o al 5296-3400 de lunes a domingos de 9 a 18 horas, por correo electrónico a tienda@coppel.com.ar o en cualquier Tienda Coppel dentro de la República Argentina, en los días y horarios que las mismas tengan atención al público. Para conocer la ubicación y días y horarios de atención de las Tiendas Coppel ingresar en http://www.coppel.com.ar/ubicacion-tiendas-coppel\n\n\nPara poder ejercer el derecho de cambio o devolución se deberá cumplir con las condiciones generales que se describen a continuación:",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-4":{
+    "props":{
+      "text": "**Condiciones generales para el cambio o devolución de un producto:**",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-5":{
+    "props":{
+      "text": " - Presentar o enviar el ticket de compra del producto adquirido.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-6":{
+    "props":{
+      "text": " - El producto debe contar con las etiquetas y empaques originales.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-7":{
+    "props":{
+      "text": " - El producto no debe mostrar señales de uso, daños, suciedad o desgaste.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-8":{
+    "props":{
+      "text": "**Plazos y procedimiento para el cambio de los productos:**",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-9":{
+    "props":{
+      "text": "**Compras en Tiendas Coppel**",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-10":{
+    "props":{
+      "text": "El plazo para el cambio de productos será de 30 (treinta) días corridos para artículos de indumentaria, calzado, perfumería, juguetería y de 6 (seis) días corridos para muebles, electrodomésticos, rodados, herramientas, tiempo libre, informática y celulares contados a partir de la fecha de compra o entrega del producto, únicamente en las Tiendas Coppel de la República Argentina, y de acuerdo con las condiciones detalladas a continuación:",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-11":{
+    "props":{
+      "text": "Usted podrá cambiar el producto por otro que se encuentre disponible en las Tiendas Coppel o en la página web www.coppel.com.ar teniendo a su favor el precio que pagó por el producto que desea cambiar. Es decir que usted puede cambiar su producto por:",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-12":{
+    "props":{
+      "text": "I) uno o varios productos que en su conjunto tengan un valor idéntico al del que desea cambiar;",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-13":{
+    "props":{
+      "text": "II) uno o varios productos que en su conjunto tengan un valor mayor al del que desea cambiar (abonando la diferencia de precio).",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-14":{
+    "props":{
+      "text": "No se realizarán reintegros o reembolsos en efectivo por la diferencia entre el precio del producto a cambiar y el/los productos de menor valor por los que desea cambiarlo. En ese sentido, si usted no desea cambiar su producto por otro disponible en las Tiendas Coppel o en el catálogo virtual o el catálogo de la página web podrá devolverlo y le entregaremos un ticket de reembolso con crédito a su favor por el mismo monto que pagó por el producto que desea cambiar (en adelante el ticket).",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-15":{
+    "props":{
+      "text": "El ticket tendrá validez por el plazo de (90) días corridos desde su emisión. Si el producto se adquirió en Tienda el ticket deberá ser entregado en una de las cajas de la Tienda Coppel en donde el ticket fue entregado para su canje por otro producto y en los términos descriptos precedentemente en los apartados (i) y (ii) de la presente sección.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-16":{
+    "props":{
+      "text": "Si usted pierde el ticket, lo rompe, lo tacha o de algún modo modifica la información contenida en él, el mismo perderá toda validez y no podrá ser canjeado en una Tienda Coppel. Si el producto fue adquirido por la página web o por compra telefónica el ticket podrá ser canjeado también por este medio. En el caso en el que haya adquirido el producto con Crédito Coppel, y el producto objeto del cambio tenga mayor valor que el producto que desea llevar, se procederá a descontar dicha diferencia del monto financiado por Coppel.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-17":{
+    "props":{
+      "text": "En caso de que no haya stock del producto que devuelve Usted podrá optar por la devolución íntegra del dinero abonado para adquirir el producto. Los reembolsos de dinero por compras realizadas mediante tarjetas de crédito o débito deberán ser solicitados únicamente por los titulares de la Tarjeta de Crédito y/o Tarjeta de Débito mediante la cual se haya efectuado la compra. El reembolso del dinero se hará a través del mismo medio de pago utilizado por Usted al realizar la compra.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-18":{
+    "props":{
+      "text": "**Procedimiento para la devolución de productos:**",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-19":{
+    "props":{
+      "text": "**Compra Online o Telefónica**",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-20":{
+    "props":{
+      "text": "Derecho de revocación de la aceptación. Únicamente se aceptarán devoluciones de productos en los casos en los que el cliente compre tales productos  a través de medios digitales y/o electrónicos (venta telefónica 0810- 122-67735 o al 5296-3400 la página web www.coppel.com.ar) y/o a través de catálogos virtuales disponibles para ser consultados en las Tiendas de productos que no se encuentren en las Tiendas. En estos casos el cliente podrá devolver el producto adquirido y solicitar la devolución íntegra de su dinero respecto de su compra, dentro de los **diez (10) días corridos** contados desde la recepción del producto o celebración del contrato, lo que ocurra último.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-21":{
+    "props":{
+      "text": "Los gastos de devolución estarán a cargo de Coppel. Esta política de devolución de dinero sólo aplicará a las compras que hayan sido realizadas por el catálogo virtual, compra telefónica, o a través de la página web y no aplicará para compras que hayan sido realizadas en las Tiendas mediante otras modalidades que no sean las descriptas. Sólo se aceptará la solicitud de devolución de dinero, una vez que los productos hayan sido devueltos sin uso, con sus etiquetas, embalaje y accesorios originales, y junto con su factura respectiva y de conformidad con lo descripto en el apartado más arriba sobre las condiciones generales para su cambio o devolución de un producto.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-22":{
+    "props":{
+      "text": "Artículo 34 de la Ley 24.240 de Defensa del Consumidor. Revocación de la aceptación Los consumidores/ usuarios tienen el derecho irrenunciable de revocar la aceptación de la compra que realizó a través del Catálogo Virtual durante el plazo de 10 días corridos, contados a partir de la fecha en que se entregue la cosa o se celebre el contrato, lo último que ocurra, sin responsabilidad alguna. Esta facultad no puede ser dispensada ni renunciada. El consumidor debe poner el bien a disposición del vendedor y los gastos de devolución son por cuenta de este último.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-23":{
+    "props":{
+      "text": "**Condiciones particulares por la línea de productos:**",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-24":{
+    "props":{
+      "text": "Los productos que se detallan a continuación sólo podrán ser cambiados (o devueltos en los casos permitidos) si además de las condiciones generales detalladas más arriba cumplan con las siguientes condiciones particulares:",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-25":{
+    "props":{
+      "text": " - Línea Blanca: Sólo podrán ser cambiados o devueltos los productos que no hayan sido instalados;",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-26":{
+    "props":{
+      "text": " - Rodados y Muebles: No deben haber sido armados;",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-27":{
+    "props":{
+      "text": " - Colchones: Deben conservar su cubierta plástica sellada;",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-28":{
+    "props":{
+      "text": " - Artículos electrónicos: Celulares y equipos de computación no podrán ser bloqueados con clave de acceso;",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-29":{
+    "props":{
+      "text": " - Celulares: Coppel podrá cambiarle el celular si este presenta una carta membretada del Centro de atención a clientes de la compañía telefónica o fabricante en donde autoriza a Coppel a que le cambie su celular en virtud de tratarse de un defecto de fábrica.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-30":{
+    "props":{
+      "text": " - Baterías: No se hará cambio o devolución cuando haya sido instalada por personal no autorizado; además se debe tener en cuenta si muestra rastros de humedad o líquidos ajenos a su contenido, proximidad o exposición al calor, accidente, abuso o negligencia. Se realizarán cambios o devoluciones cuando la batería tenga menos de 12 (doce) meses desde su fecha de compra, y el centro de servicio autorizado haya dictaminado que es defecto de fábrica y no cumple con ninguno de los puntos definidos.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-31":{
+    "props":{
+      "text": "Restricciones:\n\nNo se aceptarán cambios ni devoluciones de neumáticos, productos de cuidado personal, ropa interior, trajes de baño y/o de productos que admitan su rellenado. No se aceptarán cambios ni devoluciones de bienes registrables como motocicletas.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-32":{
+    "props":{
+      "text": "**Botón de arrepentimiento:**",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-33":{
+    "props":{
+      "text": "Si te arrepentiste de tu ultima compra, podrás solicitar la cancelación haciendo click ACÁ.",
+      "blockClass": "tyc-text"
+    }
+  },
+  "rich-text#politica-tyc-text-34":{
+    "props":{
+      "text": "COPPEL S.A., CUIT 30-71041150-2, Viamonte 1145, Piso 8°, Dto. A, Ciudad Autónoma de Buenos Aires, República Argentina.",
+      "blockClass": "tyc-text"
+    }
+  }
+}
