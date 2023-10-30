@@ -9,7 +9,7 @@
   "dependencies": {
     "vtex.store": "2.x",
     "vtex.flex-layout": "0.x",
-    "coppelar.site-theme": "4.x"
+    "coppelar.site-theme": "5.x"
   },
   "builders": {
     "react": "3.x",
