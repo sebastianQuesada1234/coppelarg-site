@@ -8,71 +8,12 @@
   "categories": [],
   "dependencies": {
     "vtex.store": "2.x",
-    "vtex.flex-layout": "0.x"
-  },
-  "peerDependencies": {
-    "coppelar.site-theme": "5.x"
+    "vtex.flex-layout": "0.x",
+    "coppelar.site-theme": "5.0"
   },
   "builders": {
     "react": "3.x",
     "store": "0.x"
   },
-  "billingOptions": {
-    "support": {
-      "url": "https://support.vtex.com/hc/requests"
-    },
-    "type": "free",
-    "availableCountries": [
-      "*"
-    ]
-  },
-  "scripts": {},
-  "credentialType": "absolute",
-  "policies": [
-    {
-      "name": "outbound-access",
-      "attrs": {
-        "host": "portal.vtexcommercestable.com.br",
-        "path": "*"
-      }
-    },
-    {
-      "name": "outbound-access",
-      "attrs": {
-        "host": "coppelar.vtexcommercestable.com.br",
-        "path": "*"
-      }
-    },
-    {
-      "name": "outbound-access",
-      "attrs": {
-        "host": "coppelar.myvtex.com",
-        "path": "*"
-      }
-    },
-    {
-      "name": "outbound-access",
-      "attrs": {
-        "host": "vtexid.vtexcommercestable.com.br",
-        "path": "api/vtexid/apptoken/login"
-      }
-    },
-    {
-      "name": "outbound-access",
-      "attrs": {
-        "host": "appssudamerica.coppel.com",
-        "path": "*"
-      }
-    },
-    {
-      "name": "LogisticsAdmin"
-    },
-    {
-      "name": "colossus-fire-event"
-    },
-    {
-      "name": "colossus-write-logs"
-    }
-  ],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
