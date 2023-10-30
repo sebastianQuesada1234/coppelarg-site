@@ -8,7 +8,7 @@
   "categories": [],
   "dependencies": {
     "vtex.store": "2.x",
-    "coppelar.site-theme": "5.0.207",
+    "coppelar.site-theme": "5.x",
     "vtex.flex-layout": "0.x"
   },
   "builders": {
