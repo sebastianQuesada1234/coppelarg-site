@@ -8,8 +8,10 @@
   "categories": [],
   "dependencies": {
     "vtex.store": "2.x",
-    "coppelar.site-theme": "5.x",
     "vtex.flex-layout": "0.x"
+  },
+  "peerDependencies": {
+    "coppelar.site-theme": "5.x"
   },
   "builders": {
     "react": "3.x",
