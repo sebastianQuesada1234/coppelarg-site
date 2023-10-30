@@ -1,0 +1,404 @@
+.box {
+    box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    user-select: none;
+    border-radius: 10px;
+    background-color: #753CBD;
+    top: 53px;
+    left: 252px;
+    padding: 1rem 74px 2.5rem 74px;
+    gap: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white; 
+    height: 100%;
+    width: 100%;
+    max-width: 1280px;
+    border-radius: 12px;
+    object-fit: cover;
+   
+}
+
+input {
+    width: 100%;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px;
+    gap: 20px;
+}
+
+
+.textContainer {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.textContainer h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    margin: 1.5rem 0 0;
+}
+
+.textContainer h2 {
+    font-family: Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+}
+
+.formContainer {
+    margin-top: 3.5rem;
+}
+
+#mailContainer {
+    width: 908px;
+    height: 76px;
+    gap: 4px;
+}
+
+#nameContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 908px;
+    height: 76px;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+#name,
+#dni {
+    width: 441px;
+    height: 76px;
+    gap: 4px;
+}
+
+.error {
+    font-weight: 500;
+    color: #e2e2e2;
+    display: block;
+    position: absolute;
+    margin-top: 2px;
+}
+
+#lastName,
+#telefono {
+    width: 441px;
+    height: 76px;
+    gap: 16px;
+}
+
+#dataContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 908px;
+    height: 76px;
+    gap: 26px;
+    margin-top: 40px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.containerCheck {
+    margin-top: 3.5rem;
+    display: inline-block;
+    gap: 16px;
+    text-align: center;
+}
+
+.containerCheck input {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #006FB9;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 30px;
+    justify-content: center;
+    gap: 7px;
+    margin-bottom: 3.5rem
+}
+
+.check .link {
+    text-decoration: none;
+    color: white;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.check h3 {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    padding: 10px;
+    gap: 10px;
+}
+
+ input[type="checkbox"] {
+    flex-wrap: nowrap;
+    width: max-content;
+    cursor: pointer;
+    margin-right: 30px;
+    width: 24px;
+}
+
+.formContainer label {
+    height: 24px;
+    display: flex;
+    text-align: left;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btnSubmit {
+    width: 201px;
+    height: 48px;
+    padding: 12px, 24px, 12px, 24px;
+    border-radius: 100px;
+    gap: 8px;
+    background-color: white;
+    color: #006FB9;
+    border: 1px solid #006FB9;
+    cursor: pointer;
+}
+
+.btnSubmit:hover {
+    background-color: rgb(230, 230, 230);
+    color: #006FB9;
+}
+
+
+
+input::placeholder {
+    padding-left: 10px;
+    color: #BDBDBD;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.graciasContainer .container {
+    background-color: #753CBD;
+}
+
+.msjAgradecimiento {
+    background-color: #753CBD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 790px;
+    width: 100%;
+    max-width: 1280px;
+    object-fit: cover;
+}
+
+.msjAgradecimiento h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+}
+
+.msjAgradecimiento h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 4px 0;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+}
+
+.input {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+
+@media (max-width: 968px){
+    .box{
+        margin-top: 40px;
+    }
+    .container {
+        max-width: 100%;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    
+    .textContainer{
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 16px;
+    }
+   
+    .box .container form{
+        width:100%;
+    }
+    .formContainer{
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        gap: 15px;
+
+    }
+    #mailContainer{
+        flex-wrap: wrap;
+        flex-direction: column;
+        display: flex;
+    }
+    #nameContainer {
+        display: contents;
+        width: 770px;
+    }
+    #name, #lastName, #dni, #telefono {
+        width: 798px;
+    }
+    #dataContainer{
+        display: contents;
+        width: 770px;
+    }
+    .formContainer .mailContainer #mail label{
+        font-size: 18px;
+    }
+}
+@media (max-width: 968px){
+
+    .formContainer{
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        gap: 15px;
+
+    }
+}
+
+
+
+@media (max-width: 770px){
+    .container{
+        padding: 15px;
+    }
+    
+    .textContainer h1 {
+        font-size: 31px;
+     
+    }
+}
+@media (max-width: 570px){
+    .container{
+        padding: 15px;
+    }
+    .textContainer h1 {
+        font-size: 29px;
+     
+    }
+}
+@media (max-width: 470px){
+    .container{
+        padding: 1rem 1rem 2.5rem;
+    }
+    
+    .textContainer h1 {
+        font-size: 28px;
+        line-height: normal;
+    }
+    .formContainer {
+        margin-top: 1rem;
+    }
+    .textContainer h2{
+        font-size: 16px;
+    }
+}
+@media (max-width: 350px){
+    .container{
+        padding: 1rem 1rem 2.5rem;
+    }
+    
+    .textContainer h1 {
+        font-size: 26px;
+        line-height: normal;
+    }
+    .textContainer h2{
+        font-size: 16px;
+    }
+    .formContainer {
+        margin-top: 1rem;
+    }
+   
+    .msjAgradecimiento h2{
+        font-size: 54px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

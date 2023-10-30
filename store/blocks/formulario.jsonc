@@ -1,0 +1,34 @@
+{
+    "store.custom#formulario-sorteo": {
+        "blocks": [
+            "flex-layout.row#formularioCyber"
+        ]
+    },
+    "flex-layout.row#formularioCyber": {
+        "children": [
+            "flex-layout.col#formularioContent"
+        ],
+        "props": {
+            "colSizing": "equal",
+            "blockClass": "ef2023-banners"
+        }
+    },
+    "flex-layout.col#formularioContent": {
+        "children": [
+            "flex-layout.col#ef2023-banners-responsive-wrapper",
+            "formulario-sorteo",
+            "m3-conditional-render#ef2023-ofertas-2023",
+            "m3-conditional-render#temp-evento-beneficios-lp",
+            "flex-layout.col#ef2023-electrofans",
+            "flex-layout.row#ef2023-informacion-app",
+            "flex-layout.col#ef2023-como-comprar",
+            "m3-conditional-render#temp-evento-oferta",
+            "flex-layout.col#ef2023-informacion-adicionale"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "ef2023-content"
+          }
+    }
+  
+}

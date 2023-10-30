@@ -1,0 +1,8 @@
+{
+    "formulario-sorteo" : {
+        "component" : "Formulario"
+    },
+    "formulario-sorteo.default" : {
+        "component" : "Formulario"
+    }
+}

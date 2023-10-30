@@ -1,0 +1,15 @@
+@font-face{
+    font-family:Circular;
+    font-display: auto;
+    src:url(./assets/CircularStd/CircularStd-Bold.woff2) format("woff2")
+}
+@font-face{
+    font-family:HelveticaNeue;
+    font-display: auto;
+    src:url(./assets/HelveticaNeue/HelveticaNeue.woff2) format("woff2")
+}
+@font-face{
+    font-family:HelveticaNeue-Bold;
+    font-display: auto;
+    src:url(./assets/HelveticaNeue/HelveticaNeueBold.woff2) format("woff2")
+}
