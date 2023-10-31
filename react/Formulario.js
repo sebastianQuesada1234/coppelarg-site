@@ -86,8 +86,8 @@ function Formulario() {
                 ) : (
                     <form onSubmit={onSubmit}>
                         <div className={style.textContainer}>
-                            <h1>¡Suscríbite, recibí ofertas y participá del sorteo!</h1>
-                            <h2>del 30 de Octubre al 05 de Noviembre</h2>
+                            <h1>¡Suscribite, recibí ofertas y participá del sorteo!</h1>
+                            <h2>del 30 de Octubre al 06 de Noviembre</h2>
                         </div>
                         <div className={style.formContainer}>
                             <div id={style.mailContainer} className={style.row}>
@@ -158,7 +158,7 @@ function Formulario() {
                             </div>
                         </div>
                         <div className={style.containerCheck}>
-                            <label>También recibirás los mejores contenidos y ofertas del Electrofans</label>
+                            <label>También recibirás los mejores contenidos y ofertas del CyberMonday</label>
                             <div className={style.check}>
                                 <input
                                     type="checkbox"
@@ -169,7 +169,7 @@ function Formulario() {
                                 <a href="https://www.coppel.com.ar/bases-y-condiciones-sorteos" className={style.link}>ACEPTO TÉRMINOS Y CONDICIONES</a>
                             </div>
                             {errors.aceptoTerminos && <p className={style.error}>{errors.aceptoTerminos}</p>}
-                            <input type="submit" value="Suscríbite" className={style.btnSubmit} />
+                            <input type="submit" value="Suscribite" className={style.btnSubmit} />
                         </div>
                     </form>
                 )}
