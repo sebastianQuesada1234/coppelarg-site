@@ -107,7 +107,7 @@
       /* ---------- Ofertas ---------- */
       "flex-layout.row#ef2023-ofertas-2023": {
         "title": "Ofertas",
-        "children": ["flex-layout.col#ef2023-ofertas-2023", "link#ef2023-ofertas"],
+        "children": ["flex-layout.col#ef2023-ofertas-2023"],
         "props": {
           "blockClass": "ef2023-ofertas-2023",
           "colSizing": "auto"
