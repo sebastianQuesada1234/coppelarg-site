@@ -83,7 +83,6 @@
             "maxItems": 15
         }
     },
-
     //Estantería 3
     "flex-layout.row#temp-evento-estanteria-03": {
         "title": "Estantería 3",

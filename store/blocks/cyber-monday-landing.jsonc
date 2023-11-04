@@ -1,0 +1,362 @@
+{
+  "store.custom#cyber-monday-2023": {
+    "blocks": [
+      "flex-layout.row#cyber-monday-2023-banner",
+      "flex-layout.row#cyber-monday-2023-ofertas-bomba",
+      "flex-layout.row#cyber-monday-2023-body"
+    ]
+  },
+  "flex-layout.row#cyber-monday-2023-banner": {
+    "children": ["flex-layout.col#cyber-monday-2023-banner"],
+    "props": {
+      "blockClass": "temp-evento",
+      "horizontalAlign": "CENTER",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#cyber-monday-2023-banner": {
+    "children": [
+      "list-context.image-list#cyber-monday-2023",
+      "responsive-layout.desktop#cyber-monday-2023-info",
+      "responsive-layout.mobile#cyber-monday-2023-info"
+    ],
+    "props": {
+      "blockClass": "temp-evento",
+      "verticalAlign": "middle",
+      "horizontalAlign": "CENTER"
+    }
+  },
+  "flex-layout.row#cyber-monday-2023-ofertas-bomba": {
+    "children": ["flex-layout.col#cyber-monday-2023-ofertas-bomba"],
+    "props": {
+      "horizontalAlign": "CENTER",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#cyber-monday-2023-ofertas-bomba": {
+    "children": [
+      "ofertas-bomba#cyber-monday-2023"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "CENTER"
+    }
+  },
+  "ofertas-bomba#cyber-monday-2023": {
+      "props": {
+          "Carrousel": "list-context.product-list#temp-evento-estanteria-03",
+          "fullWidth": true,
+          "horizontalAlign": "CENTER"
+      }
+  },
+  "flex-layout.row#cyber-monday-2023-body": {
+    "children": ["flex-layout.col#cyber-monday-2023-body"],
+    "props": {
+      "blockClass": "temp-evento",
+      "horizontalAlign": "CENTER",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#cyber-monday-2023-body": {
+    "children": [
+      "flex-layout.row#cyber-monday-2023-banners",
+      "flex-layout.row#cyber-monday-2023-categorias",
+      "m3-conditional-render#temp-evento-beneficios",
+      "flex-layout.row#cyber-monday-2023-carrusel-01",
+      "flex-layout.row#cyber-monday-2023-carrusel-02",
+      "responsive-layout.desktop#cyber-monday-2023-oferta",
+      "responsive-layout.mobile#cyber-monday-2023-oferta",
+      "flex-layout.row#cyber-monday-2023-carrusel-03",
+      "flex-layout.row#cyber-monday-2023-carrusel-04",
+      "flex-layout.row#spacer"
+    ],
+    "props": {
+      "blockClass": "temp-evento",
+      "verticalAlign": "middle",
+      "horizontalAlign": "CENTER"
+    }
+  },
+  "list-context.image-list#cyber-monday-2023": {
+    "title": "Banner Principal",
+    "children": ["slider-layout#temp-evento-images"],
+    "props": {
+      "height": 1000,
+      "fullWidth": true,
+      "images": [
+        {
+          "image": "assets/cyber-monday/banner-principal-desktop.png",
+          "mobileImage": "assets/cyber-monday/banner-principal-mobile.png"
+        }
+      ],
+      "blockClass": "temp-evento-images"
+    }
+  },
+  //Categorias
+  "flex-layout.row#cyber-monday-2023-categorias": {
+    "title": "Categorias",
+    "children": ["rich-text#cyber-monday-2023-categorias", "evento-category-slider#cyber-monday-2023-categorias"],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "temp-evento-categorias"
+    }
+  },
+  "rich-text#cyber-monday-2023-categorias": {
+    "title": "Titulo",
+    "props": {
+      "text": "Categorías destacadas",
+      "blockClass": "temp-evento-estanteria-header"
+    }
+  },
+  "evento-category-slider#cyber-monday-2023-categorias": {
+    "props": {
+      "categories": [
+        {"label": "Celulares", "icon": "assets/cyber-monday/categorias/celulares.png", "link": "/cyber-monday/celulares"},
+        {"label": "Televisores y audio", "icon": "assets/cyber-monday/categorias/tv.png", "link": "/cyber-monday/tv-y-audio"},
+        {"label": "Tecnología", "icon": "assets/cyber-monday/categorias/tecno.png", "link": "/cyber-monday/tecnologia"},
+        {"label": "Cocina", "icon": "assets/cyber-monday/categorias/cocina.png", "link": "/cyber-monday/cocina"},
+        {"label": "Lavado y secado", "icon": "assets/cyber-monday/categorias/lavado.png", "link": "/cyber-monday/lavado-y-secado"},
+        {"label": "Refrigeracion", "icon": "assets/cyber-monday/categorias/refri.png", "link": "/cyber-monday/refrigeracion"},
+        {"label": "Climatización", "icon": "assets/cyber-monday/categorias/clima.png", "link": "/cyber-monday/climatizacion"},
+        {"label": "Electro belleza", "icon": "assets/cyber-monday/categorias/belleza.png", "link": "/cyber-monday/electro-belleza"},
+        {"label": "Zapatillas", "icon": "assets/cyber-monday/categorias/zapatillas.png", "link": "/cyber-monday/zapatillas"}
+      ],
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      }
+    }
+  },
+  //Banners Info
+  "responsive-layout.desktop#cyber-monday-2023-info": {
+    "title": "Banner Infos Desktop",
+    "children": ["image#cyber-monday-2023-info-dsk"]
+  },
+  "responsive-layout.mobile#cyber-monday-2023-info": {
+    "title": "Banner Infos Mobile",
+    "children": ["image#cyber-monday-2023-info-mob"]
+  },
+  "image#cyber-monday-2023-info-dsk": {
+    "props": {
+      "blockClass": "temp-evento-infos",
+      "src": "assets/cyber-monday/banner-beneficios-desktop.png"
+    }
+  },
+  "image#cyber-monday-2023-info-mob": {
+    "props": {
+      "blockClass": "temp-evento-infos",
+      "src": "assets/cyber-monday/banner-beneficios-mobile.png"
+    }
+  },
+  //Banners
+  "flex-layout.row#cyber-monday-2023-banners": {
+    "title": "Banners",
+    "children": [
+      "flex-layout.col#cyber-monday-2023-banners-titles",
+      "flex-layout.col#cyber-monday-2023-banners-content"
+    ],
+    "props": {
+      "blockClass": "temp-evento-banners",
+      "horizontalAlign": "CENTER",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#cyber-monday-2023-banners-titles": {
+    "children": [
+      "rich-text#cyber-monday-2023-banners"
+    ],
+    "props": {
+      "blockClass": "temp-evento-banners",
+      "width": "100%"
+    }
+  },
+  "rich-text#cyber-monday-2023-banners": {
+    "title": "Titulo y Subtitulo",
+    "props": {
+      "text": "# Cyber Monday en Coppel\n ### ¡Ofertas exclusivas en Electrodomésticos y Deportes!",
+      "blockClass": "temp-evento-banners"
+    }
+  },
+  "flex-layout.col#cyber-monday-2023-banners-content": {
+    "children": ["evento-banners#cyber-monday-2023-banners"],
+    "props": {
+      "blockClass": "temp-evento-banners",
+      "width": "100%"
+    }
+  },
+  "evento-banners#cyber-monday-2023-banners": {
+    "props": {
+      "items": [
+        {"banner": "assets/cyber-monday/banner-destacado-1.png", "title": "Hasta 6 cuotas sin interés", "description": "Productos y cuotas únicas", "link": ""},
+        {"banner": "assets/cyber-monday/banner-destacado-2.png", "title": "Movilidad eléctrica", "description": "Descubrí todas las ofertas", "link": ""},
+        {"banner": "assets/cyber-monday/banner-destacado-3.png", "title": "Especial Motorola", "description": "Celus destacados para vos", "link": ""},
+        {"banner": "assets/cyber-monday/banner-destacado-4.png", "title": "Especial Smartwatches", "description": "Explorá modelos exclusivos", "link": ""}
+      ]
+    }
+  },
+  // Carrusel 1
+  "flex-layout.row#cyber-monday-2023-carrusel-01": {
+      "title": "Carrusel #1",
+      "children": ["flex-layout.col#cyber-monday-2023-carrusel-01"],
+      "props": {
+          "blockClass": "temp-evento-shelf",
+          "fullWidth": true
+      }
+  },
+  "flex-layout.col#cyber-monday-2023-carrusel-01": {
+      "children": ["rich-text#cyber-monday-2023-carrusel-01", "list-context.product-list#cyber-monday-2023-carrusel-01"],
+      "props": {
+          "width": "100%"
+      }
+  },
+  "rich-text#cyber-monday-2023-carrusel-01": {
+      "title": "Titulo",
+      "props": {
+          "text": "Renová tu casa con súper descuentos",
+          "textAlignment": "CENTER",
+          "textPosition": "LEFT",
+          "blockClass": "cyber-monday-2023-carrusel-header"
+      }
+  },
+  "list-context.product-list#cyber-monday-2023-carrusel-01": {
+      "blocks": ["coppelar.site-theme:product-summary.shelf"],
+      "children": ["slider-layout#temp-evento-estanteria"],
+      "props": {
+          "collection": "146",
+          "hideUnavailableItems": true,
+          "orderBy": "OrderByTopSaleDESC",
+          "maxItems": 15
+      }
+  },
+  // Carrusel 2
+  "flex-layout.row#cyber-monday-2023-carrusel-02": {
+      "title": "Carrusel #2",
+      "children": ["flex-layout.col#cyber-monday-2023-carrusel-02"],
+      "props": {
+          "blockClass": "temp-evento-shelf",
+          "fullWidth": true
+      }
+  },
+  "flex-layout.col#cyber-monday-2023-carrusel-02": {
+      "children": ["rich-text#cyber-monday-2023-carrusel-02", "list-context.product-list#cyber-monday-2023-carrusel-02"],
+      "props": {
+          "width": "100%"
+      }
+  },
+  "rich-text#cyber-monday-2023-carrusel-02": {
+      "title": "Titulo",
+      "props": {
+          "text": "Llevate un Celu en hasta 6 cuotas sin interés [Ver más](/cyber-monday/celulares)",
+          "textAlignment": "CENTER",
+          "textPosition": "LEFT",
+          "blockClass": "cyber-monday-2023-carrusel-header"
+      }
+  },
+  "list-context.product-list#cyber-monday-2023-carrusel-02": {
+      "blocks": ["coppelar.site-theme:product-summary.shelf"],
+      "children": ["slider-layout#temp-evento-estanteria"],
+      "props": {
+          "collection": "506",
+          "hideUnavailableItems": true,
+          "orderBy": "OrderByTopSaleDESC",
+          "maxItems": 10
+      }
+  },
+  // Carrusel 3
+  "flex-layout.row#cyber-monday-2023-carrusel-03": {
+      "title": "Carrusel #3",
+      "children": ["flex-layout.col#cyber-monday-2023-carrusel-03"],
+      "props": {
+          "blockClass": "temp-evento-shelf",
+          "fullWidth": true
+      }
+  },
+  "flex-layout.col#cyber-monday-2023-carrusel-03": {
+      "children": ["rich-text#cyber-monday-2023-carrusel-03", "list-context.product-list#cyber-monday-2023-carrusel-03"],
+      "props": {
+          "width": "100%"
+      }
+  },
+  "rich-text#cyber-monday-2023-carrusel-03": {
+      "title": "Titulo",
+      "props": {
+          "text": "Smarts Tv y Parlantes con descuentos irresistibles [Ver más](/cyber-monday/tv-y-audio)",
+          "textAlignment": "CENTER",
+          "textPosition": "LEFT",
+          "blockClass": "cyber-monday-2023-carrusel-header"
+      }
+  },
+  "list-context.product-list#cyber-monday-2023-carrusel-03": {
+      "blocks": ["coppelar.site-theme:product-summary.shelf"],
+      "children": ["slider-layout#temp-evento-estanteria"],
+      "props": {
+          "collection": "507",
+          "hideUnavailableItems": true,
+          "orderBy": "OrderByTopSaleDESC",
+          "maxItems": 15
+      }
+  },
+  // Carrusel 4
+  "flex-layout.row#cyber-monday-2023-carrusel-04": {
+      "title": "Carrusel #4",
+      "children": ["flex-layout.col#cyber-monday-2023-carrusel-04"],
+      "props": {
+          "blockClass": "temp-evento-shelf",
+          "fullWidth": true
+      }
+  },
+  "flex-layout.col#cyber-monday-2023-carrusel-04": {
+      "children": ["rich-text#cyber-monday-2023-carrusel-04", "list-context.product-list#cyber-monday-2023-carrusel-04"],
+      "props": {
+          "width": "100%"
+      }
+  },
+  "rich-text#cyber-monday-2023-carrusel-04": {
+      "title": "Titulo",
+      "props": {
+          "text": "Encontrá tu par perfecto en hasta 3 cuotas sin interés [Ver más](/cyber-monday/zapatillas)",
+          "textAlignment": "CENTER",
+          "textPosition": "LEFT",
+          "blockClass": "cyber-monday-2023-carrusel-header"
+      }
+  },
+  "list-context.product-list#cyber-monday-2023-carrusel-04": {
+      "blocks": ["coppelar.site-theme:product-summary.shelf"],
+      "children": ["slider-layout#temp-evento-estanteria"],
+      "props": {
+          "collection": "514",
+          "hideUnavailableItems": true,
+          "orderBy": "OrderByTopSaleDESC",
+          "maxItems": 15
+      }
+  },
+  // Banner medio
+  "responsive-layout.desktop#cyber-monday-2023-oferta": {
+    "title": "Banner Oferta Desktop",
+    "children": ["image#cyber-monday-2023-oferta-dsk"]
+  },
+  "responsive-layout.mobile#cyber-monday-2023-oferta": {
+    "title": "Banner Oferta Mobile",
+    "children": ["image#cyber-monday-2023-oferta-mbl"]
+  },
+  "image#cyber-monday-2023-oferta-dsk": {
+    "props": {
+      "blockClass": "temp-evento-oferta",
+      "src": "assets/cyber-monday/banner-medio-desktop.png",
+      "link": {
+        "url": "/cyber-monday/tecnologia",
+        "newTab": false
+      }
+    }
+  },
+  "image#cyber-monday-2023-oferta-mbl": {
+    "props": {
+      "blockClass": "temp-evento-oferta",
+      "src": "assets/cyber-monday/banner-medio-mobile.png",
+      "link": {
+        "url": "/cyber-monday/tecnologia",
+        "newTab": false
+      }
+    }
+  }
+}

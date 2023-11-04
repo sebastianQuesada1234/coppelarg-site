@@ -4,5 +4,17 @@
     },
     "formulario-sorteo.default" : {
         "component" : "Formulario"
+    },
+    "ofertas-bomba" : {
+        "component" : "CountDown"
+    },
+    "ofertas-bomba.default" : {
+        "component" : "CountDown"
+    },
+    "header-categoria" : {
+        "component" : "h1text"
+    },
+    "header-categoria.default" : {
+        "component" : "h1text"
     }
 }

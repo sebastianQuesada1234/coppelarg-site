@@ -1,0 +1,659 @@
+{
+    // Categoria celulares
+    "store.custom#cyber-monday-2023-celulares": {
+        "blocks": [
+            "header-categoria#celulares",
+            "search-result-layout.customQuery#cyber-monday-2023-celulares"
+        ]
+    },
+    "header-categoria#celulares": {
+        "props": {
+            "titulo": "Celulares y accesorios"
+        }
+    },
+    "search-result-layout.customQuery#cyber-monday-2023-celulares": {
+      "props": {
+        "blockClass": "coleccion",
+        "querySchema": {
+          "maxItemsPerPage": 20,
+          "queryField": "399",
+          "mapField": "productClusterIds",
+          "skusFilter": "ALL_AVAILABLE",
+          "simulationBehavior": "default"
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#cyber-monday-2023-celulares",
+        "search-result-layout.mobile#cyber-monday-2023-celulares",
+        "coppelar.search-result:search-not-found-layout"
+      ]
+    },
+    "search-result-layout.desktop#cyber-monday-2023-celulares": {
+      "children": [
+        "flex-layout.row#result-cyber-monday-2023",
+        "rich-text#seo-celulares"
+      ],
+      "props": {
+        "preventRouteChange": true,
+        "thresholdForFacetSearch": 10,
+        "showProductsCount": true,
+        "showFacetQuantity": true,
+        "HiddenFacets": {
+          "priceRange": true
+        },
+        "pagination": "show-more",
+        "mobileLayout": {
+          "mode1": "small",
+          "mode2": "normal"
+        }
+      }
+    },
+    "search-result-layout.mobile#cyber-monday-2023-celulares": {
+        "children": [
+          "flex-layout.row#searchinfomobile",
+          "flex-layout.row#contentmobile",
+          "flex-layout.row#pagination",
+          "rich-text#seo-celulares"
+        ],
+        "props": {
+          "blockClass": "black-friday-collection",
+          "pagination": "show-more",
+          "mobileLayout": {
+            "mode1": "small",
+            "mode2": "normal"
+          }
+        }
+    },
+    "rich-text#seo-celulares": {
+        "title": "descriptions SEO",
+        "props": {
+          "blockClass": "result-cyber-monday-2023-seo",
+          "text": "## Cyber Monday: viví conectado con lo último en Celulares\n\nEn el emocionante evento del Cyber Monday, te ofrecemos una amplia gama de opciones de teléfonos móviles que se adaptan a todos los gustos y presupuestos. En nuestro catálogo, encontrarás una selección impresionante de marcas y modelos, asegurando que encuentres el dispositivo perfecto para tus necesidades.\nEn [Coppel.com.ar](/) o en la [App Coppel](https://play.google.com/store/apps/details?id=ar.com.coppel) podés encontrar alta gama en celulares Samsung a precios increíbles y celulares Motorola si preferís alta gama tecnológica a menor precio.\nY si hablamos de gama económica contamos con las marcas: ALCATEL, Mio Nanotech, QUANTUM, ZTE y Zuum.\nYa sea que busques los últimos lanzamientos de Samsung y Motorola, opciones económicas de estas marcas o modelos nacionales con un toque de innovación local, el Cyber Monday es el momento perfecto para encontrar el celular que se ajuste a tu estilo de vida. ¡No te pierdas nuestras ofertas y descuentos exclusivos durante este emocionante evento de compras en línea!\nUtilizá tu crédito y estrená hoy mismo. Si todavía no tenés tu Crédito Coppel, solicitalo en línea; ¡es fácil, rápido y gratis!"
+        }
+    },
+    // Categoria televisores
+    "store.custom#cyber-monday-2023-tv": {
+        "blocks": [
+            "header-categoria#tv",
+            "search-result-layout.customQuery#cyber-monday-2023-tv"
+        ]
+    },
+    "header-categoria#tv": {
+        "props": {
+            "titulo": "Televisores y audio"
+        }
+    },
+    "search-result-layout.customQuery#cyber-monday-2023-tv": {
+      "props": {
+        "blockClass": "coleccion",
+        "querySchema": {
+          "maxItemsPerPage": 20,
+          "queryField": "399",
+          "mapField": "productClusterIds",
+          "skusFilter": "ALL_AVAILABLE",
+          "simulationBehavior": "default"
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#cyber-monday-2023-tv",
+        "search-result-layout.mobile#cyber-monday-2023-tv",
+        "coppelar.search-result:search-not-found-layout"
+      ]
+    },
+    "search-result-layout.desktop#cyber-monday-2023-tv": {
+      "children": [
+        "flex-layout.row#result-cyber-monday-2023",
+        "rich-text#seo-tv"
+      ],
+      "props": {
+        "preventRouteChange": true,
+        "thresholdForFacetSearch": 10,
+        "showProductsCount": true,
+        "showFacetQuantity": true,
+        "HiddenFacets": {
+          "priceRange": true
+        },
+        "pagination": "show-more",
+        "mobileLayout": {
+          "mode1": "small",
+          "mode2": "normal"
+        }
+      }
+    },
+    "search-result-layout.mobile#cyber-monday-2023-tv": {
+        "children": [
+          "flex-layout.row#searchinfomobile",
+          "flex-layout.row#contentmobile",
+          "flex-layout.row#pagination",
+          "rich-text#seo-tv"
+        ],
+        "props": {
+          "blockClass": "black-friday-collection",
+          "pagination": "show-more",
+          "mobileLayout": {
+            "mode1": "small",
+            "mode2": "normal"
+          }
+        }
+    },
+    "rich-text#seo-tv": {
+        "title": "descriptions SEO",
+        "props": {
+          "blockClass": "result-cyber-monday-2023-seo",
+          "text": "## Cyber Monday: Descuentos en Tv y Audio\n\nEn el evento del Cyber Monday, en [Coppel.com.ar](/) o en la [App Coppel](https://play.google.com/store/apps/details?id=ar.com.coppel) te ofrecemos una oportunidad única para transformar tu experiencia de entretenimiento en casa. Nuestra selección de productos incluye una amplia gama de televisores y parlantes de las marcas más importantes en la industria, asegurando que tengas acceso a la mejor calidad y tecnología.\nSobre televisores, reunimos una gran colección de modelos de las marcas más reconocidas. Desde los elegantes y ultra-delgados televisores OLED de LG hasta los potentes televisores QLED de Samsung, vas a encontrar la última tecnología en imágenes de alta definición. No importa si buscas una pantalla grande para disfrutar de tus películas y programas favoritos o un televisor inteligente que te mantenga conectado con el mundo digital, nuestras ofertas del Cyber Monday cuentan con una amplia variedad de opciones.\nEn cuanto a los parlantes, ofrecemos una selección de altavoces y sistemas de sonido de marcas líderes, como Bose, Sony, Sonos y JBL, entre otras. Desde altavoces inalámbricos que llenarán tu hogar con sonido envolvente hasta barras de sonido que mejorarán tu experiencia de cine en casa.\n\nUtilizá tu [crédito](/credito-coppel) y estrená hoy mismo. Si todavía no tenés tu [Crédito Coppel](https://www2.coppel.com.ar/credito.php), solicitalo en línea; ¡es fácil, rápido y gratis!"
+        }
+    },
+    // Categoria tecnologia
+    "store.custom#cyber-monday-2023-tecnologia": {
+        "blocks": [
+            "header-categoria#tecnologia",
+            "search-result-layout.customQuery#cyber-monday-2023-tecnologia"
+        ]
+    },
+    "header-categoria#tecnologia": {
+        "props": {
+            "titulo": "Tecnología"
+        }
+    },
+    "search-result-layout.customQuery#cyber-monday-2023-tecnologia": {
+      "props": {
+        "blockClass": "coleccion",
+        "querySchema": {
+          "maxItemsPerPage": 20,
+          "queryField": "399",
+          "mapField": "productClusterIds",
+          "skusFilter": "ALL_AVAILABLE",
+          "simulationBehavior": "default"
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#cyber-monday-2023-tecnologia",
+        "search-result-layout.mobile#cyber-monday-2023-tecnologia",
+        "coppelar.search-result:search-not-found-layout"
+      ]
+    },
+    "search-result-layout.desktop#cyber-monday-2023-tecnologia": {
+      "children": [
+        "flex-layout.row#result-cyber-monday-2023",
+        "rich-text#seo-tecnologia"
+      ],
+      "props": {
+        "preventRouteChange": true,
+        "thresholdForFacetSearch": 10,
+        "showProductsCount": true,
+        "showFacetQuantity": true,
+        "HiddenFacets": {
+          "priceRange": true
+        },
+        "pagination": "show-more",
+        "mobileLayout": {
+          "mode1": "small",
+          "mode2": "normal"
+        }
+      }
+    },
+    "search-result-layout.mobile#cyber-monday-2023-tecnologia": {
+        "children": [
+          "flex-layout.row#searchinfomobile",
+          "flex-layout.row#contentmobile",
+          "flex-layout.row#pagination",
+          "rich-text#seo-tecnologia"
+        ],
+        "props": {
+          "blockClass": "black-friday-collection",
+          "pagination": "show-more",
+          "mobileLayout": {
+            "mode1": "small",
+            "mode2": "normal"
+          }
+        }
+    },
+    "rich-text#seo-tecnologia": {
+        "title": "descriptions SEO",
+        "props": {
+          "blockClass": "result-cyber-monday-2023-seo",
+          "text": "## Tecnología en Oferta: Notebooks y Tablets en el Cyber Monday\n\nNo importa si buscas la última tecnología en notebooks o la comodidad de una tablet, el Cyber Monday es el momento perfecto para explorar y adquirir dispositivos de todos los modelos.\nEn [Coppel.com.ar](/) o en la [App Coppel](https://play.google.com/store/apps/details?id=ar.com.coppel) te presentamos una variedad impresionante de opciones, en cuanto a notebooks desde ultraligeras y ultradelgadas ideales para viajar, hasta potentes notebooks diseñadas para la edición de contenido. En lo que respecta a tablets, ofrecemos una diversidad de opciones para todas las edades y propósitos. Desde tablets más económicas Qisur hasta tablets Android de Samsung y otras marcas para aquellos que prefieren la versatilidad del sistema operativo Android. Tanto si sos un estudiante que busca una notebooks para el estudio, un profesional que necesita una herramienta de trabajo versátil o un entusiasta de los juegos que busca un portátil con un rendimiento excepcional, el Cyber Monday es el momento ideal para explorar nuestra extensa selección de modelos y marcas líderes.\nComplementá sus equipos con nuevos accesorios de computadora:  impresoras, auriculares alámbricos, inalámbricos o bluetooth con cancelación de ruido, para que disfrutes de una mejor experiencia auditiva.\n\nUtilizá tu [crédito](/credito-coppel) y estrená hoy mismo. Si todavía no tenés tu [Crédito Coppel](https://www2.coppel.com.ar/credito.php), solicitalo en línea; ¡es fácil, rápido y gratis!"
+        }
+    },
+    // Categoria cocina
+    "store.custom#cyber-monday-2023-cocina": {
+        "blocks": [
+            "header-categoria#cocina",
+            "search-result-layout.customQuery#cyber-monday-2023-cocina"
+        ]
+    },
+    "header-categoria#cocina": {
+        "props": {
+            "titulo": "Cocina"
+        }
+    },
+    "search-result-layout.customQuery#cyber-monday-2023-cocina": {
+      "props": {
+        "blockClass": "coleccion",
+        "querySchema": {
+          "maxItemsPerPage": 20,
+          "queryField": "399",
+          "mapField": "productClusterIds",
+          "skusFilter": "ALL_AVAILABLE",
+          "simulationBehavior": "default"
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#cyber-monday-2023-cocina",
+        "search-result-layout.mobile#cyber-monday-2023-cocina",
+        "coppelar.search-result:search-not-found-layout"
+      ]
+    },
+    "search-result-layout.desktop#cyber-monday-2023-cocina": {
+      "children": [
+        "flex-layout.row#result-cyber-monday-2023",
+        "rich-text#seo-cocina"
+      ],
+      "props": {
+        "preventRouteChange": true,
+        "thresholdForFacetSearch": 10,
+        "showProductsCount": true,
+        "showFacetQuantity": true,
+        "HiddenFacets": {
+          "priceRange": true
+        },
+        "pagination": "show-more",
+        "mobileLayout": {
+          "mode1": "small",
+          "mode2": "normal"
+        }
+      }
+    },
+    "search-result-layout.mobile#cyber-monday-2023-cocina": {
+        "children": [
+          "flex-layout.row#searchinfomobile",
+          "flex-layout.row#contentmobile",
+          "flex-layout.row#pagination",
+          "rich-text#seo-cocina"
+        ],
+        "props": {
+          "blockClass": "black-friday-collection",
+          "pagination": "show-more",
+          "mobileLayout": {
+            "mode1": "small",
+            "mode2": "normal"
+          }
+        }
+    },
+    "rich-text#seo-cocina": {
+        "title": "descriptions SEO",
+        "props": {
+          "blockClass": "result-cyber-monday-2023-seo",
+          "text": "## Cyber Monday: renová tu cocina con Ofertas increíbles\n\nEl Cyber Monday es el momento perfecto para adquirir electrodomésticos a precios increíbles. No te pierdas la oportunidad de llevar a casa los productos de cocina de las marcas más importantes, con ofertas y descuentos exclusivos.\nTe invitamos a explorar nuestra amplia gama de cocinas y pequeños electrodomésticos diseñados para hacer que tu vida en la cocina sea más sencilla, eficiente y deliciosa. Desde cocinas modernas hasta pequeños ayudantes culinarios, vas a encontrar todo lo que necesitás para cocinar, mezclar, licuar, freír y más. Ya sea que estés buscando una cocina a gas o eléctrica, tenemos opciones que se adaptan a tu espacio y estilo de cocina. Además, para llevar tus habilidades culinarias al siguiente nivel, ofrecemos una amplia variedad de pequeños electrodomésticos: licuadoras, batidoras, freidoras, robots de cocina, jugueras, procesadoras y muchísimo más.\nEl Cyber Monday es el momento perfecto para equipar tu cocina con los electrodomésticos que necesitás y nuestros equipos ofrecen múltiples funciones que hacen que la experiencia de comprar en [Coppel.com.ar](/) o en la [App Coppel](https://play.google.com/store/apps/details?id=ar.com.coppel) sea única.\n\nUtilizá tu [crédito](/credito-coppel) y estrená hoy mismo. Si todavía no tenés tu [Crédito Coppel](https://www2.coppel.com.ar/credito.php), solicitalo en línea; ¡es fácil, rápido y gratis!"
+        }
+    },
+    // Categoria Lavado y secado
+    "store.custom#cyber-monday-2023-lavado": {
+        "blocks": [
+            "header-categoria#lavado",
+            "search-result-layout.customQuery#cyber-monday-2023-lavado"
+        ]
+    },
+    "header-categoria#lavado": {
+        "props": {
+            "titulo": "Lavado y secado"
+        }
+    },
+    "search-result-layout.customQuery#cyber-monday-2023-lavado": {
+      "props": {
+        "blockClass": "coleccion",
+        "querySchema": {
+          "maxItemsPerPage": 20,
+          "queryField": "399",
+          "mapField": "productClusterIds",
+          "skusFilter": "ALL_AVAILABLE",
+          "simulationBehavior": "default"
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#cyber-monday-2023-lavado",
+        "search-result-layout.mobile#cyber-monday-2023-lavado",
+        "coppelar.search-result:search-not-found-layout"
+      ]
+    },
+    "search-result-layout.desktop#cyber-monday-2023-lavado": {
+      "children": [
+        "flex-layout.row#result-cyber-monday-2023",
+        "rich-text#seo-lavado"
+      ],
+      "props": {
+        "preventRouteChange": true,
+        "thresholdForFacetSearch": 10,
+        "showProductsCount": true,
+        "showFacetQuantity": true,
+        "HiddenFacets": {
+          "priceRange": true
+        },
+        "pagination": "show-more",
+        "mobileLayout": {
+          "mode1": "small",
+          "mode2": "normal"
+        }
+      }
+    },
+    "search-result-layout.mobile#cyber-monday-2023-lavado": {
+        "children": [
+          "flex-layout.row#searchinfomobile",
+          "flex-layout.row#contentmobile",
+          "flex-layout.row#pagination",
+          "rich-text#seo-lavado"
+        ],
+        "props": {
+          "blockClass": "black-friday-collection",
+          "pagination": "show-more",
+          "mobileLayout": {
+            "mode1": "small",
+            "mode2": "normal"
+          }
+        }
+    },
+    "rich-text#seo-lavado": {
+        "title": "descriptions SEO",
+        "props": {
+          "blockClass": "result-cyber-monday-2023-seo",
+          "text": "## Lavado y Secado Eficiente: Ofertas en el Cyber Monday\n\nEn el evento del Cyber Monday, te ofrecemos una gran selección de productos de lavado y secado que incluye una amplia variedad de opciones, desde lavarropas hasta secarropas y convenientes lavasecarropas, para que encuentres el electrodoméstico perfecto.\nPara aquellos que buscan lavar la ropa de manera eficiente, nuestros productos de lavado y secado cuentan con la última tecnología y una variedad de capacidades para adaptarse a tus necesidades específicas. Ya sea que necesites un lavarropas de carga frontal o superior, vas a encontrar modelos de las marcas más reconocidas que ofrecen un rendimiento impecable y una amplia gama de programas de lavado. Y cuando se trata de secar la ropa, nuestros secarropas de alta calidad garantizan que tus prendas queden listas para usar en poco tiempo. También contamos con lavasecarropas que son la solución perfecta. Estos electrodomésticos combinan las funciones de lavado y secado en un solo dispositivo, ahorrándote tiempo y espacio en tu hogar.\nEl Cyber Monday en [Coppel.com.ar](/) o en la [App Coppel](https://play.google.com/store/apps/details?id=ar.com.coppel) es el momento ideal para adquirir productos de lavado y secado de alta calidad a precios excepcionales. Aprovechá nuestras ofertas y descuentos exclusivos durante este evento y simplificá tu rutina de lavandería.\n\nUtilizá tu [crédito](/credito-coppel) y estrená hoy mismo. Si todavía no tenés tu [Crédito Coppel](https://www2.coppel.com.ar/credito.php), solicitalo en línea; ¡es fácil, rápido y gratis!"
+        }
+    },
+    // Categoria refrigeración
+    "store.custom#cyber-monday-2023-refrigeracion": {
+        "blocks": [
+            "header-categoria#refrigeracion",
+            "search-result-layout.customQuery#cyber-monday-2023-refrigeracion"
+        ]
+    },
+    "header-categoria#refrigeracion": {
+        "props": {
+            "titulo": "Refrigeración"
+        }
+    },
+    "search-result-layout.customQuery#cyber-monday-2023-refrigeracion": {
+      "props": {
+        "blockClass": "coleccion",
+        "querySchema": {
+          "maxItemsPerPage": 20,
+          "queryField": "399",
+          "mapField": "productClusterIds",
+          "skusFilter": "ALL_AVAILABLE",
+          "simulationBehavior": "default"
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#cyber-monday-2023-refrigeracion",
+        "search-result-layout.mobile#cyber-monday-2023-refrigeracion",
+        "coppelar.search-result:search-not-found-layout"
+      ]
+    },
+    "search-result-layout.desktop#cyber-monday-2023-refrigeracion": {
+      "children": [
+        "flex-layout.row#result-cyber-monday-2023",
+        "rich-text#seo-refrigeracion"
+      ],
+      "props": {
+        "preventRouteChange": true,
+        "thresholdForFacetSearch": 10,
+        "showProductsCount": true,
+        "showFacetQuantity": true,
+        "HiddenFacets": {
+          "priceRange": true
+        },
+        "pagination": "show-more",
+        "mobileLayout": {
+          "mode1": "small",
+          "mode2": "normal"
+        }
+      }
+    },
+    "search-result-layout.mobile#cyber-monday-2023-refrigeracion": {
+        "children": [
+          "flex-layout.row#searchinfomobile",
+          "flex-layout.row#contentmobile",
+          "flex-layout.row#pagination",
+          "rich-text#seo-refrigeracion"
+        ],
+        "props": {
+          "blockClass": "black-friday-collection",
+          "pagination": "show-more",
+          "mobileLayout": {
+            "mode1": "small",
+            "mode2": "normal"
+          }
+        }
+    },
+    "rich-text#seo-refrigeracion": {
+        "title": "descriptions SEO",
+        "props": {
+          "blockClass": "result-cyber-monday-2023-seo",
+          "text": "## Cyber Monday de frescura: Descuentos en Heladeras y Freezers\n\nEn [Coppel.com.ar](/) o en la [App Coppel](https://play.google.com/store/apps/details?id=ar.com.coppel) te invitamos a descubrir una amplia gama de productos de refrigeración en este Cyber Monday para que renueves tu casa con los electrodomésticos que transformarán la frescura de tus alimentos.\nYa sea que necesites reemplazar tu heladera actual o quieras agregar un freezer adicional a tu espacio, nuestras heladeras están diseñadas para brindarte eficiencia energética y un almacenamiento organizado. Con una variedad de tamaños y diseños, podés encontrar el modelo perfecto que se ajuste a tu cocina y estilo. Y nuestros freezers te permiten tener más espacio para congelar tus alimentos y mantenerlos a la temperatura adecuada. Ya sea para almacenar productos congelados o preparar tus propias recetas con ingredientes frescos, nuestras heladeras y freezers ofrecen versatilidad y capacidad de almacenamiento para satisfacer tus necesidades.\nContamos con las mejores marcas del mercado para que te lleves el electrodoméstico que más te guste. El Cyber Monday es el evento perfecto para adquirir productos de refrigeración de alta calidad a precios atractivos.\n\nUtilizá tu [crédito](/credito-coppel) y estrená hoy mismo. Si todavía no tenés tu [Crédito Coppel](https://www2.coppel.com.ar/credito.php), solicitalo en línea; ¡es fácil, rápido y gratis!"
+        }
+    },
+    // Categoria Climatización
+    "store.custom#cyber-monday-2023-climatizacion": {
+        "blocks": [
+            "header-categoria#climatizacion",
+            "search-result-layout.customQuery#cyber-monday-2023-climatizacion"
+        ]
+    },
+    "header-categoria#climatizacion": {
+        "props": {
+            "titulo": "Climatización"
+        }
+    },
+    "search-result-layout.customQuery#cyber-monday-2023-climatizacion": {
+      "props": {
+        "blockClass": "coleccion",
+        "querySchema": {
+          "maxItemsPerPage": 20,
+          "queryField": "399",
+          "mapField": "productClusterIds",
+          "skusFilter": "ALL_AVAILABLE",
+          "simulationBehavior": "default"
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#cyber-monday-2023-climatizacion",
+        "search-result-layout.mobile#cyber-monday-2023-climatizacion",
+        "coppelar.search-result:search-not-found-layout"
+      ]
+    },
+    "search-result-layout.desktop#cyber-monday-2023-climatizacion": {
+      "children": [
+        "flex-layout.row#result-cyber-monday-2023",
+        "rich-text#seo-climatizacion"
+      ],
+      "props": {
+        "preventRouteChange": true,
+        "thresholdForFacetSearch": 10,
+        "showProductsCount": true,
+        "showFacetQuantity": true,
+        "HiddenFacets": {
+          "priceRange": true
+        },
+        "pagination": "show-more",
+        "mobileLayout": {
+          "mode1": "small",
+          "mode2": "normal"
+        }
+      }
+    },
+    "search-result-layout.mobile#cyber-monday-2023-climatizacion": {
+        "children": [
+          "flex-layout.row#searchinfomobile",
+          "flex-layout.row#contentmobile",
+          "flex-layout.row#pagination",
+          "rich-text#seo-climatizacion"
+        ],
+        "props": {
+          "blockClass": "black-friday-collection",
+          "pagination": "show-more",
+          "mobileLayout": {
+            "mode1": "small",
+            "mode2": "normal"
+          }
+        }
+    },
+    "rich-text#seo-climatizacion": {
+        "title": "descriptions SEO",
+        "props": {
+          "blockClass": "result-cyber-monday-2023-seo",
+          "text": "## Preparate para el verano: Aires Acondicionados y Ventiladores en el Cyber Monday\nEn [Coppel.com.ar](/) o en la [App Coppel](https://play.google.com/store/apps/details?id=ar.com.coppel) podés renovar el aire de tu casa eligiendo entre los más eficientes y tecnología avanzada de aires acondicionados y ventiladores. Equipate con electrodomésticos y artefactos especializados que hacen disfrutable tu tiempo en tu casa. Conocé nuestra amplia gama de productos de climatización diseñados para mantener tu hogar cómodo y fresco en cualquier momento del año.\nPara este verano experimenta un ambiente fresco y agradable, disfrutá de los increíbles modelos de aires acondicionados, desde modelos de ventana hasta sistemas de aire acondicionado split. Y si preferís una brisa suave y natural, nuestros ventiladores son la solución ideal. Disponemos de una amplia gama de ventiladores de pie, ventiladores de techo y ventiladores de mesa que ofrecen un flujo de aire continuo para mantener tu hogar bien ventilado y confortable. Todo esto lo conseguís en el Cyber Monday de Coppel con nuestra variedad de marcas líderes que te garantizan el producto perfecto para tu espacio.\n\nUtilizá tu [crédito](/credito-coppel) y estrená hoy mismo. Si todavía no tenés tu [Crédito Coppel](https://www2.coppel.com.ar/credito.php), solicitalo en línea; ¡es fácil, rápido y gratis!"
+        }
+    },
+    // Categoria Electro belleza
+    "store.custom#cyber-monday-2023-electrobelleza": {
+        "blocks": [
+            "header-categoria#electrobelleza",
+            "search-result-layout.customQuery#cyber-monday-2023-electrobelleza"
+        ]
+    },
+    "header-categoria#electrobelleza": {
+        "props": {
+            "titulo": "Electro belleza"
+        }
+    },
+    "search-result-layout.customQuery#cyber-monday-2023-electrobelleza": {
+      "props": {
+        "blockClass": "coleccion",
+        "querySchema": {
+          "maxItemsPerPage": 20,
+          "queryField": "399",
+          "mapField": "productClusterIds",
+          "skusFilter": "ALL_AVAILABLE",
+          "simulationBehavior": "default"
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#cyber-monday-2023-electrobelleza",
+        "search-result-layout.mobile#cyber-monday-2023-electrobelleza",
+        "coppelar.search-result:search-not-found-layout"
+      ]
+    },
+    "search-result-layout.desktop#cyber-monday-2023-electrobelleza": {
+      "children": [
+        "flex-layout.row#result-cyber-monday-2023",
+        "rich-text#seo-electrobelleza"
+      ],
+      "props": {
+        "preventRouteChange": true,
+        "thresholdForFacetSearch": 10,
+        "showProductsCount": true,
+        "showFacetQuantity": true,
+        "HiddenFacets": {
+          "priceRange": true
+        },
+        "pagination": "show-more",
+        "mobileLayout": {
+          "mode1": "small",
+          "mode2": "normal"
+        }
+      }
+    },
+    "search-result-layout.mobile#cyber-monday-2023-electrobelleza": {
+        "children": [
+          "flex-layout.row#searchinfomobile",
+          "flex-layout.row#contentmobile",
+          "flex-layout.row#pagination",
+          "rich-text#seo-electrobelleza"
+        ],
+        "props": {
+          "blockClass": "black-friday-collection",
+          "pagination": "show-more",
+          "mobileLayout": {
+            "mode1": "small",
+            "mode2": "normal"
+          }
+        }
+    },
+    "rich-text#seo-electrobelleza": {
+        "title": "descriptions SEO",
+        "props": {
+          "blockClass": "result-cyber-monday-2023-seo",
+          "text": "## Cyber Monday: Potenciá tu estilo con productos de Belleza en Oferta\n\nEn [Coppel.com.ar](/) o en la [App Coppel](https://play.google.com/store/apps/details?id=ar.com.coppel) vas a encontrar las mejores marcas de productos de belleza para resaltar y lucir tu look en todo momento. Te invitamos a conocer una amplia gama de productos de electro belleza donde tenemos una selección que incluye todo lo que necesitás para cuidar tu pelo, piel y estilo personal con comodidad y carácter.\nPara quienes buscan mantener su pelo con un aspecto impecable, nuestras planchitas y secadores de pelo ofrecen un control excepcional. Desde las planchitas que crean estilos lisos y elegantes hasta los secadores de pelo que brindan volumen y textura, vas a encontrar productos de marcas líderes que te ayudarán a lograr el aspecto que deseás.\nTambién contamos con una gama de afeitadoras y cortadoras con las que mantendrás tu piel siempre reluciente y suave. Ya sea que necesites una afeitadora para un afeitado apurado o una cortadora para mantener tu barba y cabello bajo control, nuestras opciones ofrecen versatilidad y rendimiento de primera calidad.\nAprovechá el Cyber Monday para disfrutar de nuestras ofertas y descuentos exclusivos. Preparate para lucir y sentirte sensacional.\n\nUtilizá tu [crédito](/credito-coppel) y estrená hoy mismo. Si todavía no tenés tu [Crédito Coppel](https://www2.coppel.com.ar/credito.php), solicitalo en línea; ¡es fácil, rápido y gratis!"
+        }
+    },
+    // Categoria Zapatillas
+    "store.custom#cyber-monday-2023-zapatillas": {
+        "blocks": [
+            "header-categoria#zapatillas",
+            "search-result-layout.customQuery#cyber-monday-2023-zapatillas"
+        ]
+    },
+    "header-categoria#zapatillas": {
+        "props": {
+            "titulo": "Zapatillas"
+        }
+    },
+    "search-result-layout.customQuery#cyber-monday-2023-zapatillas": {
+      "props": {
+        "blockClass": "coleccion",
+        "querySchema": {
+          "maxItemsPerPage": 20,
+          "queryField": "399",
+          "mapField": "productClusterIds",
+          "skusFilter": "ALL_AVAILABLE",
+          "simulationBehavior": "default"
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#cyber-monday-2023-zapatillas",
+        "search-result-layout.mobile#cyber-monday-2023-zapatillas",
+        "coppelar.search-result:search-not-found-layout"
+      ]
+    },
+    "search-result-layout.desktop#cyber-monday-2023-zapatillas": {
+      "children": [
+        "flex-layout.row#result-cyber-monday-2023",
+        "rich-text#seo-zapatillas"
+      ],
+      "props": {
+        "preventRouteChange": true,
+        "thresholdForFacetSearch": 10,
+        "showProductsCount": true,
+        "showFacetQuantity": true,
+        "HiddenFacets": {
+          "priceRange": true
+        },
+        "pagination": "show-more",
+        "mobileLayout": {
+          "mode1": "small",
+          "mode2": "normal"
+        }
+      }
+    },
+    "search-result-layout.mobile#cyber-monday-2023-zapatillas": {
+        "children": [
+          "flex-layout.row#searchinfomobile",
+          "flex-layout.row#contentmobile",
+          "flex-layout.row#pagination",
+          "rich-text#seo-zapatillas"
+        ],
+        "props": {
+          "blockClass": "black-friday-collection",
+          "pagination": "show-more",
+          "mobileLayout": {
+            "mode1": "small",
+            "mode2": "normal"
+          }
+        }
+    },
+    "rich-text#seo-zapatillas": {
+        "title": "descriptions SEO",
+        "props": {
+          "blockClass": "result-cyber-monday-2023-seo",
+          "text": "## Pisá con estilo en el Cyber Monday: Zapatillas urbanas y deportivas\n\nEn [Coppel.com.ar](/) o en la [App Coppel](https://play.google.com/store/apps/details?id=ar.com.coppel) te invitamos a descubrir una amplia variedad de zapatillas deportivas y urbanas que se adaptan a todos los estilos y necesidades. Ya sea que busques un par de zapatillas deportivas para llevar tus entrenamientos al siguiente nivel o zapatillas urbanas que combinen perfectamente con tu outfit diario, tenemos lo que necesitás.\nEn nuestra selección de zapatillas deportivas, vas a encontrar opciones diseñadas para brindar comodidad y rendimiento. Desde las marcas más reconocidas del deporte hasta modelos de última generación, tenemos un amplio catálogo de zapatillas para tus entrenamientos.\nSi tu estilo es más urbano, también ofrecemos una variedad de zapatillas urbanas de moda que te permiten expresar tu personalidad y mantenerte cómodo en cualquier ocasión. Ya sea que busques un look casual o urbano, nuestra selección de zapatillas urbanas cuenta con opciones para todos los gustos.\n¡Te esperamos en Coppel para ayudarte a dar tus próximos pasos con confianza y estilo!\n\nUtilizá tu [crédito](/credito-coppel) y estrená hoy mismo. Si todavía no tenés tu [Crédito Coppel](https://www2.coppel.com.ar/credito.php), solicitalo en línea; ¡es fácil, rápido y gratis!"
+        }
+    },
+    // Resultado desktop
+    "flex-layout.row#result-cyber-monday-2023": {
+      "children": ["flex-layout.col#filter", "flex-layout.col#content"],
+      "props": {
+        "preventHorizontalStretch": true,
+        "fullWidth": true,
+        "blockClass" : "result-cyber-monday"
+      }
+    }
+}

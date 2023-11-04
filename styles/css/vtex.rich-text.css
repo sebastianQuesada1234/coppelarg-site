@@ -1,0 +1,69 @@
+.container--cyber-monday-2023-carrusel-header {
+    padding: 0 1.5%;
+}
+@media only screen and (max-width: 1025px) {
+    .container--cyber-monday-2023-carrusel-header {
+        padding: 0 12px;
+    }
+}
+
+.wrapper--cyber-monday-2023-carrusel-header {
+    width: 100%;
+}
+.paragraph--cyber-monday-2023-carrusel-header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px 0 25px 0;
+
+    font-family: Circula Book, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 46px;
+    color: #000000;
+}
+@media only screen and (max-width: 1025px) {
+    .paragraph--cyber-monday-2023-carrusel-header {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        text-align: left;
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+.link--cyber-monday-2023-carrusel-header {
+    font-family: helvetica, arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.128px;
+    text-decoration: none;
+    color: #006FB9;
+}
+.link--cyber-monday-2023-carrusel-header:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.wrapper--result-cyber-monday-2023-seo {
+    margin-top: 2rem;
+    height: fit-content;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    border: 1px solid #d9e3f2;
+}
+
+.heading--result-cyber-monday-2023-seo {
+    margin: 0;
+    font-family: CircularBold,sans-serif;
+    font-size: 28px;
+}
+
+.paragraph--result-cyber-monday-2023-seo {
+    font-family: arial, helvetica;
+    font-size: .875rem;
+    margin: 1rem 0 0;
+}
