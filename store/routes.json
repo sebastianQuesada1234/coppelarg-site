@@ -42,5 +42,9 @@
     "store.custom#cyber-monday-2023-movilidad" : {
         "path" : "/cyber-monday/movilidad-electrica",
         "title": "Movilidad Electrica - Cyber Monday | Coppel.com.ar"
+    },
+    "store.custom#cyber-monday-2023-6cuotas" : {
+        "path" : "/cyber-monday/6-cuotas-sin-interes",
+        "title": "6 cuotas sin interes - Cyber Monday | Coppel.com.ar"
     }
 }
