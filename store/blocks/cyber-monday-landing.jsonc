@@ -222,7 +222,7 @@
       "blocks": ["coppelar.site-theme:product-summary.shelf"],
       "children": ["slider-layout#temp-evento-estanteria"],
       "props": {
-          "collection": "146",
+          "collection": "515",
           "hideUnavailableItems": true,
           "orderBy": "OrderByTopSaleDESC",
           "maxItems": 15
