@@ -8,7 +8,7 @@ body:not(*) {
     background-color: #FF3E9F;
     width: 100%;
     padding: 24px 32px 24px 32px;
-
+    display: none;
 }
 
 .hourContainer {

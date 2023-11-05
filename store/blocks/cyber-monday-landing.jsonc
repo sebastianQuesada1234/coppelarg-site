@@ -27,7 +27,9 @@
     }
   },
   "flex-layout.row#cyber-monday-2023-ofertas-bomba": {
-    "children": ["flex-layout.col#cyber-monday-2023-ofertas-bomba"],
+    "children": [
+      //"flex-layout.col#cyber-monday-2023-ofertas-bomba"
+    ],
     "props": {
       "horizontalAlign": "CENTER",
       "fullWidth": true
@@ -188,9 +190,9 @@
     "props": {
       "items": [
         {"banner": "assets/cyber-monday/banner-destacado-1.png", "title": "Hasta 6 cuotas sin interés", "description": "Productos y cuotas únicas", "link": ""},
-        {"banner": "assets/cyber-monday/banner-destacado-2.png", "title": "Movilidad eléctrica", "description": "Descubrí todas las ofertas", "link": ""},
-        {"banner": "assets/cyber-monday/banner-destacado-3.png", "title": "Especial Motorola", "description": "Celus destacados para vos", "link": ""},
-        {"banner": "assets/cyber-monday/banner-destacado-4.png", "title": "Especial Smartwatches", "description": "Explorá modelos exclusivos", "link": ""}
+        {"banner": "assets/cyber-monday/banner-destacado-2.png", "title": "Movilidad eléctrica", "description": "Descubrí todas las ofertas", "link": "/cyber-monday/movilidad-electrica"},
+        {"banner": "assets/cyber-monday/banner-destacado-3.png", "title": "Especial Smartwatches", "description": "Explorá modelos exclusivos", "link": "/cyber-monday/celulares?map=category-3,productClusterIds,productclusternames&query=/smartwatch/506/cyber-monday-celulares-y-accesorios"},
+        {"banner": "assets/cyber-monday/banner-destacado-4.png", "title": "Especial Motorola", "description": "Celus destacados para vos", "link": "/cyber-monday/celulares?map=brand,productClusterIds,productclusternames,productclusternames&query=/motorola/506/cyber-monday-celulares-y-accesorios/cyber-monday-celulares-y-accesorios"}
       ]
     }
   },

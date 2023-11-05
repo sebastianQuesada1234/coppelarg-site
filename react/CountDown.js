@@ -45,7 +45,7 @@ function Countdown({ Carrousel }) {
   
 
   return (
-    <div id="ofertas-bomba" className={`${style.timerContainer}`} style="display: none">
+    <div id="ofertas-bomba" className={`${style.timerContainer}`}>
       <div className={`${style.fondo}`}>
         <div className={`${style.timerHeader}`}>
           <div className={`${style.timerTitle}`}>Ofertas Bomba</div>

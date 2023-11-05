@@ -16,7 +16,7 @@
         "blockClass": "coleccion",
         "querySchema": {
           "maxItemsPerPage": 20,
-          "queryField": "399",
+          "queryField": "506",
           "mapField": "productClusterIds",
           "skusFilter": "ALL_AVAILABLE",
           "simulationBehavior": "default"
@@ -88,7 +88,7 @@
         "blockClass": "coleccion",
         "querySchema": {
           "maxItemsPerPage": 20,
-          "queryField": "399",
+          "queryField": "507",
           "mapField": "productClusterIds",
           "skusFilter": "ALL_AVAILABLE",
           "simulationBehavior": "default"
@@ -160,7 +160,7 @@
         "blockClass": "coleccion",
         "querySchema": {
           "maxItemsPerPage": 20,
-          "queryField": "399",
+          "queryField": "508",
           "mapField": "productClusterIds",
           "skusFilter": "ALL_AVAILABLE",
           "simulationBehavior": "default"
@@ -232,7 +232,7 @@
         "blockClass": "coleccion",
         "querySchema": {
           "maxItemsPerPage": 20,
-          "queryField": "399",
+          "queryField": "509",
           "mapField": "productClusterIds",
           "skusFilter": "ALL_AVAILABLE",
           "simulationBehavior": "default"
@@ -304,7 +304,7 @@
         "blockClass": "coleccion",
         "querySchema": {
           "maxItemsPerPage": 20,
-          "queryField": "399",
+          "queryField": "510",
           "mapField": "productClusterIds",
           "skusFilter": "ALL_AVAILABLE",
           "simulationBehavior": "default"
@@ -376,7 +376,7 @@
         "blockClass": "coleccion",
         "querySchema": {
           "maxItemsPerPage": 20,
-          "queryField": "399",
+          "queryField": "511",
           "mapField": "productClusterIds",
           "skusFilter": "ALL_AVAILABLE",
           "simulationBehavior": "default"
@@ -448,7 +448,7 @@
         "blockClass": "coleccion",
         "querySchema": {
           "maxItemsPerPage": 20,
-          "queryField": "399",
+          "queryField": "512",
           "mapField": "productClusterIds",
           "skusFilter": "ALL_AVAILABLE",
           "simulationBehavior": "default"
@@ -520,7 +520,7 @@
         "blockClass": "coleccion",
         "querySchema": {
           "maxItemsPerPage": 20,
-          "queryField": "399",
+          "queryField": "513",
           "mapField": "productClusterIds",
           "skusFilter": "ALL_AVAILABLE",
           "simulationBehavior": "default"
@@ -592,7 +592,7 @@
         "blockClass": "coleccion",
         "querySchema": {
           "maxItemsPerPage": 20,
-          "queryField": "399",
+          "queryField": "514",
           "mapField": "productClusterIds",
           "skusFilter": "ALL_AVAILABLE",
           "simulationBehavior": "default"
@@ -645,6 +645,69 @@
         "props": {
           "blockClass": "result-cyber-monday-2023-seo",
           "text": "## Pisá con estilo en el Cyber Monday: Zapatillas urbanas y deportivas\n\nEn [Coppel.com.ar](/) o en la [App Coppel](https://play.google.com/store/apps/details?id=ar.com.coppel) te invitamos a descubrir una amplia variedad de zapatillas deportivas y urbanas que se adaptan a todos los estilos y necesidades. Ya sea que busques un par de zapatillas deportivas para llevar tus entrenamientos al siguiente nivel o zapatillas urbanas que combinen perfectamente con tu outfit diario, tenemos lo que necesitás.\nEn nuestra selección de zapatillas deportivas, vas a encontrar opciones diseñadas para brindar comodidad y rendimiento. Desde las marcas más reconocidas del deporte hasta modelos de última generación, tenemos un amplio catálogo de zapatillas para tus entrenamientos.\nSi tu estilo es más urbano, también ofrecemos una variedad de zapatillas urbanas de moda que te permiten expresar tu personalidad y mantenerte cómodo en cualquier ocasión. Ya sea que busques un look casual o urbano, nuestra selección de zapatillas urbanas cuenta con opciones para todos los gustos.\n¡Te esperamos en Coppel para ayudarte a dar tus próximos pasos con confianza y estilo!\n\nUtilizá tu [crédito](/credito-coppel) y estrená hoy mismo. Si todavía no tenés tu [Crédito Coppel](https://www2.coppel.com.ar/credito.php), solicitalo en línea; ¡es fácil, rápido y gratis!"
+        }
+    },
+    // Categoria Mobilidad Electrica
+    "store.custom#cyber-monday-2023-movilidad": {
+        "blocks": [
+            "header-categoria#movilidad",
+            "search-result-layout.customQuery#cyber-monday-2023-movilidad"
+        ]
+    },
+    "header-categoria#movilidad": {
+        "props": {
+            "titulo": "Movilidad Electrica"
+        }
+    },
+    "search-result-layout.customQuery#cyber-monday-2023-movilidad": {
+      "props": {
+        "blockClass": "coleccion",
+        "querySchema": {
+          "maxItemsPerPage": 20,
+          "queryField": "516",
+          "mapField": "productClusterIds",
+          "skusFilter": "ALL_AVAILABLE",
+          "simulationBehavior": "default"
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#cyber-monday-2023-movilidad",
+        "search-result-layout.mobile#cyber-monday-2023-movilidad",
+        "coppelar.search-result:search-not-found-layout"
+      ]
+    },
+    "search-result-layout.desktop#cyber-monday-2023-movilidad": {
+      "children": [
+        "flex-layout.row#result-cyber-monday-2023"
+      ],
+      "props": {
+        "preventRouteChange": true,
+        "thresholdForFacetSearch": 10,
+        "showProductsCount": true,
+        "showFacetQuantity": true,
+        "HiddenFacets": {
+          "priceRange": true
+        },
+        "pagination": "show-more",
+        "mobileLayout": {
+          "mode1": "small",
+          "mode2": "normal"
+        }
+      }
+    },
+    "search-result-layout.mobile#cyber-monday-2023-movilidad": {
+        "children": [
+          "flex-layout.row#searchinfomobile",
+          "flex-layout.row#contentmobile",
+          "flex-layout.row#pagination"
+        ],
+        "props": {
+          "blockClass": "black-friday-collection",
+          "pagination": "show-more",
+          "mobileLayout": {
+            "mode1": "small",
+            "mode2": "normal"
+          }
         }
     },
     // Resultado desktop
