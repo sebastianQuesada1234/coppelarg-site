@@ -35,6 +35,7 @@ function Countdown({ Carrousel }) {
       document.getElementById('hour').innerHTML = `${hour < 10 ? '0' + hour : hour}`;
       document.getElementById('minute').innerHTML = `${minutes < 10 ? '0' + minutes : minutes}`;
       document.getElementById('second').innerHTML = `${seconds < 10 ? '0' + seconds : seconds}`;
+      document.getElementById('ofertas-bomba').style.display = 'flex';
     } else {
       document.getElementById('ofertas-bomba').style.display = 'none';
     }
@@ -44,7 +45,7 @@ function Countdown({ Carrousel }) {
   
 
   return (
-    <div id="ofertas-bomba" className={`${style.timerContainer}`}>
+    <div id="ofertas-bomba" className={`${style.timerContainer}`} style="display: none">
       <div className={`${style.fondo}`}>
         <div className={`${style.timerHeader}`}>
           <div className={`${style.timerTitle}`}>Ofertas Bomba</div>
