@@ -1,9 +1,7 @@
 {
-    "store.custom#formulario-sorteo" : {
-        "path" : "/cyber-monday2"
-    },
     "store.custom#cyber-monday-2023" : {
-        "path" : "/cyber-monday-landing"
+        "path" : "/cyber-monday",
+        "title" : "Cyber Monday 2023: ofertas del 06 al 08 de noviembre | Coppel.com.ar"
     },
     "store.custom#cyber-monday-2023-celulares" : {
         "path" : "/cyber-monday/celulares",
