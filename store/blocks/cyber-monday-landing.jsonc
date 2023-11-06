@@ -117,7 +117,7 @@
         {"label": "Tecnología", "icon": "assets/cyber-monday/categorias/tecno.png", "link": "/cyber-monday/tecnologia"},
         {"label": "Cocina", "icon": "assets/cyber-monday/categorias/cocina.png", "link": "/cyber-monday/cocina"},
         {"label": "Lavado y secado", "icon": "assets/cyber-monday/categorias/lavado.png", "link": "/cyber-monday/lavado-y-secado"},
-        {"label": "Refrigeracion", "icon": "assets/cyber-monday/categorias/refri.png", "link": "/cyber-monday/refrigeracion"},
+        {"label": "Refrigeración", "icon": "assets/cyber-monday/categorias/refri.png", "link": "/cyber-monday/refrigeracion"},
         {"label": "Climatización", "icon": "assets/cyber-monday/categorias/clima.png", "link": "/cyber-monday/climatizacion"},
         {"label": "Electro belleza", "icon": "assets/cyber-monday/categorias/belleza.png", "link": "/cyber-monday/electro-belleza"},
         {"label": "Zapatillas", "icon": "assets/cyber-monday/categorias/zapatillas.png", "link": "/cyber-monday/zapatillas"}
@@ -175,7 +175,7 @@
   "rich-text#cyber-monday-2023-banners": {
     "title": "Titulo y Subtitulo",
     "props": {
-      "text": "# Cyber Monday en Coppel\n ### ¡Ofertas exclusivas en Electrodomésticos y Deportes!",
+      "text": "# Cyber Monday en Coppel\n ### ¡Ofertas exclusivas en electrodomésticos y deportes!",
       "blockClass": "temp-evento-banners"
     }
   },
@@ -191,7 +191,7 @@
       "items": [
         {"banner": "assets/cyber-monday/banner-destacado-1.png", "title": "Hasta 6 cuotas sin interés", "description": "Productos y cuotas únicas", "link": "/cyber-monday/6-cuotas-sin-interes"},
         {"banner": "assets/cyber-monday/banner-destacado-2.png", "title": "Movilidad eléctrica", "description": "Descubrí todas las ofertas", "link": "/cyber-monday/movilidad-electrica"},
-        {"banner": "assets/cyber-monday/banner-destacado-3.png", "title": "Especial Smartwatches", "description": "Explorá modelos exclusivos", "link": "/cyber-monday/celulares?map=category-3,productClusterIds,productclusternames&query=/smartwatch/506/cyber-monday-celulares-y-accesorios"},
+        {"banner": "assets/cyber-monday/banner-destacado-3.png", "title": "Especial smartwatches", "description": "Explorá modelos exclusivos", "link": "/cyber-monday/celulares?map=category-3,productClusterIds,productclusternames&query=/smartwatch/506/cyber-monday-celulares-y-accesorios"},
         {"banner": "assets/cyber-monday/banner-destacado-4.png", "title": "Especial Motorola", "description": "Celus destacados para vos", "link": "/cyber-monday/celulares?map=brand,productClusterIds,productclusternames,productclusternames&query=/motorola/506/cyber-monday-celulares-y-accesorios/cyber-monday-celulares-y-accesorios"}
       ]
     }
@@ -248,7 +248,7 @@
   "rich-text#cyber-monday-2023-carrusel-02": {
       "title": "Titulo",
       "props": {
-          "text": "Llevate un Celu en hasta 6 cuotas sin interés [Ver más](/cyber-monday/celulares)",
+          "text": "Llevate un celu en hasta 6 cuotas sin interés [Ver más](/cyber-monday/celulares)",
           "textAlignment": "CENTER",
           "textPosition": "LEFT",
           "blockClass": "cyber-monday-2023-carrusel-header"
@@ -282,7 +282,7 @@
   "rich-text#cyber-monday-2023-carrusel-03": {
       "title": "Titulo",
       "props": {
-          "text": "Smarts Tv y Parlantes con descuentos irresistibles [Ver más](/cyber-monday/tv-y-audio)",
+          "text": "Smart tv´s con descuentos irresistibles [Ver más](/cyber-monday/tv-y-audio)",
           "textAlignment": "CENTER",
           "textPosition": "LEFT",
           "blockClass": "cyber-monday-2023-carrusel-header"
