@@ -28,7 +28,7 @@
   },
   "flex-layout.row#cyber-monday-2023-ofertas-bomba": {
     "children": [
-      //"flex-layout.col#cyber-monday-2023-ofertas-bomba"
+      "flex-layout.col#cyber-monday-2023-ofertas-bomba"
     ],
     "props": {
       "horizontalAlign": "CENTER",
@@ -46,9 +46,19 @@
   },
   "ofertas-bomba#cyber-monday-2023": {
       "props": {
-          "Carrousel": "list-context.product-list#temp-evento-estanteria-03",
+          "Carrousel": "list-context.product-list#cyber-monday-2023-ofertas-bomba",
           "fullWidth": true,
           "horizontalAlign": "CENTER"
+      }
+  },
+  "list-context.product-list#cyber-monday-2023-ofertas-bomba": {
+      "blocks": ["coppelar.site-theme:product-summary.shelf"],
+      "children": ["slider-layout#temp-evento-estanteria"],
+      "props": {
+          "collection": "521",
+          "hideUnavailableItems": true,
+          "orderBy": "OrderByTopSaleDESC",
+          "maxItems": 15
       }
   },
   "flex-layout.row#cyber-monday-2023-body": {

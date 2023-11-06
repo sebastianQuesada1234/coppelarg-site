@@ -15,3 +15,6 @@
         border-radius: 8px;
     }
 }
+.filter__container--title, .filter__container--brand, .filter__container--category-1, .filter__container--category-2, .filter__container--selectedFilters{
+    order: -1 !important;
+}
