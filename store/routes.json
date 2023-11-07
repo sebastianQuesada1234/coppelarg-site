@@ -7,6 +7,18 @@
         "path" : "/cyber-monday/celulares",
         "title": "Celulares y Accesorios - Cyber Monday | Coppel.com.ar"
     },
+    "store.custom#cyber-monday-2023-pileta" : {
+        "path" : "/cyber-monday/piletas",
+        "title": "Piletas - Cyber Monday | Coppel.com.ar"
+    },
+    "store.custom#cyber-monday-2023-colchones" : {
+        "path" : "/cyber-monday/colchones",
+        "title": "Colchones - Cyber Monday | Coppel.com.ar"
+    },
+    "store.custom#cyber-monday-2023-pequeños-electrodomesticos" : {
+        "path" : "/cyber-monday/pequenos-electrodomesticos",
+        "title": "Colchones - Cyber Monday | Coppel.com.ar"
+    },
     "store.custom#cyber-monday-2023-tv" : {
         "path" : "/cyber-monday/tv-y-audio",
         "title": "Smart TV y Audio - Cyber Monday | Coppel.com.ar"

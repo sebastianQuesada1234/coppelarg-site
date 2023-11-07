@@ -647,7 +647,7 @@
           "text": "## Pisá con estilo en el Cyber Monday: Zapatillas urbanas y deportivas\n\nEn [Coppel.com.ar](/) o en la [App Coppel](https://play.google.com/store/apps/details?id=ar.com.coppel) te invitamos a descubrir una amplia variedad de zapatillas deportivas y urbanas que se adaptan a todos los estilos y necesidades. Ya sea que busques un par de zapatillas deportivas para llevar tus entrenamientos al siguiente nivel o zapatillas urbanas que combinen perfectamente con tu outfit diario, tenemos lo que necesitás.\nEn nuestra selección de zapatillas deportivas, vas a encontrar opciones diseñadas para brindar comodidad y rendimiento. Desde las marcas más reconocidas del deporte hasta modelos de última generación, tenemos un amplio catálogo de zapatillas para tus entrenamientos.\nSi tu estilo es más urbano, también ofrecemos una variedad de zapatillas urbanas de moda que te permiten expresar tu personalidad y mantenerte cómodo en cualquier ocasión. Ya sea que busques un look casual o urbano, nuestra selección de zapatillas urbanas cuenta con opciones para todos los gustos.\n¡Te esperamos en Coppel para ayudarte a dar tus próximos pasos con confianza y estilo!\n\nUtilizá tu [crédito](/credito-coppel) y estrená hoy mismo. Si todavía no tenés tu [Crédito Coppel](https://www2.coppel.com.ar/credito.php), solicitalo en línea; ¡es fácil, rápido y gratis!"
         }
     },
-    // Categoria Mobilidad Electrica
+    // Categoria Movilidad Electrica
     "store.custom#cyber-monday-2023-movilidad": {
         "blocks": [
             "header-categoria#movilidad",
@@ -710,6 +710,199 @@
           }
         }
     },
+    
+    //piletas e inflables
+    "store.custom#cyber-monday-2023-pileta": {
+      "blocks": [
+          "header-categoria#pileta",
+          "search-result-layout.customQuery#cyber-monday-2023-pileta"
+      ]
+  },
+  "header-categoria#pileta": {
+    "props": {
+        "titulo": "Piletas"
+    }
+},
+  "search-result-layout.customQuery#cyber-monday-2023-pileta": {
+    "props": {
+      "blockClass": "coleccion",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "jardin-y-herramientas/piletas-e-inflables",
+        "mapField": "category-1,category-2",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#cyber-monday-2023-pileta",
+      "search-result-layout.mobile#cyber-monday-2023-pileta",
+      "coppelar.search-result:search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#cyber-monday-2023-pileta": {
+    "children": [
+      "flex-layout.row#result-cyber-monday-2023"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "thresholdForFacetSearch": 10,
+      "showProductsCount": true,
+      "showFacetQuantity": true,
+      "HiddenFacets": {
+        "priceRange": true
+      },
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  "search-result-layout.mobile#cyber-monday-2023-pileta": {
+      "children": [
+        "flex-layout.row#searchinfomobile",
+        "flex-layout.row#contentmobile",
+        "flex-layout.row#pagination"
+      ],
+      "props": {
+        "blockClass": "black-friday-collection",
+        "pagination": "show-more",
+        "mobileLayout": {
+          "mode1": "small",
+          "mode2": "normal"
+        }
+      }
+    },
+//pequeños electrodomesticos
+ "store.custom#cyber-monday-2023-pequeños-electrodomesticos": {
+  "blocks": [
+      "header-categoria#electrodomesticos",
+      "search-result-layout.customQuery#cyber-monday-2023-electrodomesticos"
+  ]
+},
+"header-categoria#electrodomesticos": {
+"props": {
+    "titulo": "Pequeños electrodomesticos"
+}
+},
+"search-result-layout.customQuery#cyber-monday-2023-electrodomesticos": {
+"props": {
+  "blockClass": "coleccion",
+  "querySchema": {
+    "maxItemsPerPage": 20,
+        "queryField": "electrodomesticos/pequenos-cocina",
+        "mapField": "category-1,category-2",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+  }
+},
+"blocks": [
+  "search-result-layout.desktop#cyber-monday-2023-electrodomesticos",
+  "search-result-layout.mobile#cyber-monday-2023-electrodomesticos",
+  "coppelar.search-result:search-not-found-layout"
+]
+},
+"search-result-layout.desktop#cyber-monday-2023-electrodomesticos": {
+"children": [
+  "flex-layout.row#result-cyber-monday-2023"
+],
+"props": {
+  "preventRouteChange": true,
+  "thresholdForFacetSearch": 10,
+  "showProductsCount": true,
+  "showFacetQuantity": true,
+  "HiddenFacets": {
+    "priceRange": true
+  },
+  "pagination": "show-more",
+  "mobileLayout": {
+    "mode1": "small",
+    "mode2": "normal"
+  }
+}
+},
+"search-result-layout.mobile#cyber-monday-2023-electrodomesticos": {
+  "children": [
+    "flex-layout.row#searchinfomobile",
+    "flex-layout.row#contentmobile",
+    "flex-layout.row#pagination"
+  ],
+  "props": {
+    "blockClass": "black-friday-collection",
+    "pagination": "show-more",
+    "mobileLayout": {
+      "mode1": "small",
+      "mode2": "normal"
+    }
+  }
+},
+
+   
+    //colchones
+   
+    "store.custom#cyber-monday-2023-colchones": {
+      "blocks": [
+          "header-categoria#colchones",
+          "search-result-layout.customQuery#cyber-monday-2023-colchones"
+      ]
+  },
+  "header-categoria#colchones": {
+    "props": {
+        "titulo": "Colchones"
+    }
+},
+  "search-result-layout.customQuery#cyber-monday-2023-colchones": {
+    "props": {
+      "blockClass": "coleccion",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "hogar-muebles-y-limpieza/dormitorio/colchones",
+        "mapField": "category-1,category-2,category-3",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#cyber-monday-2023-colchones",
+      "search-result-layout.mobile#cyber-monday-2023-colchones",
+      "coppelar.search-result:search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#cyber-monday-2023-colchones": {
+    "children": [
+      "flex-layout.row#result-cyber-monday-2023"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "thresholdForFacetSearch": 10,
+      "showProductsCount": true,
+      "showFacetQuantity": true,
+      "HiddenFacets": {
+        "priceRange": true
+      },
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  "search-result-layout.mobile#cyber-monday-2023-colchones": {
+      "children": [
+        "flex-layout.row#searchinfomobile",
+        "flex-layout.row#contentmobile",
+        "flex-layout.row#pagination"
+      ],
+      "props": {
+        "blockClass": "black-friday-collection",
+        "pagination": "show-more",
+        "mobileLayout": {
+          "mode1": "small",
+          "mode2": "normal"
+        }
+      }
+    },
     // Categoria 6 cuotas sin interes
     "store.custom#cyber-monday-2023-6cuotas": {
         "blocks": [
@@ -717,6 +910,9 @@
             "search-result-layout.customQuery#cyber-monday-2023-6cuotas"
         ]
     },
+
+
+
     "header-categoria#6cuotas": {
         "props": {
             "titulo": "6 cuotas sin interes"
