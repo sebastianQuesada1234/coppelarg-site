@@ -2,7 +2,7 @@
   "store.custom#cyber-monday-2023": {
     "blocks": [
       "flex-layout.row#cyber-monday-2023-banner",
-      "flex-layout.row#cyber-monday-2023-ofertas-bomba",
+     "flex-layout.row#cyber-monday-2023-ofertas-bomba",
       "flex-layout.row#cyber-monday-2023-body"
     ]
   },

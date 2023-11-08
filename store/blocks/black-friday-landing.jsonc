@@ -1,0 +1,374 @@
+{
+    "store.custom#black-friday-2023": {
+      "blocks": [
+        "flex-layout.row#black-friday-2023-banner",
+       // "flex-layout.row#black-friday-2023-ofertas-bomba",
+        "flex-layout.row#black-friday-2023-body"
+      ]
+    },
+    "flex-layout.row#black-friday-2023-banner": {
+      "children": ["flex-layout.col#black-friday-2023-banner"],
+      "props": {
+        "blockClass": "temp-evento",
+        "horizontalAlign": "CENTER",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.col#black-friday-2023-banner": {
+      "children": [
+        "list-context.image-list#black-friday-2023",
+        "responsive-layout.desktop#black-friday-2023-info",
+        "responsive-layout.mobile#black-friday-2023-info"
+      ],
+      "props": {
+        "blockClass": "temp-evento",
+        "verticalAlign": "middle",
+        "horizontalAlign": "CENTER"
+      }
+    },
+    "flex-layout.row#black-friday-2023-ofertas-bomba": {
+      "children": [
+        "flex-layout.col#black-friday-2023-ofertas-bomba"
+      ],
+      "props": {
+        "horizontalAlign": "CENTER",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.col#black-friday-2023-ofertas-bomba": {
+      "children": [
+        "ofertas-bomba#black-friday-2023"
+      ],
+      "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "CENTER"
+      }
+    },
+    "ofertas-bomba#black-friday-2023": {
+        "props": {
+            "Carrousel": "list-context.product-list#black-friday-2023-ofertas-bomba",
+            "fullWidth": true,
+            "horizontalAlign": "CENTER"
+        }
+    },
+    "list-context.product-list#black-friday-2023-ofertas-bomba": {
+        "blocks": ["coppelar.site-theme:product-summary.shelf"],
+        "children": ["slider-layout#temp-evento-estanteria"],
+        "props": {
+            "collection": "521",
+            "hideUnavailableItems": true,
+            "orderBy": "OrderByTopSaleDESC",
+            "maxItems": 15
+        }
+    },
+    "flex-layout.row#black-friday-2023-body": {
+      "children": ["flex-layout.col#black-friday-2023-body"],
+      "props": {
+        "blockClass": "temp-evento",
+        "horizontalAlign": "CENTER",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.col#black-friday-2023-body": {
+      "children": [
+        "flex-layout.row#black-friday-2023-banners",
+        "flex-layout.row#black-friday-2023-categorias",
+        "m3-conditional-render#temp-evento-beneficios",
+        "flex-layout.row#black-friday-2023-carrusel-01",
+        "flex-layout.row#black-friday-2023-carrusel-02",
+        "responsive-layout.desktop#black-friday-2023-oferta",
+        "responsive-layout.mobile#black-friday-2023-oferta",
+        "flex-layout.row#black-friday-2023-carrusel-03",
+        "flex-layout.row#black-friday-2023-carrusel-04",
+        "flex-layout.row#spacer"
+      ],
+      "props": {
+        "blockClass": "temp-evento",
+        "verticalAlign": "middle",
+        "horizontalAlign": "CENTER"
+      }
+    },
+    "list-context.image-list#black-friday-2023": {
+      "title": "Banner Principal",
+      "children": ["slider-layout#temp-evento-images"],
+      "props": {
+        "height": 1000,
+        "fullWidth": true,
+        "images": [
+          {
+            "image": "assets/cyber-monday/banner-principal-desktop.png",
+            "mobileImage": "assets/cyber-monday/banner-principal-mobile.png"
+          }
+        ],
+        "blockClass": "temp-evento-images"
+      }
+    },
+    //Categorias
+    "flex-layout.row#black-friday-2023-categorias": {
+      "title": "Categorias",
+      "children": ["rich-text#black-friday-2023-categorias", "evento-category-slider#black-friday-2023-categorias"],
+      "props": {
+        "colSizing": "auto",
+        "blockClass": "temp-evento-categorias"
+      }
+    },
+    "rich-text#black-friday-2023-categorias": {
+      "title": "Titulo",
+      "props": {
+        "text": "Categorías destacadas",
+        "blockClass": "temp-evento-estanteria-header"
+      }
+    },
+    "evento-category-slider#black-friday-2023-categorias": {
+      "props": {
+        "categories": [
+          {"label": "Celulares", "icon": "assets/cyber-monday/categorias/celulares.png", "link": "/black-friday/celulares"},
+          {"label": "Televisores y audio", "icon": "assets/cyber-monday/categorias/tv.png", "link": "/black-friday/tv-y-audio"},
+          {"label": "Tecnología", "icon": "assets/cyber-monday/categorias/tecno.png", "link": "/black-friday/tecnologia"},
+          {"label": "Cocina", "icon": "assets/cyber-monday/categorias/cocina.png", "link": "/black-friday/cocina"},
+          {"label": "Lavado y secado", "icon": "assets/cyber-monday/categorias/lavado.png", "link": "/black-friday/lavado-y-secado"},
+          {"label": "Refrigeración", "icon": "assets/cyber-monday/categorias/refri.png", "link": "/black-friday/refrigeracion"},
+          {"label": "Climatización", "icon": "assets/cyber-monday/categorias/clima.png", "link": "/black-friday/climatizacion"},
+          {"label": "Electro belleza", "icon": "assets/cyber-monday/categorias/belleza.png", "link": "/black-friday/electro-belleza"},
+          {"label": "Zapatillas", "icon": "assets/cyber-monday/categorias/zapatillas.png", "link": "/black-friday/zapatillas"}
+        ],
+        "itemsPerPage": {
+          "desktop": 6,
+          "tablet": 4,
+          "phone": 2
+        }
+      }
+    },
+    //Banners Info
+    "responsive-layout.desktop#black-friday-2023-info": {
+      "title": "Banner Infos Desktop",
+      "children": ["image#black-friday-2023-info-dsk"]
+    },
+    "responsive-layout.mobile#black-friday-2023-info": {
+      "title": "Banner Infos Mobile",
+      "children": ["image#black-friday-2023-info-mob"]
+    },
+    "image#black-friday-2023-info-dsk": {
+      "props": {
+        "blockClass": "temp-evento-infos",
+        "src": "assets/cyber-monday/banner-beneficios-desktop.png"
+      }
+    },
+    "image#black-friday-2023-info-mob": {
+      "props": {
+        "blockClass": "temp-evento-infos",
+        "src": "assets/cyber-monday/banner-beneficios-mobile.png"
+      }
+    },
+    //Banners
+    "flex-layout.row#black-friday-2023-banners": {
+      "title": "Banners",
+      "children": [
+        "flex-layout.col#black-friday-2023-banners-titles",
+        "flex-layout.col#black-friday-2023-banners-content"
+      ],
+      "props": {
+        "blockClass": "temp-evento-banners",
+        "horizontalAlign": "CENTER",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.col#black-friday-2023-banners-titles": {
+      "children": [
+        "rich-text#black-friday-2023-banners"
+      ],
+      "props": {
+        "blockClass": "temp-evento-banners",
+        "width": "100%"
+      }
+    },
+    "rich-text#black-friday-2023-banners": {
+      "title": "Titulo y Subtitulo",
+      "props": {
+        "text": "# Cyber Monday en Coppel\n ### ¡Ofertas exclusivas en electrodomésticos y deportes!",
+        "blockClass": "temp-evento-banners"
+      }
+    },
+    "flex-layout.col#black-friday-2023-banners-content": {
+      "children": ["evento-banners#black-friday-2023-banners"],
+      "props": {
+        "blockClass": "temp-evento-banners",
+        "width": "100%"
+      }
+    },
+    "evento-banners#black-friday-2023-banners": {
+      "props": {
+        "items": [
+          {"banner": "assets/cyber-monday/banner-destacado-1.png", "title": "Hasta 6 cuotas sin interés", "description": "Productos y cuotas únicas", "link": "/black-friday/6-cuotas-sin-interes"},
+          {"banner": "assets/cyber-monday/banner-destacado-2.png", "title": "Movilidad eléctrica", "description": "Descubrí todas las ofertas", "link": "/black-friday/movilidad-electrica"},
+          {"banner": "assets/cyber-monday/banner-destacado-3.png", "title": "Especial smartwatches", "description": "Explorá modelos exclusivos", "link": "/black-friday/celulares?map=category-3,productClusterIds,productclusternames&query=/smartwatch/506/black-friday-celulares-y-accesorios"},
+          {"banner": "assets/cyber-monday/banner-destacado-4.png", "title": "Especial Motorola", "description": "Celus destacados para vos", "link": "/black-friday/celulares?map=brand,productClusterIds,productclusternames,productclusternames&query=/motorola/506/black-friday-celulares-y-accesorios/black-friday-celulares-y-accesorios"}
+        ]
+      }
+    },
+    // Carrusel 1
+    "flex-layout.row#black-friday-2023-carrusel-01": {
+        "title": "Carrusel #1",
+        "children": ["flex-layout.col#black-friday-2023-carrusel-01"],
+        "props": {
+            "blockClass": "temp-evento-shelf",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#black-friday-2023-carrusel-01": {
+        "children": ["rich-text#black-friday-2023-carrusel-01", "list-context.product-list#black-friday-2023-carrusel-01"],
+        "props": {
+            "width": "100%"
+        }
+    },
+    "rich-text#black-friday-2023-carrusel-01": {
+        "title": "Titulo",
+        "props": {
+            "text": "Renová tu casa con súper descuentos",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "blockClass": "black-friday-2023-carrusel-header"
+        }
+    },
+    "list-context.product-list#black-friday-2023-carrusel-01": {
+        "blocks": ["coppelar.site-theme:product-summary.shelf"],
+        "children": ["slider-layout#temp-evento-estanteria"],
+        "props": {
+            "collection": "515",
+            "hideUnavailableItems": true,
+            "orderBy": "OrderByTopSaleDESC",
+            "maxItems": 15
+        }
+    },
+    // Carrusel 2
+    "flex-layout.row#black-friday-2023-carrusel-02": {
+        "title": "Carrusel #2",
+        "children": ["flex-layout.col#black-friday-2023-carrusel-02"],
+        "props": {
+            "blockClass": "temp-evento-shelf",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#black-friday-2023-carrusel-02": {
+        "children": ["rich-text#black-friday-2023-carrusel-02", "list-context.product-list#black-friday-2023-carrusel-02"],
+        "props": {
+            "width": "100%"
+        }
+    },
+    "rich-text#black-friday-2023-carrusel-02": {
+        "title": "Titulo",
+        "props": {
+            "text": "Llevate un celu en hasta 6 cuotas sin interés [Ver más](/black-friday/celulares)",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "blockClass": "black-friday-2023-carrusel-header"
+        }
+    },
+    "list-context.product-list#black-friday-2023-carrusel-02": {
+        "blocks": ["coppelar.site-theme:product-summary.shelf"],
+        "children": ["slider-layout#temp-evento-estanteria"],
+        "props": {
+            "collection": "506",
+            "hideUnavailableItems": true,
+            "orderBy": "OrderByTopSaleDESC",
+            "maxItems": 10
+        }
+    },
+    // Carrusel 3
+    "flex-layout.row#black-friday-2023-carrusel-03": {
+        "title": "Carrusel #3",
+        "children": ["flex-layout.col#black-friday-2023-carrusel-03"],
+        "props": {
+            "blockClass": "temp-evento-shelf",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#black-friday-2023-carrusel-03": {
+        "children": ["rich-text#black-friday-2023-carrusel-03", "list-context.product-list#black-friday-2023-carrusel-03"],
+        "props": {
+            "width": "100%"
+        }
+    },
+    "rich-text#black-friday-2023-carrusel-03": {
+        "title": "Titulo",
+        "props": {
+            "text": "Smart tv´s con descuentos irresistibles [Ver más](/black-friday/tv-y-audio)",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "blockClass": "black-friday-2023-carrusel-header"
+        }
+    },
+    "list-context.product-list#black-friday-2023-carrusel-03": {
+        "blocks": ["coppelar.site-theme:product-summary.shelf"],
+        "children": ["slider-layout#temp-evento-estanteria"],
+        "props": {
+            "collection": "507",
+            "hideUnavailableItems": true,
+            "orderBy": "OrderByTopSaleDESC",
+            "maxItems": 15
+        }
+    },
+    // Carrusel 4
+    "flex-layout.row#black-friday-2023-carrusel-04": {
+        "title": "Carrusel #4",
+        "children": ["flex-layout.col#black-friday-2023-carrusel-04"],
+        "props": {
+            "blockClass": "temp-evento-shelf",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#black-friday-2023-carrusel-04": {
+        "children": ["rich-text#black-friday-2023-carrusel-04", "list-context.product-list#black-friday-2023-carrusel-04"],
+        "props": {
+            "width": "100%"
+        }
+    },
+    "rich-text#black-friday-2023-carrusel-04": {
+        "title": "Titulo",
+        "props": {
+            "text": "Encontrá tu par perfecto en hasta 3 cuotas sin interés [Ver más](/black-friday/zapatillas)",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "blockClass": "black-friday-2023-carrusel-header"
+        }
+    },
+    "list-context.product-list#black-friday-2023-carrusel-04": {
+        "blocks": ["coppelar.site-theme:product-summary.shelf"],
+        "children": ["slider-layout#temp-evento-estanteria"],
+        "props": {
+            "collection": "514",
+            "hideUnavailableItems": true,
+            "orderBy": "OrderByTopSaleDESC",
+            "maxItems": 15
+        }
+    },
+    // Banner medio
+    "responsive-layout.desktop#black-friday-2023-oferta": {
+      "title": "Banner Oferta Desktop",
+      "children": ["image#black-friday-2023-oferta-dsk"]
+    },
+    "responsive-layout.mobile#black-friday-2023-oferta": {
+      "title": "Banner Oferta Mobile",
+      "children": ["image#black-friday-2023-oferta-mbl"]
+    },
+    "image#black-friday-2023-oferta-dsk": {
+      "props": {
+        "blockClass": "temp-evento-oferta",
+        "src": "assets/cyber-monday/banner-medio-desktop.png",
+        "link": {
+          "url": "/black-friday/tecnologia",
+          "newTab": false
+        }
+      }
+    },
+    "image#black-friday-2023-oferta-mbl": {
+      "props": {
+        "blockClass": "temp-evento-oferta",
+        "src": "assets/cyber-monday/banner-medio-mobile.png",
+        "link": {
+          "url": "/black-friday/tecnologia",
+          "newTab": false
+        }
+      }
+    }
+  }

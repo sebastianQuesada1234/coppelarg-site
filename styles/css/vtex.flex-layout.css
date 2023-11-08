@@ -7,3 +7,11 @@
     border-radius: 0 0.5rem 0.5rem 0;
     margin: 0 !important;
 }
+.flexRowContent--filter-and-order-by-mobile{
+    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.flexRowContent{
+}
