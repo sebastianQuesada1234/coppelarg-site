@@ -1,12 +1,12 @@
-.totalProducts--layout
-{
+.totalProducts--layout {
     width: 100%;
     border-radius: 0.5rem 0 0 0.5rem;
 }
-.orderByButton
-{
+
+.orderByButton {
     border-radius: 8px;
 }
+
 @media only screen and (min-width: 769px) {
     .orderByDropdown {
         margin: 0;
@@ -15,6 +15,21 @@
         border-radius: 8px;
     }
 }
-.filter__container--title, .filter__container--brand, .filter__container--category-1, .filter__container--category-2, .filter__container--selectedFilters{
+
+.filter__container--title,
+.filter__container--brand,
+.filter__container--category-1,
+.filter__container--category-2,
+.filter__container--selectedFilters {
     order: -1 !important;
 }
+
+.loadingOverlay {}
+
+.gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+

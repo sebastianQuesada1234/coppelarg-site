@@ -12,7 +12,7 @@ function Countdown({ Carrousel }) {
 
     var act = new Date(`1/1/1990 ${hora}:${minutos}:${segundos}`);
     var ini_1 = new Date(`1/1/1990 19:59:00`);
-    var fin_1 = new Date(`8/11/2023 22:00:00`); 
+    var fin_1 = new Date(`11/08/1990 22:00:00`); 
 
     var fin_comparacion = null;
 

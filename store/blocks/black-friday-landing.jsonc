@@ -1,5 +1,5 @@
 {
-    "store.custom#black-friday-2023": {
+    "store.custom#black-friday": {
       "blocks": [
         "flex-layout.row#black-friday-2023-banner",
        // "flex-layout.row#black-friday-2023-ofertas-bomba",
