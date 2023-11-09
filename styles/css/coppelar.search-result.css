@@ -23,7 +23,7 @@
 .filter__container--selectedFilters {
     order: -1 !important;
 }
-
+/*
 .loadingOverlay {}
 
 .gallery {
@@ -31,5 +31,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+.galleryItem{
+    width: 100%;
+}
+.containerNormal{
+    width: 100%;
+}*/
 
 
