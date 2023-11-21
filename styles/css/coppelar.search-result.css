@@ -110,8 +110,12 @@
     .search-result-layout-mobile {
         display: flex;
         justify-content: center;
+
     }
 
+    .stretchChildrenWidth .gallery {
+        gap: 1.5rem;
+    }
 
     .filterPopupButton,
     .orderByButton {
@@ -206,6 +210,7 @@
     .gallery {
         display: flex;
         justify-content: center;
+        gap: 0;
     }
 
     .galleryTitle--layout {
