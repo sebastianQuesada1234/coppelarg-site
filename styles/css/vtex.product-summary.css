@@ -1,6 +1,6 @@
 .containerNormal {
     margin: 0 !important;
-
+    width: 100%!important;
 }
 
 @media (max-width: 1780px) {
