@@ -30,18 +30,19 @@
 
 
 
-.flex-column{
-margin-top: 0!important;
+.flex-column {
+    margin-top: 0 !important;
 }
 
 
-.galleryItem{
+.galleryItem {
     display: flex;
     justify-content: center;
 }
-.galleryTitle--layout{
-    margin: 0!important;
-    width: 100%!important;
+
+.galleryTitle--layout {
+    margin: 0 !important;
+    width: 100% !important;
     max-width: calc(100% - 196px);
 
     display: flex;
@@ -49,29 +50,33 @@ margin-top: 0!important;
 }
 
 @media (max-width: 1290px) {
-    .gallery{
+    .gallery {
         gap: 0;
     }
-    .galleryItem--normal{
+
+    .galleryItem--normal {
         display: flex;
         justify-content: center;
     }
-    .galleryItem{
-        max-width: 100%!important;
+
+    .galleryItem {
+        max-width: 100% !important;
         padding: 0;
         padding-bottom: 1.5rem;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .galleryTitle--layout{
-        margin: 0!important;
-        width: 100%!important;
+
+    .galleryTitle--layout {
+        margin: 0 !important;
+        width: 100% !important;
         max-width: 100%;
     }
 }
+
 @media (max-width: 1279px) {
-    .container--layout{
+    .container--layout {
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
@@ -80,16 +85,19 @@ margin-top: 0!important;
         max-width: calc(100%-269px);
     }
 }
+
 @media (max-width: 1190px) {
-    .gallery{
+    .gallery {
         gap: 0;
     }
-    .galleryItem--normal{
+
+    .galleryItem--normal {
         display: flex;
         justify-content: center;
     }
-    .galleryItem{
-        max-width: 100%!important;
+
+    .galleryItem {
+        max-width: 100% !important;
         padding: 0;
         padding-bottom: 1.5rem;
         display: flex;
@@ -97,19 +105,22 @@ margin-top: 0!important;
         justify-content: center;
     }
 }
+
 @media (max-width: 1024px) {
-    .search-result-layout-mobile
-    {
+    .search-result-layout-mobile {
         display: flex;
         justify-content: center;
     }
-    .searchResultContainer{
+
+    .searchResultContainer {
         background-color: #FFFFFF;
     }
-    .filterPopupButton, .orderByButton {
+
+    .filterPopupButton,
+    .orderByButton {
         border: none;
         align-items: center;
-        box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2)!important;
+        box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2) !important;
         box-shadow: rgba(255, 255, 255, 1);
         border-radius: 5px;
         display: flex;
@@ -123,75 +134,84 @@ margin-top: 0!important;
 
 
 @media (max-width: 1050px) {
-    .gallery{
+    .gallery {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: center;
     }
-    .galleryItem{
-        max-width: 100%!important;
+
+    .galleryItem {
+        max-width: 100% !important;
         padding: 0;
         padding-bottom: 1.5rem;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .filterPopupButton{
+
+    .filterPopupButton {
         border-radius: 8px;
     }
-    
+
 }
+
 @media (max-width: 980px) {
 
-    .container--layout{
-        max-width: 100%!important;
+    .container--layout {
+        max-width: 100% !important;
     }
-    .galleryTitle--layout{
-        margin: 0!important;
-         display: flex;
+
+    .galleryTitle--layout {
+        margin: 0 !important;
+        display: flex;
         justify-content: center;
     }
 }
 
 @media (max-width: 650px) {
-    .gallery{
+    .gallery {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-    .galleryItem{
-        max-width: 100%!important;
+
+    .galleryItem {
+        max-width: 100% !important;
         padding: 10px;
         padding-bottom: 1.5rem;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .galleryItem--small{
+
+    .galleryItem--small {
         padding: 0;
         padding-bottom: 15px;
     }
-    .galleryTitle--layout{
-        margin: 0!important;
-         display: flex;
+
+    .galleryTitle--layout {
+        margin: 0 !important;
+        display: flex;
         justify-content: center;
     }
-  
+
 }
 
-@media (max-width: 451px) {    
-    .galleryItem{
-        max-width: 90%!important;
+@media (max-width: 451px) {
+    .galleryItem {
+        max-width: 90% !important;
         padding: 1px;
         padding-bottom: 1.5rem;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .gallery{
+
+    .gallery {
         display: flex;
         justify-content: center;
     }
-    .galleryTitle--layout{
+
+    .galleryTitle--layout {
         display: flex;
         justify-content: center;
     }

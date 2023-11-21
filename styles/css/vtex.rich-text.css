@@ -1,6 +1,7 @@
 .container--cyber-monday-2023-carrusel-header {
     padding: 0 1.5%;
 }
+
 @media only screen and (max-width: 1025px) {
     .container--cyber-monday-2023-carrusel-header {
         padding: 0 12px;
@@ -10,8 +11,8 @@
 .wrapper--cyber-monday-2023-carrusel-header {
     width: 100%;
 }
-.paragraph--cyber-monday-2023-carrusel-header
-{
+
+.paragraph--cyber-monday-2023-carrusel-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,6 +25,7 @@
     line-height: 46px;
     color: #000000;
 }
+
 @media only screen and (max-width: 1025px) {
     .paragraph--cyber-monday-2023-carrusel-header {
         display: grid;
@@ -33,6 +35,7 @@
         line-height: 28px;
     }
 }
+
 .link--cyber-monday-2023-carrusel-header {
     font-family: helvetica, arial, sans-serif;
     font-style: normal;
@@ -43,10 +46,12 @@
     text-decoration: none;
     color: #006FB9;
 }
+
 .link--cyber-monday-2023-carrusel-header:hover {
     cursor: pointer;
     text-decoration: underline;
 }
+
 .wrapper--result-cyber-monday-2023-seo {
     margin-top: 2rem;
     height: fit-content;
@@ -58,7 +63,7 @@
 
 .heading--result-cyber-monday-2023-seo {
     margin: 0;
-    font-family: CircularBold,sans-serif;
+    font-family: CircularBold, sans-serif;
     font-size: 28px;
 }
 

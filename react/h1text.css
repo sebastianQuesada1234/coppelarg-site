@@ -1,5 +1,5 @@
 .row{
-    background-color: #FF3E9F;
+    background-color: #FFE424;
     width: 100%;
     padding: 2rem 0;
     margin-bottom: 1rem;
@@ -41,7 +41,7 @@
     }
 
 .h1{
-    color: #FFFFFF;
+    color: #000000;
     font-weight: 700;
     margin: 0;
     font-size: 32px;

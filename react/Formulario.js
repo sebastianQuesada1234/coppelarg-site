@@ -63,7 +63,7 @@ function Formulario() {
             console.log(formData);
             setMostrarMensaje(true);
 
-            Axios.post('/api/dataentities/CY/documents', {
+            Axios.post('/api/dataentities/BS/documents', {
                 "Apellido": formData.apellido,
                 "Documento": formData.dni,
                 "Email": formData.mail,
@@ -86,8 +86,8 @@ function Formulario() {
                 ) : (
                     <form onSubmit={onSubmit}>
                         <div className={style.textContainer}>
-                            <h1>¡Suscribite, recibí ofertas y participá del sorteo!</h1>
-                            <h2>del 30 de Octubre al 06 de Noviembre</h2>
+                            <h1>¡Suscribite y recibí ofertas!</h1>
+                            <h2>del 24 de Octubre al 26 de Noviembre</h2>
                         </div>
                         <div className={style.formContainer}>
                             <div id={style.mailContainer} className={style.row}>
@@ -158,7 +158,7 @@ function Formulario() {
                             </div>
                         </div>
                         <div className={style.containerCheck}>
-                            <label>También recibirás los mejores contenidos y ofertas del CyberMonday</label>
+                            <label>También recibirás los mejores contenidos y ofertas del BlackFriday</label>
                             <div className={style.check}>
                                 <input
                                     type="checkbox"
