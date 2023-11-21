@@ -112,9 +112,6 @@
         justify-content: center;
     }
 
-    .searchResultContainer {
-        background-color: #FFFFFF;
-    }
 
     .filterPopupButton,
     .orderByButton {

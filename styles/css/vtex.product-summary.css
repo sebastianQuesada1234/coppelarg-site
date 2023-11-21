@@ -6,21 +6,21 @@
 @media (max-width: 1780px) {
     .containerNormal {
         overflow: visible;
-        max-width: 270px !important;
+      /*  max-width: 270px !important;*/
     }
 }
 
 @media (max-width: 1550px) {
     .containerNormal {
         overflow: visible;
-        max-width: 252px !important;
+        /*max-width: 252px !important;*/
     }
 }
 
 @media (max-width: 1350px) {
     .containerNormal {
         overflow: visible;
-        max-width: 211px !important;
+       /* max-width: 211px !important;*/
     }
 
 }
