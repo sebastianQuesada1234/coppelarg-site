@@ -902,6 +902,94 @@
         }
       }
     },
+
+/*---------------------------*/
+"store.custom#black-friday-2023-movilidad-electrica": {
+  "blocks": [
+      "header-categoria#movilidad-electrica",
+      "search-result-layout.customQuery#black-friday-2023-movilidad-electrica"        ]
+},
+"header-categoria#movilidad-electrica": {
+  "props": {
+      "titulo": "Movilidad Eléctrica"
+  }
+},
+"search-result-layout.customQuery#black-friday-2023-movilidad-electrica": {
+"props": {
+  "blockClass": "coleccion",
+  "querySchema": {
+    "maxItemsPerPage": 20,
+    "queryField": "movilidad-y-tiempo-libre/movilidad-electrica",
+    "mapField": "category-1,category-2",
+    "skusFilter": "ALL_AVAILABLE",
+    "simulationBehavior": "default"
+  }
+},
+"blocks": [
+  "search-result-layout.desktop#black-friday-2023-movilidad-electrica",
+  "search-result-layout.mobile#black-friday-2023-movilidad-electrica",
+  "coppelar.search-result:search-not-found-layout"
+]
+},
+"search-result-layout.desktop#black-friday-2023-movilidad-electrica": {
+"children": [
+  "flex-layout.row#result-black-friday-2023",
+  "rich-text#seo-movilidad-electrica"
+],
+"props": {
+  "preventRouteChange": true,
+  "thresholdForFacetSearch": 10,
+  "showProductsCount": true,
+  "showFacetQuantity": true,
+  "HiddenFacets": {
+    "priceRange": true
+  },
+  "pagination": "show-more",
+  "mobileLayout": {
+    "mode1": "small",
+    "mode2": "normal"
+  }
+}
+},
+"search-result-layout.mobile#black-friday-2023-movilidad-electrica": {
+  "children": [
+    "flex-layout.row#searchinfomobile",
+    "flex-layout.row#contentmobile",
+    "flex-layout.row#pagination",
+    "rich-text#seo-movilidad-electrica"
+  ],
+  "props": {
+    "blockClass": "black-friday-collection",
+    "pagination": "show-more",
+    "mobileLayout": {
+      "mode1": "small",
+      "mode2": "normal"
+    }
+  }
+},
+"rich-text#seo-movilidad-electrica": {
+  "title": "descriptions SEO",
+  "props": {
+    "blockClass": "result-black-friday-2023-seo",
+    "text": "## Cyber Monday: viví conectado con lo último en Celulares\n\nEn el emocionante evento del Cyber Monday, te ofrecemos una amplia gama de opciones de teléfonos móviles que se adaptan a todos los gustos y presupuestos. En nuestro catálogo, encontrarás una selección impresionante de marcas y modelos, asegurando que encuentres el dispositivo perfecto para tus necesidades.\nEn [Coppel.com.ar](/) o en la [App Coppel](https://play.google.com/store/apps/details?id=ar.com.coppel) podés encontrar alta gama en celulares Samsung a precios increíbles y celulares Motorola si preferís alta gama tecnológica a menor precio.\nY si hablamos de gama económica contamos con las marcas: ALCATEL, Mio Nanotech, QUANTUM, ZTE y Zuum.\nYa sea que busques los últimos lanzamientos de Samsung y Motorola, opciones económicas de estas marcas o modelos nacionales con un toque de innovación local, el Cyber Monday es el momento perfecto para encontrar el celular que se ajuste a tu estilo de vida. ¡No te pierdas nuestras ofertas y descuentos exclusivos durante este emocionante evento de compras en línea!\nUtilizá tu crédito y estrená hoy mismo. Si todavía no tenés tu Crédito Coppel, solicitalo en línea; ¡es fácil, rápido y gratis!"
+  }
+},
+
+
+
+
+
+
+/*---------------------------*/
+
+
+
+
+
+
+
+
+
     // Categoria 6 cuotas sin interes
     "store.custom#black-friday-2023-6cuotas": {
         "blocks": [

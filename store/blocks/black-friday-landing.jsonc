@@ -3,7 +3,7 @@
     "blocks": [
       "flex-layout.row#black-friday-2023-banner",
       "flex-layout.row#BFriday2023-banners"
-      // "flex-layout.row#black-friday-2023-ofertas-bomba",
+       //"flex-layout.row#black-friday-2023-ofertas-bomba"
       // "flex-layout.row#black-friday-2023-body"
     ]
   },
