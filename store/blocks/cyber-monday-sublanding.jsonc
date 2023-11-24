@@ -50,8 +50,8 @@
         "children": [
           "flex-layout.row#searchinfomobile",
           "flex-layout.row#contentmobile",
-          "flex-layout.row#pagination",
-          "rich-text#seo-celulares"
+          "flex-layout.row#pagination"
+         // "rich-text#seo-celulares"
         ],
         "props": {
           "blockClass": "black-friday-collection",
@@ -100,8 +100,8 @@
     },
     "search-result-layout.desktop#cyber-monday-2023-tv": {
       "children": [
-        "flex-layout.row#result-cyber-monday-2023",
-        "rich-text#seo-tv"
+        "flex-layout.row#result-cyber-monday-2023"
+        //"rich-text#seo-tv"
       ],
       "props": {
         "preventRouteChange": true,
@@ -122,8 +122,8 @@
         "children": [
           "flex-layout.row#searchinfomobile",
           "flex-layout.row#contentmobile",
-          "flex-layout.row#pagination",
-          "rich-text#seo-tv"
+          "flex-layout.row#pagination"
+         // "rich-text#seo-tv"
         ],
         "props": {
           "blockClass": "black-friday-collection",
@@ -172,8 +172,8 @@
     },
     "search-result-layout.desktop#cyber-monday-2023-tecnologia": {
       "children": [
-        "flex-layout.row#result-cyber-monday-2023",
-        "rich-text#seo-tecnologia"
+        "flex-layout.row#result-cyber-monday-2023"
+       // "rich-text#seo-tecnologia"
       ],
       "props": {
         "preventRouteChange": true,
@@ -194,8 +194,8 @@
         "children": [
           "flex-layout.row#searchinfomobile",
           "flex-layout.row#contentmobile",
-          "flex-layout.row#pagination",
-          "rich-text#seo-tecnologia"
+          "flex-layout.row#pagination"
+         // "rich-text#seo-tecnologia"
         ],
         "props": {
           "blockClass": "black-friday-collection",
@@ -265,8 +265,8 @@
         "children": [
           "flex-layout.row#searchinfomobile",
           "flex-layout.row#contentmobile",
-          "flex-layout.row#pagination",
-          "rich-text#seo-cocina"
+          "flex-layout.row#pagination"
+         // "rich-text#seo-cocina"
         ],
         "props": {
           "blockClass": "black-friday-collection",
@@ -315,8 +315,8 @@
     },
     "search-result-layout.desktop#cyber-monday-2023-lavado": {
       "children": [
-        "flex-layout.row#result-cyber-monday-2023",
-        "rich-text#seo-lavado"
+        "flex-layout.row#result-cyber-monday-2023"
+        //"rich-text#seo-lavado"
       ],
       "props": {
         "preventRouteChange": true,
@@ -337,8 +337,8 @@
         "children": [
           "flex-layout.row#searchinfomobile",
           "flex-layout.row#contentmobile",
-          "flex-layout.row#pagination",
-          "rich-text#seo-lavado"
+          "flex-layout.row#pagination"
+         // "rich-text#seo-lavado"
         ],
         "props": {
           "blockClass": "black-friday-collection",
@@ -387,8 +387,8 @@
     },
     "search-result-layout.desktop#cyber-monday-2023-refrigeracion": {
       "children": [
-        "flex-layout.row#result-cyber-monday-2023",
-        "rich-text#seo-refrigeracion"
+        "flex-layout.row#result-cyber-monday-2023"
+       // "rich-text#seo-refrigeracion"
       ],
       "props": {
         "preventRouteChange": true,
@@ -409,8 +409,8 @@
         "children": [
           "flex-layout.row#searchinfomobile",
           "flex-layout.row#contentmobile",
-          "flex-layout.row#pagination",
-          "rich-text#seo-refrigeracion"
+          "flex-layout.row#pagination"
+         // "rich-text#seo-refrigeracion"
         ],
         "props": {
           "blockClass": "black-friday-collection",
@@ -459,8 +459,8 @@
     },
     "search-result-layout.desktop#cyber-monday-2023-climatizacion": {
       "children": [
-        "flex-layout.row#result-cyber-monday-2023",
-        "rich-text#seo-climatizacion"
+        "flex-layout.row#result-cyber-monday-2023"
+        //"rich-text#seo-climatizacion"
       ],
       "props": {
         "preventRouteChange": true,
@@ -481,8 +481,8 @@
         "children": [
           "flex-layout.row#searchinfomobile",
           "flex-layout.row#contentmobile",
-          "flex-layout.row#pagination",
-          "rich-text#seo-climatizacion"
+          "flex-layout.row#pagination"
+         // "rich-text#seo-climatizacion"
         ],
         "props": {
           "blockClass": "black-friday-collection",
@@ -531,8 +531,8 @@
     },
     "search-result-layout.desktop#cyber-monday-2023-electrobelleza": {
       "children": [
-        "flex-layout.row#result-cyber-monday-2023",
-        "rich-text#seo-electrobelleza"
+        "flex-layout.row#result-cyber-monday-2023"
+       // "rich-text#seo-electrobelleza"
       ],
       "props": {
         "preventRouteChange": true,
@@ -553,8 +553,8 @@
         "children": [
           "flex-layout.row#searchinfomobile",
           "flex-layout.row#contentmobile",
-          "flex-layout.row#pagination",
-          "rich-text#seo-electrobelleza"
+          "flex-layout.row#pagination"
+         // "rich-text#seo-electrobelleza"
         ],
         "props": {
           "blockClass": "black-friday-collection",
@@ -603,8 +603,8 @@
     },
     "search-result-layout.desktop#cyber-monday-2023-zapatillas": {
       "children": [
-        "flex-layout.row#result-cyber-monday-2023",
-        "rich-text#seo-zapatillas"
+        "flex-layout.row#result-cyber-monday-2023"
+       // "rich-text#seo-zapatillas"
       ],
       "props": {
         "preventRouteChange": true,
@@ -625,8 +625,8 @@
         "children": [
           "flex-layout.row#searchinfomobile",
           "flex-layout.row#contentmobile",
-          "flex-layout.row#pagination",
-          "rich-text#seo-zapatillas"
+          "flex-layout.row#pagination"
+        //  "rich-text#seo-zapatillas"
         ],
         "props": {
           "blockClass": "black-friday-collection",
