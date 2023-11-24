@@ -29,8 +29,7 @@
     },
     "search-result-layout.desktop#cyber-monday-2023-celulares": {
       "children": [
-        "flex-layout.row#result-cyber-monday-2023",
-        "rich-text#seo-celulares"
+        "flex-layout.row#result-cyber-monday-2023"
       ],
       "props": {
         "preventRouteChange": true,
@@ -245,8 +244,7 @@
     },
     "search-result-layout.desktop#cyber-monday-2023-cocina": {
       "children": [
-        "flex-layout.row#result-cyber-monday-2023",
-        "rich-text#seo-cocina"
+        "flex-layout.row#result-cyber-monday-2023"
       ],
       "props": {
         "preventRouteChange": true,

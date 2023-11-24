@@ -286,7 +286,7 @@
           "banner": "assets/black-friday/celulares.png",
           "title": "Celulares Motorola",
           "description": "Explorá las 6 cuotas sin interés",
-          "link": "/celulares-telefonos-y-accesorios/celulares/motorola?map=category-1,category-2,brand"
+          "link": "/celulares-telefonos-y-accesorios?map=brand,productClusterIds,productclusternames&query=/motorola/506/cyber-monday-celulares-y-accesorios&searchState="
         }
       ]
     }
