@@ -438,7 +438,7 @@
     },
     "header-categoria#ventilacion": {
         "props": {
-            "titulo": "Ventilación"
+            "titulo": "Climatización"
         }
     },
     "search-result-layout.customQuery#black-friday-2023-ventilacion": {
@@ -759,6 +759,70 @@
     }
   },
   "search-result-layout.mobile#cyber-monday-2023-jardin": {
+      "children": [
+        "flex-layout.row#searchinfomobile",
+        "flex-layout.row#contentmobile",
+        "flex-layout.row#pagination"
+      ],
+      "props": {
+        "blockClass": "black-friday-collection",
+        "pagination": "show-more",
+        "mobileLayout": {
+          "mode1": "small",
+          "mode2": "normal"
+        }
+      }
+    },
+    //piletas
+     //piletas e inflables
+     "store.custom#black-friday-2023-piletas": {
+      "blocks": [
+          "header-categoria#piletas",
+          "search-result-layout.customQuery#cyber-monday-2023-piletas"
+      ]
+  },
+  "header-categoria#piletas": {
+    "props": {
+        "titulo": "Piletas"
+    }
+},
+  "search-result-layout.customQuery#cyber-monday-2023-piletas": {
+    "props": {
+      "blockClass": "coleccion",
+      "querySchema": {
+        "maxItemsPerPage": 20,
+        "queryField": "jardin-y-herramientas/piletas-e-inflables",
+        "mapField": "category-1,category-2",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#cyber-monday-2023-piletas",
+      "search-result-layout.mobile#cyber-monday-2023-piletas",
+      "coppelar.search-result:search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#cyber-monday-2023-piletas": {
+    "children": [
+      "flex-layout.row#result-cyber-monday-2023"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "thresholdForFacetSearch": 10,
+      "showProductsCount": true,
+      "showFacetQuantity": true,
+      "HiddenFacets": {
+        "priceRange": true
+      },
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  "search-result-layout.mobile#cyber-monday-2023-piletas": {
       "children": [
         "flex-layout.row#searchinfomobile",
         "flex-layout.row#contentmobile",

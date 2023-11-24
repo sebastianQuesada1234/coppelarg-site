@@ -148,25 +148,25 @@
         {
           "label": "Tecnología",
           "icon": "assets/black-friday/tecno.png",
-          "link": "/tecnologia"
+          "link": "/notebooks-y-tecnologia"
         },
         {
           "label": "Cocina",
           "icon": "assets/cyber-monday/categorias/cocina.png",
-          "link": "/cocina"
+          "link": "/cocina-y-pequenos-electrodomesticos"
         },
         {
           "label": "Lavado y secado",
           "icon": "assets/cyber-monday/categorias/lavado.png",
-          "link": "/lavado-y-secado"
+          "link": "/electrodomesticos/lavado-y-secado"
         },
         {
           "label": "Refrigeración",
           "icon": "assets/cyber-monday/categorias/refri.png",
-          "link": "/refrigeracion"
+          "link": "/electrodomesticos/refrigeracion"
         },
         {
-          "label": "Ventilación",
+          "label": "Climatización",
           "icon": "assets/cyber-monday/categorias/clima.png",
           "link": "/electrodomesticos/climatizacion"
         },
@@ -176,19 +176,19 @@
           "link": "/jardin"
         },
         {
-          "label": "Zapatillas",
-          "icon": "assets/cyber-monday/categorias/zapatillas.png",
-          "link": "/zapatillas"
+          "label": "Calzado",
+          "icon": "assets/black-friday/zapatillas.png",
+          "link": "/deportes/calzado"
         },
         {
           "label": "Electro belleza",
           "icon": "assets/cyber-monday/categorias/belleza.png",
-          "link": "/electro-belleza"
+          "link": "/electrodomesticos/electro-belleza"
         },
         {
           "label": "Rodados",
           "icon": "assets/black-friday/rodados.png",
-          "link": "/rodados-neumaticos-y-accesorios"
+          "link": "/movilidad-electrica"
         }
       ],
       "itemsPerPage": {
@@ -248,7 +248,7 @@
   "rich-text#cyber-monday-2023-banners": {
     "title": "Titulo y Subtitulo",
     "props": {
-      "text": "# Cyber Monday en Coppel\n ### ¡Ofertas exclusivas en electrodomésticos y deportes!",
+      "text": "# Black Friday en Coppel\n ### ¡Encontrá todas las ofertas por categoría!",
       "blockClass": "temp-evento-banners"
     }
   },
@@ -266,26 +266,26 @@
       "items": [
         {
           "banner": "assets/black-friday/piletas.png",
-          "title": "Piletas",
-          "description": "Productos y cuotas únicas",
+          "title": "Piletas Pelopincho",
+          "description": "Aprovechá hasta un 15% off",
           "link": "/piletas"
         },
         {
           "banner": "assets/black-friday/aires.png",
-          "title": "Aires Acondicionados",
-          "description": "Descubrí todas las ofertas",
-          "link": "/electrodomesticos/climatizacion/aires-acondicionados"
+          "title": "Aires acondicionados",
+          "description": "Descubrí toda la selección en hasta 20% off",
+          "link": "/electrodomesticos/climatizacion"
         },
         {
           "banner": "assets/black-friday/zapatillasPuma.png",
-          "title": "Puma",
-          "description": "Explorá modelos exclusivos",
+          "title": "Calzado Puma",
+          "description": "Encontrá una gran variedad de zapatillas ",
           "link": "/deportes/calzado?initialMap=c,c&initialQuery=deportes/calzado&map=category-1,category-2,brand&query=/deportes/calzado/puma&searchState"
         },
         {
           "banner": "assets/black-friday/celulares.png",
-          "title": "Celulares motorola",
-          "description": "Celus destacados para vos",
+          "title": "Celulares Motorola",
+          "description": "Explorá las 6 cuotas sin interés",
           "link": "/celulares-telefonos-y-accesorios/celulares/motorola?map=category-1,category-2,brand"
         }
       ]
@@ -314,7 +314,7 @@
   "rich-text#cyber-monday-2023-carrusel-01": {
     "title": "Titulo",
     "props": {
-      "text": "Renová tu casa con súper descuentos",
+      "text": "Equipá tu casa en hasta 15% off ",
       "textAlignment": "CENTER",
       "textPosition": "LEFT",
       "blockClass": "cyber-monday-2023-carrusel-header"
@@ -357,7 +357,7 @@
   "rich-text#cyber-monday-2023-carrusel-02": {
     "title": "Titulo",
     "props": {
-      "text": "Llevate un celu en hasta 6 cuotas sin interés [Ver más](/tv-y-video)",
+      "text": "Descubrí la mejor tecnología en Smart TV [Ver más](/tv-y-video)",
       "textAlignment": "CENTER",
       "textPosition": "LEFT",
       "blockClass": "cyber-monday-2023-carrusel-header"
@@ -400,7 +400,7 @@
   "rich-text#cyber-monday-2023-carrusel-03": {
     "title": "Titulo",
     "props": {
-      "text": "Smart tv´s con descuentos irresistibles [Ver más](/celulares-telefonos-y-accesorios)",
+      "text": "Encontrá los últimos modelos en 6 cuotas sin interés [Ver más](/celulares-telefonos-y-accesorios)",
       "textAlignment": "CENTER",
       "textPosition": "LEFT",
       "blockClass": "cyber-monday-2023-carrusel-header"
@@ -443,7 +443,7 @@
   "rich-text#cyber-monday-2023-carrusel-04": {
     "title": "Titulo",
     "props": {
-      "text": "Encontrá tu par perfecto en hasta 3 cuotas sin interés [Ver más](/movilidad-electrica)",
+      "text": "Movete con estilo con nuestros rodados [Ver más](/movilidad-electrica)",
       "textAlignment": "CENTER",
       "textPosition": "LEFT",
       "blockClass": "cyber-monday-2023-carrusel-header"
@@ -489,7 +489,7 @@
   "image#cyber-monday-2023-oferta-mbl": {
     "props": {
       "blockClass": "temp-evento-oferta",
-      "src": "assets/black-friday/Landingbanners.png",
+      "src": "assets/black-friday/LandingbannersMobile.png",
       "link": {
         "url": "/jardin",
         "newTab": false

@@ -1,0 +1,55 @@
+{
+    "store.custom#black-friday2023": {
+        "path": "/black-friday2",
+        "title": "Black Friday | Coppel.com.ar"
+    },
+    "store.custom#black-friday-2023-celulares": {
+        "path": "/celulares-telefonos-y-accesorios",
+        "title": "Celulares - Black Friday | Coppel.com.ar"
+    },
+    "store.custom#black-friday-2023-tv": {
+        "path": "/tv-y-video",
+        "title": "Televisores y audio - Black Friday | Coppel.com.ar"
+    },
+    "store.custom#black-friday-2023-tecnologia": {
+        "path": "/notebooks-y-tecnologia",
+        "title": "Tecnología - Black Friday | Coppel.com.ar"
+    },
+    "store.custom#black-friday-2023-cocina": {
+        "path": "/cocina-y-pequenos-electrodomesticos",
+        
+        "title": "Cocina - Black Friday | Coppel.com.ar"
+    },
+    "store.custom#black-friday-2023-lavado": {
+        "path": "/electrodomesticos/lavado-y-secado",
+        "title": "Lavado y Secado - Black Friday | Coppel.com.ar"
+    },
+    "store.custom#black-friday-2023-refrigeracion": {
+        "path": "/electrodomesticos/refrigeracion",
+        "title": "Refrigeración - Black Friday | Coppel.com.ar"
+    },
+    "store.custom#black-friday-2023-ventilacion": {
+        "path": "/electrodomesticos/climatizacion",
+        "title": "Climatización - Black Friday | Coppel.com.ar"
+    },
+    "store.custom#black-friday-2023-piletas": {
+        "path": "/piletas",
+        "title": "Piletas - Black Friday | Coppel.com.ar"
+    },
+    "store.custom#black-friday-2023-jardin": {
+        "path": "/jardin",
+        "title": "Jardín - Black Friday | Coppel.com.ar"
+    },
+    "store.custom#black-friday-2023-zapatillas": {
+        "path": "/deportes/calzado",
+        "title": "Calzado - Black Friday | Coppel.com.ar"
+    },
+    "store.custom#black-friday-2023-electrobelleza": {
+        "path": "/electrodomesticos/electro-belleza",
+        "title": "Electro belleza - Black Friday | Coppel.com.ar"
+    },
+    "store.custom#black-friday-2023-movilidad-electrica": {
+        "path": "/movilidad-electrica",
+        "title": "Movilidad Eléctrica - Black Friday | Coppel.com.ar"
+    }
+}

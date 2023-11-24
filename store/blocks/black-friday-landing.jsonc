@@ -186,47 +186,57 @@
         {
           "label": "Celulares",
           "icon": "assets/cyber-monday/categorias/celulares.png",
-          "link": "/black-friday/celulares"
+          "link": "/celulares"
         },
         {
-          "label": "Televisores y audio",
+          "label": "TV y audio",
           "icon": "assets/cyber-monday/categorias/tv.png",
-          "link": "/black-friday/tv-y-audio"
+          "link": "/tv-y-video"
         },
         {
           "label": "Tecnología",
-          "icon": "assets/cyber-monday/categorias/tecno.png",
-          "link": "/black-friday/tecnologia"
+          "icon": "assets/black-friday/tecno.png",
+          "link": "/tecnologia"
         },
         {
           "label": "Cocina",
           "icon": "assets/cyber-monday/categorias/cocina.png",
-          "link": "/black-friday/cocina"
+          "link": "/cocina-y-pequenos-electrodomesticos"
         },
         {
           "label": "Lavado y secado",
           "icon": "assets/cyber-monday/categorias/lavado.png",
-          "link": "/black-friday/lavado-y-secado"
+          "link": "/electrodomesticos/lavado-y-secado"
         },
         {
           "label": "Refrigeración",
           "icon": "assets/cyber-monday/categorias/refri.png",
-          "link": "/black-friday/refrigeracion"
+          "link": "/electrodomesticos/refrigeracion"
         },
         {
           "label": "Climatización",
           "icon": "assets/cyber-monday/categorias/clima.png",
-          "link": "/black-friday/climatizacion"
+          "link": "/electrodomesticos/climatizacion"
         },
         {
-          "label": "Electro belleza",
-          "icon": "assets/cyber-monday/categorias/belleza.png",
-          "link": "/black-friday/electro-belleza"
+          "label": "Jardín",
+          "icon": "assets/black-friday/jardin.png",
+          "link": "/jardin"
         },
         {
           "label": "Zapatillas",
           "icon": "assets/cyber-monday/categorias/zapatillas.png",
-          "link": "/black-friday/zapatillas"
+          "link": "/deportes/calzado"
+        },
+        {
+          "label": "Electro belleza",
+          "icon": "assets/cyber-monday/categorias/belleza.png",
+          "link": "/electrodomesticos/electro-belleza"
+        },
+        {
+          "label": "Rodados",
+          "icon": "assets/black-friday/rodados.png",
+          "link": "/movilidad-electrica"
         }
       ],
       "itemsPerPage": {

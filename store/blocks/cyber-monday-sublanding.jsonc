@@ -223,7 +223,7 @@
     },
     "header-categoria#cocina": {
         "props": {
-            "titulo": "Cocina"
+            "titulo": "Cocina y pequeños electrodomésticos"
         }
     },
     "search-result-layout.customQuery#cyber-monday-2023-cocina": {
@@ -583,7 +583,7 @@
     },
     "header-categoria#zapatillas": {
         "props": {
-            "titulo": "Zapatillas"
+            "titulo": "Calzado"
         }
     },
     "search-result-layout.customQuery#cyber-monday-2023-zapatillas": {
