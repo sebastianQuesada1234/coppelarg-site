@@ -1,6 +1,6 @@
 {
     "store.custom#black-friday2023": {
-        "path": "/black-friday2",
+        "path": "/black-friday",
         "title": "Black Friday | Coppel.com.ar"
     },
     "store.custom#black-friday-2023-celulares": {
@@ -17,7 +17,6 @@
     },
     "store.custom#black-friday-2023-cocina": {
         "path": "/cocina-y-pequenos-electrodomesticos",
-        
         "title": "Cocina - Black Friday | Coppel.com.ar"
     },
     "store.custom#black-friday-2023-lavado": {
