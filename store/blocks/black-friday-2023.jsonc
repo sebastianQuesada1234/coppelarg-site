@@ -11,7 +11,7 @@
       "flex-layout.col#cyber-monday-2023-banner"
     ],
     "props": {
-      "blockClass": "temp-evento",
+      "blockClass": "body-container-home",
       "horizontalAlign": "CENTER",
       "fullWidth": true
     }
@@ -23,7 +23,7 @@
       "responsive-layout.mobile#cyber-monday-2023-info"
     ],
     "props": {
-      "blockClass": "temp-evento",
+      "blockClass": "body-container-home",
       "verticalAlign": "middle",
       "horizontalAlign": "CENTER"
     }
@@ -48,6 +48,7 @@
   },
   "ofertas-bomba#cyber-monday-2023": {
     "props": {
+      
       "Carrousel": "list-context.product-list#cyber-monday-2023-ofertas-bomba",
       "fullWidth": true,
       "horizontalAlign": "CENTER"
@@ -72,7 +73,7 @@
       "flex-layout.col#cyber-monday-2023-body"
     ],
     "props": {
-      "blockClass": "temp-evento",
+      "blockClass": "body-container-home",
       "horizontalAlign": "CENTER",
       "fullWidth": true
     }
@@ -91,7 +92,7 @@
       "flex-layout.row#spacer"
     ],
     "props": {
-      "blockClass": "temp-evento",
+      "blockClass": "body-container-home",
       "verticalAlign": "middle",
       "horizontalAlign": "CENTER"
     }
@@ -298,7 +299,7 @@
       "flex-layout.col#cyber-monday-2023-carrusel-01"
     ],
     "props": {
-      "blockClass": "temp-evento-shelf",
+      "blockClass": "carousel",
       "fullWidth": true
     }
   },

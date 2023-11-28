@@ -51,7 +51,7 @@
           "flex-layout.row#searchinfomobile",
           "flex-layout.row#contentmobile",
           "flex-layout.row#pagination"
-         // "rich-text#seo-celulares"
+          //"rich-text#seo-celulares"
         ],
         "props": {
           "blockClass": "black-friday-collection",

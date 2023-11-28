@@ -50,8 +50,8 @@
     "children": [
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#pagination",
-      "rich-text#seo-celulares"
+      "flex-layout.row#pagination"
+      //"rich-text#seo-celulares"
     ],
     "props": {
       "blockClass": "black-friday-collection",
@@ -121,8 +121,8 @@
     "children": [
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#pagination",
-      "rich-text#seo-tv"
+      "flex-layout.row#pagination"
+      //"rich-text#seo-tv"
     ],
     "props": {
       "blockClass": "black-friday-collection",
@@ -192,8 +192,8 @@
     "children": [
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#pagination",
-      "rich-text#seo-tecnologia"
+      "flex-layout.row#pagination"
+      //"rich-text#seo-tecnologia"
     ],
     "props": {
       "blockClass": "black-friday-collection",
@@ -263,8 +263,8 @@
     "children": [
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#pagination",
-      "rich-text#seo-cocina"
+      "flex-layout.row#pagination"
+      //"rich-text#seo-cocina"
     ],
     "props": {
       "blockClass": "black-friday-collection",
@@ -334,8 +334,8 @@
     "children": [
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#pagination",
-      "rich-text#seo-lavado"
+      "flex-layout.row#pagination"
+      //"rich-text#seo-lavado"
     ],
     "props": {
       "blockClass": "black-friday-collection",
@@ -406,8 +406,8 @@
     "children": [
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#pagination",
-      "rich-text#seo-refrigeracion"
+      "flex-layout.row#pagination"
+      //"rich-text#seo-refrigeracion"
     ],
     "props": {
       "blockClass": "black-friday-collection",
@@ -478,8 +478,8 @@
     "children": [
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#pagination",
-      "rich-text#seo-ventilacion"
+      "flex-layout.row#pagination"
+     // "rich-text#seo-ventilacion"
     ],
     "props": {
       "blockClass": "black-friday-collection",
@@ -550,8 +550,8 @@
     "children": [
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#pagination",
-      "rich-text#seo-electrobelleza"
+      "flex-layout.row#pagination"
+     // "rich-text#seo-electrobelleza"
     ],
     "props": {
       "blockClass": "black-friday-collection",
@@ -586,8 +586,8 @@
       "blockClass": "coleccion",
       "querySchema": {
         "maxItemsPerPage": 20,
-        "queryField": "514",
-        "mapField": "productClusterIds",
+        "queryField": "deportes/calzado",
+        "mapField": "category-1,category-2",
         "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "default"
       }
@@ -622,8 +622,8 @@
     "children": [
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#pagination",
-      "rich-text#seo-zapatillas"
+      "flex-layout.row#pagination"
+      //"rich-text#seo-zapatillas"
     ],
     "props": {
       "blockClass": "black-friday-collection",
@@ -1009,8 +1009,8 @@
     "children": [
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#pagination",
-      "rich-text#seo-movilidad-electrica"
+      "flex-layout.row#pagination"
+      //"rich-text#seo-movilidad-electrica"
     ],
     "props": {
       "blockClass": "black-friday-collection",
