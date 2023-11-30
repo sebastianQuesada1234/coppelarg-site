@@ -130,7 +130,7 @@
       "flex-layout.row#black-friday-2023-banners",
       "flex-layout.row#black-friday-2023-categorias",
       "m3-conditional-render#temp-evento-beneficios",
-      "flex-layout.row#black-friday-2023-carrusel-01",
+     // "flex-layout.row#black-friday-2023-carrusel-01",
       "flex-layout.row#black-friday-2023-carrusel-02",
       "responsive-layout.desktop#black-friday-2023-oferta",
       "responsive-layout.mobile#black-friday-2023-oferta",
@@ -340,7 +340,7 @@
     }
   },
   // Carrusel 1
-  "flex-layout.row#black-friday-2023-carrusel-01": {
+/*  "flex-layout.row#black-friday-2023-carrusel-01": {
     "title": "Carrusel #1",
     "children": [
       "flex-layout.col#black-friday-2023-carrusel-01"
@@ -381,7 +381,7 @@
       "orderBy": "OrderByTopSaleDESC",
       "maxItems": 15
     }
-  },
+  },*/
   // Carrusel 2
   "flex-layout.row#black-friday-2023-carrusel-02": {
     "title": "Carrusel #2",

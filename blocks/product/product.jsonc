@@ -1,7 +1,7 @@
 {
   "store.product": {
     "props": {
-      "blockClass": "productDetail"
+      "blockClass": "body-container-home"
     },
     "children": [
       "responsive-layout.desktop#product-breadcrumb",
@@ -16,7 +16,7 @@
     ]
   },
   "shelf.relatedProducts#product": {
-    "blocks": ["product-summary.shelf"],
+    "blocks": "body-container-home",
     "props": {
       "recommendation": "buy",
       "hideOutOfStockItems": true,

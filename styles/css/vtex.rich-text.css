@@ -1,7 +1,6 @@
 .container--cyber-monday-2023-carrusel-header {
     padding: 0 1.5%;
 }
-
 @media only screen and (max-width: 1025px) {
     .container--cyber-monday-2023-carrusel-header {
         padding: 0 12px;

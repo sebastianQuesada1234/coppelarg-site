@@ -2,7 +2,7 @@
     "slider-layout#temp-evento-estanteria": {
         "props": {
             "itemsPerPage": {
-                "desktop": 5,
+                "desktop": 6,
                 "tablet": 3,
                 "phone": 2
             },

@@ -1,14 +1,14 @@
 {
-  "store.custom#black-friday2023": {
+  "store.custom#navidad2023": {
     "blocks": [
-      "flex-layout.row#cyber-monday-2023-banner",
-      //  "flex-layout.row#cyber-monday-2023-ofertas-bomba",
-      "flex-layout.row#cyber-monday-2023-body"
+      "flex-layout.row#navidad-2023-banner",
+      //  "flex-layout.row#navidad-2023-ofertas-bomba",
+      "flex-layout.row#navidad-2023-body"
     ]
   },
-  "flex-layout.row#cyber-monday-2023-banner": {
+  "flex-layout.row#navidad-2023-banner": {
     "children": [
-      "flex-layout.col#cyber-monday-2023-banner"
+      "flex-layout.col#navidad-2023-banner"
     ],
     "props": {
       "blockClass": "body-container-home",
@@ -16,11 +16,11 @@
       "fullWidth": true
     }
   },
-  "flex-layout.col#cyber-monday-2023-banner": {
+  "flex-layout.col#navidad-2023-banner": {
     "children": [
-      "list-context.image-list#cyber-monday-2023",
-      "responsive-layout.desktop#cyber-monday-2023-info",
-      "responsive-layout.mobile#cyber-monday-2023-info"
+      "list-context.image-list#navidad-2023",
+      "responsive-layout.desktop#navidad-2023-info",
+      "responsive-layout.mobile#navidad-2023-info"
     ],
     "props": {
       "blockClass": "body-container-home",
@@ -28,33 +28,33 @@
       "horizontalAlign": "CENTER"
     }
   },/*
-  "flex-layout.row#cyber-monday-2023-ofertas-bomba": {
+  "flex-layout.row#navidad-2023-ofertas-bomba": {
     "children": [
-      "flex-layout.col#cyber-monday-2023-ofertas-bomba"
+      "flex-layout.col#navidad-2023-ofertas-bomba"
     ],
     "props": {
       "horizontalAlign": "CENTER",
       "fullWidth": true
     }
   },
-  "flex-layout.col#cyber-monday-2023-ofertas-bomba": {
+  "flex-layout.col#navidad-2023-ofertas-bomba": {
     "children": [
-      "ofertas-bomba#cyber-monday-2023"
+      "ofertas-bomba#navidad-2023"
     ],
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "CENTER"
     }
   },
-  "ofertas-bomba#cyber-monday-2023": {
+  "ofertas-bomba#navidad-2023": {
     "props": {
       
-      "Carrousel": "list-context.product-list#cyber-monday-2023-ofertas-bomba",
+      "Carrousel": "list-context.product-list#navidad-2023-ofertas-bomba",
       "fullWidth": true,
       "horizontalAlign": "CENTER"
     }
   },
-  "list-context.product-list#cyber-monday-2023-ofertas-bomba": {
+  "list-context.product-list#navidad-2023-ofertas-bomba": {
     "blocks": [
       "coppelar.site-theme:product-summary.shelf"
     ],
@@ -68,9 +68,9 @@
       "maxItems": 15
     }
   },*/
-  "flex-layout.row#cyber-monday-2023-body": {
+  "flex-layout.row#navidad-2023-body": {
     "children": [
-      "flex-layout.col#cyber-monday-2023-body"
+      "flex-layout.col#navidad-2023-body"
     ],
     "props": {
       "blockClass": "body-container-home",
@@ -78,21 +78,22 @@
       "fullWidth": true
     }
   },
-  "flex-layout.col#cyber-monday-2023-body": {
+  "flex-layout.col#navidad-2023-body": {
     "children": [
-      "flex-layout.row#cyber-monday-2023-banners",
-      "flex-layout.row#cyber-monday-2023-categorias",
+      "m3-conditional-render#body-section-06",
+    // "flex-layout.row#navidad-2023-banners",
+      "flex-layout.row#navidad-2023-categorias",
       "m3-conditional-render#temp-evento-beneficios",
-      //"m3-conditional-render#body-section-11",
-      //"m3-conditional-render#body-section-12",
-      "flex-layout.row#cyber-monday-2023-carrusel-01",
-       "flex-layout.row#cyber-monday-2023-carrusel-02",
-      "responsive-layout.desktop#cyber-monday-2023-oferta",
-      "responsive-layout.mobile#cyber-monday-2023-oferta",
-      //"m3-conditional-render#body-section-13",
-      //"m3-conditional-render#body-section-14",
-      "flex-layout.row#cyber-monday-2023-carrusel-03",
-      "flex-layout.row#cyber-monday-2023-carrusel-04",
+      "m3-conditional-render#body-section-11",
+      "m3-conditional-render#body-section-12",
+      //"flex-layout.row#navidad-2023-carrusel-01",
+      // "flex-layout.row#navidad-2023-carrusel-02",
+      "responsive-layout.desktop#navidad-2023-oferta",
+      "responsive-layout.mobile#navidad-2023-oferta",
+      "m3-conditional-render#body-section-13",
+      "m3-conditional-render#body-section-14",
+      //"flex-layout.row#navidad-2023-carrusel-03",
+      //"flex-layout.row#navidad-2023-carrusel-04",
       "flex-layout.row#spacer"
     ],
     "props": {
@@ -101,7 +102,7 @@
       "horizontalAlign": "CENTER"
     }
   },
-  "list-context.image-list#cyber-monday-2023": {
+  "list-context.image-list#navidad-2023": {
     "title": "Banner Principal",
     "children": [
       "slider-layout#temp-evento-images"
@@ -111,33 +112,33 @@
       "fullWidth": true,
       "images": [
         {
-          "image": "assets/black-friday/BannerEvento.jpg",
-          "mobileImage": "assets/black-friday/LandingbannerMobile.png"
+          "image": "assets/navidad/banner1D.png",
+          "mobileImage": "assets/navidad/banner1M.png"
         }
       ],
       "blockClass": "temp-evento-images"
     }
   },
   //Categorias
-  "flex-layout.row#cyber-monday-2023-categorias": {
+  "flex-layout.row#navidad-2023-categorias": {
     "title": "Categorias",
     "children": [
-      "rich-text#cyber-monday-2023-categorias",
-      "evento-category-slider#cyber-monday-2023-categorias"
+      "rich-text#navidad-2023-categorias",
+      "evento-category-slider#navidad-2023-categorias"
     ],
     "props": {
       "colSizing": "auto",
       "blockClass": "temp-evento-categorias"
     }
   },
-  "rich-text#cyber-monday-2023-categorias": {
+  "rich-text#navidad-2023-categorias": {
     "title": "Titulo",
     "props": {
       "text": "Categorías destacadas",
       "blockClass": "temp-evento-estanteria-header"
     }
   },
-  "evento-category-slider#cyber-monday-2023-categorias": {
+  "evento-category-slider#navidad-2023-categorias": {
     "props": {
       "categories": [
         {
@@ -204,43 +205,53 @@
     }
   },
   //Banners Info
-  "responsive-layout.desktop#cyber-monday-2023-info": {
+  "responsive-layout.desktop#navidad-2023-info": {
     "title": "Banner Infos Desktop",
     "children": [
-      "image#cyber-monday-2023-info-dsk"
+      "image#navidad-2023-info-dsk"
     ]
   },
-  "responsive-layout.mobile#cyber-monday-2023-info": {
+  "responsive-layout.mobile#navidad-2023-info": {
     "title": "Banner Infos Mobile",
     "children": [
-      "image#cyber-monday-2023-info-mob"
+      "image#navidad-2023-info-mob"
     ]
   },
-  "image#cyber-monday-2023-info-dsk": {
+  "image#navidad-2023-info-dsk": {
     "props": {
       "blockClass": "temp-evento-infos",
-      "src": "assets/black-friday/banner2Desktop.png"
+      "src": "assets/navidad/banner2D.png"
     }
   },
-  "image#cyber-monday-2023-info-mob": {
+  "image#navidad-2023-info-mob": {
     "props": {
       "blockClass": "temp-evento-infos",
-      "src": "assets/black-friday/banner2Mobile.png"
+      "src": "assets/navidad/banner2M.png"
     }
   },
   //Banners
-  "flex-layout.row#cyber-monday-2023-banners": {
-    "title": "Banners",
+  "m3-conditional-render#body-section-06": {
+    "title": "V/I - Section 06",
+    "props": {
+      "visibleDsk": true,
+      "visibleTbl": true,
+      "visiblePhn": true
+    },
+    "children": ["flex-layout.row#body-section-06"]
+  },
+  "flex-layout.row#body-section-06": {
+    "title": "Section 06",
+    "props": {
+      "blockClass": ["body-section"]
+    },
+    "children": ["flex-layout.col#body-section-06-1"]
+  },
+  "flex-layout.col#body-section-06-1": {
     "children": [
       "flex-layout.col#cyber-monday-2023-banners-titles",
       "flex-layout.col#cyber-monday-2023-banners-content"
-    ],
-    "props": {
-      "blockClass": "temp-evento-banners",
-      "horizontalAlign": "CENTER",
-      "fullWidth": true
-    }
-  },
+    ]
+  }, 
   "flex-layout.col#cyber-monday-2023-banners-titles": {
     "children": [
       "rich-text#cyber-monday-2023-banners"
@@ -250,22 +261,24 @@
       "width": "100%"
     }
   },
-  "rich-text#cyber-monday-2023-banners": {
+   "rich-text#cyber-monday-2023-banners": {
     "title": "Titulo y Subtitulo",
     "props": {
       "text": "# Black Friday en Coppel\n ### ¡Encontrá todas las ofertas por categoría!",
       "blockClass": "temp-evento-banners"
     }
-  },
+  }, 
+
   "flex-layout.col#cyber-monday-2023-banners-content": {
     "children": [
-      "evento-banners#cyber-monday-2023-banners"
+      "flex-layout.row#grid-cards"
     ],
     "props": {
       "blockClass": "temp-evento-banners",
       "width": "100%"
     }
   },
+  
   "evento-banners#cyber-monday-2023-banners": {
     "props": {
       "items": [
@@ -296,36 +309,65 @@
       ]
     }
   },
+
+
+
+
+
+  
   // Carrusel 1
-  "flex-layout.row#cyber-monday-2023-carrusel-01": {
+  "m3-conditional-render#body-section-11": {
+    "title": "V/I - Section 11",
+    "props": {
+      "visibleDsk": true,
+      "visibleTbl": true,
+      "visiblePhn": true
+    },
+    "children": [
+  "rich-text#navidad-2023-carrusel-01","flex-layout.row#body-section-11"]
+  },
+  "flex-layout.row#body-section-11": {
+    "title": "Section 11",
+    "props": {
+      "blockClass": ["body-section"]
+    },
+    "children": ["flex-layout.row#shelf-section-11"]
+  },
+  "flex-layout.col#body-section-11-1": {
+    "children": [
+      "rich-text#shelf-title-section-11",
+      "flex-layout.row#shelf-section-11"
+    ]
+  },
+  "flex-layout.row#navidad-2023-carrusel-01": {
     "title": "Carrusel #1",
     "children": [
-      "flex-layout.col#cyber-monday-2023-carrusel-01"
+      "flex-layout.col#navidad-2023-carrusel-01"
     ],
     "props": {
+ 
       "blockClass": "carousel",
       "fullWidth": true
-    }
+        }
   },
-  "flex-layout.col#cyber-monday-2023-carrusel-01": {
+  "flex-layout.col#navidad-2023-carrusel-01": {
     "children": [
-      "rich-text#cyber-monday-2023-carrusel-01",
-      "list-context.product-list#cyber-monday-2023-carrusel-01"
+      "list-context.product-list#navidad-2023-carrusel-01"
     ],
     "props": {
       "width": "100%"
     }
   },
-  "rich-text#cyber-monday-2023-carrusel-01": {
+  "rich-text#navidad-2023-carrusel-01": {
     "title": "Titulo",
     "props": {
-      "text": "Equipá tu casa en hasta 15% off ",
+      "text": "Equipá tu casa en hasta 15% off  [Ver más](/tv-y-video)",
       "textAlignment": "CENTER",
       "textPosition": "LEFT",
       "blockClass": "cyber-monday-2023-carrusel-header"
     }
   },
-  "list-context.product-list#cyber-monday-2023-carrusel-01": {
+  "list-context.product-list#navidad-2023-carrusel-01": {
     "blocks": [
       "coppelar.site-theme:product-summary.shelf"
     ],
@@ -333,6 +375,11 @@
       "slider-layout#temp-evento-estanteria"
     ],
     "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
       "collection": "531",
       "hideUnavailableItems": true,
       "orderBy": "OrderByTopSaleDESC",
@@ -340,35 +387,58 @@
     }
   },
   // Carrusel 2
-  "flex-layout.row#cyber-monday-2023-carrusel-02": {
-    "title": "Carrusel #2",
+  "m3-conditional-render#body-section-12": {
+    "title": "V/I - Section 11",
+    "props": {
+      "visibleDsk": true,
+      "visibleTbl": true,
+      "visiblePhn": true
+    },
     "children": [
-      "flex-layout.col#cyber-monday-2023-carrusel-02"
+  "rich-text#navidad-2023-carrusel-01","flex-layout.row#body-section-12"]
+  },
+  "flex-layout.row#body-section-12": {
+    "title": "Section 11",
+    "props": {
+      "blockClass": ["body-section"]
+    },
+    "children": ["flex-layout.row#shelf-section-11"]
+  },
+  "flex-layout.col#body-section-11-2": {
+    "children": [
+      "rich-text#shelf-title-section-11",
+      "flex-layout.row#shelf-section-11"
+    ]
+  },
+  "flex-layout.row#navidad-2023-carrusel-02": {
+    "title": "Carrusel #1",
+    "children": [
+      "flex-layout.col#navidad-2023-carrusel-02"
     ],
     "props": {
-      "blockClass": "temp-evento-shelf",
+ 
+      "blockClass": "carousel",
       "fullWidth": true
-    }
+        }
   },
-  "flex-layout.col#cyber-monday-2023-carrusel-02": {
+  "flex-layout.col#navidad-2023-carrusel-02": {
     "children": [
-      "rich-text#cyber-monday-2023-carrusel-02",
-      "list-context.product-list#cyber-monday-2023-carrusel-02"
+      "list-context.product-list#navidad-2023-carrusel-01"
     ],
     "props": {
       "width": "100%"
     }
   },
-  "rich-text#cyber-monday-2023-carrusel-02": {
+  "rich-text#navidad-2023-carrusel-02": {
     "title": "Titulo",
     "props": {
-      "text": "Descubrí la mejor tecnología en Smart TV [Ver más](/tv-y-video)",
+      "text": "Equipá tu casa en hasta 15% off  [Ver más](/tv-y-video)",
       "textAlignment": "CENTER",
       "textPosition": "LEFT",
       "blockClass": "cyber-monday-2023-carrusel-header"
     }
   },
-  "list-context.product-list#cyber-monday-2023-carrusel-02": {
+  "list-context.product-list#navidad-2023-carrusel-02": {
     "blocks": [
       "coppelar.site-theme:product-summary.shelf"
     ],
@@ -376,6 +446,11 @@
       "slider-layout#temp-evento-estanteria"
     ],
     "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
       "collection": "507",
       "hideUnavailableItems": true,
       "orderBy": "OrderByTopSaleDESC",
@@ -383,85 +458,141 @@
     }
   },
   // Carrusel 3
-  "flex-layout.row#cyber-monday-2023-carrusel-03": {
-    "title": "Carrusel #3",
+  "m3-conditional-render#body-section-13": {
+    "title": "V/I - Section 11",
+    "props": {
+      "visibleDsk": true,
+      "visibleTbl": true,
+      "visiblePhn": true
+    },
     "children": [
-      "flex-layout.col#cyber-monday-2023-carrusel-03"
+  "rich-text#navidad-2023-carrusel-01","flex-layout.row#body-section-12"]
+  },
+  "flex-layout.row#body-section-13": {
+    "title": "Section 11",
+    "props": {
+      "blockClass": ["body-section"]
+    },
+    "children": ["flex-layout.row#shelf-section-11"]
+  },
+  "flex-layout.col#body-section-11-3": {
+    "children": [
+      "rich-text#shelf-title-section-11",
+      "flex-layout.row#shelf-section-11"
+    ]
+  },
+  "flex-layout.row#navidad-2023-carrusel-03": {
+    "title": "Carrusel #1",
+    "children": [
+      "flex-layout.col#navidad-2023-carrusel-03"
     ],
     "props": {
-      "blockClass": "temp-evento-shelf",
+ 
+      "blockClass": "carousel",
       "fullWidth": true
-    }
+        }
   },
-  "flex-layout.col#cyber-monday-2023-carrusel-03": {
+  "flex-layout.col#navidad-2023-carrusel-03": {
     "children": [
-      "rich-text#cyber-monday-2023-carrusel-03",
-      "list-context.product-list#cyber-monday-2023-carrusel-03"
+      "list-context.product-list#navidad-2023-carrusel-03"
     ],
     "props": {
       "width": "100%"
     }
   },
-  "rich-text#cyber-monday-2023-carrusel-03": {
+  "rich-text#navidad-2023-carrusel-03": {
     "title": "Titulo",
     "props": {
-      "text": "Encontrá los últimos modelos en 6 cuotas sin interés [Ver más](/celulares-telefonos-y-accesorios)",
+      "text": "Equipá tu casa en hasta 15% off  [Ver más](/tv-y-video)",
       "textAlignment": "CENTER",
       "textPosition": "LEFT",
       "blockClass": "cyber-monday-2023-carrusel-header"
     }
   },
-  "list-context.product-list#cyber-monday-2023-carrusel-03": {
+  "list-context.product-list#navidad-2023-carrusel-03": {
     "blocks": [
-      "coppelar.site-theme:product-summary.shelf"
+  
     ],
     "children": [
       "slider-layout#temp-evento-estanteria"
     ],
     "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
       "collection": "507",
       "hideUnavailableItems": true,
       "orderBy": "OrderByTopSaleDESC",
-      "maxItems": 15
+      "maxItems": 10
     }
   },
   // Carrusel 4
-  "flex-layout.row#cyber-monday-2023-carrusel-04": {
-    "title": "Carrusel #4",
+  "m3-conditional-render#body-section-14": {
+    "title": "V/I - Section 11",
+    "props": {
+      "visibleDsk": true,
+      "visibleTbl": true,
+      "visiblePhn": true
+    },
     "children": [
-      "flex-layout.col#cyber-monday-2023-carrusel-04"
+  "rich-text#navidad-2023-carrusel-01","flex-layout.row#body-section-12"]
+  },
+  "flex-layout.row#body-section-14": {
+    "title": "Section 11",
+    "props": {
+      "blockClass": ["body-section"]
+    },
+    "children": ["flex-layout.row#shelf-section-11"]
+  },
+  "flex-layout.col#body-section-11-4": {
+    "children": [
+      "rich-text#shelf-title-section-11",
+      "flex-layout.row#shelf-section-11"
+    ]
+  },
+  "flex-layout.row#navidad-2023-carrusel-04": {
+    "title": "Carrusel #1",
+    "children": [
+      "flex-layout.col#navidad-2023-carrusel-04"
     ],
     "props": {
-      "blockClass": "temp-evento-shelf",
+ 
+      "blockClass": "carousel",
       "fullWidth": true
-    }
+        }
   },
-  "flex-layout.col#cyber-monday-2023-carrusel-04": {
+  "flex-layout.col#navidad-2023-carrusel-04": {
     "children": [
-      "rich-text#cyber-monday-2023-carrusel-04",
-      "list-context.product-list#cyber-monday-2023-carrusel-04"
+      "list-context.product-list#navidad-2023-carrusel-04"
     ],
     "props": {
       "width": "100%"
     }
   },
-  "rich-text#cyber-monday-2023-carrusel-04": {
+  "rich-text#navidad-2023-carrusel-04": {
     "title": "Titulo",
     "props": {
-      "text": "Movete con estilo con nuestros rodados [Ver más](/movilidad-electrica)",
+      "text": "Equipá tu casa en hasta 15% off  [Ver más](/tv-y-video)",
       "textAlignment": "CENTER",
       "textPosition": "LEFT",
       "blockClass": "cyber-monday-2023-carrusel-header"
     }
   },
-  "list-context.product-list#cyber-monday-2023-carrusel-04": {
+  "list-context.product-list#navidad-2023-carrusel-04": {
     "blocks": [
-      "coppelar.site-theme:product-summary.shelf"
+  
     ],
     "children": [
       "slider-layout#temp-evento-estanteria"
     ],
     "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
       "collection": "516",
       "hideUnavailableItems": true,
       "orderBy": "OrderByTopSaleDESC",
@@ -469,32 +600,32 @@
     }
   },
   // Banner medio
-  "responsive-layout.desktop#cyber-monday-2023-oferta": {
+  "responsive-layout.desktop#navidad-2023-oferta": {
     "title": "Banner Oferta Desktop",
     "children": [
-      "image#cyber-monday-2023-oferta-dsk"
+      "image#navidad-2023-oferta-dsk"
     ]
   },
-  "responsive-layout.mobile#cyber-monday-2023-oferta": {
+  "responsive-layout.mobile#navidad-2023-oferta": {
     "title": "Banner Oferta Mobile",
     "children": [
-      "image#cyber-monday-2023-oferta-mbl"
+      "image#navidad-2023-oferta-mbl"
     ]
   },
-  "image#cyber-monday-2023-oferta-dsk": {
+  "image#navidad-2023-oferta-dsk": {
     "props": {
       "blockClass": "temp-evento-oferta",
-      "src": "assets/black-friday/Landingbanners.png",
+      "src": "assets/navidad/bannerMD.png",
       "link": {
         "url": "/jardin",
         "newTab": false
       }
     }
   },
-  "image#cyber-monday-2023-oferta-mbl": {
+  "image#navidad-2023-oferta-mbl": {
     "props": {
       "blockClass": "temp-evento-oferta",
-      "src": "assets/black-friday/LandingbannersMobile.png",
+      "src": "assets/navidad/bannerMM.png",
       "link": {
         "url": "/jardin",
         "newTab": false

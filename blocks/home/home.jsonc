@@ -85,7 +85,7 @@
   "slider-layout#banners-home-images": {
     "props": {
       "itemsPerPage": {
-        "desktop": 1,
+        "desktop": 6,
         "tablet": 1,
         "phone": 1
       },
@@ -223,7 +223,7 @@
   "slider-layout#shelf-home-tecnologia": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
+        "desktop": 6,
         "tablet": 3,
         "phone": 2
       },
@@ -266,7 +266,7 @@
   "slider-layout#shelf-home-ofertas": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
+        "desktop": 6,
         "tablet": 3,
         "phone": 2
       },
@@ -301,7 +301,7 @@
   "children": ["slider-layout#shelf-home-destacados-mes"],
     "props": {
       "hideUnavailableItems": true,
-      "collection":"433",
+      //"collection":"433",
       "orderBy": "OrderByTopSaleDESC",
       "maxItems": 15
     }
@@ -309,7 +309,7 @@
   "slider-layout#shelf-home-destacados-mes": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
+        "desktop": 6,
         "tablet": 3,
         "phone": 2
       },
@@ -358,7 +358,7 @@
   "slider-layout#30off-home-banner": {
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
+        "desktop": 6,
         "tablet": 3,
         "phone": 2
       },
@@ -427,7 +427,7 @@
   "slider-layout#invierno-home-banner": {
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
+        "desktop": 6,
         "tablet": 3,
         "phone": 2
       },

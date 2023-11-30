@@ -1,0 +1,16 @@
+.sliderTrack{
+    gap: 1.5rem;
+}
+.sliderLeftArrow, .sliderRightArrow{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0;
+    padding: 3px;
+    position: absolute;
+    background-color: transparent!important;
+    background-position: 50%!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    z-index: 1;
+}
