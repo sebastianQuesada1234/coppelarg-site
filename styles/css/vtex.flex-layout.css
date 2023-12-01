@@ -31,12 +31,12 @@
         width: calc(100% - 19px);
     }
 }
-
+/*
 .flexRowContent .stretchChildrenWidth {
     display: flex;
     justify-content: right;
 }
-
+*/
 
 @media (max-width: 1024px) {
     .flexRowContent--filter-and-order-by-mobile {
