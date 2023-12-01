@@ -69,8 +69,8 @@
         "path": "/notebooks-y-tecnologia",
         "title": "Tecnología - Navidad | Coppel.com.ar"
     },
-    "store.custom#navidad2023-ventilacion": {
-        "path": "/electrodomesticos/climatizacion",
+    "store.custom#navidad-2023-pequeños-electrodomesticos": {
+        "path": "/cocina-y-pequenos-electrodomesticos",
         "title": "Climatización - Navidad | Coppel.com.ar"
     },
     "store.custom#navidad2023-electrobelleza": {
@@ -93,9 +93,9 @@
         "path": "/zapatillas",
         "title": "Calzado - Navidad | Coppel.com.ar"
     },
-    "store.custom#navidad2023-ropa": {
-        "path": "ropa-y-accesorios-de-moda",
-        "title": "Ropa y Accesorios de Moda - Navidad | Coppel.com.ar"
+    "store.custom#navidad2023-indumentaria": {
+        "path": "/ropa-y-accesorios-de-moda",
+        "title": "Indumentaría - Navidad | Coppel.com.ar"
     },
     "store.custom#navidad2023-jugueteria": {
         "path": "/jugueteria",

@@ -81,19 +81,14 @@
   "flex-layout.col#navidad-2023-body": {
     "children": [
       "m3-conditional-render#body-section-06",
-    // "flex-layout.row#navidad-2023-banners",
       "flex-layout.row#navidad-2023-categorias",
       "m3-conditional-render#temp-evento-beneficios",
       "m3-conditional-render#body-section-11",
       "m3-conditional-render#body-section-12",
-      //"flex-layout.row#navidad-2023-carrusel-01",
-      // "flex-layout.row#navidad-2023-carrusel-02",
       "responsive-layout.desktop#navidad-2023-oferta",
       "responsive-layout.mobile#navidad-2023-oferta",
       "m3-conditional-render#body-section-13",
       "m3-conditional-render#body-section-14",
-      //"flex-layout.row#navidad-2023-carrusel-03",
-      //"flex-layout.row#navidad-2023-carrusel-04",
       "flex-layout.row#spacer"
     ],
     "props": {
@@ -153,23 +148,13 @@
         },
         {
           "label": "Tecnología",
-          "icon": "assets/black-friday/tecno.png",
+          "icon": "assets/navidad/tecnologia.png",
           "link": "/notebooks-y-tecnologia"
         },
         {
-          "label": "Cocina",
+          "label": "Electrodomesticos Hogar",
           "icon": "assets/cyber-monday/categorias/cocina.png",
           "link": "/cocina-y-pequenos-electrodomesticos"
-        },
-        {
-          "label": "Lavado y secado",
-          "icon": "assets/cyber-monday/categorias/lavado.png",
-          "link": "/electrodomesticos/lavado-y-secado"
-        },
-        {
-          "label": "Refrigeración",
-          "icon": "assets/cyber-monday/categorias/refri.png",
-          "link": "/electrodomesticos/refrigeracion"
         },
         {
           "label": "Climatización",
@@ -177,25 +162,41 @@
           "link": "/electrodomesticos/climatizacion"
         },
         {
-          "label": "Jardín",
-          "icon": "assets/black-friday/jardin.png",
-          "link": "/jardin"
-        },
-        {
-          "label": "Calzado",
-          "icon": "assets/black-friday/zapatillas.png",
-          "link": "/deportes/calzado"
-        },
-        {
           "label": "Electro belleza",
           "icon": "assets/cyber-monday/categorias/belleza.png",
           "link": "/electrodomesticos/electro-belleza"
         },
         {
-          "label": "Rodados",
-          "icon": "assets/black-friday/rodados.png",
+          "label": "Perfumería",
+          "icon": "assets/navidad/perfumeria.png",
+          "link": "/perfumeria"
+        },
+        {
+          "label": "Jardín",
+          "icon": "assets/black-friday/jardin.png",
+          "link": "/jardin"
+        },
+        {
+          "label": "Movilidad",
+          "icon": "assets/navidad/movilidad.png",
           "link": "/movilidad-electrica"
+        },
+        {
+          "label": "Calzado",
+          "icon": "assets/black-friday/zapatillas.png",
+          "link": "/zapatillas"
+        },
+        {
+          "label": "Indumentaria",
+          "icon": "assets/navidad/indumentaria.png",
+          "link": "/ropa-y-accesorios-de-moda"
+        },
+        {
+          "label": "Juguetería",
+          "icon": "assets/navidad/jugueteria.png",
+          "link": "/jugueteria"
         }
+     
       ],
       "itemsPerPage": {
         "desktop": 6,
@@ -265,7 +266,7 @@
    "rich-text#navidad-2023-banners": {
     "title": "Titulo y Subtitulo",
     "props": {
-      "text": "# Black Friday en Coppel\n ### ¡Encontrá todas las ofertas por categoría!",
+      "text": "# ¡Viví la navidad en Coppel!\n ### Encontrá el regalo perfecto para todos",
       "blockClass": "temp-evento-banners"
     }
   }, 
@@ -306,7 +307,7 @@
   },
   "rich-text#grid-card-1.2": {
     "props": {
-      "text": "[**Comprá en hasta 12 cuotas fijas** *Explorá todos los accesorios* **Ver más**](/)",
+      "text": "[**Comprá en hasta 12 cuotas fijas** *Explorá todos los accesorios* **Ver más**](/notebooks-y-tecnologia?map=category-1,productClusterIds,productclusternames&query=/mundo-gamer/542/tecnologia-y-gaming)",
       "textAlignment": "LEFT",
       "textPosition": "CENTER",
       "blockClass": "grid-card"
@@ -329,7 +330,7 @@
   },
   "rich-text#grid-card-2": {
     "props": {
-      "text": "[**Hasta 10% de descuento** *Encontrá los mejores modelos* **Ver más**](/)",
+      "text": "[**Hasta 10% de descuento** *Encontrá los mejores modelos* **Ver más**](/celulares-telefonos-y-accesorios/smartwatch---fit-band)",
       "textAlignment": "LEFT",
       "textPosition": "CENTER",
       "blockClass": "grid-card"
@@ -352,7 +353,7 @@
   },
   "rich-text#grid-card-3": {
     "props": {
-      "text": "[**Hasta 25% de descuento** *Explorá el Motorola ideal para vos* **Ver más**](/)",
+      "text": "[**Hasta 25% de descuento** *Explorá el Motorola ideal para vos* **Ver más**](/celulares-telefonos-y-accesorios?map=brand,productClusterIds,productclusternames&query=/motorola/506/cyber-monday-celulares-y-accesorios&searchState=)",
       "textAlignment": "LEFT",
       "textPosition": "CENTER",
       "blockClass": "grid-card"
@@ -375,117 +376,82 @@
   },
   "rich-text#grid-card-4": {
     "props": {
-      "text": "[**Encontrá una gran variedad de zapatillas** *Estilo y comodidad en cada par* **Ver más**](/)",
+      "text": "[**Encontrá una gran variedad de zapatillas** *Estilo y comodidad en cada par* **Ver más**](/zapatillas)",
       "textAlignment": "LEFT",
       "textPosition": "CENTER",
       "blockClass": "grid-card"
     }
   },
-  
-  
-  /*
-  "evento-banners#navidad-2023-banners": {
-    "props": {
-      "items": [
-        {
-          "banner": "assets/black-friday/piletas.png",
-          "title": "Piletas Pelopincho",
-          "description": "Aprovechá hasta un 15% off",
-          "link": "/piletas"
-        },
-        {
-          "banner": "assets/black-friday/aires.png",
-          "title": "Aires acondicionados",
-          "description": "Descubrí toda la selección en hasta 20% off",
-          "link": "/electrodomesticos/climatizacion"
-        },
-        {
-          "banner": "assets/black-friday/zapatillasPuma.png",
-          "title": "Calzado Puma",
-          "description": "Encontrá una gran variedad de zapatillas ",
-          "link": "/deportes/calzado?initialMap=c,c&initialQuery=deportes/calzado&map=category-1,category-2,brand&query=/deportes/calzado/puma&searchState"
-        },
-        {
-          "banner": "assets/black-friday/celulares.png",
-          "title": "Celulares Motorola",
-          "description": "Explorá las 6 cuotas sin interés",
-          "link": "/celulares-telefonos-y-accesorios?map=brand,productClusterIds,productclusternames&query=/motorola/506/cyber-monday-celulares-y-accesorios&searchState="
-        }
-      ]
-    }
-  },*/
 
   // Carrusel 1
-  "m3-conditional-render#body-section-11": {
+   "m3-conditional-render#body-section-11": {
     "title": "V/I - Section 11",
     "props": {
       "visibleDsk": true,
       "visibleTbl": true,
       "visiblePhn": true
     },
-    "children": [
-  "rich-text#navidad-2023-carrusel-01","flex-layout.row#body-section-11"]
+    "children": ["flex-layout.row#body-section-11"]
   },
   "flex-layout.row#body-section-11": {
     "title": "Section 11",
     "props": {
       "blockClass": ["body-section"]
     },
-    "children": ["flex-layout.row#shelf-section-11"]
+    "children": ["flex-layout.col#body-section-11-1"]
   },
   "flex-layout.col#body-section-11-1": {
     "children": [
-      "rich-text#shelf-title-section-11",
+      "rich-text#navidad-2023-carrusel-01",
       "flex-layout.row#shelf-section-11"
     ]
-  },
-  "flex-layout.row#navidad-2023-carrusel-01": {
-    "title": "Carrusel #1",
-    "children": [
-      "flex-layout.col#navidad-2023-carrusel-01"
-    ],
-    "props": {
- 
-      "blockClass": "carousel",
-      "fullWidth": true
-        }
-  },
-  "flex-layout.col#navidad-2023-carrusel-01": {
-    "children": [
-      "list-context.product-list#navidad-2023-carrusel-01"
-    ],
-    "props": {
-      "width": "100%"
-    }
   },
   "rich-text#navidad-2023-carrusel-01": {
     "title": "Titulo",
     "props": {
-      "text": "Equipá tu casa en hasta 15% off  [Ver más](/tv-y-video)",
+      "text": "Mantené tu hogar fresco y acogedor  [Ver más](/electrodomesticos/climatizacion)",
       "textAlignment": "CENTER",
       "textPosition": "LEFT",
-      "blockClass": "navidad-2023-carrusel-header"
+      "blockClass": "cyber-monday-2023-carrusel-header"
     }
   },
-  "list-context.product-list#navidad-2023-carrusel-01": {
-    "blocks": [
-      "coppelar.site-theme:product-summary.shelf"
-    ],
-    "children": [
-      "slider-layout#temp-evento-estanteria"
-    ],
-    "props": {
-      "itemsPerPage": {
-        "desktop": 6,
-        "tablet": 4,
-        "phone": 2
+
+      "flex-layout.row#shelf-section-11": {
+        "children": ["list-context.product-list#shelf-section-11"],
+        "props": {
+          "colGap": 3,
+          "blockClass": "shelf-home",
+          "fullWidth": false
+        }
       },
-      "collection": "531",
-      "hideUnavailableItems": true,
-      "orderBy": "OrderByTopSaleDESC",
-      "maxItems": 15
-    }
-  },
+      "list-context.product-list#shelf-section-11": {
+        "blocks": [
+          "coppelar.site-theme:product-summary.shelf"
+        ],
+        "children": ["slider-layout#shelf-section-11"],
+        "props": {
+          "hideUnavailableItems": true,
+          "collection": "349",
+          "orderBy": "OrderByTopSaleDESC",
+          "maxItems": 15
+        }
+      },
+      
+      "slider-layout#shelf-section-11": {
+        "props": {
+          "itemsPerPage": {
+            "(min-width: 1536px)": 6,
+            "(min-width: 1026px)": 5,
+            "(min-width: 650px)": 3,
+            "(min-width: 1px)": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf-home",
+          "showPaginationDots": "never",
+          "showNavigationArrows": "always"
+        }
+      },
   // Carrusel 2
   "m3-conditional-render#body-section-12": {
     "title": "V/I - Section 11",
@@ -494,69 +460,67 @@
       "visibleTbl": true,
       "visiblePhn": true
     },
-    "children": [
-  "rich-text#navidad-2023-carrusel-01","flex-layout.row#body-section-12"]
+    "children": ["flex-layout.row#body-section-12"]
   },
   "flex-layout.row#body-section-12": {
     "title": "Section 11",
     "props": {
       "blockClass": ["body-section"]
     },
-    "children": ["flex-layout.row#shelf-section-11"]
+    "children": ["flex-layout.col#body-section-11-2"]
   },
   "flex-layout.col#body-section-11-2": {
     "children": [
-      "rich-text#shelf-title-section-11",
-      "flex-layout.row#shelf-section-11"
+      "rich-text#navidad-2023-carrusel-02",
+      "flex-layout.row#shelf-section-12"
     ]
-  },
-  "flex-layout.row#navidad-2023-carrusel-02": {
-    "title": "Carrusel #1",
-    "children": [
-      "flex-layout.col#navidad-2023-carrusel-02"
-    ],
-    "props": {
- 
-      "blockClass": "carousel",
-      "fullWidth": true
-        }
-  },
-  "flex-layout.col#navidad-2023-carrusel-02": {
-    "children": [
-      "list-context.product-list#navidad-2023-carrusel-01"
-    ],
-    "props": {
-      "width": "100%"
-    }
   },
   "rich-text#navidad-2023-carrusel-02": {
     "title": "Titulo",
     "props": {
-      "text": "Equipá tu casa en hasta 15% off  [Ver más](/tv-y-video)",
+      "text": "Encontrá la magia en nuestro juguetes  [Ver más](/jugueteria)",
       "textAlignment": "CENTER",
       "textPosition": "LEFT",
-      "blockClass": "navidad-2023-carrusel-header"
+      "blockClass": "cyber-monday-2023-carrusel-header"
     }
   },
-  "list-context.product-list#navidad-2023-carrusel-02": {
-    "blocks": [
-      "coppelar.site-theme:product-summary.shelf"
-    ],
-    "children": [
-      "slider-layout#temp-evento-estanteria"
-    ],
-    "props": {
-      "itemsPerPage": {
-        "desktop": 6,
-        "tablet": 4,
-        "phone": 2
+
+      "flex-layout.row#shelf-section-12": {
+        "children": ["list-context.product-list#shelf-section-12"], 
+        "props": {
+          "colGap": 3,
+          "blockClass": "shelf-home",
+          "fullWidth": false
+        }
       },
-      "collection": "507",
-      "hideUnavailableItems": true,
-      "orderBy": "OrderByTopSaleDESC",
-      "maxItems": 10
-    }
-  },
+      "list-context.product-list#shelf-section-12": {
+        "blocks": [
+          "coppelar.site-theme:product-summary.shelf"
+        ],
+        "children": ["slider-layout#shelf-section-12"],
+        "props": {
+          "collection": "326",
+          "hideUnavailableItems": true,
+          "orderBy": "OrderByTopSaleDESC",
+          "maxItems": 15
+        }
+      },
+      "slider-layout#shelf-section-12": {
+        "props": {
+          "itemsPerPage": {
+            "(min-width: 1536px)": 6,
+            "(min-width: 1026px)": 5,
+            "(min-width: 650px)": 3,
+            "(min-width: 1px)": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf-home",
+          "showPaginationDots": "never",
+          "showNavigationArrows": "always"
+        }
+      },
+  
   // Carrusel 3
   "m3-conditional-render#body-section-13": {
     "title": "V/I - Section 11",
@@ -565,140 +529,136 @@
       "visibleTbl": true,
       "visiblePhn": true
     },
-    "children": [
-  "rich-text#navidad-2023-carrusel-01","flex-layout.row#body-section-12"]
+    "children": ["flex-layout.row#body-section-13"]
   },
   "flex-layout.row#body-section-13": {
     "title": "Section 11",
     "props": {
       "blockClass": ["body-section"]
     },
-    "children": ["flex-layout.row#shelf-section-11"]
+    "children": ["flex-layout.col#body-section-11-3"]
   },
   "flex-layout.col#body-section-11-3": {
     "children": [
-      "rich-text#shelf-title-section-11",
-      "flex-layout.row#shelf-section-11"
+      "rich-text#navidad-2023-carrusel-03",
+      "flex-layout.row#shelf-section-13"
     ]
-  },
-  "flex-layout.row#navidad-2023-carrusel-03": {
-    "title": "Carrusel #1",
-    "children": [
-      "flex-layout.col#navidad-2023-carrusel-03"
-    ],
-    "props": {
- 
-      "blockClass": "carousel",
-      "fullWidth": true
-        }
-  },
-  "flex-layout.col#navidad-2023-carrusel-03": {
-    "children": [
-      "list-context.product-list#navidad-2023-carrusel-03"
-    ],
-    "props": {
-      "width": "100%"
-    }
   },
   "rich-text#navidad-2023-carrusel-03": {
     "title": "Titulo",
     "props": {
-      "text": "Equipá tu casa en hasta 15% off  [Ver más](/tv-y-video)",
+      "text": "Encontrá la magia en nuestro juguetes  [Ver más](/tv-y-video)",
       "textAlignment": "CENTER",
       "textPosition": "LEFT",
-      "blockClass": "navidad-2023-carrusel-header"
+      "blockClass": "cyber-monday-2023-carrusel-header"
     }
   },
-  "list-context.product-list#navidad-2023-carrusel-03": {
-    "blocks": [
-  
-    ],
-    "children": [
-      "slider-layout#temp-evento-estanteria"
-    ],
-    "props": {
-      "itemsPerPage": {
-        "desktop": 6,
-        "tablet": 4,
-        "phone": 2
+
+      "flex-layout.row#shelf-section-13": {
+        "children": ["list-context.product-list#shelf-section-13"], 
+        "props": {
+          "colGap": 3,
+          "blockClass": "shelf-home",
+          "fullWidth": false
+        }
       },
-      "collection": "507",
-      "hideUnavailableItems": true,
-      "orderBy": "OrderByTopSaleDESC",
-      "maxItems": 10
-    }
-  },
+      "list-context.product-list#shelf-section-13": {
+        "blocks": [
+          "coppelar.site-theme:product-summary.shelf"
+        ],
+        "children": ["slider-layout#shelf-section-13"],
+        "props": {
+          "collection": "348",
+          "hideUnavailableItems": true,
+          "orderBy": "OrderByTopSaleDESC",
+          "maxItems": 15
+        }
+      },
+      "slider-layout#shelf-section-13": {
+        "props": {
+          "itemsPerPage": {
+            "(min-width: 1536px)": 6,
+            "(min-width: 1026px)": 5,
+            "(min-width: 650px)": 3,
+            "(min-width: 1px)": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf-home",
+          "showPaginationDots": "never",
+          "showNavigationArrows": "always"
+        }
+      },
+  
   // Carrusel 4
   "m3-conditional-render#body-section-14": {
-    "title": "V/I - Section 11",
+    "title": "V/I - Section 14",
     "props": {
       "visibleDsk": true,
       "visibleTbl": true,
       "visiblePhn": true
     },
-    "children": [
-  "rich-text#navidad-2023-carrusel-01","flex-layout.row#body-section-12"]
+    "children": ["flex-layout.row#body-section-14"]
   },
   "flex-layout.row#body-section-14": {
-    "title": "Section 11",
+    "title": "Section 14",
     "props": {
       "blockClass": ["body-section"]
     },
-    "children": ["flex-layout.row#shelf-section-11"]
+    "children": ["flex-layout.col#body-section-11-4"]
   },
   "flex-layout.col#body-section-11-4": {
     "children": [
-      "rich-text#shelf-title-section-11",
-      "flex-layout.row#shelf-section-11"
+      "rich-text#navidad-2023-carrusel-04",
+      "flex-layout.row#shelf-section-14"
     ]
-  },
-  "flex-layout.row#navidad-2023-carrusel-04": {
-    "title": "Carrusel #1",
-    "children": [
-      "flex-layout.col#navidad-2023-carrusel-04"
-    ],
-    "props": {
- 
-      "blockClass": "carousel",
-      "fullWidth": true
-        }
-  },
-  "flex-layout.col#navidad-2023-carrusel-04": {
-    "children": [
-      "list-context.product-list#navidad-2023-carrusel-04"
-    ],
-    "props": {
-      "width": "100%"
-    }
   },
   "rich-text#navidad-2023-carrusel-04": {
     "title": "Titulo",
     "props": {
-      "text": "Equipá tu casa en hasta 15% off  [Ver más](/tv-y-video)",
+      "text": "Transformá tu belleza  [Ver más](/electrodomesticos/electro-belleza)",
       "textAlignment": "CENTER",
       "textPosition": "LEFT",
-      "blockClass": "navidad-2023-carrusel-header"
+      "blockClass": "cyber-monday-2023-carrusel-header"
     }
   },
-  "list-context.product-list#navidad-2023-carrusel-04": {
-    "blocks": [
-  
-    ],
-    "children": [
-      "slider-layout#temp-evento-estanteria"
-    ],
-    "props": {
-      "itemsPerPage": {
-        "desktop": 6,
-        "tablet": 4,
-        "phone": 2
+
+      "flex-layout.row#shelf-section-14": {
+        "children": ["list-context.product-list#shelf-section-14"], 
+        "props": {
+          "colGap": 3,
+          "blockClass": "shelf-home",
+          "fullWidth": false
+        }
       },
-      "collection": "516",
-      "hideUnavailableItems": true,
-      "orderBy": "OrderByTopSaleDESC",
-      "maxItems": 15
-    }
-  },
+      "list-context.product-list#shelf-section-14": {
+        "blocks": [
+          "coppelar.site-theme:product-summary.shelf"
+        ],
+        "children": ["slider-layout#shelf-section-14"],
+        "props": {
+          "collection": "183",
+          "hideUnavailableItems": true,
+          "orderBy": "OrderByTopSaleDESC",
+          "maxItems": 15
+        }
+      },
+      "slider-layout#shelf-section-14": {
+        "props": {
+          "itemsPerPage": {
+            "(min-width: 1536px)": 6,
+            "(min-width: 1026px)": 5,
+            "(min-width: 650px)": 3,
+            "(min-width: 1px)": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf-home",
+          "showPaginationDots": "never",
+          "showNavigationArrows": "always"
+        }
+      },
+  
   // Banner medio
   "responsive-layout.desktop#navidad-2023-oferta": {
     "title": "Banner Oferta Desktop",
