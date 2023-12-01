@@ -279,6 +279,111 @@
       "width": "100%"
     }
   },
+  "flex-layout.row#grid-cards": {
+    "props": {
+      "blockClass": ["grid-cards"],
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#grid-card-1.2",
+      "flex-layout.col#grid-card-2",
+      "flex-layout.col#grid-card-3",
+      "flex-layout.col#grid-card-4"
+    ]
+  },//Card 1
+  "flex-layout.col#grid-card-1.2": {
+    "title": "Card 1",
+    "props": {
+      "title": "Grid Card 1"
+    },
+    "children": ["image#grid-card-1", "rich-text#grid-card-1.2"]
+  },
+  "image#grid-card-1": {
+    "props": {
+      "src": "assets/navidad/gamer.png",
+      "blockClass": "grid-card"
+    }
+  },
+  "rich-text#grid-card-1.2": {
+    "props": {
+      "text": "[**Comprá en hasta 12 cuotas fijas** *Explorá todos los accesorios* **Ver más**](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": "grid-card"
+    }
+  },
+
+  //Card 2
+  "flex-layout.col#grid-card-2": {
+    "title": "Card 2",
+    "props": {
+      "title": "Grid Card 2"
+    },
+    "children": ["image#grid-card-2", "rich-text#grid-card-2"]
+  },
+  "image#grid-card-2": {
+    "props": {
+      "src": "assets/navidad/smartwatch.png",
+      "blockClass": "grid-card"
+    }
+  },
+  "rich-text#grid-card-2": {
+    "props": {
+      "text": "[**Hasta 10% de descuento** *Encontrá los mejores modelos* **Ver más**](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": "grid-card"
+    }
+  },
+
+  //Card 3
+  "flex-layout.col#grid-card-3": {
+    "title": "Card 3",
+    "props": {
+      "title": "Grid Card 3"
+    },
+    "children": ["image#grid-card-3", "rich-text#grid-card-3"]
+  },
+  "image#grid-card-3": {
+    "props": {
+      "src": "assets/navidad/celulares.png",
+      "blockClass": "grid-card"
+    }
+  },
+  "rich-text#grid-card-3": {
+    "props": {
+      "text": "[**Hasta 25% de descuento** *Explorá el Motorola ideal para vos* **Ver más**](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": "grid-card"
+    }
+  },
+
+  //Card 4
+  "flex-layout.col#grid-card-4": {
+    "title": "Card 4",
+    "props": {
+      "title": "Grid Card 4"
+    },
+    "children": ["image#grid-card-4", "rich-text#grid-card-4"]
+  },
+  "image#grid-card-4": {
+    "props": {
+      "src": "assets/navidad/zapatillas.png",
+      "blockClass": "grid-card"
+    }
+  },
+  "rich-text#grid-card-4": {
+    "props": {
+      "text": "[**Encontrá una gran variedad de zapatillas** *Estilo y comodidad en cada par* **Ver más**](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": "grid-card"
+    }
+  },
+  
+  
+  /*
   "evento-banners#navidad-2023-banners": {
     "props": {
       "items": [
@@ -308,7 +413,7 @@
         }
       ]
     }
-  },
+  },*/
 
   // Carrusel 1
   "m3-conditional-render#body-section-11": {
