@@ -1,0 +1,19 @@
+.containerBanner{
+    display: flex;
+    justify-content: center ;
+    margin-top: 35px;
+    max-width: 1460px;
+    max-height: 453px;
+  }
+  .img1{
+    margin-right: 10px;
+    background-image: url('../assets/navidad/tecnologiaM.png');
+    background: url('../assets/navidad/tecnologiaM.png')
+  }
+  .img2{
+    margin-left: 10px;
+  }
+  .h1img{
+    display: block;
+    text-align: center;
+  }

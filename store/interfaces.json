@@ -16,5 +16,11 @@
     },
     "header-categoria.default" : {
         "component" : "h1text"
+    },
+    "banner-categoria" : {
+        "component" : "banner"
+    },
+    "banner-categoria.default" : {
+        "component" : "banner"
     }
 }

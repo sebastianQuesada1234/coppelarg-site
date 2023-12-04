@@ -7,6 +7,19 @@
     }
 }
 
+.heading-level-3 {
+    margin: 3% 0;
+
+}
+.heading-level-4 {
+    margin: 3% 0;
+}
+.paragraph .link{
+    text-decoration: none;
+    color: #006FB9;
+    
+}
+
 .wrapper--cyber-monday-2023-carrusel-header {
     width: 100%;
 }

@@ -27,7 +27,7 @@
       "verticalAlign": "middle",
       "horizontalAlign": "CENTER"
     }
-  },/*
+  }, /*
   "flex-layout.row#navidad-2023-ofertas-bomba": {
     "children": [
       "flex-layout.col#navidad-2023-ofertas-bomba"
@@ -80,9 +80,10 @@
   },
   "flex-layout.col#navidad-2023-body": {
     "children": [
-      "m3-conditional-render#body-section-06",
+      "flex-layout.col#navidad-banner-doble-2023",
       "flex-layout.row#navidad-2023-categorias",
       "m3-conditional-render#temp-evento-beneficios",
+      "m3-conditional-render#body-section-06",
       "m3-conditional-render#body-section-11",
       "m3-conditional-render#body-section-12",
       "responsive-layout.desktop#navidad-2023-oferta",
@@ -97,6 +98,12 @@
       "horizontalAlign": "CENTER"
     }
   },
+  /*"flex-layout.col#banner-categoria-media-pagina": {
+
+    "children": [
+      "banner-categoria"
+    ]
+  },*/
   "list-context.image-list#navidad-2023": {
     "title": "Banner Principal",
     "children": [
@@ -196,7 +203,6 @@
           "icon": "assets/navidad/jugueteria.png",
           "link": "/jugueteria"
         }
-     
       ],
       "itemsPerPage": {
         "desktop": 6,
@@ -238,21 +244,26 @@
       "visibleTbl": true,
       "visiblePhn": true
     },
-    "children": ["flex-layout.row#body-section-06"]
+    "children": [
+      "flex-layout.row#body-section-06"
+    ]
   },
   "flex-layout.row#body-section-06": {
     "title": "Section 06",
     "props": {
-      "blockClass": ["body-section"]
+      "blockClass": [
+        "body-section"
+      ]
     },
-    "children": ["flex-layout.col#carrusel"]
+    "children": [
+      "flex-layout.col#carrusel"
+    ]
   },
   "flex-layout.col#carrusel": {
     "children": [
       "flex-layout.col#navidad-2023-banners-titles"
-
     ]
-  }, 
+  },
   "flex-layout.col#navidad-2023-banners-titles": {
     "children": [
       "rich-text#navidad-2023-banners",
@@ -263,14 +274,13 @@
       "width": "100%"
     }
   },
-   "rich-text#navidad-2023-banners": {
+  "rich-text#navidad-2023-banners": {
     "title": "Titulo y Subtitulo",
     "props": {
       "text": "# ¡Viví la navidad en Coppel!\n ### Encontrá el regalo perfecto para todos",
       "blockClass": "temp-evento-banners"
     }
-  }, 
-
+  },
   "flex-layout.col#navidad-2023-banners-content": {
     "children": [
       "flex-layout.row#grid-cards"
@@ -282,7 +292,9 @@
   },
   "flex-layout.row#grid-cards": {
     "props": {
-      "blockClass": ["grid-cards"],
+      "blockClass": [
+        "grid-cards"
+      ],
       "colSizing": "auto"
     },
     "children": [
@@ -291,13 +303,16 @@
       "flex-layout.col#grid-card-3",
       "flex-layout.col#grid-card-4"
     ]
-  },//Card 1
+  }, //Card 1
   "flex-layout.col#grid-card-1.2": {
     "title": "Card 1",
     "props": {
       "title": "Grid Card 1"
     },
-    "children": ["image#grid-card-1", "rich-text#grid-card-1.2"]
+    "children": [
+      "image#grid-card-1",
+      "rich-text#grid-card-1.2"
+    ]
   },
   "image#grid-card-1": {
     "props": {
@@ -313,14 +328,16 @@
       "blockClass": "grid-card"
     }
   },
-
   //Card 2
   "flex-layout.col#grid-card-2": {
     "title": "Card 2",
     "props": {
       "title": "Grid Card 2"
     },
-    "children": ["image#grid-card-2", "rich-text#grid-card-2"]
+    "children": [
+      "image#grid-card-2",
+      "rich-text#grid-card-2"
+    ]
   },
   "image#grid-card-2": {
     "props": {
@@ -336,14 +353,16 @@
       "blockClass": "grid-card"
     }
   },
-
   //Card 3
   "flex-layout.col#grid-card-3": {
     "title": "Card 3",
     "props": {
       "title": "Grid Card 3"
     },
-    "children": ["image#grid-card-3", "rich-text#grid-card-3"]
+    "children": [
+      "image#grid-card-3",
+      "rich-text#grid-card-3"
+    ]
   },
   "image#grid-card-3": {
     "props": {
@@ -359,14 +378,16 @@
       "blockClass": "grid-card"
     }
   },
-
   //Card 4
   "flex-layout.col#grid-card-4": {
     "title": "Card 4",
     "props": {
       "title": "Grid Card 4"
     },
-    "children": ["image#grid-card-4", "rich-text#grid-card-4"]
+    "children": [
+      "image#grid-card-4",
+      "rich-text#grid-card-4"
+    ]
   },
   "image#grid-card-4": {
     "props": {
@@ -382,23 +403,28 @@
       "blockClass": "grid-card"
     }
   },
-
   // Carrusel 1
-   "m3-conditional-render#body-section-11": {
+  "m3-conditional-render#body-section-11": {
     "title": "V/I - Section 11",
     "props": {
       "visibleDsk": true,
       "visibleTbl": true,
       "visiblePhn": true
     },
-    "children": ["flex-layout.row#body-section-11"]
+    "children": [
+      "flex-layout.row#body-section-11"
+    ]
   },
   "flex-layout.row#body-section-11": {
     "title": "Section 11",
     "props": {
-      "blockClass": ["body-section"]
+      "blockClass": [
+        "body-section"
+      ]
     },
-    "children": ["flex-layout.col#body-section-11-1"]
+    "children": [
+      "flex-layout.col#body-section-11-1"
+    ]
   },
   "flex-layout.col#body-section-11-1": {
     "children": [
@@ -415,43 +441,45 @@
       "blockClass": "cyber-monday-2023-carrusel-header"
     }
   },
-
-      "flex-layout.row#shelf-section-11": {
-        "children": ["list-context.product-list#shelf-section-11"],
-        "props": {
-          "colGap": 3,
-          "blockClass": "shelf-home",
-          "fullWidth": false
-        }
+  "flex-layout.row#shelf-section-11": {
+    "children": [
+      "list-context.product-list#shelf-section-11"
+    ],
+    "props": {
+      "colGap": 3,
+      "blockClass": "shelf-home",
+      "fullWidth": false
+    }
+  },
+  "list-context.product-list#shelf-section-11": {
+    "blocks": [
+      "coppelar.site-theme:product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#shelf-section-11"
+    ],
+    "props": {
+      "hideUnavailableItems": true,
+      "collection": "349",
+      "orderBy": "OrderByTopSaleDESC",
+      "maxItems": 15
+    }
+  },
+  "slider-layout#shelf-section-11": {
+    "props": {
+      "itemsPerPage": {
+        "(min-width: 1536px)": 6,
+        "(min-width: 1026px)": 5,
+        "(min-width: 650px)": 3,
+        "(min-width: 1px)": 2
       },
-      "list-context.product-list#shelf-section-11": {
-        "blocks": [
-          "coppelar.site-theme:product-summary.shelf"
-        ],
-        "children": ["slider-layout#shelf-section-11"],
-        "props": {
-          "hideUnavailableItems": true,
-          "collection": "349",
-          "orderBy": "OrderByTopSaleDESC",
-          "maxItems": 15
-        }
-      },
-      
-      "slider-layout#shelf-section-11": {
-        "props": {
-          "itemsPerPage": {
-            "(min-width: 1536px)": 6,
-            "(min-width: 1026px)": 5,
-            "(min-width: 650px)": 3,
-            "(min-width: 1px)": 2
-          },
-          "infinite": true,
-          "fullWidth": false,
-          "blockClass": "shelf-home",
-          "showPaginationDots": "never",
-          "showNavigationArrows": "always"
-        }
-      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf-home",
+      "showPaginationDots": "never",
+      "showNavigationArrows": "always"
+    }
+  },
   // Carrusel 2
   "m3-conditional-render#body-section-12": {
     "title": "V/I - Section 11",
@@ -460,14 +488,20 @@
       "visibleTbl": true,
       "visiblePhn": true
     },
-    "children": ["flex-layout.row#body-section-12"]
+    "children": [
+      "flex-layout.row#body-section-12"
+    ]
   },
   "flex-layout.row#body-section-12": {
     "title": "Section 11",
     "props": {
-      "blockClass": ["body-section"]
+      "blockClass": [
+        "body-section"
+      ]
     },
-    "children": ["flex-layout.col#body-section-11-2"]
+    "children": [
+      "flex-layout.col#body-section-11-2"
+    ]
   },
   "flex-layout.col#body-section-11-2": {
     "children": [
@@ -484,43 +518,45 @@
       "blockClass": "cyber-monday-2023-carrusel-header"
     }
   },
-
-      "flex-layout.row#shelf-section-12": {
-        "children": ["list-context.product-list#shelf-section-12"], 
-        "props": {
-          "colGap": 3,
-          "blockClass": "shelf-home",
-          "fullWidth": false
-        }
+  "flex-layout.row#shelf-section-12": {
+    "children": [
+      "list-context.product-list#shelf-section-12"
+    ],
+    "props": {
+      "colGap": 3,
+      "blockClass": "shelf-home",
+      "fullWidth": false
+    }
+  },
+  "list-context.product-list#shelf-section-12": {
+    "blocks": [
+      "coppelar.site-theme:product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#shelf-section-12"
+    ],
+    "props": {
+      "collection": "326",
+      "hideUnavailableItems": true,
+      "orderBy": "OrderByTopSaleDESC",
+      "maxItems": 15
+    }
+  },
+  "slider-layout#shelf-section-12": {
+    "props": {
+      "itemsPerPage": {
+        "(min-width: 1536px)": 6,
+        "(min-width: 1026px)": 5,
+        "(min-width: 650px)": 3,
+        "(min-width: 1px)": 2
       },
-      "list-context.product-list#shelf-section-12": {
-        "blocks": [
-          "coppelar.site-theme:product-summary.shelf"
-        ],
-        "children": ["slider-layout#shelf-section-12"],
-        "props": {
-          "collection": "326",
-          "hideUnavailableItems": true,
-          "orderBy": "OrderByTopSaleDESC",
-          "maxItems": 15
-        }
-      },
-      "slider-layout#shelf-section-12": {
-        "props": {
-          "itemsPerPage": {
-            "(min-width: 1536px)": 6,
-            "(min-width: 1026px)": 5,
-            "(min-width: 650px)": 3,
-            "(min-width: 1px)": 2
-          },
-          "infinite": true,
-          "fullWidth": false,
-          "blockClass": "shelf-home",
-          "showPaginationDots": "never",
-          "showNavigationArrows": "always"
-        }
-      },
-  
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf-home",
+      "showPaginationDots": "never",
+      "showNavigationArrows": "always"
+    }
+  },
   // Carrusel 3
   "m3-conditional-render#body-section-13": {
     "title": "V/I - Section 11",
@@ -529,14 +565,20 @@
       "visibleTbl": true,
       "visiblePhn": true
     },
-    "children": ["flex-layout.row#body-section-13"]
+    "children": [
+      "flex-layout.row#body-section-13"
+    ]
   },
   "flex-layout.row#body-section-13": {
     "title": "Section 11",
     "props": {
-      "blockClass": ["body-section"]
+      "blockClass": [
+        "body-section"
+      ]
     },
-    "children": ["flex-layout.col#body-section-11-3"]
+    "children": [
+      "flex-layout.col#body-section-11-3"
+    ]
   },
   "flex-layout.col#body-section-11-3": {
     "children": [
@@ -553,43 +595,45 @@
       "blockClass": "cyber-monday-2023-carrusel-header"
     }
   },
-
-      "flex-layout.row#shelf-section-13": {
-        "children": ["list-context.product-list#shelf-section-13"], 
-        "props": {
-          "colGap": 3,
-          "blockClass": "shelf-home",
-          "fullWidth": false
-        }
+  "flex-layout.row#shelf-section-13": {
+    "children": [
+      "list-context.product-list#shelf-section-13"
+    ],
+    "props": {
+      "colGap": 3,
+      "blockClass": "shelf-home",
+      "fullWidth": false
+    }
+  },
+  "list-context.product-list#shelf-section-13": {
+    "blocks": [
+      "coppelar.site-theme:product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#shelf-section-13"
+    ],
+    "props": {
+      "collection": "348",
+      "hideUnavailableItems": true,
+      "orderBy": "OrderByTopSaleDESC",
+      "maxItems": 15
+    }
+  },
+  "slider-layout#shelf-section-13": {
+    "props": {
+      "itemsPerPage": {
+        "(min-width: 1536px)": 6,
+        "(min-width: 1026px)": 5,
+        "(min-width: 650px)": 3,
+        "(min-width: 1px)": 2
       },
-      "list-context.product-list#shelf-section-13": {
-        "blocks": [
-          "coppelar.site-theme:product-summary.shelf"
-        ],
-        "children": ["slider-layout#shelf-section-13"],
-        "props": {
-          "collection": "348",
-          "hideUnavailableItems": true,
-          "orderBy": "OrderByTopSaleDESC",
-          "maxItems": 15
-        }
-      },
-      "slider-layout#shelf-section-13": {
-        "props": {
-          "itemsPerPage": {
-            "(min-width: 1536px)": 6,
-            "(min-width: 1026px)": 5,
-            "(min-width: 650px)": 3,
-            "(min-width: 1px)": 2
-          },
-          "infinite": true,
-          "fullWidth": false,
-          "blockClass": "shelf-home",
-          "showPaginationDots": "never",
-          "showNavigationArrows": "always"
-        }
-      },
-  
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf-home",
+      "showPaginationDots": "never",
+      "showNavigationArrows": "always"
+    }
+  },
   // Carrusel 4
   "m3-conditional-render#body-section-14": {
     "title": "V/I - Section 14",
@@ -598,14 +642,20 @@
       "visibleTbl": true,
       "visiblePhn": true
     },
-    "children": ["flex-layout.row#body-section-14"]
+    "children": [
+      "flex-layout.row#body-section-14"
+    ]
   },
   "flex-layout.row#body-section-14": {
     "title": "Section 14",
     "props": {
-      "blockClass": ["body-section"]
+      "blockClass": [
+        "body-section"
+      ]
     },
-    "children": ["flex-layout.col#body-section-11-4"]
+    "children": [
+      "flex-layout.col#body-section-11-4"
+    ]
   },
   "flex-layout.col#body-section-11-4": {
     "children": [
@@ -622,43 +672,45 @@
       "blockClass": "cyber-monday-2023-carrusel-header"
     }
   },
-
-      "flex-layout.row#shelf-section-14": {
-        "children": ["list-context.product-list#shelf-section-14"], 
-        "props": {
-          "colGap": 3,
-          "blockClass": "shelf-home",
-          "fullWidth": false
-        }
+  "flex-layout.row#shelf-section-14": {
+    "children": [
+      "list-context.product-list#shelf-section-14"
+    ],
+    "props": {
+      "colGap": 3,
+      "blockClass": "shelf-home",
+      "fullWidth": false
+    }
+  },
+  "list-context.product-list#shelf-section-14": {
+    "blocks": [
+      "coppelar.site-theme:product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#shelf-section-14"
+    ],
+    "props": {
+      "collection": "183",
+      "hideUnavailableItems": true,
+      "orderBy": "OrderByTopSaleDESC",
+      "maxItems": 15
+    }
+  },
+  "slider-layout#shelf-section-14": {
+    "props": {
+      "itemsPerPage": {
+        "(min-width: 1536px)": 6,
+        "(min-width: 1026px)": 5,
+        "(min-width: 650px)": 3,
+        "(min-width: 1px)": 2
       },
-      "list-context.product-list#shelf-section-14": {
-        "blocks": [
-          "coppelar.site-theme:product-summary.shelf"
-        ],
-        "children": ["slider-layout#shelf-section-14"],
-        "props": {
-          "collection": "183",
-          "hideUnavailableItems": true,
-          "orderBy": "OrderByTopSaleDESC",
-          "maxItems": 15
-        }
-      },
-      "slider-layout#shelf-section-14": {
-        "props": {
-          "itemsPerPage": {
-            "(min-width: 1536px)": 6,
-            "(min-width: 1026px)": 5,
-            "(min-width: 650px)": 3,
-            "(min-width: 1px)": 2
-          },
-          "infinite": true,
-          "fullWidth": false,
-          "blockClass": "shelf-home",
-          "showPaginationDots": "never",
-          "showNavigationArrows": "always"
-        }
-      },
-  
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf-home",
+      "showPaginationDots": "never",
+      "showNavigationArrows": "always"
+    }
+  },
   // Banner medio
   "responsive-layout.desktop#navidad-2023-oferta": {
     "title": "Banner Oferta Desktop",
@@ -690,6 +742,127 @@
         "url": "/jardin",
         "newTab": false
       }
+    }
+  },
+  //banner doble
+  "flex-layout.col#navidad-banner-doble-2023": {
+    "children": [
+      "flex-layout.row#grid-banner-doble"
+    ],
+    "props": {
+      "blockClass": "temp-evento-banners",
+      "colGap": 4,
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#grid-banner-doble": {
+    "props": {
+      "colSizing": "equal"
+    },
+    "children": [
+      "flex-layout.col#banner-doble-coppel"
+    ]
+  },
+  "flex-layout.col#banner-doble-coppel": {
+    "children": [
+      "flex-layout.row#banner-doble-coppel"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#banner-doble-coppel": {
+    "children": [
+      "flex-layout.col#banner-doble-tecno",
+      "flex-layout.col#banner-doble-electro"
+    ]
+  },
+  "flex-layout.col#banner-doble-tecno": {
+    "children": [
+      "flex-layout.row#img-tecno",
+      "flex-layout.row#banner-text-tecno"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#img-tecno": {
+    "children": [
+      "image#tecno"
+    ],
+    "props": {
+      "width": "100%",
+      "fullWidth": true
+    }
+  },
+  "image#tecno": {
+    "props": {
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": "rigth",
+      "preventVerticalStretch": "true",
+      "width": 700,
+      "src": "assets/navidad/tecnologiaM.png",
+      "maxHeight": 220
+    }
+  },
+  "flex-layout.col#banner-doble-electro": {
+    "children": [
+      "flex-layout.row#img-electro",
+      "flex-layout.row#banner-text-electro"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "horizontalAlign": "left",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#img-electro": {
+    "children": [
+      "image#electro"
+    ],
+    "props": {
+      "width": "100%",
+      "fullWidth": true
+    }
+  },
+  "image#electro": {
+    "props": {
+      "horizontalAlign": "center",
+      "width": 700,
+      "preventHorizontalStretch": "left",
+      "preventVerticalStretch": "true",
+      "src": "assets/navidad/electroM.png",
+      "maxHeight": 220
+    }
+  },
+  "flex-layout.row#banner-text-electro": {
+    "children": [
+      "rich-text#banner-electro"
+    ],
+    "props": {
+      "blockClass": "quienes-somos-titulo"
+    }
+  },
+  "rich-text#banner-electro": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text":"### Electrodomésticos para el hogar\n #### Equipá tus espacios  \n [**Ver más**](/cocina-y-pequenos-electrodomesticos)"
+    }
+  },
+  "flex-layout.row#banner-text-tecno": {
+    "children": [
+      "rich-text#banner-tecno"
+    ],
+    "props": {
+    }
+  },
+  "rich-text#banner-tecno": {
+    "props": {
+      "text": "### Innovación a tu alcance\n #### Descubrí la mejor tecnología en un solo lugar \n [**Ver más**](/tv-y-video)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   }
 }

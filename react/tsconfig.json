@@ -23,7 +23,7 @@
     "jsx": "react"
   },
   "exclude": ["node_modules"],
-  "include": ["./typings/*.d.ts", "./**/*.tsx", "./**/*.ts", "./**/*.css", "./*.css"],
+  "include": ["./typings/*.d.ts", "./**/*.tsx", "./**/*.ts", "./**/*.css", "./*.css", "banner.jsx"],
   "typeAcquisition": {
     "enable": false
   }
