@@ -9,17 +9,32 @@
 
 .heading-level-3 {
     margin: 3% 0;
-
+    font-weight: 700;
+    font-size: 23.49px;
 }
 .heading-level-4 {
-    margin: 3% 0;
+    margin: 3% 0 0;
+    font-weight: 400;
+    font-size: 15.66px;
+
 }
+.wrapper .paragraph .strong{
+    margin: 2%;
+    color: #006FB9;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 13.7px;
+}
+.wrapper .paragraph .link{
+    text-decoration: none;
+}
+/*
 .paragraph .link{
     text-decoration: none;
-    color: #006FB9;
-    
+    color: #006FB9;  
 }
-
+*/
 .wrapper--cyber-monday-2023-carrusel-header {
     width: 100%;
 }
