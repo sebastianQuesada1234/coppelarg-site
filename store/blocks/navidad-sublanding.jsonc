@@ -2,13 +2,10 @@
   "store.custom#navidad2023-celulares": {
     "blocks": [
       "header-categoria#celulares",
+      "m3-conditional-render#temp-evento-beneficios",
       "search-result-layout.customQuery#navidad-2023-celulares"
     ]
   },
-
-
-
-
   "header-categoria#celulares": {
     "props": {
       "titulo": "Celulares y accesorios"
@@ -361,23 +358,292 @@
       "text": "## Lavado y Secado Eficiente: Ofertas en el Cyber Monday\n\nEn el evento del Cyber Monday, te ofrecemos una gran selección de productos de indumentaria y secado que incluye una amplia variedad de opciones, desde lavarropas hasta secarropas y convenientes lavasecarropas, para que encuentres el electrodoméstico perfecto.\nPara aquellos que buscan lavar la ropa de manera eficiente, nuestros productos de lavado y secado cuentan con la última tecnología y una variedad de capacidades para adaptarse a tus necesidades específicas. Ya sea que necesites un lavarropas de carga frontal o superior, vas a encontrar modelos de las marcas más reconocidas que ofrecen un rendimiento impecable y una amplia gama de programas de lavado. Y cuando se trata de secar la ropa, nuestros secarropas de alta calidad garantizan que tus prendas queden listas para usar en poco tiempo. También contamos con lavasecarropas que son la solución perfecta. Estos electrodomésticos combinan las funciones de lavado y secado en un solo dispositivo, ahorrándote tiempo y espacio en tu hogar.\nEl Cyber Monday en [Coppel.com.ar](/) o en la [App Coppel](https://play.google.com/store/apps/details?id=ar.com.coppel) es el momento ideal para adquirir productos de lavado y secado de alta calidad a precios excepcionales. Aprovechá nuestras ofertas y descuentos exclusivos durante este evento y simplificá tu rutina de lavandería.\n\nUtilizá tu [crédito](/credito-coppel) y estrená hoy mismo. Si todavía no tenés tu [Crédito Coppel](https://www2.coppel.com.ar/credito.php), solicitalo en línea; ¡es fácil, rápido y gratis!"
     }
   },
-  // Categoria refrigeración
+  // Categoria juguetería
   "store.custom#navidad2023-jugueteria": {
     "blocks": [
       "header-categoria#jugueteria",
-      //"evento-category-slider#navidad-2023-categorias",
+      "flex-layout.row#banner-jugueteria-coppel-grid",
       "m3-conditional-render#temp-evento-beneficios",
       "search-result-layout.customQuery#navidad-2023-jugueteria"
     ]
   },
 
-     
 
-
-
-
-
-
+  //banner juguetería
+  "flex-layout.row#banner-jugueteria-coppel-grid": {
+    "props": {
+      "blockClass": ["container-banner-dobles","sticky-header"],
+      "colSizing": "equal",
+      "fullWidth": true,
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#banner-jugueteria-coppel"
+    ]
+  },
+  "flex-layout.col#banner-jugueteria-coppel": {
+    "children": [
+      "flex-layout.row#banner-jugueteria"
+    ],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.row#banner-jugueteria": {
+    "props": {
+      "horizontalAlign": "center",
+      "fullWidth": true,
+      "blockClass": ["card-container"]
+    },
+    "children": [
+      "flex-layout.col#banner-doble-dino",
+      "flex-layout.col#banner-doble-pista",
+      "flex-layout.col#banner-doble-pista-3",
+      "flex-layout.col#banner-doble-pista-4",
+      "flex-layout.col#banner-doble-pista-5",
+      "flex-layout.col#banner-doble-pista-6"
+    ]
+  },
+  "flex-layout.col#banner-doble-dino": {
+    "children": [
+      "flex-layout.col#img-dino"
+    ],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#img-dino": {
+    "children": [
+      "image#dino",
+      "flex-layout.row#banner-dino"
+    ],
+    "props": {
+      "blockClass": "card-banner",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#dino": {
+    "props": {
+      "horizontalAlign": "center",
+      "width": 200,
+      "src": "assets/navidad/dino.png",
+      "maxHeight": 180
+    }
+  },
+  "flex-layout.row#banner-dino": {
+    "children": [
+      "rich-text#banner-dino"
+    ],
+    "props": {
+      "blockClass": "quienes-somos-titulo"
+    }
+  },
+  "rich-text#banner-dino": {
+    "props": {
+      "blockClass": "texto-banner",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "### Figuras de acción y dinosaurios"
+    }
+  },
+  //--card-2-//
+  "flex-layout.col#banner-doble-pista": {
+    "children": [
+      "flex-layout.row#img-pista",
+      "flex-layout.row#banner-bebe"
+    ],
+    "props": {
+      "blockClass": "card-banner"
+    }
+  },
+  "flex-layout.row#img-pista": {
+    "children": [
+      "image#pista"
+    ]
+  },
+  "image#pista": {
+    "props": {
+      "horizontalAlign": "center",
+      "width": 200,
+      "src": "assets/navidad/bebe.png",
+      "maxHeight": 180
+    }
+  },
+  "flex-layout.row#banner-bebe": {
+    "children": [
+      "rich-text#banner-bebe"
+    ],
+    "props": {
+      "blockClass": "quienes-somos-titulo"
+    }
+  },
+  "rich-text#banner-bebe": {
+    "props": {
+      "blockClass": "texto-banner",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "### Muñecas y bebés"
+    }
+  },
+  //-card-3-//
+  "flex-layout.col#banner-doble-pista-3": {
+    "children": [
+      "flex-layout.row#img-pista-3",
+      "flex-layout.row#banner-juego"
+    ],
+    "props": {
+      "blockClass": "card-banner"
+    }
+  },
+  "flex-layout.row#img-pista-3": {
+    "children": [
+      "image#pista-3"
+    ]
+  },
+  "image#pista-3": {
+    "props": {
+      "horizontalAlign": "center",
+      "width": 200,
+      "src": "assets/navidad/juego.png",
+      "maxHeight": 180
+    }
+  },
+  "flex-layout.row#banner-juego": {
+    "children": [
+      "rich-text#banner-juego"
+    ],
+    "props": {
+      "blockClass": "quienes-somos-titulo"
+    }
+  },
+  "rich-text#banner-juego": {
+    "props": {
+      "blockClass": "texto-banner",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "### Primera infancia"
+    }
+  },
+  //-card-4-//
+  "flex-layout.col#banner-doble-pista-4": {
+    "children": [
+      "flex-layout.row#img-pista-4",
+      "flex-layout.row#banner-pistola"
+    ],
+    "props": {
+      "blockClass": "card-banner"
+    }
+  },
+  "flex-layout.row#img-pista-4": {
+    "children": [
+      "image#pista-4"
+    ]
+  },
+  "image#pista-4": {
+    "props": {
+      "horizontalAlign": "center",
+      "width": 200,
+      "src": "assets/navidad/pistola.png",
+      "maxHeight": 180
+    }
+  },
+  "flex-layout.row#banner-pistola": {
+    "children": [
+      "rich-text#banner-pistola"
+    ],
+    "props": {
+      "blockClass": "quienes-somos-titulo"
+    }
+  },
+  "rich-text#banner-pistola": {
+    "props": {
+      "blockClass": "texto-banner",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "### Pistolas y espadas"
+    }
+  },
+  //-card-5-//
+  "flex-layout.col#banner-doble-pista-5": {
+    "children": [
+      "flex-layout.row#img-pista-5",
+      "flex-layout.row#banner-pista"
+    ],
+    "props": {
+      "blockClass": "card-banner"
+    }
+  },
+  "flex-layout.row#img-pista-5": {
+    "children": [
+      "image#pista-5"
+    ]
+  },
+  "image#pista-5": {
+    "props": {
+      "horizontalAlign": "center",
+      "width": 200,
+      "src": "assets/navidad/pista.png",
+      "maxHeight": 180
+    }
+  },
+  "flex-layout.row#banner-pista": {
+    "children": [
+      "rich-text#banner-pista"
+    ],
+    "props": {
+      "blockClass": "quienes-somos-titulo"
+    }
+  },
+  "rich-text#banner-pista": {
+    "props": {
+      "blockClass": "texto-banner",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "### Vehículos y pistas"
+    }
+  },
+  //-card-6-//
+  "flex-layout.col#banner-doble-pista-6": {
+    "children": [
+      "flex-layout.row#img-pista-6",
+      "flex-layout.row#banner-disfraz"
+    ],
+    "props": {
+      "blockClass": "card-banner"
+    }
+  },
+  "flex-layout.row#img-pista-6": {
+    "children": [
+      "image#pista-6"
+    ]
+  },
+  "image#pista-6": {
+    "props": {
+      "horizontalAlign": "center",
+      "width": 200,
+      "src": "assets/navidad/disfraz.png",
+      "maxHeight": 180
+    }
+  },
+  "flex-layout.row#banner-disfraz": {
+    "children": [
+      "rich-text#banner-disfraz"
+    ],
+    "props": {
+      "blockClass": "quienes-somos-titulo"
+    }
+  },
+  "rich-text#banner-disfraz": {
+    "props": {
+      "blockClass": "texto-banner",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "### Disfraces y maquillajes"
+    }
+  },
+  //banner jugueteria
   "header-categoria#jugueteria": {
     "props": {
       "titulo": "Juguetería"

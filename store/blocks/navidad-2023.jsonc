@@ -80,10 +80,10 @@
   },
   "flex-layout.col#navidad-2023-body": {
     "children": [
-      "flex-layout.col#navidad-banner-doble-2023",
       "flex-layout.row#navidad-2023-categorias",
       "m3-conditional-render#temp-evento-beneficios",
       "m3-conditional-render#body-section-06",
+      "flex-layout.col#navidad-banner-doble-2023",
       "m3-conditional-render#body-section-11",
       "m3-conditional-render#body-section-12",
       "responsive-layout.desktop#navidad-2023-oferta",
@@ -347,7 +347,7 @@
   },
   "rich-text#grid-card-2": {
     "props": {
-      "text": "[**Hasta 10% de descuento** *Encontrá los mejores modelos* **Ver más**](/celulares-telefonos-y-accesorios/smartwatch---fit-band)",
+      "text": "[**Hasta 10% de descuento** *Encontrá los mejores modelos* **Ver más**(/celulares-telefonos-y-accesorios/smartwatch---fit-band)]",
       "textAlignment": "LEFT",
       "textPosition": "CENTER",
       "blockClass": "grid-card"
@@ -370,6 +370,7 @@
       "blockClass": "grid-card"
     }
   },
+
   "rich-text#grid-card-3": {
     "props": {
       "text": "[**Hasta 25% de descuento** *Explorá el Motorola ideal para vos* **Ver más**](/celulares-telefonos-y-accesorios?map=brand,productClusterIds,productclusternames&query=/motorola/506/cyber-monday-celulares-y-accesorios&searchState=)",
@@ -846,6 +847,7 @@
   },
   "rich-text#banner-electro": {
     "props": {
+      "blockClass":"texto-banner-doble2",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text":"### Electrodomésticos para el hogar\n #### Equipá tus espacios  \n [**Ver más**](/cocina-y-pequenos-electrodomesticos)"
@@ -860,6 +862,7 @@
   },
   "rich-text#banner-tecno": {
     "props": {
+      "blockClass":"texto-banner-doble",
       "text": "### Innovación a tu alcance\n #### Descubrí la mejor tecnología en un solo lugar \n [**Ver más**](/tv-y-video)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
