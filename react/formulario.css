@@ -9,7 +9,7 @@
 .container {
     user-select: none;
     border-radius: 10px;
-    background-color: #FFE424;
+    background-color: #006FB9;
     top: 53px;
     left: 252px;
     padding: 1rem 74px 2.5rem 74px;
@@ -18,10 +18,10 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    color: black; 
+    color: white; 
     height: 100%;
     width: 100%;
-    max-width: 1280px;
+    max-width: 1410px;
     border-radius: 12px;
     object-fit: cover;
    
@@ -153,7 +153,7 @@ input:focus::placeholder {
 
 .check .link {
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: Helvetica;
     font-size: 16px;
     font-weight: 400;
@@ -222,11 +222,11 @@ input::placeholder {
 }
 
 .graciasContainer .container {
-    background-color: #FFE424;
+    background-color: #006FB9;
 }
 
 .msjAgradecimiento {
-    background-color: #FFE424;
+    background-color: #006FB9;
     display: flex;
     flex-direction: column;
     justify-content: center;
