@@ -11,7 +11,9 @@
         margin-top: 0;
     }
 }
-
+.strong--grid-card:first-child{
+    margin-top: 12px;
+}
 
 .headingLevel3--texto-banner{
     margin: 0 0 1.5rem;

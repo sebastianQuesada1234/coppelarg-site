@@ -347,7 +347,7 @@
   },
   "rich-text#grid-card-2": {
     "props": {
-      "text": "[**Hasta 10% de descuento** *Encontrá los mejores modelos* **Ver más**(/celulares-telefonos-y-accesorios/smartwatch---fit-band)]",
+      "text": "**Hasta 10% de descuentoooo** *Encontrá los mejores modelos* **Ver más**](/celulares-telefonos-y-accesorios/smartwatch---fit-band)",
       "textAlignment": "LEFT",
       "textPosition": "CENTER",
       "blockClass": "grid-card"
