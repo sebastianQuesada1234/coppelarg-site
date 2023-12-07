@@ -11,6 +11,12 @@
         margin-top: 0;
     }
 }
+/*card de contenidos*/
+.container--grid-card{
+    height: max-content;
+}
+/*card de contenidos*/
+
 .strong--grid-card:first-child{
     margin-top: 12px;
 }

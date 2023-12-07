@@ -1,4 +1,4 @@
-{
+{/*
   "store.custom#black-friday": {
     "blocks": [
       "flex-layout.row#black-friday-2023-banner",
@@ -75,7 +75,7 @@
       "verticalAlign": "middle",
       "horizontalAlign": "CENTER"
     }
-  },
+  },/*
   "flex-layout.row#black-friday-2023-ofertas-bomba": {
     "children": [
       "flex-layout.col#black-friday-2023-ofertas-bomba"
@@ -114,7 +114,7 @@
       "orderBy": "OrderByTopSaleDESC",
       "maxItems": 15
     }
-  },
+  },/*
   "flex-layout.row#black-friday-2023-body": {
     "children": [
       "flex-layout.col#black-friday-2023-body"
@@ -124,7 +124,7 @@
       "horizontalAlign": "CENTER",
       "fullWidth": true
     }
-  },
+  },/*
   "flex-layout.col#black-friday-2023-body": {
     "children": [
       "flex-layout.row#black-friday-2023-banners",
@@ -262,13 +262,13 @@
   "image#black-friday-2023-info-dsk": {
     "props": {
       "blockClass": "temp-evento-infos",
-      "src": "assets/cyber-monday/banner-beneficios-desktop.png"
+      "src": "assets/black-friday/banner2Desktop.png"
     }
   },
   "image#black-friday-2023-info-mob": {
     "props": {
       "blockClass": "temp-evento-infos",
-      "src": "assets/cyber-monday/banner-beneficios-mobile.png"
+      "src": "assets/black-friday/banner2Mobile.png"
     }
   },
   //Banners
@@ -383,6 +383,7 @@
     }
   },*/
   // Carrusel 2
+  
   "flex-layout.row#black-friday-2023-carrusel-02": {
     "title": "Carrusel #2",
     "children": [
@@ -511,7 +512,9 @@
       "maxItems": 15
     }
   },
+  
   // Banner medio
+  
   "responsive-layout.desktop#black-friday-2023-oferta": {
     "title": "Banner Oferta Desktop",
     "children": [
@@ -527,7 +530,7 @@
   "image#black-friday-2023-oferta-dsk": {
     "props": {
       "blockClass": "temp-evento-oferta",
-      "src": "assets/cyber-monday/banner-medio-desktop.png",
+      "src": "assets/black-friday/Landingbanners.png",
       "link": {
         "url": "/black-friday/tecnologia",
         "newTab": false
@@ -537,7 +540,7 @@
   "image#black-friday-2023-oferta-mbl": {
     "props": {
       "blockClass": "temp-evento-oferta",
-      "src": "assets/cyber-monday/banner-medio-mobile.png",
+      "src": "assets/black-friday/LandingbannersMobile.png",
       "link": {
         "url": "/black-friday/tecnologia",
         "newTab": false

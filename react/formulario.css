@@ -61,10 +61,10 @@ input {
     text-align: center;
     margin: 0;
 }
-
+/*
 .formContainer {
     margin-top: 3.5rem;
-}
+}*/
 
 #mailContainer {
     width: 908px;
@@ -78,7 +78,7 @@ input {
     width: 908px;
     height: 76px;
     gap: 20px;
-    margin-top: 40px;
+   /* margin-top: 40px;*/
 }
 
 #name,

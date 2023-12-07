@@ -3,7 +3,8 @@
     "blocks": [
       "header-categoria#celulares",
       "m3-conditional-render#temp-evento-beneficios",
-      "search-result-layout.customQuery#navidad-2023-celulares"
+      "search-result-layout.customQuery#navidad-2023-celulares",
+      "flex-layout.row#spacer"
     ]
   },
   "header-categoria#celulares": {
@@ -75,7 +76,8 @@
     "blocks": [
       "header-categoria#tv",
       "m3-conditional-render#temp-evento-beneficios",
-      "search-result-layout.customQuery#navidad-2023-tv"
+      "search-result-layout.customQuery#navidad-2023-tv",
+      "flex-layout.row#spacer"
     ]
   },
   "header-categoria#tv": {
@@ -147,7 +149,8 @@
     "blocks": [
       "header-categoria#tecnologia",
       "m3-conditional-render#temp-evento-beneficios",
-      "search-result-layout.customQuery#navidad-2023-tecnologia"
+      "search-result-layout.customQuery#navidad-2023-tecnologia",
+      "flex-layout.row#spacer"
     ]
   },
   "header-categoria#tecnologia": {
@@ -219,7 +222,8 @@
     "blocks": [
       "header-categoria#perfumeria",
       "m3-conditional-render#temp-evento-beneficios",
-      "search-result-layout.customQuery#navidad-2023-perfumeria"
+      "search-result-layout.customQuery#navidad-2023-perfumeria",
+      "flex-layout.row#spacer"
     ]
   },
   "header-categoria#perfumeria": {
@@ -291,7 +295,8 @@
     "blocks": [
       "header-categoria#indumentaria",
       "m3-conditional-render#temp-evento-beneficios",
-      "search-result-layout.customQuery#navidad-2023-indumentaria"
+      "search-result-layout.customQuery#navidad-2023-indumentaria",
+      "flex-layout.row#spacer"
     ]
   },
   "header-categoria#indumentaria": {
@@ -339,8 +344,8 @@
     "children": [
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#pagination",
-      "rich-text#seo-indumentaria"
+      "flex-layout.row#pagination"
+      //"rich-text#seo-indumentaria"
     ],
     "props": {
       "blockClass": "navidad-collection",
@@ -350,21 +355,22 @@
         "mode2": "normal"
       }
     }
-  },
+  },/*
   "rich-text#seo-indumentaria": {
     "title": "descriptions SEO",
     "props": {
       "blockClass": "result-navidad-2023-seo",
       "text": "## Lavado y Secado Eficiente: Ofertas en el Cyber Monday\n\nEn el evento del Cyber Monday, te ofrecemos una gran selección de productos de indumentaria y secado que incluye una amplia variedad de opciones, desde lavarropas hasta secarropas y convenientes lavasecarropas, para que encuentres el electrodoméstico perfecto.\nPara aquellos que buscan lavar la ropa de manera eficiente, nuestros productos de lavado y secado cuentan con la última tecnología y una variedad de capacidades para adaptarse a tus necesidades específicas. Ya sea que necesites un lavarropas de carga frontal o superior, vas a encontrar modelos de las marcas más reconocidas que ofrecen un rendimiento impecable y una amplia gama de programas de lavado. Y cuando se trata de secar la ropa, nuestros secarropas de alta calidad garantizan que tus prendas queden listas para usar en poco tiempo. También contamos con lavasecarropas que son la solución perfecta. Estos electrodomésticos combinan las funciones de lavado y secado en un solo dispositivo, ahorrándote tiempo y espacio en tu hogar.\nEl Cyber Monday en [Coppel.com.ar](/) o en la [App Coppel](https://play.google.com/store/apps/details?id=ar.com.coppel) es el momento ideal para adquirir productos de lavado y secado de alta calidad a precios excepcionales. Aprovechá nuestras ofertas y descuentos exclusivos durante este evento y simplificá tu rutina de lavandería.\n\nUtilizá tu [crédito](/credito-coppel) y estrená hoy mismo. Si todavía no tenés tu [Crédito Coppel](https://www2.coppel.com.ar/credito.php), solicitalo en línea; ¡es fácil, rápido y gratis!"
     }
-  },
+  },*/
   // Categoria juguetería
   "store.custom#navidad2023-jugueteria": {
     "blocks": [
       "header-categoria#jugueteria",
       "flex-layout.row#banner-jugueteria-coppel-grid",
       "m3-conditional-render#temp-evento-beneficios",
-      "search-result-layout.customQuery#navidad-2023-jugueteria"
+      "search-result-layout.customQuery#navidad-2023-jugueteria",
+      "flex-layout.row#spacer"
     ]
   },
 
@@ -787,7 +793,8 @@
     "blocks": [
       "header-categoria#electrobelleza",
       "m3-conditional-render#temp-evento-beneficios",
-      "search-result-layout.customQuery#navidad-2023-electrobelleza"
+      "search-result-layout.customQuery#navidad-2023-electrobelleza",
+      "flex-layout.row#spacer"
     ]
   },
   "header-categoria#electrobelleza": {
@@ -860,7 +867,8 @@
     "blocks": [
       "header-categoria#zapatillas",
       "m3-conditional-render#temp-evento-beneficios",
-      "search-result-layout.customQuery#navidad-2023-zapatillas"
+      "search-result-layout.customQuery#navidad-2023-zapatillas",
+      "flex-layout.row#spacer"
     ]
   },
   "header-categoria#zapatillas": {
@@ -997,7 +1005,8 @@
     "blocks": [
       "header-categoria#jardin",
       "m3-conditional-render#temp-evento-beneficios",
-      "search-result-layout.customQuery#cyber-monday-2023-jardin"
+      "search-result-layout.customQuery#cyber-monday-2023-jardin",
+      "flex-layout.row#spacer"
     ]
   },
   "header-categoria#jardin": {
@@ -1126,7 +1135,8 @@
     "blocks": [
       "header-categoria#electrodomesticos",
       "m3-conditional-render#temp-evento-beneficios",
-      "search-result-layout.customQuery#navidad-2023-electrodomesticos"
+      "search-result-layout.customQuery#navidad-2023-electrodomesticos",
+      "flex-layout.row#spacer"
     ]
   },
   "header-categoria#electrodomesticos": {
@@ -1254,7 +1264,8 @@
     "blocks": [
       "header-categoria#movilidad-electrica",
       "m3-conditional-render#temp-evento-beneficios",
-      "search-result-layout.customQuery#navidad-2023-movilidad-electrica"
+      "search-result-layout.customQuery#navidad-2023-movilidad-electrica",
+      "flex-layout.row#spacer"
     ]
   },
   "header-categoria#movilidad-electrica": {

@@ -1,14 +1,14 @@
 {
-  "store.custom#black-friday2023": {
+  "store.custom#cyber-monday-2023": {
     "blocks": [
-      "flex-layout.row#black-friday-2023-banner",
+      "flex-layout.row#cyber-monday-2023-banner",
       //  "flex-layout.row#cyber-monday-2023-ofertas-bomba",
-      "flex-layout.row#black-friday-2023-body"
+      "flex-layout.row#cyber-monday-2023-body"
     ]
   },
-  "flex-layout.row#black-friday-2023-banner": {
+  "flex-layout.row#cyber-monday-2023-banner": {
     "children": [
-      "flex-layout.col#black-friday-2023-banner"
+      "flex-layout.col#cyber-monday-2023-banner"
     ],
     "props": {
       "blockClass": "body-container-home",
@@ -16,11 +16,11 @@
       "fullWidth": true
     }
   },
-  "flex-layout.col#black-friday-2023-banner": {
+  "flex-layout.col#cyber-monday-2023-banner": {
     "children": [
-      "list-context.image-list#black-friday-2023",
-      "responsive-layout.desktop#black-friday-2023-info",
-      "responsive-layout.mobile#black-friday-2023-info"
+      "list-context.image-list#cyber-monday-2023",
+      "responsive-layout.desktop#cyber-mondayy-2023-info",
+      "responsive-layout.mobile#cyber-mondayy-2023-info"
     ],
     "props": {
       "blockClass": "body-container-home",
@@ -68,9 +68,9 @@
       "maxItems": 15
     }
   },*/
-  "flex-layout.row#black-friday-2023-body": {
+  "flex-layout.row#cyber-monday-2023-body": {
     "children": [
-      "flex-layout.col#black-friday-2023-body"
+      "flex-layout.col#cyber-monday-2023-body"
     ],
     "props": {
       "blockClass": "body-container-home",
@@ -78,7 +78,7 @@
       "fullWidth": true
     }
   },
-  "flex-layout.col#black-friday-2023-body": {
+  "flex-layout.col#cyber-monday-2023-body": {
     "children": [
       "flex-layout.row#cyber-monday-2023-banners",
       "flex-layout.row#cyber-monday-2023-categorias",
@@ -87,8 +87,8 @@
       //"m3-conditional-render#body-section-12",
       "flex-layout.row#cyber-monday-2023-carrusel-01",
        "flex-layout.row#cyber-monday-2023-carrusel-02",
-      "responsive-layout.desktop#black-friday-2023-oferta",
-      "responsive-layout.mobile#black-friday-2023-oferta",
+      "responsive-layout.desktop#cyber-monday-2023-oferta",
+      "responsive-layout.mobile#cyber-monday-2023-oferta",
       //"m3-conditional-render#body-section-13",
       //"m3-conditional-render#body-section-14",
       "flex-layout.row#cyber-monday-2023-carrusel-03",
@@ -101,7 +101,7 @@
       "horizontalAlign": "CENTER"
     }
   },
-  "list-context.image-list#black-friday-2023": {
+  "list-context.image-list#cyber-monday-2023": {
     "title": "Banner Principal",
     "children": [
       "slider-layout#temp-evento-images"
@@ -204,36 +204,36 @@
     }
   },
   //Banners Info
-  "responsive-layout.desktop#black-friday-2023-info": {
+  "responsive-layout.desktop#cyber-mondayy-2023-info": {
     "title": "Banner Infos Desktop",
     "children": [
-      "image#black-friday-2023-info-dsk"
+      "image#cyber-mondayy-2023-info-dsk"
     ]
   },
-  "responsive-layout.mobile#black-friday-2023-info": {
+  "responsive-layout.mobile#cyber-mondayy-2023-info": {
     "title": "Banner Infos Mobile",
     "children": [
-      "image#black-friday-2023-info-mob"
+      "image#cyber-mondayy-2023-info-mob"
     ]
   },
-  "image#black-friday-2023-info-dsk": {
+  "image#cyber-mondayy-2023-info-dsk": {
     "props": {
       "blockClass": "temp-evento-infos",
-      "src": "assets/black-friday/banner2Desktop.png"
+      "src": "assets/cyber-monday/banner-beneficios-desktop.png"
     }
   },
-  "image#black-friday-2023-info-mob": {
+  "image#cyber-mondayy-2023-info-mob": {
     "props": {
       "blockClass": "temp-evento-infos",
-      "src": "assets/black-friday/banner2Mobile.png"
+      "src": "assets/cyber-monday/banner-beneficios-mobile.png"
     }
   },
   //Banners
-  "flex-layout.row#black-friday-2023-banners": {
+  "flex-layout.row#cyber-monday-2023-banners": {
     "title": "Banners",
     "children": [
-      "flex-layout.col#black-friday-2023-banners-titles",
-      "flex-layout.col#black-friday-2023-banners-content"
+      "flex-layout.col#cyber-monday-2023-banners-titles",
+      "flex-layout.col#cyber-monday-2023-banners-content"
     ],
     "props": {
       "blockClass": "temp-evento-banners",
@@ -241,23 +241,23 @@
       "fullWidth": true
     }
   },
-  "flex-layout.col#black-friday-2023-banners-titles": {
+  "flex-layout.col#cyber-monday-2023-banners-titles": {
     "children": [
-      "rich-text#black-friday-2023-banners"
+      "rich-text#cyber-monday-2023-banners"
     ],
     "props": {
       "blockClass": "temp-evento-banners",
       "width": "100%"
     }
   },
-  "rich-text#black-friday-2023-banners": {
+  "rich-text#cyber-monday-2023-banners": {
     "title": "Titulo y Subtitulo",
     "props": {
       "text": "# Black Friday en Coppel\n ### ¡Encontrá todas las ofertas por categoría!",
       "blockClass": "temp-evento-banners"
     }
   },
-  "flex-layout.col#black-friday-2023-banners-content": {
+  "flex-layout.col#cyber-monday-2023-banners-content": {
     "children": [
       "evento-banners#cyber-monday-2023-banners"
     ],
@@ -469,32 +469,32 @@
     }
   },
   // Banner medio
-  "responsive-layout.desktop#black-friday-2023-oferta": {
+  "responsive-layout.desktop#cyber-monday-2023-oferta": {
     "title": "Banner Oferta Desktop",
     "children": [
-      "image#black-friday-2023-oferta-dsk"
+      "image#cyber-monday-2023-oferta-dsk"
     ]
   },
-  "responsive-layout.mobile#black-friday-2023-oferta": {
+  "responsive-layout.mobile#cyber-monday-2023-oferta": {
     "title": "Banner Oferta Mobile",
     "children": [
-      "image#black-friday-2023-oferta-mbl"
+      "image#cyber-monday-2023-oferta-mbl"
     ]
   },
-  "image#black-friday-2023-oferta-dsk": {
+  "image#cyber-monday-2023-oferta-dsk": {
     "props": {
       "blockClass": "temp-evento-oferta",
-      "src": "assets/black-friday/Landingbanners.png",
+      "src": "assets/cyber-monday/banner-medio-desktop.png",
       "link": {
         "url": "/jardin",
         "newTab": false
       }
     }
   },
-  "image#black-friday-2023-oferta-mbl": {
+  "image#cyber-monday-2023-oferta-mbl": {
     "props": {
       "blockClass": "temp-evento-oferta",
-      "src": "assets/black-friday/LandingbannersMobile.png",
+      "src": "assets/cyber-monday/banner-medio-mobile.png",
       "link": {
         "url": "/jardin",
         "newTab": false

@@ -139,8 +139,8 @@
       "fullWidth": true,
       "images": [
         {
-          "image": "assets/navidad/banner1D.png",
-          "mobileImage": "assets/navidad/banner1M.png"
+          "image": "assets/newsletter/newsletterBD.png",
+          "mobileImage": "assets/newsletter/newsletterBM.png"
         }
       ],
       "blockClass": "temp-evento-images"
@@ -156,8 +156,8 @@
       "fullWidth": true,
       "images": [
         {
-          "image": "assets/navidad/banner1D.png",
-          "mobileImage": "assets/navidad/banner1M.png"
+          "image": "assets/newsletter/newsletterMD.png",
+          "mobileImage": "assets/newsletter/newsletterBD.png"
         }
       ],
       "blockClass": "temp-evento-images"
@@ -279,7 +279,7 @@
     }
   },
   //Banners
-  
+  /*
   "m3-conditional-render#body-section-06": {
     "title": "V/I - Section 06",
     "props": {
@@ -446,7 +446,7 @@
       "textPosition": "CENTER",
       "blockClass": "grid-card"
     }
-  },
+  },*/
   // Carrusel 1
   "m3-conditional-render#body-section-11": {
     "title": "V/I - Section 11",
