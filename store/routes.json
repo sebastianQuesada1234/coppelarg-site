@@ -30,9 +30,13 @@
         "path": "/notebooks-y-tecnologia",
         "title": "Tecnología - Navidad | Coppel.com.ar"
     },
-    "store.custom#navidad-2023-pequeños-electrodomesticos": {
+    "store.custom#navidad2023-sublanding-tecnologia-landing": {
+        "path": "/notebooks-y-tecnologia2",
+        "title": "Tecnología - Navidad | Coppel.com.ar"
+    },
+    "store.custom#navidad2023-sublanding-electro-landing": {
         "path": "/cocina-y-pequenos-electrodomesticos",
-        "title": "Climatización - Navidad | Coppel.com.ar"
+        "title": "Tecnología - Navidad | Coppel.com.ar"
     },
     "store.custom#navidad2023-electrobelleza": {
         "path": "/electrodomesticos/electro-belleza",

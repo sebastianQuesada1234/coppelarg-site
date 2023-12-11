@@ -435,7 +435,11 @@
       "horizontalAlign": "center",
       "width": 200,
       "src": "assets/navidad/dino.png",
-      "maxHeight": 180
+      "maxHeight": 180,
+      "link": {
+        "url": "/auriculares?_q=auriculares&map=ft",
+        "newTab": false
+      }
     }
   },
   "flex-layout.row#banner-dino": {
@@ -461,7 +465,9 @@
       "flex-layout.row#banner-bebe"
     ],
     "props": {
-      "blockClass": "card-banner"
+      "blockClass": "card-banner",
+      "horizontalAlign": "center"
+
     }
   },
   "flex-layout.row#img-pista": {
@@ -474,7 +480,11 @@
       "horizontalAlign": "center",
       "width": 200,
       "src": "assets/navidad/bebe.png",
-      "maxHeight": 180
+      "maxHeight": 180,
+      "link": {
+        "url": "/auriculares?_q=auriculares&map=ft",
+        "newTab": false
+      }
     }
   },
   "flex-layout.row#banner-bebe": {
@@ -500,7 +510,9 @@
       "flex-layout.row#banner-juego"
     ],
     "props": {
-      "blockClass": "card-banner"
+      "blockClass": "card-banner",
+      "horizontalAlign": "center"
+
     }
   },
   "flex-layout.row#img-pista-3": {
@@ -513,7 +525,11 @@
       "horizontalAlign": "center",
       "width": 200,
       "src": "assets/navidad/juego.png",
-      "maxHeight": 180
+      "maxHeight": 180,
+      "link": {
+        "url": "/jugueteria/primera-infancia",
+        "newTab": false
+      }
     }
   },
   "flex-layout.row#banner-juego": {
@@ -539,7 +555,9 @@
       "flex-layout.row#banner-pistola"
     ],
     "props": {
-      "blockClass": "card-banner"
+      "blockClass": "card-banner",
+      "horizontalAlign": "center"
+
     }
   },
   "flex-layout.row#img-pista-4": {
@@ -552,7 +570,11 @@
       "horizontalAlign": "center",
       "width": 200,
       "src": "assets/navidad/pistola.png",
-      "maxHeight": 180
+      "maxHeight": 180,
+      "link": {
+        "url": "/jugueteria/juguetes/pistolas-y-lanzadores",
+        "newTab": false
+      }
     }
   },
   "flex-layout.row#banner-pistola": {
@@ -578,7 +600,9 @@
       "flex-layout.row#banner-pista"
     ],
     "props": {
-      "blockClass": "card-banner"
+      "blockClass": "card-banner",
+      "horizontalAlign": "center"
+
     }
   },
   "flex-layout.row#img-pista-5": {
@@ -591,7 +615,11 @@
       "horizontalAlign": "center",
       "width": 200,
       "src": "assets/navidad/pista.png",
-      "maxHeight": 180
+      "maxHeight": 180,
+      "link": {
+        "url": "/auriculares?_q=auriculares&map=ft",
+        "newTab": false
+      }
     }
   },
   "flex-layout.row#banner-pista": {
@@ -617,7 +645,8 @@
       "flex-layout.row#banner-disfraz"
     ],
     "props": {
-      "blockClass": "card-banner"
+      "blockClass": "card-banner",
+      "horizontalAlign": "center"
     }
   },
   "flex-layout.row#img-pista-6": {
@@ -630,7 +659,11 @@
       "horizontalAlign": "center",
       "width": 200,
       "src": "assets/navidad/disfraz.png",
-      "maxHeight": 180
+      "maxHeight": 180,
+      "link": {
+        "url": "/auriculares?_q=auriculares&map=ft",
+        "newTab": false
+      }
     }
   },
   "flex-layout.row#banner-disfraz": {

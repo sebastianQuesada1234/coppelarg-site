@@ -1,0 +1,393 @@
+{
+    "store.custom#navidad2023-sublanding-tecnologia-landing": {
+        "blocks": [
+          "header-categoria#tecnologia-landing",
+         "flex-layout.row#banner-electro-landing-coppel-grid",
+          "m3-conditional-render#temp-evento-beneficios",
+          "search-result-layout.customQuery#navidad-2023-tecnologia-landing",
+          "flex-layout.row#spacer"
+        ]
+      },
+    
+      "flex-layout.row#banner-electro-landing-coppel-grid": {
+        "props": {
+          "blockClass": ["container-banner-dobles","sticky-header"],
+          "colSizing": "equal",
+          "fullWidth": false,
+          "horizontalAlign": "between"
+          
+        },
+        "children": [
+          "flex-layout.col#banner-electro-landing-coppel"
+        ]
+      },
+      "flex-layout.col#banner-electro-landing-coppel": {
+        "children": [
+          "flex-layout.row#banner-electro-landing"
+        ],
+        "props": {
+          "verticalAlign": "middle"
+        }
+      },
+      "flex-layout.row#banner-electro-landing": {
+        "props": {
+            "colSizing": "equal",
+            "fullWidth": false,
+            "horizontalAlign": "between",
+    
+          "blockClass": ["card-container"]
+        },
+        "children": [
+          "flex-layout.col#banner-doble-electro-auris",
+          "flex-layout.col#banner-doble-electro-note",
+          "flex-layout.col#banner-doble-electro-play",
+          "flex-layout.col#banner-doble-electro-tablet"
+        //  "flex-layout.col#banner-doble-lavarropa-5",
+         // "flex-layout.col#banner-doble-termo-6"
+        ]
+      },
+      "flex-layout.col#banner-doble-electro-auris": {
+        "children": [
+          "flex-layout.col#img-electro-auris"
+        ],
+        "props": {
+          "verticalAlign": "center"
+    
+        }
+      },
+      "flex-layout.col#img-electro-auris": {
+        "children": [
+          "image#electro-auris",
+          "flex-layout.row#banner-electro-auris"
+        ],
+        "props": {
+          "blockClass": "card-banner",
+          "verticalAlign": "middle",
+          "horizontalAlign": "center"
+        }
+      },
+      "image#electro-auris": {
+        "props": {
+          "horizontalAlign": "center",
+          "width": 200,
+          "src": "assets/navidad/subLandingElectro/auris.png",
+          "maxHeight": 180,
+          "link": {
+            "url": "/auriculares?_q=auriculares&map=ft",
+            "newTab": false
+          }
+        }
+      },
+      "flex-layout.row#banner-electro-auris": {
+        "children": [
+          "rich-text#banner-electro-auris"
+        ],
+        "props": {
+          "blockClass": "quienes-somos-titulo"
+        }
+      },
+      "rich-text#banner-electro-auris": {
+        "props": {
+          "blockClass": "texto-banner",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "### Auriculares"
+        }
+      },
+      //--card-2-//
+      "flex-layout.col#banner-doble-electro-note": {
+        "children": [
+          "flex-layout.row#img-electro-note",
+          "flex-layout.row#banner-electro-note"
+        ],
+        "props": {
+          "blockClass": "card-banner",
+          "horizontalAlign": "center"
+        }
+      },
+      "flex-layout.row#img-electro-note": {
+        "children": [
+          "image#electro-note"
+        ]
+      },
+      "image#electro-note": {
+        "props": {
+          "horizontalAlign": "center",
+          "width": 200,
+          "src": "assets/navidad/subLandingElectro/note.png",
+          "maxHeight": 180,
+          "link": {
+            "url": "/notebooks-y-tecnologia/notebooks",
+            "newTab": false
+          }
+        }
+      },
+      "flex-layout.row#banner-electro-note": {
+        "children": [
+          "rich-text#banner-electro-note"
+        ],
+        "props": {
+          "blockClass": "quienes-somos-titulo"
+        }
+      },
+      "rich-text#banner-electro-note": {
+        "props": {
+          "blockClass": "texto-banner",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "### Notebooks"
+        }
+      },
+      //-card-3-//
+      "flex-layout.col#banner-doble-electro-play": {
+        "children": [
+          "flex-layout.row#img-electro-play",
+          "flex-layout.row#electro-play"
+        ],
+        "props": {
+          "blockClass": "card-banner",
+          "horizontalAlign": "center"
+
+        }
+      },
+      "flex-layout.row#img-electro-play": {
+        "children": [
+          "image#electro-play"
+        ]
+      },
+      "image#electro-play": {
+        "props": {
+          "horizontalAlign": "center",
+          "width": 200,
+          "src": "assets/navidad/subLandingElectro/play.png",
+          "maxHeight": 180,
+          "link": {
+            "url": "/mundo-gamer/consolas",
+            "newTab": false
+          }
+        }
+      },
+      "flex-layout.row#electro-play": {
+        "children": [
+          "rich-text#electro-play"
+        ],
+        "props": {
+          "blockClass": "quienes-somos-titulo"
+        }
+      },
+      "rich-text#electro-play": {
+        "props": {
+          "blockClass": "texto-banner",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "### Consolas"
+        }
+      },
+      //-card-4-//
+      
+      "flex-layout.col#banner-doble-electro-tablet": {
+        "children": [
+          "flex-layout.row#img-electro-tablet",
+          "flex-layout.row#banner-electro-tablet"
+        ],
+        "props": {
+          "blockClass": "card-banner",
+          "horizontalAlign": "center"
+        }
+      },
+      "flex-layout.row#img-electro-tablet": {
+        "children": [
+          "image#electro-tablet"
+        ]
+      },
+      "image#electro-tablet": {
+        "props": {
+          "horizontalAlign": "center",
+          "width": 200,
+          "src": "assets/navidad/subLandingElectro/tablet.png",
+          "maxHeight": 180,
+          "link": {
+            "url": "/notebooks-y-tecnologia/tablets",
+            "newTab": false
+          }
+        }
+      },
+      "flex-layout.row#banner-electro-tablet": {
+        "children": [
+          "rich-text#banner-electro-tablet"
+        ],
+        "props": {
+          "blockClass": "quienes-somos-titulo"
+        }
+      },
+      "rich-text#banner-electro-tablet": {
+        "props": {
+          "blockClass": "texto-banner",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "### Tablets"
+        }
+      },
+      //-card-5-//
+      /*
+      "flex-layout.col#banner-doble-lavarropa-5": {
+        "children": [
+          "flex-layout.row#img-lavarropa-5",
+          "flex-layout.row#banner-lavarropa"
+        ],
+        "props": {
+          "blockClass": "card-banner",
+          "horizontalAlign": "center"
+
+        }
+      },
+      "flex-layout.row#img-lavarropa-5": {
+        "children": [
+          "image#lavarropa-5"
+        ]
+      },
+      "image#lavarropa-5": {
+        "props": {
+          "horizontalAlign": "center",
+          "width": 200,
+          "src": "assets/navidad/subLandingTecno/lavarropa.png",
+          "maxHeight": 180,
+          "link": {
+            "url": "/electrodomesticos/lavado-y-secado",
+            "newTab": false
+          }
+        }
+      },
+      "flex-layout.row#banner-lavarropa": {
+        "children": [
+          "rich-text#banner-lavarropa"
+        ],
+        "props": {
+          "blockClass": "quienes-somos-titulo"
+        }
+      },
+      "rich-text#banner-lavarropa": {
+        "props": {
+          "blockClass": "texto-banner",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "### Lavado y Secado"
+        }
+      },
+      //-card-6-//
+      "flex-layout.col#banner-doble-termo-6": {
+        "children": [
+          "flex-layout.row#img-termo-6",
+          "flex-layout.row#banner-termo"
+        ],
+        "props": {
+          "blockClass": "card-banner",
+          "horizontalAlign": "center"
+        }
+      },
+      "flex-layout.row#img-termo-6": {
+        "children": [
+          "image#termo-6"
+        ]
+      },
+      "image#termo-6": {
+        "props": {
+          "horizontalAlign": "center",
+          "width": 200,
+          "src": "assets/navidad/subLandingTecno/termo.png",
+          "maxHeight": 180,
+          "link": {
+            "url": "/termotanques-y-calefones",
+            "newTab": false
+          }
+        }
+      },
+      "flex-layout.row#banner-termo": {
+        "children": [
+          "rich-text#banner-termo"
+        ],
+        "props": {
+          "blockClass": "quienes-somos-titulo"
+        }
+      },
+      "rich-text#banner-termo": {
+        "props": {
+          "blockClass": "texto-banner",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "### Termotanques y Calefones"
+        }
+      },*/
+
+
+
+
+
+    
+      //banner tecnologia-landing
+      "header-categoria#tecnologia-landing": {
+        "props": {
+          "titulo": "Tecnología"
+        }
+      },
+      "search-result-layout.customQuery#navidad-2023-tecnologia-landing": {
+        "props": {
+          "blockClass": "coleccion",
+          "querySchema": {
+            "maxItemsPerPage": 20,
+            "queryField": "542",
+            "mapField": "productClusterIds",
+            "skusFilter": "ALL_AVAILABLE",
+            "simulationBehavior": "default"
+          }
+        },
+        "blocks": [
+          "search-result-layout.desktop#navidad-2023-tecnologia-landing",
+          "search-result-layout.mobile#navidad-2023-tecnologia-landing",
+          "coppelar.search-result:search-not-found-layout"
+        ]
+      },
+      "search-result-layout.desktop#navidad-2023-tecnologia-landing": {
+        "children": [
+          "flex-layout.row#result-navidad-2023"
+          // "rich-text#seo-tecnologia-landing"
+        ],
+        "props": {
+          "preventRouteChange": true,
+          "thresholdForFacetSearch": 10,
+          "showProductsCount": true,
+          "showFacetQuantity": true,
+          "HiddenFacets": {
+            "priceRange": true
+          },
+          "pagination": "show-more",
+          "mobileLayout": {
+            "mode1": "small",
+            "mode2": "normal"
+          }
+        }
+      },
+      "search-result-layout.mobile#navidad-2023-tecnologia-landing": {
+        "children": [
+          "flex-layout.row#searchinfomobile",
+          "flex-layout.row#contentmobile",
+          "flex-layout.row#pagination"
+          //"rich-text#seo-tecnologia-landing"
+        ],
+        "props": {
+          "blockClass": "navidad-collection",
+          "pagination": "show-more",
+          "mobileLayout": {
+            "mode1": "small",
+            "mode2": "normal"
+          }
+        }
+      },
+      "rich-text#seo-tecnologia-landing": {
+        "title": "descriptions SEO",
+        "props": {
+          "blockClass": "result-navidad-2023-seo",
+          "text": "## Cyber Monday de frescura: Descuentos en Heladeras y Freezers\n\nEn [Coppel.com.ar](/) o en la [App Coppel](https://play.google.com/store/apps/details?id=ar.com.coppel) te invitamos a descubrir una amplia gama de productos de refrigeración en este Cyber Monday para que renueves tu casa con los electrodomésticos que transformarán la frescura de tus alimentos.\nYa sea que necesites reemplazar tu heladera actual o quieras agregar un freezer adicional a tu espacio, nuestras heladeras están diseñadas para brindarte eficiencia energética y un almacenamiento organizado. Con una variedad de tamaños y diseños, podés encontrar el modelo perfecto que se ajuste a tu perfumeria y estilo. Y nuestros freezers te permiten tener más espacio para congelar tus alimentos y mantenerlos a la temperatura adecuada. Ya sea para almacenar productos congelados o preparar tus propias recetas con ingredientes fridayfrescos, nuestras heladeras y freezers ofrecen versatilidad y capacidad de almacenamiento para satisfacer tus necesidades.\nContamos con las mejores marcas del mercado para que te lleves el electrodoméstico que más te guste. El Cyber Monday es el evento perfecto para adquirir productos de refrigeración de alta calidad a precios atractivos.\n\nUtilizá tu [crédito](/credito-coppel) y estrená hoy mismo. Si todavía no tenés tu [Crédito Coppel](https://www2.coppel.com.ar/credito.php), solicitalo en línea; ¡es fácil, rápido y gratis!"
+        }
+      }
+    }

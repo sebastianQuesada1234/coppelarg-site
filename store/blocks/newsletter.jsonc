@@ -787,8 +787,9 @@
         "newTab": false
       }
     }
-  },
+  }
   //banner doble
+  /*
   "flex-layout.col#newsletter-banner-doble-2023": {
     "children": [
       "flex-layout.row#grid-banner-doble"
@@ -910,5 +911,5 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
-  }
+  }*/
 }
