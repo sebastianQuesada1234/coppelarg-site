@@ -408,7 +408,7 @@
       "flex-layout.col#banner-doble-pista-3",
       "flex-layout.col#banner-doble-pista-4",
       "flex-layout.col#banner-doble-pista-5",
-      "flex-layout.col#banner-doble-pista-6"
+      "flex-layout.col#banner-doble-jugueteria-6"
     ]
   },
   "flex-layout.col#banner-doble-dino": {
@@ -437,7 +437,7 @@
       "src": "assets/navidad/dino.png",
       "maxHeight": 180,
       "link": {
-        "url": "/auriculares?_q=auriculares&map=ft",
+        "url": "/jugueteria/juguetes/munecos",
         "newTab": false
       }
     }
@@ -482,7 +482,7 @@
       "src": "assets/navidad/bebe.png",
       "maxHeight": 180,
       "link": {
-        "url": "/auriculares?_q=auriculares&map=ft",
+        "url": "/jugueteria/juguetes/munecas-y-bebotes",
         "newTab": false
       }
     }
@@ -617,7 +617,7 @@
       "src": "assets/navidad/pista.png",
       "maxHeight": 180,
       "link": {
-        "url": "/auriculares?_q=auriculares&map=ft",
+        "url": "/jugueteria/juguetes/autos-vehiculos-y-pistas",
         "newTab": false
       }
     }
@@ -639,42 +639,43 @@
     }
   },
   //-card-6-//
-  "flex-layout.col#banner-doble-pista-6": {
+  "flex-layout.col#banner-doble-jugueteria-6": {
     "children": [
-      "flex-layout.row#img-pista-6",
-      "flex-layout.row#banner-disfraz"
+      "flex-layout.row#img-jugueteria-6",
+      "flex-layout.row#banner-jugueteria-6"
     ],
     "props": {
       "blockClass": "card-banner",
       "horizontalAlign": "center"
+
     }
   },
-  "flex-layout.row#img-pista-6": {
+  "flex-layout.row#img-jugueteria-6": {
     "children": [
-      "image#pista-6"
+      "image#jugueteria-6"
     ]
   },
-  "image#pista-6": {
+  "image#jugueteria-6": {
     "props": {
       "horizontalAlign": "center",
       "width": 200,
       "src": "assets/navidad/disfraz.png",
       "maxHeight": 180,
       "link": {
-        "url": "/auriculares?_q=auriculares&map=ft",
+        "url": "/navidad/disfraces%20y%20maquillajes?_q=disfraces%20y%20maquillajes&map=ft&page=1",
         "newTab": false
       }
     }
   },
-  "flex-layout.row#banner-disfraz": {
+  "flex-layout.row#banner-jugueteria-6": {
     "children": [
-      "rich-text#banner-disfraz"
+      "rich-text#banner-jugueteria-6"
     ],
     "props": {
       "blockClass": "quienes-somos-titulo"
     }
   },
-  "rich-text#banner-disfraz": {
+  "rich-text#banner-jugueteria-6": {
     "props": {
       "blockClass": "texto-banner",
       "textAlignment": "CENTER",

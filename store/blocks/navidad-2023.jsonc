@@ -863,7 +863,7 @@
   "rich-text#banner-tecno": {
     "props": {
       "blockClass":"texto-banner-doble",
-      "text": "### Innovación a tu alcance\n #### Descubrí la mejor tecnología en un solo lugar \n [**Ver más**](/notebooks-y-tecnologia2)",
+      "text": "### Innovación a tu alcance\n #### Descubrí la mejor tecnología en un solo lugar \n [**Ver más**](/notebooks-y-tecnologia)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
