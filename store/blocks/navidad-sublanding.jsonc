@@ -367,27 +367,67 @@
   "store.custom#navidad2023-jugueteria": {
     "blocks": [
       "header-categoria#jugueteria",
-      "flex-layout.row#banner-jugueteria-coppel-grid",
-      "m3-conditional-render#temp-evento-beneficios",
+      "m3-conditional-render#banner-jugueteria-dsk",
+      "flex-layout.row#beneficios",
       "search-result-layout.customQuery#navidad-2023-jugueteria",
       "flex-layout.row#spacer"
     ]
   },
 
+  "flex-layout.row#beneficios":{
+    "children":[
+      "m3-conditional-render#temp-evento-beneficios"
+    ],
+    "props": {
+      "blockClass": ["body-container-home"]
+    }
+  },
 
-  //banner juguetería
-  "flex-layout.row#banner-jugueteria-coppel-grid": {
+  //banner cocina y pequeños
+  "m3-conditional-render#banner-jugueteria-dsk": {
+    "title": "V/I - Oferta",
+    "props": {
+      "condition": true
+    },
+    "children": [
+      "responsive-layout.desktop#banner-jugueteria-dsk",
+      "responsive-layout.mobile#banner-jugueteria-mbl"
+    ]
+  },
+  "responsive-layout.desktop#banner-jugueteria-dsk": {
+    "title": "Banner Oferta Desktop",
+    "children": ["flex-layout.row#banner-jugueteria-landing-coppel-dsk"]
+  },
+  "responsive-layout.mobile#banner-jugueteria-mbl": {
+    "title": "Banner Oferta Mobile",
+    "children": ["flex-layout.row#banner-jugueteria-landing-coppel-mbl"]
+  },
+  "flex-layout.row#banner-jugueteria-landing-coppel-mbl": {
     "props": {
       "blockClass": ["container-banner-dobles","sticky-header"],
       "colSizing": "equal",
-      "fullWidth": true,
-      "horizontalAlign": "center",
-      "preventHorizontalStretch": true
+      "fullWidth": false,
+      "horizontalAlign": "between"
     },
     "children": [
       "flex-layout.col#banner-jugueteria-coppel"
     ]
   },
+
+  "flex-layout.row#banner-jugueteria-landing-coppel-dsk": {
+    "props": {
+      "blockClass": ["body-container-home"],
+      "colSizing": "equal",
+      "fullWidth": false,
+      "horizontalAlign": "between"
+    },
+    "children": [
+      "flex-layout.col#banner-jugueteria-coppel"
+    ]
+  },
+
+
+  //banner juguetería
   "flex-layout.col#banner-jugueteria-coppel": {
     "children": [
       "flex-layout.row#banner-jugueteria"

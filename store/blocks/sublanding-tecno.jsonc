@@ -2,25 +2,64 @@
     "store.custom#navidad2023-sublanding-tecnologia-landing": {
         "blocks": [
           "header-categoria#tecnologia-landing",
-         "flex-layout.row#banner-electro-landing-coppel-grid",
-          "m3-conditional-render#temp-evento-beneficios",
+          "m3-conditional-render#banner-elec-dsk",
+          "flex-layout.row#beneficios",
           "search-result-layout.customQuery#navidad-2023-tecnologia-landing",
           "flex-layout.row#spacer"
         ]
       },
     
-      "flex-layout.row#banner-electro-landing-coppel-grid": {
+      "flex-layout.row#beneficios":{
+        "children":[
+          "m3-conditional-render#temp-evento-beneficios"
+        ],
+        "props": {
+          "blockClass": ["body-container-home"]
+        }
+      },
+
+      //banner cocina y pequeños
+      "m3-conditional-render#banner-elec-dsk": {
+        "title": "V/I - Oferta",
+        "props": {
+          "condition": true
+        },
+        "children": [
+          "responsive-layout.desktop#banner-elec-dsk",
+          "responsive-layout.mobile#banner-elec-mbl"
+        ]
+      },
+      "responsive-layout.desktop#banner-elec-dsk": {
+        "title": "Banner Oferta Desktop",
+        "children": ["flex-layout.row#banner-electro-landing-coppel-dsk"]
+      },
+      "responsive-layout.mobile#banner-elec-mbl": {
+        "title": "Banner Oferta Mobile",
+        "children": ["flex-layout.row#banner-electro-landing-coppel-mbl"]
+      },
+      "flex-layout.row#banner-electro-landing-coppel-mbl": {
         "props": {
           "blockClass": ["container-banner-dobles","sticky-header"],
           "colSizing": "equal",
           "fullWidth": false,
           "horizontalAlign": "between"
-          
         },
         "children": [
           "flex-layout.col#banner-electro-landing-coppel"
         ]
       },
+
+      "flex-layout.row#banner-electro-landing-coppel-dsk": {
+        "props": {
+          "blockClass": ["body-container-home"]
+        },
+        "children": [
+          "flex-layout.col#banner-electro-landing-coppel"
+        ]
+      },
+
+
+
       "flex-layout.col#banner-electro-landing-coppel": {
         "children": [
           "flex-layout.row#banner-electro-landing"

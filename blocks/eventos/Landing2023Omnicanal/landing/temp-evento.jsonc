@@ -203,7 +203,7 @@
       "rich-text#temp-evento-beneficio-04"
     ],
     "props": {
-      "blockClass": "temp-evento-beneficios",
+     
       "colSizing": "auto"
     }
   },
