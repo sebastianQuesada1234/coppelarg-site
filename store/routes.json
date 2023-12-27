@@ -1,7 +1,7 @@
 {
     "store.custom#newsletter":{
         "path": "/newsletter",
-        "title": "Navidad | Coppel.com.ar"
+        "title": "Newsletter | Coppel.com.ar"
     },
     "store.custom#navidad2023":{
         "path": "/navidad",
@@ -9,57 +9,10 @@
     },
     "store.custom#cyber-monday-2023":{
         "path": "/cyber-monday",
-        "title": "Navidad | Coppel.com.ar"
+        "title": "Cyber Monday | Coppel.com.ar"
     },
     "store.custom#black-friday-2023": {
         "path": "/black-friday",
         "title": "Black Friday | Coppel.com.ar"
-    },
-    
-
-
-    "store.custom#navidad2023-celulares": {
-        "path": "/celulares-telefonos-y-accesorios",
-        "title": "Celulares - Navidad | Coppel.com.ar"
-    },
-    "store.custom#navidad2023-tv": {
-        "path": "/tv-y-video",
-        "title": "Televisores y audio - Navidad | Coppel.com.ar"
-    },
-    "store.custom#navidad2023-sublanding-tecnologia-landing": {
-        "path": "/notebooks-y-tecnologia",
-        "title": "Tecnología - Navidad | Coppel.com.ar"
-    },
-    "store.custom#navidad2023-sublanding-electro-landing": {
-        "path": "/cocina-y-pequenos-electrodomesticos",
-        "title": "Tecnología - Navidad | Coppel.com.ar"
-    },
-    "store.custom#navidad2023-electrobelleza": {
-        "path": "/electrodomesticos/electro-belleza",
-        "title": "Electro belleza - Navidad | Coppel.com.ar"
-    },
-    "store.custom#navidad2023-perfumeria": {
-        "path": "/perfumeria",
-        "title": "Perfumería - Navidad | Coppel.com.ar"
-    },
-    "store.custom#navidad2023-jardin": {
-        "path": "/jardin",
-        "title": "Jardín - Navidad | Coppel.com.ar"
-    },
-    "store.custom#navidad2023-movilidad-electrica": {
-        "path": "/movilidad-electrica",
-        "title": "Movilidad Eléctrica - Navidad | Coppel.com.ar"
-    },
-    "store.custom#navidad2023-zapatillas": {
-        "path": "/zapatillas",
-        "title": "Calzado - Navidad | Coppel.com.ar"
-    },
-    "store.custom#navidad2023-indumentaria": {
-        "path": "/ropa-y-accesorios-de-moda",
-        "title": "Indumentaría - Navidad | Coppel.com.ar"
-    },
-    "store.custom#navidad2023-jugueteria": {
-        "path": "/jugueteria",
-        "title": "Juguetería - Navidad | Coppel.com.ar"
     }
 }
