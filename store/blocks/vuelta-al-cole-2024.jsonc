@@ -1,0 +1,190 @@
+{
+    // Categoria celulares
+    "store.custom#vuelta-al-cole-2024": {
+        "blocks": [
+            "flex-layout.row#vuelta-al-cole-2024-banner",
+            "flex-layout.row#vuelta-al-cole-2024-body",
+            "search-result-layout.customQuery#vuelta-al-cole-2024"
+        ]
+    },
+    "flex-layout.row#vuelta-al-cole-2024-banner": {
+        "children": [
+        "flex-layout.col#vuelta-al-cole-2024-banner"
+        ],
+        "props": {
+        "blockClass": "body-container-home",
+        "horizontalAlign": "CENTER",
+        "fullWidth": true
+        }
+    },
+    "flex-layout.col#vuelta-al-cole-2024-banner": {
+        "children": [
+        "list-context.image-list#vuelta-al-cole-2024"
+        ],
+        "props": {
+        "blockClass": "body-container-home",
+        "verticalAlign": "middle",
+        "horizontalAlign": "CENTER"
+        }
+    },
+    "list-context.image-list#vuelta-al-cole-2024": {
+      "title": "Banner Principal",
+      "children": [
+        "slider-layout#temp-evento-images"
+      ],
+      "props": {
+        "height": 1000,
+        "fullWidth": true,
+        "images": [
+          {
+            "image": "assets/vuelta-al-cole/desktop.png",
+            "mobileImage": "assets/vuelta-al-cole/mobile.png"
+          }
+        ],
+        "blockClass": "temp-evento-images"
+      }
+    },
+    //Categorias
+    "flex-layout.row#vuelta-al-cole-2024-body": {
+        "children": [
+        "flex-layout.col#vuelta-al-cole-2024-body"
+        ],
+        "props": {
+        "blockClass": "body-container-home",
+        "horizontalAlign": "CENTER",
+        "fullWidth": true
+        }
+    },
+    "flex-layout.col#vuelta-al-cole-2024-body": {
+        "children": [
+        "flex-layout.row#vuelta-al-cole-2024-categorias"
+        ],
+        "props": {
+        "blockClass": "body-container-home",
+        "verticalAlign": "middle",
+        "horizontalAlign": "CENTER"
+        }
+    },
+    "flex-layout.row#vuelta-al-cole-2024-categorias": {
+      "title": "Categorias",
+      "children": [
+        "rich-text#vuelta-al-cole-2024-categorias",
+        "evento-category-slider#vuelta-al-cole-2024-categorias"
+      ],
+      "props": {
+        "colSizing": "auto",
+        "blockClass": "temp-evento-categorias"
+      }
+    },
+    "rich-text#vuelta-al-cole-2024-categorias": {
+      "title": "Titulo",
+      "props": {
+        "text": "Categorías destacadas",
+        "blockClass": "temp-evento-estanteria-header"
+      }
+    },
+    "evento-category-slider#vuelta-al-cole-2024-categorias": {
+      "props": {
+        "categories": [
+          {
+            "label": "Deportivas",
+            "icon": "assets/vuelta-al-cole/deportivas.png",
+            "link": "/vuelta-al-cole?map=category-1,productClusterIds&query=/deportes/551"
+          },
+          {
+            "label": "Urbanas",
+            "icon": "assets/vuelta-al-cole/zapas.png",
+            "link": "/vuelta-al-cole?map=category-1,productClusterIds&query=/calzado/551"
+          },
+          {
+            "label": "Tecnología",
+            "icon": "assets/vuelta-al-cole/note.png",
+            "link": "/vuelta-al-cole?map=category-1,productClusterIds&query=/notebooks-y-tecnologia/551"
+          },
+          {
+            "label": "Celulares",
+            "icon": "assets/vuelta-al-cole/celu.png",
+            "link": "/vuelta-al-cole?map=category-1,productClusterIds&query=/celulares-telefonos-y-accesorios/551"
+          },
+          {
+            "label": "Mochilas",
+            "icon": "assets/vuelta-al-cole/mochilas.png",
+            "link": "/vuelta-al-cole?map=category-3,productClusterIds&query=/mochilas/551"
+          }
+        ],
+        "itemsPerPage": {
+          "desktop": 6,
+          "tablet": 4,
+          "phone": 2
+        }
+      }
+    },
+    // Search
+    "search-result-layout.customQuery#vuelta-al-cole-2024": {
+      "props": {
+        "blockClass": "coleccion",
+        "querySchema": {
+          "maxItemsPerPage": 20,
+          "queryField": "551",
+          "mapField": "productClusterIds",
+          "skusFilter": "ALL_AVAILABLE",
+          "simulationBehavior": "default"
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#vuelta-al-cole-2024",
+        "search-result-layout.mobile#vuelta-al-cole-2024",
+        "coppelar.search-result:search-not-found-layout"
+      ]
+    },
+    "search-result-layout.desktop#vuelta-al-cole-2024": {
+      "children": [
+        "flex-layout.row#result-vuelta-al-cole-2024"
+      ],
+      "props": {
+        "preventRouteChange": true,
+        "thresholdForFacetSearch": 10,
+        "showProductsCount": true,
+        "showFacetQuantity": true,
+        "HiddenFacets": {
+          "priceRange": true
+        },
+        "pagination": "show-more",
+        "mobileLayout": {
+          "mode1": "small",
+          "mode2": "normal"
+        }
+      }
+    },
+    "search-result-layout.mobile#vuelta-al-cole-2024": {
+        "children": [
+          "flex-layout.row#searchinfomobile",
+          "flex-layout.row#contentmobile",
+          "flex-layout.row#pagination"
+        ],
+        "props": {
+          "blockClass": "black-friday-collection",
+          "pagination": "show-more",
+          "mobileLayout": {
+            "mode1": "small",
+            "mode2": "normal"
+          }
+        }
+    },
+    "rich-text#seo-celulares": {
+        "title": "descriptions SEO",
+        "props": {
+          "blockClass": "result-cyber-monday-2023-seo",
+          "text": "## Cyber Monday: viví conectado con lo último en Celulares\n\nEn el emocionante evento del Cyber Monday, te ofrecemos una amplia gama de opciones de teléfonos móviles que se adaptan a todos los gustos y presupuestos. En nuestro catálogo, encontrarás una selección impresionante de marcas y modelos, asegurando que encuentres el dispositivo perfecto para tus necesidades.\nEn [Coppel.com.ar](/) o en la [App Coppel](https://play.google.com/store/apps/details?id=ar.com.coppel) podés encontrar alta gama en celulares Samsung a precios increíbles y celulares Motorola si preferís alta gama tecnológica a menor precio.\nY si hablamos de gama económica contamos con las marcas: ALCATEL, Mio Nanotech, QUANTUM, ZTE y Zuum.\nYa sea que busques los últimos lanzamientos de Samsung y Motorola, opciones económicas de estas marcas o modelos nacionales con un toque de innovación local, el Cyber Monday es el momento perfecto para encontrar el celular que se ajuste a tu estilo de vida. ¡No te pierdas nuestras ofertas y descuentos exclusivos durante este emocionante evento de compras en línea!\nUtilizá tu crédito y estrená hoy mismo. Si todavía no tenés tu Crédito Coppel, solicitalo en línea; ¡es fácil, rápido y gratis!"
+        }
+    },
+    // Resultado desktop
+    "flex-layout.row#result-vuelta-al-cole-2024": {
+      "children": ["flex-layout.col#filter", "flex-layout.col#content"],
+      "props": {
+        "preventHorizontalStretch": true,
+        "fullWidth": true,
+        "blockClass" : "result-cyber-monday"
+      }
+    }
+  }

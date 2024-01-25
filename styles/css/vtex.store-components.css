@@ -9,3 +9,7 @@
 .imageElement--grid-card{
     cursor: pointer;
 }
+.imageElement--temp-evento-images
+{
+    margin: 0 !important;
+}
