@@ -100,7 +100,7 @@ function Formulario() {
                 ) : (
                     <form onSubmit={onSubmit}>
                         <div className={style.textContainer}>
-                            <h1>¡Suscribite para enterarte de las ofertas antes que nadie!</h1>
+                            <h1>¡Suscribite ahora y desbloqueá tu oportunidad de ganar!</h1>
                           
                         </div>
                         <div className={style.formContainer}>
