@@ -7,55 +7,69 @@ function Formulario() {
     const [formData, setFormData] = useState({
         mail: "",
         nombre: "",
-       /* apellido: "",
+        apellido: "",
         dni: "",
-        telefono: "",
-        aceptoTerminos: false,*/
+        phone: ""
     });
 
-    const [errors, setErrors] = useState({});
+    const [errors, setErrors] = useState({
+        mail: " ",
+        nombre: " ",
+        apellido: " ",
+        dni: " ",
+        phone: " "
+    });
     const [mostrarMensaje, setMostrarMensaje] = useState(false);
 
     const handleInputChange = (event) => {
+
         const { name, value, type, checked } = event.target;
         const inputValue = type === "checkbox" ? checked : value;
+
         setFormData({
             ...formData,
             [name]: inputValue,
         });
 
-        setErrors({
-            ...errors,
-            [name]: null,
-        });
+        var error = null;
+        
+        if (event.target.name == "nombre" && formData.nombre == "")
+            error = "Campo obligatorio";        
+        if (event.target.name == "apellido" && formData.apellido == "")
+            error = "Campo obligatorio";
+        if (event.target.name == "dni" && formData.dni == "")
+            error = "Campo obligatorio";
+        if (event.target.name == "phone" && formData.phone == "")
+            error = "Campo obligatorio";
+        if (event.target.name == "mail" && !formData.mail.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/i))
+            error = "Email no válido";
+        if (event.target.name == "mail" && formData.mail == "")
+            error = "Campo obligatorio";
+
+        if (error == null)
+            setErrors({...errors,[name]: " ",});
+        else
+            setErrors({...errors,[name]: error,});
     };
 
     const onSubmit = (event) => {
         event.preventDefault();
         const newErrors = {};
 
-
-        if (!formData.mail.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/i)) {
-            newErrors.mail = "Email no válido";
-        }
-        if (!formData.nombre) {
-            newErrors.nombre = "Campo obligatorio";
-        }
-     /*  if (!formData.apellido) {
+        if (formData.nombre == "")
+            newErrors.nombre = "Campo obligatorio";        
+        if (formData.apellido == "")
             newErrors.apellido = "Campo obligatorio";
-        }
-        if (!formData.dni) {
+        if (formData.dni == "")
             newErrors.dni = "Campo obligatorio";
-        }
-        if (!formData.telefono) {
-            newErrors.telefono = "Campo obligatorio";
-        }*/
-        if (!formData.aceptoTerminos) {
+        if (formData.phone == "")
+            newErrors.phone = "Campo obligatorio";
+        if (!formData.mail.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/i))
+            newErrors.mail = "Email no válido";
+        if (formData.mail == "")
+            newErrors.mail = "Campo obligatorio";
+        if (!formData.aceptoTerminos)
             newErrors.aceptoTerminos = "";
-        }
-
-
-
 
         setErrors(newErrors);
 
@@ -63,12 +77,12 @@ function Formulario() {
             console.log(formData);
             setMostrarMensaje(true);
 
-            Axios.post('/api/dataentities/CL/documents', {
-               /* "Apellido": formData.apellido,
-                "Documento": formData.dni,*/
-                "email": formData.mail,
-                "firstName": formData.nombre,
-               // "Telefono": formData.telefono
+            Axios.post('/api/dataentities/CY/documents', {
+                "Email": formData.mail,
+                "Nombre": formData.nombre,
+                "Apellido": formData.apellido,
+                "Documento": formData.dni,
+                "Telefono": formData.phone
             })
 
 
@@ -90,31 +104,69 @@ function Formulario() {
                           
                         </div>
                         <div className={style.formContainer}>
-                            <div id={style.mailContainer} className={style.row}>
-                 
-                            </div>
                             <div className={style.row} id={style.nameContainer}>
-                                <div className={`${style["col-12"]} ${style["col-md-6"]}`} id={style.name}>
+                                <div className={`${style["col-12"]} ${style["col-md-6"]} ${style["variable-container"]}`} id={style.name}>
                                     <label>Nombre*</label>
                                     <input
                                         type="text"
                                         className={style.input}
-                                        placeholder="Escribí tu nombre aquí"
+                                        placeholder="Ingresá tu nombre"
                                         name="nombre"
                                         value={formData.nombre}
                                         onChange={handleInputChange}
+                                        onBlur={handleInputChange}
                                     />
                                     {errors.nombre && <p className={style.error}>{errors.nombre}</p>}
                                 </div>
-                                <div className={`${style["col-12"]} ${style["col-md-6"]}`} id={style.lastName} >
-                                    <label>Mail*</label>
+                                <div className={`${style["col-12"]} ${style["col-md-6"]} ${style["variable-container"]}`} id={style.name}>
+                                    <label>Apellido*</label>
                                     <input
                                         type="text"
                                         className={style.input}
-                                        placeholder="Escribí tu mail aquí"
+                                        placeholder="Ingresá tu apellido"
+                                        name="apellido"
+                                        value={formData.apellido}
+                                        onChange={handleInputChange}
+                                        onBlur={handleInputChange}
+                                    />
+                                    {errors.apellido && <p className={style.error}>{errors.apellido}</p>}
+                                </div>
+                                <div className={`${style["col-12"]} ${style["col-md-6"]} ${style["variable-container"]}`} id={style.name}>
+                                    <label>Telefono*</label>
+                                    <input
+                                        type="text"
+                                        className={style.input}
+                                        placeholder="Ingresá tu telefono"
+                                        name="phone"
+                                        value={formData.phone}
+                                        onChange={handleInputChange}
+                                        onBlur={handleInputChange}
+                                    />
+                                    {errors.phone && <p className={style.error}>{errors.phone}</p>}
+                                </div>
+                                <div className={`${style["col-12"]} ${style["col-md-6"]} ${style["variable-container"]}`} id={style.name}>
+                                    <label>DNI*</label>
+                                    <input
+                                        type="number"
+                                        className={style.input}
+                                        placeholder="Ingresá tu dni"
+                                        name="dni"
+                                        value={formData.dni}
+                                        onChange={handleInputChange}
+                                        onBlur={handleInputChange}
+                                    />
+                                    {errors.dni && <p className={style.error}>{errors.dni}</p>}
+                                </div>
+                                <div className={`${style["col-12"]} ${style["col-md-6"]} ${style["variable-container"]}`} id={style.lastName} >
+                                    <label>Correo electrónico*</label>
+                                    <input
+                                        type="text"
+                                        className={style.input}
+                                        placeholder="Ingresá tu correo electrónico"
                                         name="mail"
                                         value={formData.mail}
                                         onChange={handleInputChange}
+                                        onBlur={handleInputChange}
                                     />
                                     {errors.mail && <p className={style.error}>{errors.mail}</p>}
                                 </div>
