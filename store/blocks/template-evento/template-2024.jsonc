@@ -13,7 +13,6 @@
     "flex-layout.col#template-evento": {
       "children": [
         "list-context.image-list#template-evento",
-        "m3-conditional-render#temp-evento-infos",
         "m3-conditional-render#template-evento-banners",
         "flex-layout.col#bannerx2",
         "flex-layout.row#template-evento-categorias",
