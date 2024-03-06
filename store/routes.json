@@ -18,5 +18,9 @@
     "store.custom#black-friday-2023": {
         "path": "/black-friday",
         "title": "Black Friday | Coppel.com.ar"
+    },
+    "store.custom#template-evento": {
+        "path": "/zapatillas",
+        "title": "Zapatillas | Coppel.com.ar"
     }
 }
