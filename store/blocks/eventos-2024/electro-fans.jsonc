@@ -124,8 +124,8 @@
         "items": [
           {"banner": "assets/electro-fans-2024/destacado-1.png", "description": "Heladeras y Freezers en hasta 20% off", "title": "Refrigeración", "link": "/electrodomesticos/refrigeracion"},
           {"banner": "assets/electro-fans-2024/destacado-2.png", "description": "Smart TVs en hasta 25% off", "title": "Televisores", "link": "/tv-y-video/televisores"},
-          {"banner": "assets/electro-fans-2024/destacado-3.png", "description": "Hasta 25% off en los mejores modelos", "title": "Celulares", "link": "/lavado-y-secado"},
-          {"banner": "assets/electro-fans-2024/destacado-4.png", "description": "Lavarropas y Secarropas en hasta 20% off", "title": "Lavado y secado", "link": "/deportes/calzado/botines"}
+          {"banner": "assets/electro-fans-2024/destacado-3.png", "description": "Hasta 25% off en los mejores modelos", "title": "Celulares", "link": "/celulares-telefonos-y-accesorios/celulares"},
+          {"banner": "assets/electro-fans-2024/destacado-4.png", "description": "Lavarropas y Secarropas en hasta 20% off", "title": "Lavado y secado", "link": "/electrodomesticos/lavado-y-secado"}
         ]
       }
     },
