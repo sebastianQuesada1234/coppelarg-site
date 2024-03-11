@@ -74,6 +74,7 @@
 
 .EB_img{
     width: 100%;
+    border-radius: 8px;
 }
 
 .EB_link{
