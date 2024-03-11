@@ -1,0 +1,8 @@
+{
+    "store.custom#boton":{
+        "children" : [
+            "modular.default#electro-fans-2024"
+        ]
+    },
+    "modular.default#electro-fans-2024": {}
+}

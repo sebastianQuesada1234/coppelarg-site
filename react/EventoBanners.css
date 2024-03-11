@@ -1,0 +1,93 @@
+@font-face{
+    font-family:Circular;
+    font-display: auto;
+    src:url(./assets/CircularStd/CircularStd-Bold.woff2) format("woff2")
+}
+@font-face{
+    font-family:HelveticaNeue;
+    font-display: auto;
+    src:url(./assets/HelveticaNeue/HelveticaNeue.woff2) format("woff2")
+}
+@font-face{
+    font-family:HelveticaNeue-Bold;
+    font-display: auto;
+    src:url(./assets/HelveticaNeue/HelveticaNeueBold.woff2) format("woff2")
+}
+
+.EB_container{
+    display: flex;
+    width: 100%;
+    gap: 2rem 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.EB_item_container.x2 
+{
+    width: 100%;
+    text-decoration: none;
+}
+
+.EB_item_container.x4 
+{
+    width: calc(50% - 1rem / 2);
+}
+
+    @media (min-width: 768px)
+    {
+        .EB_item_container.x2 
+        {
+            width: calc(50% - 1rem / 2);
+        }
+        .EB_item_container.x4 {
+            width: calc(25% - 3rem / 4);
+        }
+    }
+
+.EB_title{
+    font-family: Circular,sans-serif;
+    color: #1b1a16;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    margin: 0.5rem 0;
+}
+
+    @media (min-width: 768px)
+    {
+        .EB_description{
+            font-size: 16px;
+        }
+        .EB_title{
+            font-size: 24px;
+        }
+    }
+
+.EB_description{
+    font-family: Helvetica, Arial, sans-serif;
+    color: #1b1a16;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+}
+
+.EB_img{
+    width: 100%;
+}
+
+.EB_link{
+    text-decoration: none;
+}
+
+.EB_more{
+    font-family: Helvetica, Arial, sans-serif;
+    color: #1b1a16;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    color: #006fb9;
+    margin-top: 8px;
+    font-weight: bold;
+}

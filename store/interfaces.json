@@ -22,5 +22,17 @@
     },
     "banner-categoria.default" : {
         "component" : "banner"
+    },
+    "modular" : {
+        "component" : "Modular"
+    },
+    "modular.default" : {
+        "component" : "Modular"
+    },
+    "modular-banners" : {
+        "component" : "EventoBanners"
+    },
+    "modular-banners.default" : {
+        "component" : "EventoBanners"
     }
 }

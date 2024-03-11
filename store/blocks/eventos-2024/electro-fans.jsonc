@@ -1,25 +1,28 @@
 {
     "store.custom#electro-fans-2024": {
-      "blocks": ["flex-layout.row#template-evento"]
-    }
-    /*
-    "flex-layout.row#template-evento": {
-      "children": ["flex-layout.col#template-evento"],
+      "blocks": ["flex-layout.row#electro-fans-2024"]
+    },
+    "flex-layout.row#electro-fans-2024": {
+      "children": ["flex-layout.col#electro-fans-2024"],
       "props": {
         "blockClass": "temp-evento",
         "horizontalAlign": "CENTER",
         "fullWidth": true
       }
     },
-    "flex-layout.col#template-evento": {
+    "flex-layout.col#electro-fans-2024": {
       "children": [
-        "list-context.image-list#template-evento",
-        "m3-conditional-render#template-evento-banners",
-        "flex-layout.col#bannerx2",
-        "flex-layout.row#template-evento-categorias",
-        "flex-layout.row#template-evento-estanteria-01",
-        "flex-layout.row#template-evento-estanteria-02",
-        "m3-conditional-render#template-evento-oferta",
+        "list-context.image-list#electro-fans-2024",
+        "responsive-layout.desktop#electro-fans-2024-info",
+        "responsive-layout.mobile#electro-fans-2024-info",
+        "m3-conditional-render#electro-fans-2024-destacados",
+        "flex-layout.row#electro-fans-2024-destacados-2",
+        "flex-layout.row#electro-fans-2024-categorias",
+        "flex-layout.row#electro-fans-2024-estanteria-01",
+        "flex-layout.row#electro-fans-2024-estanteria-02",
+        "m3-conditional-render#electro-fans-2024-oferta",
+        "flex-layout.row#electro-fans-2024-estanteria-03",
+        "flex-layout.row#electro-fans-2024-estanteria-04",
         "flex-layout.row#spacer"
       ],
       "props": {
@@ -30,7 +33,7 @@
       }
     },
     //Banner Principal
-    "list-context.image-list#template-evento": {
+    "list-context.image-list#electro-fans-2024": {
       "title": "Banner Principal",
       "children": ["slider-layout#temp-evento-images"],
       "props": {
@@ -38,28 +41,53 @@
         "fullWidth": true,
         "images": [
           {
-            "image": "assets/zapatillas/banner-d.webp",
-            "mobileImage": "assets/zapatillas/banner-m.webp"
+            "image": "assets/electro-fans-2024/banner-d.png",
+            "mobileImage": "assets/electro-fans-2024/banner-m.png"
           }
         ],
         "blockClass": "temp-evento-images"
       }
     },
+    //Banners Info
+    "responsive-layout.desktop#electro-fans-2024-info": {
+      "title": "Banner Infos Desktop",
+      "children": [
+        "image#electro-fans-2024-info-dsk"
+      ]
+    },
+    "image#electro-fans-2024-info-dsk": {
+      "props": {
+        "blockClass": "temp-evento-infos",
+        "src": "assets/electro-fans-2024/beneficios-m.png"
+      }
+    },
+    "responsive-layout.mobile#electro-fans-2024-info": {
+      "title": "Banner Infos Mobile",
+      "children": [
+        "image#electro-fans-2024-info-mob"
+      ]
+    },
+    "image#electro-fans-2024-info-mob": {
+      "props": {
+        "blockClass": "temp-evento-infos",
+        "src": "assets/electro-fans-2024/beneficios-d.png"
+      }
+    },
     //Banners
-    "m3-conditional-render#template-evento-banners": {
+    "m3-conditional-render#electro-fans-2024-destacados": {
       "title": "V/I - Banners",
       "props": {
         "visibleDsk": true,
         "visibleTbl": true,
         "visiblePhn": true
       },
-      "children": ["flex-layout.row#template-evento-banners"]
+      "children": ["flex-layout.row#electro-fans-2024-destacados"]
     },
-    "flex-layout.row#template-evento-banners": {
+    "flex-layout.row#electro-fans-2024-destacados": {
       "title": "Banners",
       "children": [
-        "flex-layout.col#template-evento-banners-titles",
-        "flex-layout.col#template-evento-banners-content"
+        "flex-layout.col#electro-fans-2024-destacados-titles",
+        "flex-layout.col#electro-fans-2024-destacados-content"
       ],
       "props": {
         "blockClass": "temp-evento-banners",
@@ -67,189 +95,98 @@
         "fullWidth": true
       }
     },
-    "flex-layout.col#template-evento-banners-titles": {
+    "flex-layout.col#electro-fans-2024-destacados-titles": {
       "children": [
-        "rich-text#template-evento-banners"
+        "rich-text#electro-fans-2024-destacados-banners"
       ],
       "props": {
         "blockClass": "temp-evento-banners",
         "width": "100%"
       }
     },
-    "rich-text#template-evento-banners": {
+    "rich-text#electro-fans-2024-destacados-banners": {
       "title": "Titulo y Subtitulo",
       "props": {
-        "text": "# Encontrá  tu par perfecto \n ### Llevate la comodidad que necesitás al mejor precio ",
+        "text": "# - Electro Fans en Coppel - \n ### ¡Encontrá todo lo que buscás en hasta 6 cuotas sin interés! ",
         "blockClass": "temp-evento-banners"
       }
     },
-    "flex-layout.col#template-evento-banners-content": {
-      "children": ["evento-banners#template-evento"],
+    "flex-layout.col#electro-fans-2024-destacados-content": {
+      "children": ["modular-banners#electro-fans-2024-destacados"],
       "props": {
         "blockClass": "temp-evento-banners",
         "width": "100%"
       }
     },
-    "evento-banners#template-evento": {
+    "modular-banners#electro-fans-2024-destacados": {
       "props": {
+        "class" : "x4",
         "items": [
-          {"banner": "assets/zapatillas/destacado-1.webp", "title": "Hombre", "description": "", "link": "/deportes/calzado/hombre"},
-          {"banner": "assets/zapatillas/destacado-2.webp", "title": "Mujer", "description": "", "link": "/deportes/calzado/mujer"},
-          {"banner": "assets/zapatillas/destacado-3.webp", "title": "Infantil", "description": "", "link": "/deportes/calzado/infantil"},
-          {"banner": "assets/zapatillas/destacado-4.webp", "title": "Fútbol", "description": "", "link": "/deportes/calzado/botines"}
+          {"banner": "assets/electro-fans-2024/destacado-1.png", "description": "Heladeras y Freezers en hasta 20% off", "title": "Refrigeración", "link": "/electrodomesticos/refrigeracion"},
+          {"banner": "assets/electro-fans-2024/destacado-2.png", "description": "Smart TVs en hasta 25% off", "title": "Televisores", "link": "/tv-y-video/televisores"},
+          {"banner": "assets/electro-fans-2024/destacado-3.png", "description": "Hasta 25% off en los mejores modelos", "title": "Celulares", "link": "/lavado-y-secado"},
+          {"banner": "assets/electro-fans-2024/destacado-4.png", "description": "Lavarropas y Secarropas en hasta 20% off", "title": "Lavado y secado", "link": "/deportes/calzado/botines"}
         ]
       }
     },
-    //Banners x 2
-    "flex-layout.col#bannerx2": {
+    // Banners 2
+    "flex-layout.row#electro-fans-2024-destacados-2": {
+      "title": "Banners",
       "children": [
-        "flex-layout.row#grid-bannerx2"
+        "flex-layout.col#electro-fans-2024-destacados-content-2"
       ],
       "props": {
         "blockClass": "temp-evento-banners",
-        "colGap": 4,
+        "horizontalAlign": "CENTER",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.col#electro-fans-2024-destacados-content-2": {
+      "children": ["modular-banners#electro-fans-2024-destacados-2"],
+      "props": {
+        "blockClass": "temp-evento-banners",
         "width": "100%"
       }
     },
-    "flex-layout.row#grid-bannerx2": {
+    "modular-banners#electro-fans-2024-destacados-2": {
       "props": {
-        "colSizing": "equal"
-      },
-      "children": [
-        "flex-layout.col#banner-bannerx2-2"
-      ]
-    },
-    "flex-layout.col#banner-bannerx2-2": {
-      "children": [
-        "flex-layout.row#banner-bannerx2-2"
-      ],
-      "props": {
-        "horizontalAlign": "center",
-        "width": "100%"
-      }
-    },
-    "flex-layout.row#banner-bannerx2-2": {
-      "children": [
-        "flex-layout.col#banner-bannerx2-d1",
-        "flex-layout.col#banner-bannerx2-d2"
-      ]
-    },
-    "flex-layout.col#banner-bannerx2-d1": {
-      "children": [
-        "flex-layout.row#img-bannerx2-d1",
-        "flex-layout.row#text-bannerx2-d1"
-      ],
-      "props": {
-        "fullWidth": true
-      }
-    },
-    "flex-layout.row#img-bannerx2-d1": {
-      "children": [
-        "image#img-bannerx2-d1"
-      ],
-      "props": {
-        "width": "100%",
-        "fullWidth": true
-      }
-    },
-    "image#img-bannerx2-d1": {
-      "props": {
-        "horizontalAlign": "center",
-        "preventHorizontalStretch": "rigth",
-        "preventVerticalStretch": "true",
-        "width": 700,
-        "src": "assets/zapatillas/destacado-5.png",
-        "maxHeight": 220
-      }
-    },
-    "flex-layout.col#banner-bannerx2-d2": {
-      "children": [
-        "flex-layout.row#img-bannerx2-d2",
-        "flex-layout.row#text-bannerx2-d2"
-      ],
-      "props": {
-        "preventVerticalStretch": true,
-        "horizontalAlign": "left",
-        "fullWidth": true
-      }
-    },
-    "flex-layout.row#img-bannerx2-d2": {
-      "children": [
-        "image#bannerx2-d2"
-      ],
-      "props": {
-        "width": "100%",
-        "fullWidth": true
-      }
-    },
-    "image#bannerx2-d2": {
-      "props": {
-        "horizontalAlign": "center",
-        "width": 700,
-        "preventHorizontalStretch": "left",
-        "preventVerticalStretch": "true",
-        "src": "assets/zapatillas/destacado-6.png",
-        "maxHeight": 220
-      }
-    },
-    "flex-layout.row#text-bannerx2-d1": {
-      "children": [
-        "rich-text#bannerx2-d1"
-      ],
-      "props": {
-        "blockClass": "quienes-somos-titulo"
-      }
-    },
-    "rich-text#bannerx2-d1": {
-      "props": {
-        "blockClass":"texto-banner-doble2",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text":"### Lifestyle\n [**Ver más**](/lifestyle)"
-      }
-    },
-    "flex-layout.row#text-bannerx2-d2": {
-      "children": [
-        "rich-text#bannerx2-d2"
-      ],
-      "props": {
-      }
-    },
-    "rich-text#bannerx2-d2": {
-      "props": {
-        "blockClass":"texto-banner-doble",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text":"### Calzado deportivo\n [**Ver más**](/lifestyle)"
+        "class" : "x2",
+        "items": [
+          {"banner": "assets/electro-fans-2024/destacado-5.png", "description": "Mega descuentos en hasta 40% off", "title": "Pequeños electrodomésticos", "link": "/pequenos-electrodomesticos"},
+          {"banner": "assets/electro-fans-2024/destacado-6.png", "description": "Súper descuentos en hasta 25% off", "title": "Electro belleza", "link": "/electrodomesticos/electro-belleza"}
+        ]
       }
     },
     //Categorias
-    "flex-layout.row#template-evento-categorias": {
+    "flex-layout.row#electro-fans-2024-categorias": {
       "title": "Categorias",
-      "children": ["rich-text#template-evento-categorias", "evento-category-slider#template-evento-categorias"],
+      "children": ["rich-text#electro-fans-2024-categorias", "evento-category-slider#electro-fans-2024-categorias"],
       "props": {
         "colSizing": "auto",
         "blockClass": "temp-evento-categorias"
       }
     },
-    "rich-text#template-evento-categorias": {
+    "rich-text#electro-fans-2024-categorias": {
       "title": "Titulo",
       "props": {
-        "text": "Encontrá la marca que buscás",
+        "text": "Categorías destacadas",
         "blockClass": "temp-evento-estanteria-header"
       }
     },
-    "evento-category-slider#template-evento-categorias": {
+    "evento-category-slider#electro-fans-2024-categorias": {
       "props": {
         "categories": [
-          {"title": "Puma", "icon": "assets/zapatillas/marca-1.webp", "link": "/deportes/calzado?initialMap=c,c&initialQuery=deportes/calzado&map=category-1,category-2,brand&query=/deportes/calzado/puma&searchState"},
-          {"title": "Adidas", "icon": "assets/zapatillas/marca-2.webp", "link": "/deportes/calzado?initialMap=c,c&initialQuery=deportes/calzado&map=category-1,category-2,brand&query=/deportes/calzado/adidas&searchState"},
-          {"title": "Addnice", "icon": "assets/zapatillas/marca-3.webp", "link": "/deportes/calzado?initialMap=c,c&initialQuery=deportes/calzado&map=category-1,category-2,brand&query=/deportes/calzado/addnice&searchState"},
-          {"title": "Atomik", "icon": "assets/zapatillas/marca-4.webp", "link": "/deportes/calzado?initialMap=c,c&initialQuery=deportes/calzado&map=category-1,category-2,brand&query=/deportes/calzado/atomik&searchState"},
-          {"title": "Topper", "icon": "assets/zapatillas/marca-5.webp", "link": "/deportes/calzado?initialMap=c,c&initialQuery=deportes/calzado&map=category-1,category-2,brand&query=/deportes/calzado/topper&searchState"},
-          {"title": "Fila", "icon": "assets/zapatillas/marca-6.webp", "link": "/deportes/calzado?initialMap=c,c&initialQuery=deportes/calzado&map=category-1,category-2,brand&query=/deportes/calzado/fila&searchState"},
-          {"title": "Nike", "icon": "assets/zapatillas/marca-7.webp", "link": "/deportes/calzado?initialMap=c,c&initialQuery=deportes/calzado&map=category-1,category-2,brand&query=/deportes/calzado/nike&searchState"},
-          {"title": "Nexport", "icon": "assets/zapatillas/marca-8.webp", "link": "/deportes/calzado?initialMap=c,c&initialQuery=deportes/calzado&map=category-1,category-2,brand&query=/deportes/calzado/nexport&searchState"}
+          {"label": "Celulares","icon": "assets/iconos/celulares.png","link": "/celulares-telefonos-y-accesorios"},
+          {"label": "Refrigeración","icon": "assets/iconos/refri.png","link": "/electrodomesticos/refrigeracion "},
+          {"label": "Tecnología","icon": "assets/navidad/tecnologia.png","link": "/notebooks-y-tecnologia" },
+          {"label": "Climatización","icon": "assets/iconos/clima.png","link": "/electrodomesticos/climatizacion" },
+          {"label": "Lavado y secado","icon": "assets/iconos/lavado.png","link": "/electrodomesticos/lavado-y-secado" },
+          {"label": "Termotanques y calefones","icon": "assets/iconos/termotanques.png","link": "/termotanques-y-calefones" },
+          {"label": "TV y audio","icon": "assets/iconos/tv.png","link": "/tv-y-video"},
+          {"label": "Cocinas","icon": "assets/iconos/cocina.png","link": "/cocinas"},
+          {"label": "Pequeños electrodomésticos","icon": "assets/iconos/pequenos.png","link": "/pequenos-electrodomesticos"},
+          {"label": "Electro belleza","icon": "assets/iconos/belleza.png","link": "/electrodomesticos/electro-belleza" },
+          {"label": "Herramientas","icon": "assets/iconos/herramientas.png", "link": "/jardin-y-herramientas"}
         ],
         "itemsPerPage": {
           "desktop": 6,
@@ -259,7 +196,7 @@
       }
     },
     // Banner
-    "m3-conditional-render#template-evento-oferta": {
+    "m3-conditional-render#electro-fans-2024-oferta": {
       "title": "V/I - Oferta",
       "props": {
         "visibleDsk": true,
@@ -267,106 +204,173 @@
         "visiblePhn": true
       },
       "children": [
-        "responsive-layout.desktop#template-evento-oferta",
-        "responsive-layout.mobile#template-evento-oferta"
+        "responsive-layout.desktop#electro-fans-2024-oferta",
+        "responsive-layout.mobile#electro-fans-2024-oferta"
       ]
     },
-    "responsive-layout.desktop#template-evento-oferta": {
+    "responsive-layout.desktop#electro-fans-2024-oferta": {
       "title": "Banner Oferta Desktop",
-      "children": ["image#template-evento-oferta-dsk"]
+      "children": ["image#electro-fans-2024-oferta-dsk"]
     },
-    "responsive-layout.mobile#template-evento-oferta": {
+    "responsive-layout.mobile#electro-fans-2024-oferta": {
       "title": "Banner Oferta Mobile",
-      "children": ["image#template-evento-oferta-mbl"]
+      "children": ["image#electro-fans-2024-oferta-mbl"]
     },
-    "image#template-evento-oferta-dsk": {
+    "image#electro-fans-2024-oferta-dsk": {
       "props": {
         "blockClass": "temp-evento-oferta",
-        "src": "assets/zapatillas/destacado-7-d.webp",
+        "src": "assets/electro-fans-2024/destacado-7-d.png",
         "link": {
-          "url": "/zapatillas-nextport",
+          "url": "/electrodomesticos/climatizacion",
           "newTab": false
         }
       }
     },
-    "image#template-evento-oferta-mbl": {
+    "image#electro-fans-2024-oferta-mbl": {
       "props": {
         "blockClass": "temp-evento-oferta",
-        "src": "assets/zapatillas/destacado-7-m.webp",
+        "src": "assets/electro-fans-2024/destacado-7-m.png",
         "link": {
-          "url": "/zapatillas-nextport",
+          "url": "/electrodomesticos/climatizacion",
           "newTab": false
         }
       }
     },
     //Estantería 1
-    "flex-layout.row#template-evento-estanteria-01": {
+    "flex-layout.row#electro-fans-2024-estanteria-01": {
       "title": "Estantería 1",
-      "children": ["flex-layout.col#template-evento-estanteria-01"],
+      "children": ["flex-layout.col#electro-fans-2024-estanteria-01"],
       "props": {
           "blockClass": "temp-evento-shelf",
           "fullWidth": true
       }
-  },
-  "flex-layout.col#template-evento-estanteria-01": {
-      "children": ["rich-text#template-evento-estanteria-01", "list-context.product-list#template-evento-estanteria-01"],
+    },
+    "flex-layout.col#electro-fans-2024-estanteria-01": {
+        "children": ["rich-text#electro-fans-2024-estanteria-01", "list-context.product-list#electro-fans-2024-estanteria-01"],
+        "props": {
+            "width": "100%"
+        }
+    },
+    "rich-text#electro-fans-2024-estanteria-01": {
+        "title": "Titulo",
+        "props": {
+            "text": "Explorá súper ofertas en Cocinas [Ver más](/cocinas)",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "blockClass": "temp-evento-estanteria-header"
+        }
+    },
+    "list-context.product-list#electro-fans-2024-estanteria-01": {
+        "blocks": ["coppelar.site-theme:product-summary.shelf"],
+        "children": ["slider-layout#temp-evento-estanteria"],
+        "props": {
+            "category": "133934/133980",
+            "hideUnavailableItems": true,
+            "orderBy": "OrderByTopSaleDESC",
+            "maxItems": 15
+        }
+    },
+    //Estantería 2
+    "flex-layout.row#electro-fans-2024-estanteria-02": {
+      "title": "Estantería 2",
+      "children": ["flex-layout.col#electro-fans-2024-estanteria-02"],
       "props": {
-          "width": "100%"
+          "blockClass": "temp-evento-shelf",
+          "fullWidth": true
       }
-  },
-  "rich-text#template-evento-estanteria-01": {
-      "title": "Titulo",
+    },
+    "flex-layout.col#electro-fans-2024-estanteria-02": {
+        "children": ["rich-text#electro-fans-2024-estanteria-02", "list-context.product-list#electro-fans-2024-estanteria-02"],
+        "props": {
+            "width": "100%"
+        }
+    },
+    "rich-text#electro-fans-2024-estanteria-02": {
+        "title": "Titulo",
+        "props": {
+            "text": "Encontrá Notebooks y Tablets al mejor precio [Ver más](/notebooks-y-tecnologia)",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "blockClass": "temp-evento-estanteria-header"
+        }
+    },
+    "list-context.product-list#electro-fans-2024-estanteria-02": {
+        "blocks": ["coppelar.site-theme:product-summary.shelf"],
+        "children": ["slider-layout#temp-evento-estanteria"],
+        "props": {
+            "category": "133919",
+            "hideUnavailableItems": true,
+            "orderBy": "OrderByTopSaleDESC",
+            "maxItems": 15
+        }
+    },
+    //Estantería 3
+    "flex-layout.row#electro-fans-2024-estanteria-03": {
+      "title": "Estantería 3",
+      "children": ["flex-layout.col#electro-fans-2024-estanteria-03"],
       "props": {
-          "text": "Aprovechá 6 cuotas sin interés [Ver más](/deportes/calzado)",
-          "textAlignment": "CENTER",
-          "textPosition": "LEFT",
-          "blockClass": "temp-evento-estanteria-header"
+          "blockClass": "temp-evento-shelf",
+          "fullWidth": true
       }
-  },
-  "list-context.product-list#template-evento-estanteria-01": {
-      "blocks": ["coppelar.site-theme:product-summary.shelf"],
-      "children": ["slider-layout#temp-evento-estanteria"],
+    },
+    "flex-layout.col#electro-fans-2024-estanteria-03": {
+        "children": ["rich-text#electro-fans-2024-estanteria-03", "list-context.product-list#electro-fans-2024-estanteria-03"],
+        "props": {
+            "width": "100%"
+        }
+    },
+    "rich-text#electro-fans-2024-estanteria-03": {
+        "title": "Titulo",
+        "props": {
+            "text": "Descubrí nuestra selección de Audio [Ver más](/audio)",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "blockClass": "temp-evento-estanteria-header"
+        }
+    },
+    "list-context.product-list#electro-fans-2024-estanteria-03": {
+        "blocks": ["coppelar.site-theme:product-summary.shelf"],
+        "children": ["slider-layout#temp-evento-estanteria"],
+        "props": {
+            "category": "133914",
+            "hideUnavailableItems": true,
+            "orderBy": "OrderByTopSaleDESC",
+            "maxItems": 15
+        }
+    },
+    //Estantería 4
+    "flex-layout.row#electro-fans-2024-estanteria-04": {
+      "title": "Estantería 4",
+      "children": ["flex-layout.col#electro-fans-2024-estanteria-04"],
       "props": {
-          "collection": "563",
-          "hideUnavailableItems": true,
-          "orderBy": "OrderByTopSaleDESC",
-          "maxItems": 15
+          "blockClass": "temp-evento-shelf",
+          "fullWidth": true
       }
-  },
-  //Estantería 1
-  "flex-layout.row#template-evento-estanteria-02": {
-    "title": "Estantería 1",
-    "children": ["flex-layout.col#template-evento-estanteria-02"],
-    "props": {
-        "blockClass": "temp-evento-shelf",
-        "fullWidth": true
+    },
+    "flex-layout.col#electro-fans-2024-estanteria-04": {
+        "children": ["rich-text#electro-fans-2024-estanteria-04", "list-context.product-list#electro-fans-2024-estanteria-04"],
+        "props": {
+            "width": "100%"
+        }
+    },
+    "rich-text#electro-fans-2024-estanteria-04": {
+        "title": "Titulo",
+        "props": {
+            "text": "Ofertas exclusivas en Herramientas para el hogar [Ver más](/jardin-y-herramientas)",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "blockClass": "temp-evento-estanteria-header"
+        }
+    },
+    "list-context.product-list#electro-fans-2024-estanteria-04": {
+        "blocks": ["coppelar.site-theme:product-summary.shelf"],
+        "children": ["slider-layout#temp-evento-estanteria"],
+        "props": {
+            "category": "134381",
+            "hideUnavailableItems": true,
+            "orderBy": "OrderByTopSaleDESC",
+            "maxItems": 15
+        }
     }
-},
-"flex-layout.col#template-evento-estanteria-02": {
-    "children": ["rich-text#template-evento-estanteria-02", "list-context.product-list#template-evento-estanteria-02"],
-    "props": {
-        "width": "100%"
-    }
-},
-"rich-text#template-evento-estanteria-02": {
-    "title": "Titulo",
-    "props": {
-        "text": "Potencia tu entrenamiento con estilo [Ver más](/potencia-tu-entrenamiento)",
-        "textAlignment": "CENTER",
-        "textPosition": "LEFT",
-        "blockClass": "temp-evento-estanteria-header"
-    }
-},
-"list-context.product-list#template-evento-estanteria-02": {
-    "blocks": ["coppelar.site-theme:product-summary.shelf"],
-    "children": ["slider-layout#temp-evento-estanteria"],
-    "props": {
-        "collection": "559",
-        "hideUnavailableItems": true,
-        "orderBy": "OrderByTopSaleDESC",
-        "maxItems": 15
-    }
-}
-*/
 }
   

@@ -1,85 +1,67 @@
-import React from 'react';import { ProductSummaryList } from 'vtex.product-summary'
+import React from 'react';
 
-
-function CustomComponent({sections, Carrousel}) {
-    const isMobile = window.innerWidth < 768;
-    var moduls = '';
-    console.log('Carrousel');
-    console.log(Carrousel);
-    console.log(<Carrousel/>);
-    if(sections != undefined)
-    {
-        moduls = sections.map(() => (
-            <div><Carrousel/></div>
-        ))
+// Define el esquema de personalización para el grupo
+const groupSchema = {
+  "title": "Group",
+  "type": "object",
+  "properties": {
+    "backgroundColor": {
+      "type": "string",
+      "title": "Background Color",
+      "default": "#ffffff" // Color blanco por defecto
+    },
+    "width": {
+      "type": "string",
+      "title": "Width Percentage",
+      "default": "100%" // Ancho del 100% por defecto
+    },
+    "height": {
+      "type": "number",
+      "title": "Height (px)",
+      "default": 100 // Altura de 100px por defecto
+    },
+    "flexDirection": {
+      "type": "string",
+      "title": "Flex Direction",
+      "enum": ["row", "column"],
+      "default": "row" // Dirección de fila por defecto
+    },
+    "groups": {
+      "type": "array",
+      "title": "Groups",
+      "items": { "$ref": "#/definitions/group" }
     }
-    return(
-       <div>
-        <div>TEXT</div>
-            <div><Carrousel/></div>
-            <div><ProductSummaryList /></div>
-       </div>
-    );
-}
-  
-  CustomComponent.defaultProps = {
-    title: "Title Default"
-  }
-  CustomComponent.schema = {
-    title: "Custom Component",
-    type: "object",
-    properties: {
-      sections: {
-        type: 'array',
-        title: 'Secciones',
-        items: { //item configuration
-           type: 'object',
-           title: 'Seccion',
-           properties: {
-                __editorItemTitle: { // now change name is available
-                    default: 'Seccion',
-                    title: 'Nombre de la seccion',
-                    type: 'string'
-                },
-                products: {
-                    title: "Products",
-                    properties: {
-                        filterOption: {
-                        title: "Origin",
-                        type: "string",
-                        enum: ["OrderByTopSaleDESC", "collection"],
-                        enumNames: [
-                            "Show the best selling products",
-                            "Display products from an existing collection"
-                        ],
-                        default: "OrderByTopSaleDESC"
-                        }
-                    },
-                    required: ["filterOption"],
-                    dependencies: {
-                        filterOption: {
-                        oneOf: [
-                            {
-                            "title": "Products",
-                            "properties": {
-                                "filterOption": {
-                                "enum": ["collection"]
-                                },
-                                "collection": {
-                                "title": "Collection ID",
-                                "type": "string"
-                                }
-                            },
-                            "required": ["collection"]
-                            }
-                        ]
-                        }
-                    }
-                },
-           }
+  },
+  "definitions": {
+    "group": {
+      "type": "object",
+      "properties": {
+        "backgroundColor": { "type": "string" },
+        "width": { "type": "string" },
+        "height": { "type": "number" },
+        "flexDirection": { "type": "string" },
+        "groups": {
+          "type": "array",
+          "title": "Groups",
+          "items": { "$ref": "#/definitions/group" }
         }
-     }
+      }
     }
   }
+};
 
-export default CustomComponent;
+// Componente de Grupo
+const Group = ({ backgroundColor = "#ffffff", width = "100%", height = 100, flexDirection = "row", groups = [] }) => {
+  return (
+    <div className="group" style={{ backgroundColor, width, height: `${height}px`, display: 'flex', flexDirection }}>
+      {groups.map((subGroup, index) => (
+        <Group key={index} {...subGroup} />
+      ))}
+    </div>
+  );
+}
+
+// Añade el esquema al componente de grupo
+Group.schema = groupSchema;
+
+export default Group;
