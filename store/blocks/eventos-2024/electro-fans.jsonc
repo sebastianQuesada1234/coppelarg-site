@@ -1,4 +1,26 @@
 {
+    "store.custom#privacidad": {
+      "blocks": ["flex-layout.row#privacidad"]
+    },
+    "flex-layout.row#privacidad": {
+      "children": ["flex-layout.col#privacidad"],
+      "props": {
+        "blockClass": "temp-evento",
+        "horizontalAlign": "CENTER",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.col#privacidad": {
+      "children": [
+        "privacidad"
+      ],
+      "props": {
+        "blockClass": "temp-evento",
+        "verticalAlign": "middle",
+        "horizontalAlign": "CENTER",
+        "width": "100%"
+      }
+    },
     "store.custom#electro-fans-2024": {
       "blocks": ["flex-layout.row#electro-fans-2024"]
     },
