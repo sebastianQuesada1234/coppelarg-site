@@ -24,10 +24,10 @@
         "component" : "banner"
     },
     "modular" : {
-        "component" : "Modular"
+        "component" : "ModularTemplate"
     },
     "modular.default" : {
-        "component" : "Modular"
+        "component" : "ModularTemplate"
     },
     "modular-banners" : {
         "component" : "EventoBanners"

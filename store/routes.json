@@ -26,5 +26,17 @@
     "store.custom#privacidad": {
         "path": "/legales/privacidad",
         "title": "Privacidad | Coppel.com.ar"
+    },
+    "store.custom#boton": {
+        "path": "/modular",
+        "title": "Modular | Coppel.com.ar"
+    },
+    "store.custom#boton-2": {
+        "path": "/modular2",
+        "title": "Modular | Coppel.com.ar"
+    },
+    "store.custom#boton-3": {
+        "path": "/modular4",
+        "title": "Modular | Coppel.com.ar"
     }
 }

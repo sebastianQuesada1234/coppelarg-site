@@ -31,6 +31,7 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
+    "css-to-json": "^2.1.0",
     "react-hook-form": "^7.47.0"
   }
 }

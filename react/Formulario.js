@@ -74,7 +74,6 @@ function Formulario() {
         setErrors(newErrors);
 
         if (Object.keys(newErrors).length === 0) {
-            console.log(formData);
             setMostrarMensaje(true);
 
             Axios.post('/api/dataentities/CY/documents', {

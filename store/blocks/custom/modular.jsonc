@@ -4,5 +4,35 @@
             "modular.default#electro-fans-2024"
         ]
     },
-    "modular.default#electro-fans-2024": {}
+    "store.custom#modular-template":{
+        "children" : [
+            "modular.default#electro-fans-2024"
+        ]
+    },
+    "modular.default#electro-fans-2024": {
+        "props" : {
+            "ProductSummary": "coppelar.site-theme:product-summary.shelf",
+            "Slider": "slider-layout#temp-evento-estanteria"
+        }
+    },
+    "store.custom#boton-2":{
+        "children" : [
+            "modular.default#electro-fans-202"
+        ]
+    },
+    "modular.default#electro-fans-202": {
+        "props" : {
+            "ProductSummary": "coppelar.site-theme:product-summary.shelf"
+        }
+    },
+    "store.custom#boton-3":{
+        "children" : [
+            "modular.default#electro-fans-202"
+        ]
+    },
+    "modular.default#electro-fans-203": {
+        "props" : {
+            "ProductSummary": "coppelar.site-theme:product-summary.shelf"
+        }
+    }
 }
