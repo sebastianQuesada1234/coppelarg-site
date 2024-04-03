@@ -38,7 +38,7 @@ const sliderSchema = {
                             title: 'Items por pagina',
                             type: 'string',
                             default: '',
-                            description: '{desktop}-{tablet}-{mobile}'
+                            description: '{big}-{desktop}-{tablet}-{mobile}'
                         },
                         navigationStep: {
                             title: 'Items por scroll',

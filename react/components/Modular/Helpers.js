@@ -53,12 +53,18 @@ export function gridClass(gridAttr){
   return `${styles["col-" + phone ?? 12]} ${styles["col-md-" + tablet ?? 12]} ${styles["col-xl-" + desktop ?? 12]}`;
 }
 
-export function sliderItems(itemsPerPage){
+export function sliderItems(itemsPerPage, type = "banner"){
   var items = itemsPerPage?.trim().split("-") ?? [1,1,1];
-  var desktop = secureParseInt(items[0], 12);
-  var tablet = secureParseInt(items[1] ?? desktop, 12);
-  var phone = secureParseInt(items[2] ?? tablet, 12);
-  return {desktop: desktop, tablet: tablet, phone: phone};
+  var bigDesktop = secureParseInt(items[0], type == "banner" ? 1 : 6);
+  var desktop = secureParseInt(items[1] ?? bigDesktop, type == "banner" ? 1 : 5);
+  var tablet = secureParseInt(items[2] ?? desktop, type == "banner" ? 1 : 3);
+  var phone = secureParseInt(items[3] ?? tablet, type == "banner" ? 1 : 2);
+  return {
+    "(min-width: 1536px)": bigDesktop,
+    "(min-width: 1026px)": desktop,
+    "(min-width: 650px)": tablet,
+    "(min-width: 1px)": phone
+  };
 }
 
 export function getSize(size)

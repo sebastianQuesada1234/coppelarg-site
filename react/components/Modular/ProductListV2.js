@@ -137,7 +137,7 @@ const ProductListV2 = function({ ProductSummary, __editorItemTitle, title, subti
                     </div>
                     {more != null && more != undefined ? <Link className={`${styles.productListMore} ${styles.link}`} href={more}>Ver más</Link> : null}
                 </div> : null}
-                <SliderLayout  itemsPerPage={sliderItems(sliderAttrs?.perPage)} label={blockName} {...sliderAttrs} autoplay={{timeout:5000}} infinite={true} fullWidth={true}>
+                <SliderLayout  itemsPerPage={sliderItems(sliderAttrs?.perPage,"carrusel")} label={blockName} {...sliderAttrs} autoplay={{timeout:5000}} infinite={true} fullWidth={true}>
                     {products?.map((product, index) => (
                         <ProductSummary
                         key={index}

@@ -24,7 +24,7 @@ const ProductList = function({ ProductSummary, __editorItemTitle, title, subtitl
                 {more != null && more != undefined ? <Link className={`${styles.productListMore} ${styles.link}`} href={more}>Ver más</Link> : null}
             </div> : null}
             <ProductSummaryList {...productSummaryAttrs}  listName={`${path == "" ? 'Home' : path}|MO-PRO-BLO-${sectionId}|TRK-${columnId}|pro_${__editorItemTitle}`} ProductSummary={ProductSummary}>
-                <SliderLayout itemsPerPage={sliderItems(sliderAttrs?.perPage)} label={blockName} {...sliderAttrs} autoplay={{timeout:5000}} infinite={true} fullWidth={true}></SliderLayout>
+                <SliderLayout itemsPerPage={sliderItems(sliderAttrs?.perPage,"carrusel")} label={blockName} {...sliderAttrs} autoplay={{timeout:5000}} infinite={true} fullWidth={true}></SliderLayout>
             </ProductSummaryList>
         </div>
     );
