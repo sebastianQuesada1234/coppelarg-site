@@ -36,6 +36,7 @@ const blockSchema = {
                 "Carrusel de iconos V2",
                 "Carrusel de productos",
                 "Carrusel dinamico",
+                "Beneficios",
                 "HTML",
                 "Acordeón",
                 "Formulario"

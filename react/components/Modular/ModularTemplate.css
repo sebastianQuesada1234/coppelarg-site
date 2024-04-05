@@ -576,6 +576,11 @@
 .iconContainer.alterIcon > div > *  *{
     fill: white;
 }
+.iconText{
+    text-align: center;
+    height: 56px;
+    padding: 0 1rem;
+}
 
 /*ICON V2*/
 .sliderContainer.alter .slideChildrenContainer{
@@ -640,6 +645,44 @@
     padding: 0 8px;
     border-radius: 8px;
     margin: auto;
+}
+
+/*BENEFICIOS*/
+.benefits {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: var(--border-radius-chico);
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1rem;
+}
+.benefitsItem{
+    width: calc((100% - 1rem) / 2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+.benefitsIcon{
+    display: flex;
+    align-items: center;
+}
+.benefitsInfo{
+    text-align: center;
+}
+.benefitsLink:hover {
+    text-decoration: underline;
+}
+@media (min-width: 1024px){
+    .benefitsItem{
+        width: calc((100% - 3rem) / 4);
+        flex-direction: row;
+        justify-content: center;
+    }
+    .benefitsInfo{
+        text-align: left;
+    }
 }
 
 /*CARRUSEL DE BANNERS*/

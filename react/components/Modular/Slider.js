@@ -11,7 +11,7 @@ import IconV2 from './IconV2.js';
 import ConditionalComponent from './ConditionalComponent.js';
 
 // Componente de Slider
-const Slider = ({ ProductSummary, sliderAttrs, itemType, logic, theme, banners = [], icons = [],  sectionId, columnId, blockName}) => {
+const Slider = ({ ProductSummary, sliderAttrs, itemType, logic, theme, banners = [], title, icons = [],  sectionId, columnId, blockName}) => {
     // Reglas de componentes
     const [items, setItems] = useState([]);
     function defineVersion(){
@@ -34,20 +34,26 @@ const Slider = ({ ProductSummary, sliderAttrs, itemType, logic, theme, banners =
     // Impresion del componente
     return (
         <div className={`${styles[logic?.visibility]} ${styles.sliderContainer} ${styles[theme ?? '']} ${styles[itemType ?? '']}`}>
+            {title != null && title != undefined && title != "" ?
+            <div className={styles.productListHeader}>
+                <div className={styles.productListInformation}>
+                    <h3 className={`${styles.productListTitle} ${styles.h3}`}>{title}</h3>
+                </div>
+            </div> : null}
             <SliderLayout label={blockName} {...sliderAttrs} itemsPerPage={sliderItems(sliderAttrs?.perPage)} autoplay={{timeout:5000}} infinite={true} fullWidth={true}>
                 {(() => {
                     if(itemType == "Banner")
                         return items?.map((banner, index) => (
                             <Banner {...banner} key={index}  sectionId={sectionId} columnId={columnId} position={index+1}  blockName={blockName}></Banner>
                         ))
-                        else if(itemType == "Icon")
-                            return items?.map((icon, index) => (
-                                <Icon {...icon} key={index}  sectionId={sectionId} columnId={columnId}  blockName={blockName} position={index+1}></Icon>
-                            ))
-                        else if(itemType == "IconV2")
-                            return items?.map((icon, index) => (
-                                <IconV2 {...icon} key={index}  sectionId={sectionId} columnId={columnId}  blockName={blockName} position={index+1}></IconV2>
-                            ))
+                    else if(itemType == "Icon")
+                        return items?.map((icon, index) => (
+                            <Icon {...icon} key={index}  sectionId={sectionId} columnId={columnId}  blockName={blockName} position={index+1}></Icon>
+                        ))
+                    else if(itemType == "IconV2")
+                        return items?.map((icon, index) => (
+                            <IconV2 {...icon} key={index}  sectionId={sectionId} columnId={columnId}  blockName={blockName} position={index+1}></IconV2>
+                        ))
                 })()}
             </SliderLayout>
         </div>

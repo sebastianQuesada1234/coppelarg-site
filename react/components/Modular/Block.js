@@ -12,6 +12,7 @@ import ConditionalComponent from './ConditionalComponent.js';
 import ProductList from './ProductList.js';
 import AccordionList from './AccordionList.js';
 import ProductListV2 from './ProductListV2.js';
+import Benefits from './Benefits.js';
 
 // Componente de bloque
 const Block = ({ __editorItemTitle, logic, cssAttrs, gridAttrs, contentType, contentAttr, ProductSummary, sectionId, columnId }) => {
@@ -19,6 +20,16 @@ const Block = ({ __editorItemTitle, logic, cssAttrs, gridAttrs, contentType, con
     const [version, setVersion] = useState(-1);
     const [component, setComponent] = useState(<></>);
     function defineVersion(){
+        if(["Beneficios"].includes(contentType))
+        {
+            if(version != 0)
+            {
+                setVersion(0);
+                if(contentType == "Beneficios")
+                    setComponent(() => (<Benefits/>));
+            }
+        }
+        else
         for(var i=0; i<contentAttr?.length; i++)
             if(checkTimeRange(contentAttr[i].logic))
             {

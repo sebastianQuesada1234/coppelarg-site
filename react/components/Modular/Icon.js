@@ -27,7 +27,7 @@ const Icon = ({__editorItemTitle, content, link, style, sectionId, columnId, blo
                     <img className={styles.icon} src={content?.image} alt={__editorItemTitle} title={__editorItemTitle} style={{ width: '100%', height: '100%', objectFit: 'cover' }} loading="lazy"/>
                 }
             </div>
-            <div className={styles.h3}>{__editorItemTitle}</div>
+            <div className={`${styles['subtitle-1']} ${styles.iconText}`}>{__editorItemTitle}</div>
         </a>
     );
     // Imprimir el componente evaluando las condiciones

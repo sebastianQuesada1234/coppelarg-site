@@ -64,7 +64,7 @@ const productListSchema = {
                 },
                 hideUnavailableItems: {
                     type: 'boolean',
-                    title: 'Mostar productos no disponibles',
+                    title: 'Ocultar productos no disponibles',
                     default: false
                 },
                 maxItems: {

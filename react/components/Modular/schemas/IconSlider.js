@@ -14,6 +14,10 @@ const iconSliderSchema = {
         },
         logic: logicSchema,
         sliderAttrs : sliderSchema,
+        title: {
+            type: 'string',
+            title: 'Titulo'
+        },
         icons: {
             type: 'array',
             title: 'Categorias',

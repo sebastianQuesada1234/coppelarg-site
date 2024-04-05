@@ -23,8 +23,10 @@ const LazyImage = ({ title, alt, imageData, mobileImageData }) => {
       image.onload = function(){
         const { width, height } = image;
         setDimensions({ width, height });
+        /*
         imageData.size = width+"x"+height;
         imageData.savedSrc = imageData.src;
+        */
       };
     }
     // Si es la primera vez que se carga esta imagen, se extraen las propiedades(Mobiel)
@@ -36,8 +38,10 @@ const LazyImage = ({ title, alt, imageData, mobileImageData }) => {
       imageMobile.onload = function(){
         const { width, height } = imageMobile;
         setDimensionsMobile({ width, height });
-        imageMobile.size = width+"x"+height;
-        imageMobile.savedSrc = mobileImageData.src;
+        /*
+        mobileImageData.size = width+"x"+height;
+        mobileImageData.savedSrc = mobileImageData.src;
+        */
       };
     }
     // Cargo cuando lo veo
