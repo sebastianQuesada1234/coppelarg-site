@@ -146,7 +146,7 @@
     margin: 0;
     text-decoration: none;
 }
-.modularTemplate .body-small, p {
+.modularTemplate .body-small,.modularTemplate p {
     font-family: var(--text-font);
     font-weight: normal;
     font-size: 14px;
