@@ -91,7 +91,7 @@
     margin: 0;
     text-decoration: none;
 }
-.modularTemplate .h3 {
+.modularTemplate .h3:not(.productNameContainer) {
     font-family: var(--principal-font);
     font-weight: bold;
     font-size: 20px;

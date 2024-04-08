@@ -91,7 +91,7 @@ const Html = function({ content, className}) {
         ];
 
         classMatch.forEach(match => {
-          const elementosClaseA = document.querySelectorAll('.' + match[0]);
+          const elementosClaseA = document.querySelectorAll("." + styles.htmlContainer + ' .' + match[0]);
           elementosClaseA.forEach(elemento => { elemento.classList.add(match[1]); });
         });
 
@@ -106,7 +106,7 @@ const Html = function({ content, className}) {
         ];
 
         elementMatch.forEach(match => {
-          const elementosClaseA = document.querySelectorAll(match[0]);
+          const elementosClaseA = document.querySelectorAll("." + styles.htmlContainer + ' ' + match[0]);
           elementosClaseA.forEach(elemento => { elemento.classList.add(match[1]); });
         });
         
