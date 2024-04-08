@@ -61,10 +61,10 @@
     --principal-font: Circular;
     --text-font: Helvetica, Arial, sans-serif;
 }
-* {
+.modularTemplate * {
     font-family: var(--text-font);
 }
-.display {
+.modularTemplate .display {
     font-family: var(--principal-font);
     font-weight: bold;
     font-size: 40px;
@@ -73,7 +73,7 @@
     margin: 0;
     text-decoration: none;
 }
-.h1 {
+.modularTemplate .h1 {
     font-family: var(--principal-font);
     font-weight: bold;
     font-size: 32px;
@@ -82,7 +82,7 @@
     margin: 0;
     text-decoration: none;
 }
-.h2 {
+.modularTemplate .h2 {
     font-family: var(--principal-font);
     font-weight: bold;
     font-size: 24px;
@@ -91,7 +91,7 @@
     margin: 0;
     text-decoration: none;
 }
-.h3 {
+.modularTemplate .h3 {
     font-family: var(--principal-font);
     font-weight: bold;
     font-size: 20px;
@@ -100,7 +100,7 @@
     margin: 0;
     text-decoration: none;
 }
-.subtitle-1 {
+.modularTemplate .subtitle-1 {
     font-family: var(--principal-font);
     font-weight: bold;
     font-size: 18px;
@@ -109,7 +109,7 @@
     margin: 0;
     text-decoration: none;
 }
-.subtitle-2 {
+.modularTemplate .subtitle-2 {
     font-family: var(--principal-font);
     font-weight: bold;
     font-size: 18px;
@@ -118,7 +118,7 @@
     margin: 0;
     text-decoration: none;
 }
-.action {
+.modularTemplate .action {
     font-family: var(--text-font);
     font-weight: bold;
     font-size: 16px;
@@ -127,7 +127,7 @@
     margin: 0;
     text-decoration: none;
 }
-.link {
+.modularTemplate .link {
     font-family: var(--text-font);
     font-weight: bold;
     font-size: 16px;
@@ -137,7 +137,7 @@
     text-decoration: none;
     color: #006FB9;
 }
-.body {
+.modularTemplate .body {
     font-family: var(--text-font);
     font-weight: normal;
     font-size: 16px;
@@ -146,7 +146,7 @@
     margin: 0;
     text-decoration: none;
 }
-.body-small, p {
+.modularTemplate .body-small, p {
     font-family: var(--text-font);
     font-weight: normal;
     font-size: 14px;
@@ -155,7 +155,7 @@
     margin: 0;
     text-decoration: none;
 }
-.body-footer {
+.modularTemplate .body-footer {
     font-family: var(--text-font);
     font-weight: normal;
     font-size: 14px;
@@ -164,7 +164,7 @@
     margin: 0;
     text-decoration: none;
 }
-.caption {
+.modularTemplate .caption {
     font-family: var(--text-font);
     font-weight: normal;
     font-size: 12px;
@@ -173,7 +173,7 @@
     margin: 0;
     text-decoration: none;
 }
-.caption-small {
+.modularTemplate .caption-small {
     font-family: var(--text-font);
     font-weight: normal;
     font-size: 10px;
@@ -183,59 +183,59 @@
     text-decoration: none;
 }
 @media (min-width: 1024px){
-    .display {
+    .modularTemplate .display {
         font-size: 47px;
         line-height: 51px;
     }
-    .h1 {
+    .modularTemplate .h1 {
         font-size: 36px;
         line-height: 44px;
     }
-    .h2 {
+    .modularTemplate .h2 {
         font-size: 28px;
         line-height: 36px;
     }
-    .h3 {
+    .modularTemplate .h3 {
         font-size: 24px;
         line-height: 32px;
     }
-    .subtitle-1 {
+    .modularTemplate .subtitle-1 {
         font-size: 20px;
         line-height: 28px;
     }
-    .subtitle-2 {
+    .modularTemplate .subtitle-2 {
         font-size: 20px;
         line-height: 28px;
     }
 }
 
 /*SECTION*/
-.section {
+.modularTemplate .section {
     width: 100%;
     display: flex;
 }
-.sectionContainer {
+.modularTemplate .sectionContainer {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
     padding: 2rem 12px;
 }
 @media (min-width: 768px){
-    .sectionContainer {
+    .modularTemplate .sectionContainer {
         max-width: 768px;
         padding-right: 24px;
         padding-left: 24px;
     }
 }
 @media (min-width: 1024px){
-    .sectionContainer {
+    .modularTemplate .sectionContainer {
         max-width: 1024px;
         padding-right: 24px;
         padding-left: 24px;
     }
 }
 @media (min-width: 1280px){
-    .sectionContainer 
+    .modularTemplate .sectionContainer 
     {
         max-width: 1280px;
         padding-right: 32px;
@@ -243,7 +243,7 @@
     }
 }
 @media (min-width: 1536px){
-    .sectionContainer 
+    .modularTemplate .sectionContainer 
     {
         max-width: 1536px;
         padding-right: 32px;
@@ -255,153 +255,153 @@
 :root{
     --gap: 1.5rem;
 }
-.grid{
+.modularTemplate .grid{
     display: flex;
     flex-wrap: wrap;
     gap: var(--gap);
     width: 100%;
     align-items: start;
 }
-.col-1{
+.modularTemplate .col-1{
     --num: 1;
     width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
 }
-.col-2{
+.modularTemplate .col-2{
     --num: 2;
     width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
 }
-.col-3{
+.modularTemplate .col-3{
     --num: 3;
     width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
 }
-.col-4{
+.modularTemplate .col-4{
     --num: 4;
     width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
 }
-.col-5{
+.modularTemplate .col-5{
     --num: 5;
     width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
 }
-.col-6{
+.modularTemplate .col-6{
     --num: 6;
     width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
 }
-.col-7{
+.modularTemplate .col-7{
     --num: 7;
     width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
 }
-.col-8{
+.modularTemplate .col-8{
     --num: 8;
     width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
 }
-.col-9{
+.modularTemplate .col-9{
     --num: 9;
     width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
 }
-.col-10{
+.modularTemplate .col-10{
     --num: 10;
     width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
 }
-.col-11{
+.modularTemplate .col-11{
     --num: 11;
     width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
 }
-.col-12{
+.modularTemplate .col-12{
     --num: 12;
     width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
 }
 @media (min-width: 768px){
-    .col-md-1{
+    .modularTemplate .col-md-1{
         --num: 1;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     }
-    .col-md-2{
+    .modularTemplate .col-md-2{
         --num: 2;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     }
-    .col-md-3{
+    .modularTemplate .col-md-3{
         --num: 3;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     }
-    .col-md-4{
+    .modularTemplate .col-md-4{
         --num: 4;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     }
-    .col-md-5{
+    .modularTemplate .col-md-5{
         --num: 5;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     }
-    .col-md-6{
+    .modularTemplate .col-md-6{
         --num: 6;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     }
-    .col-md-7{
+    .modularTemplate .col-md-7{
         --num: 7;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     }
-    .col-md-8{
+    .modularTemplate .col-md-8{
         --num: 8;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     }
-    .col-md-9{
+    .modularTemplate .col-md-9{
         --num: 9;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     }
-    .col-md-10{
+    .modularTemplate .col-md-10{
         --num: 10;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     }
-    .col-md-11{
+    .modularTemplate .col-md-11{
         --num: 11;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     }
-    .col-md-12{
+    .modularTemplate .col-md-12{
         --num: 12;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
@@ -409,73 +409,73 @@
     }
 }
 @media (min-width: 1024px){
-    .col-xl-1{
+    .modularTemplate .col-xl-1{
         --num: 1;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     }
-    .col-xl-2{
+    .modularTemplate .col-xl-2{
         --num: 2;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     }
-    .col-xl-3{
+    .modularTemplate .col-xl-3{
         --num: 3;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     }
-    .col-xl-4{
+    .modularTemplate .col-xl-4{
         --num: 4;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     }
-    .col-xl-5{
+    .modularTemplate .col-xl-5{
         --num: 5;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     }
-    .col-xl-6{
+    .modularTemplate .col-xl-6{
         --num: 6;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     }
-    .col-xl-7{
+    .modularTemplate .col-xl-7{
         --num: 7;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     }
-    .col-xl-8{
+    .modularTemplate .col-xl-8{
         --num: 8;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     }
-    .col-xl-9{
+    .modularTemplate .col-xl-9{
         --num: 9;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     }
-    .col-xl-10{
+    .modularTemplate .col-xl-10{
         --num: 10;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     }
-    .col-xl-11{
+    .modularTemplate .col-xl-11{
         --num: 11;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         max-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
     }
-    .col-xl-12{
+    .modularTemplate .col-xl-12{
         --num: 12;
         width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
         min-width: calc(((100% - (11 * var(--gap))) / 12) * var(--num) + (var(--num) - 1) * var(--gap));
@@ -484,21 +484,21 @@
 }
 
 /*LAZY*/
-.lazyLoad {
+.modularTemplate .lazyLoad {
     width: 100%;
 }
-.imageContainer{
+.modularTemplate .imageContainer{
     position: relative;
     width: 100%;
     overflow: hidden;
     padding-bottom: var(--padding)
 }
 @media (min-width: 1024px){
-    .imageContainer{
+    .modularTemplate .imageContainer{
         padding-bottom: var(--padding-desktop)
     }
 }
-.imageContainer .image{
+.modularTemplate .imageContainer .image{
     position: absolute;
     top: 0;
     left: 0;
@@ -507,7 +507,7 @@
 }
 
 /*BANNER*/
-.banner{
+.modularTemplate .banner{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -516,12 +516,12 @@
     cursor: pointer;
     border: 1px solid #d9e3f2;
 }
-.banner:hover{
+.modularTemplate .banner:hover{
     background-color: #fff;
     border: 1px solid #145b97;
     box-shadow: 0 6px 24px 0 rgba(25,75,123,.1215686275);
 }
-.banner .htmlContainer{
+.modularTemplate .banner .htmlContainer{
     width: 100;
     padding: 1rem;
     display: flex;
@@ -533,7 +533,7 @@
 }
 
 /*ICON*/
-.iconLink{
+.modularTemplate .iconLink{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -543,7 +543,7 @@
     cursor: pointer;
     text-decoration: none;
 }
-.iconContainer{
+.modularTemplate .iconContainer{
     width: 140px;
     height: 140px;
     display: flex;
@@ -553,43 +553,43 @@
     border-radius: 100%;
     border: 1px solid #d9e3f2;
 }
-.iconContainer.icon{
+.modularTemplate .iconContainer.icon{
     padding: 40px;
 }
-.iconContainer.noIcon{
+.modularTemplate .iconContainer.noIcon{
     padding: 0px;
 }
-.iconContainer:hover{
+.modularTemplate .iconContainer:hover{
     border: 1px solid #145b97;
     box-shadow: 0 6px 24px 0 rgba(25,75,123,.1215686275);
 }
-.iconContainer.alterIcon{
+.modularTemplate .iconContainer.alterIcon{
     background-color: var(--azul-300);
 }
-.iconContainer > div, .iconContainer > div > *{
+.modularTemplate .iconContainer > div, .modularTemplate .iconContainer > div > *{
     width: 100%;
     height: 100%;
 }
-.iconContainer > div > *  *{
+.modularTemplate .iconContainer > div > *  *{
     fill: var(--azul-300);
 }
-.iconContainer.alterIcon > div > *  *{
+.modularTemplate .iconContainer.alterIcon > div > *  *{
     fill: white;
 }
-.iconText{
+.modularTemplate .iconText{
     text-align: center;
     height: 56px;
     padding: 0 1rem;
 }
 
 /*ICON V2*/
-.sliderContainer.alter .slideChildrenContainer{
+.modularTemplate .sliderContainer.alter .slideChildrenContainer{
     background-color: white;
     border: 1px solid #d9e3f2;
     padding: 16px 0;
     border-radius: 8px;
 }
-.iconV2Link{
+.modularTemplate .iconV2Link{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -605,40 +605,40 @@
     width: fit-content;
     margin: auto;
 }
-.sliderContainer.alter .slideChildrenContainer .iconV2Link{
+.modularTemplate .sliderContainer.alter .slideChildrenContainer .iconV2Link{
     border: none;
 }
-.iconV2Link:hover{
+.modularTemplate .iconV2Link:hover{
     border: 1px solid #145b97;
     box-shadow: 0 6px 24px 0 rgba(25,75,123,.1215686275);
 }
-.iconV2Container{
+.modularTemplate .iconV2Container{
     width: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.iconV2Container.icon{
+.modularTemplate .iconV2Container.icon{
     padding: 0 10px;
 }
-.iconV2Container.noIcon{
+.modularTemplate .iconV2Container.noIcon{
     padding: 0px;
 }
-.iconV2Link.alterIcon{
+.modularTemplate .iconV2Link.alterIcon{
     background-color: var(--azul-300);
     color: white;
 }
-.iconV2Container > div, .iconV2Container > div > *{
+.modularTemplate .iconV2Container > div, .modularTemplate .iconV2Container > div > *{
     width: 100%;
     height: 100%;
 }
-.iconV2Container > div > *  *{
+.modularTemplate .iconV2Container > div > *  *{
     fill: var(--azul-300);
 }
-.alterIcon .iconV2Container > div > *  *{
+.modularTemplate .alterIcon .iconV2Container > div > *  *{
     fill: white;
 }
-.discountTagIconV2{
+.modularTemplate .discountTagIconV2{
     background-color: var(--error-100);
     color: var(--error-400);
     width: fit-content;
@@ -648,7 +648,7 @@
 }
 
 /*BENEFICIOS*/
-.benefits {
+.modularTemplate .benefits {
     display: flex;
     flex-direction: row;
     background-color: white;
@@ -657,58 +657,58 @@
     padding: 1rem;
     gap: 1rem;
 }
-.benefitsItem{
+.modularTemplate .benefitsItem{
     width: calc((100% - 1rem) / 2);
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: .5rem;
 }
-.benefitsIcon{
+.modularTemplate .benefitsIcon{
     display: flex;
     align-items: center;
 }
-.benefitsInfo{
+.modularTemplate .benefitsInfo{
     text-align: center;
 }
-.benefitsLink:hover {
+.modularTemplate .benefitsLink:hover {
     text-decoration: underline;
 }
 @media (min-width: 1024px){
-    .benefitsItem{
+    .modularTemplate .benefitsItem{
         width: calc((100% - 3rem) / 4);
         flex-direction: row;
         justify-content: center;
     }
-    .benefitsInfo{
+    .modularTemplate .benefitsInfo{
         text-align: left;
     }
 }
 
 /*CARRUSEL DE BANNERS*/
-.sliderContainer.Banner .sliderLeftArrow
+.modularTemplate .sliderContainer.Banner .sliderLeftArrow
 {
     left: 8px;
 }
-.sliderContainer.Banner .sliderRightArrow {
+.modularTemplate .sliderContainer.Banner .sliderRightArrow {
     right: 8px;
 }
 
 /*CARRUSEL DE PRODUCTOS*/
-.productListHeader{
+.modularTemplate .productListHeader{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1rem;
 }
-.productList .sliderLayoutContainer{
+.modularTemplate .productList .sliderLayoutContainer{
     width: calc(100% + 16px);
     left: -8px;
 }
-.productList .sliderLeftArrow{
+.modularTemplate .productList .sliderLeftArrow{
     left: -15px;
 }
-.productList .sliderRightArrow {
+.modularTemplate .productList .sliderRightArrow {
     right: -15px;
 }
 
@@ -748,11 +748,11 @@
 
 
 
-.accordionItem {
+.modularTemplate .accordionItem {
     border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
 
-.accordionTitle {
+.modularTemplate .accordionTitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -765,17 +765,17 @@
 }
 
 /*SLIDER*/
-.sliderLayoutContainer .sliderArrows{
+.modularTemplate .sliderLayoutContainer .sliderArrows{
     margin: 0;
     box-sizing: border-box;
 }
-.sliderLeftArrow{
+.modularTemplate .sliderLeftArrow{
     left: -25px;
 }
-.sliderRightArrow {
+.modularTemplate .sliderRightArrow {
     right: -25px;
 }
-.sliderArrows {
+.modularTemplate .sliderArrows {
     height: 50px;
     width: 50px;
     padding: 17px;
@@ -786,46 +786,43 @@
     cursor: pointer;
 }
 
-.sliderArrows:hover{
+.modularTemplate .sliderArrows:hover{
     background-color: #F1F4FA !important;
 }
-.paginationDotsContainer{
+.modularTemplate .paginationDotsContainer{
     height: 20px;
 }
-.paginationDot {
+.modularTemplate .paginationDot {
     background-color: rgb(0, 111, 185,.2);
 }
-.paginationDot--isActive {
+.modularTemplate .paginationDot--isActive {
     background-color: rgb(0, 111, 185);
 }
 
 /*FORM*/
-.form{
+.modularTemplate .form{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
 }
-
-.formFieldsContainer{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    width: 100%;
-}
-
-.formChecksContainer{
+.modularTemplate .formFieldsContainer{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     width: 100%;
 }
 
-.formField{
+.modularTemplate .formChecksContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+}
+.modularTemplate .formField{
     display: flex;
     flex-direction: column;
 }
-
-.formLabel{
+.modularTemplate .formLabel{
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -833,8 +830,7 @@
     text-align: left;
     color: #777673;
 }
-
-.formInput{
+.modularTemplate .formInput{
     background-color: #fff;
     border: 1px solid #9B9A98;
     border-radius: 8px;
@@ -843,12 +839,10 @@
     height: 48px;
     outline: none;
 }
-
-.formInputError{
+.modularTemplate .formInputError{
     border-color: #BA4B44;
 }
-
-.formError{
+.modularTemplate .formError{
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -857,8 +851,7 @@
 }
 
 /*Botones*/
-
-button{
+.modularTemplate button{
     background-color: #006FB9;
     border: 1px solid #006FB9;
     padding: 12px 32px;
@@ -870,59 +863,58 @@ button{
     cursor: pointer;
 }
 
-button.secondaryButton {
+.modularTemplate button.secondaryButton {
     background-color: white;
     border: 1px solid #006FB9;
     color: #006FB9;
 }
 
-button.tertiaryButton
+.modularTemplate button.tertiaryButton
 {
     background-color: transparent;
     border: 1px solid transparent;
     color: #006FB9;
 }
 
-button:hover{
+.modularTemplate button:hover{
     background-color: #145B97;
 }
 
-button.secondaryButton:hover {
+.modularTemplate button.secondaryButton:hover {
     background-color: #F1F4FA;
     color: #194B7B;
 }
 
-button.tertiaryButton:hover
+.modularTemplate button.tertiaryButton:hover
 {
     background-color: #F1F4FA;
     color: #194B7B;
 }
 
 /*Group*/
-.sliderGroup{
+.modularTemplate .sliderGroup{
     display: flex;
     flex-direction: column;
 }
 
 /*Direction*/
-.mbDirectionRow
+.modularTemplate .mbDirectionRow
 {
     flex-direction: row;
 }
 
-.mbDirectionColumn
+.modularTemplate .mbDirectionColumn
 {
     flex-direction: column;
 }
 
 
 @media (min-width: 1024px){
-    .dskDirectionRow
+    .modularTemplate .dskDirectionRow
     {
         flex-direction: row;
-    }
-    
-    .dskDirectionColumn
+    } 
+    .modularTemplate .dskDirectionColumn
     {
         flex-direction: column;
     }
@@ -933,13 +925,12 @@ button.tertiaryButton:hover
 
 
 /*Checkbox*/
-input[type="checkbox"] {
+.modularTemplate input[type="checkbox"] {
     margin-right: 1rem;
     width: 20px;
     height: 20px;
 }
-
-.checkboxLine{
+.modularTemplate .checkboxLine{
     display: flex;
     align-items: center;
 }
@@ -970,7 +961,7 @@ input[type="checkbox"] {
 */
 
 
-.htmlContainer{
+.modularTemplate .htmlContainer{
     width: 100%;
 }
 
